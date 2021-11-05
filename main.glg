@@ -1,0 +1,26 @@
+bib2gls version 2.7 (2020-07-11)
+Reading main.aux
+Reading Chapters\Introduction.aux
+Reading Chapters\Chapter1.aux
+Reading Chapters\Chapter2.aux
+Reading Chapters\Chapter3.aux
+Reading Chapters\Chapter4.aux
+Reading Appendices\AppendixA.aux
+TeX character encoding: UTF-8
+Initialising resource main.glstex.
+Parsing bib files for resource main.glstex.
+Default encoding: not set
+Detected encoding: UTF-8
+Reading BibGls\abbrvs.bib
+Encoding: UTF-8
+Cross-resource references allowed.
+Processing resource main.glstex.
+Selecting entries for resource main.glstex.
+texparserlib: S.~frugiperda -> S. frugiperda
+Writing D:\ENSGMM\3e année\Demarche de redaction de Memoire\Protocole de recherche\Memoire\main.glstex
+Encoding: UTF-8
+cimmyt
+cla
+iita
+spodo
+4 entries written to D:\ENSGMM\3e année\Demarche de redaction de Memoire\Protocole de recherche\Memoire\main.glstex.

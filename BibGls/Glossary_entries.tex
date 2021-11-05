@@ -1,0 +1,31 @@
+% Le package `glossaries' est l'un de ceux qui doivent exceptionnellement être
+% chargés après `babel' (et même après `hyperref')
+\usepackage[
+	record,
+	%sort=none,			% no sorting or indexing required
+	abbreviations,		% create list of abbreviations
+	symbols,			% create list of symbols
+	postdot,			 % append a full stop after the descriptions
+	stylemods={list},style=listdotted % set the default glossary style
+]{glossaries-extra}
+
+\setabbreviationstyle[sigle]{short-nolong}
+\setabbreviationstyle[sigles]{long-noshort}
+\setabbreviationstyle[bacteria]{long-only-short-only}
+% Formatting commands used by 'long-only-short-only' style:
+\renewcommand*{\glsabbrvonlyfont}[1]{\emph{#1}}
+\renewcommand*{\glslongonlyfont}[1]{\emph{#1}}
+% Formatting command used by 'short-only' style:
+% (make sure abbreviation is converted to lower case)
+%\renewcommand*{\glsabbrvonlyfont}[1]{\textsc{\MakeLowercase{#1}}}
+
+\GlsXtrLoadResources % input file created by bib2gls
+[% instructions to bib2gls:
+	src={BibGls/abbrvs}, % terms defined in abbrvs.bib
+	sort={en-GB}%, % sort according to this locale
+	%type = {abbreviation}
+]
+
+%\setabbreviationstyle{long-short}
+%\setabbreviationstyle[statistical]{long-short-sc}
+%\setabbreviationstyle[bacteria]{long-only-short-only}}

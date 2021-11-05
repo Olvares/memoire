@@ -1,0 +1,75 @@
+\input{settings/Preambule}
+
+\input{BibGls/Glossary_entries}
+
+%\newcommand{\fpaths}{Frontmatter/}
+
+\begin{document}
+
+	%--------------------------------------
+	%	FRONT MATTER
+	%--------------------------------------
+
+	\frontmatter % Use roman page numbering style (i, ii, iii, iv...) for the pre-content pages
+
+	\input{Frontmatter/Page_de_garde}
+
+	\input{Frontmatter/Declaration}
+
+	\input{Frontmatter/Dedication}
+
+	\input{Frontmatter/Abstract}
+
+	\input{Frontmatter/Acknowledgements}
+
+	\input{Frontmatter/Contents}%\nocite{*}
+
+	\input{BibGls/Glossary_print}
+
+	%------------------------------------------
+	%	THESIS CONTENT - CHAPTERS
+	%------------------------------------------
+
+	\mainmatter % Begin numeric (1,2,3...) page numbering
+
+	\pagestyle{thesis} % Return the page headers back to the "thesis" style
+
+	% Include the chapters of the thesis as separate files from the Chapters folder
+	% Uncomment the lines as you write the chapters
+
+	\include{Chapters/Introduction}
+	\include{Chapters/Chapter1}
+	\include{Chapters/Chapter2}
+	\include{Chapters/Chapter3}
+	\include{Chapters/Chapter4}
+
+	%-----------------------------------------
+	%	THESIS CONTENT - APPENDICES
+	%-----------------------------------------
+
+	\appendix % Cue to tell LaTeX that the following "chapters" are Appendices
+
+	% Include the appendices of the thesis as separate files from the Appendices folder
+	% Uncomment the lines as you write the Appendices
+
+	\include{Appendices/AppendixA}
+	%\include{Appendices/AppendixB}
+	%\include{Appendices/AppendixC}
+
+	%-----------------------------------------
+	%	BIBLIOGRAPHY
+	%------------------------------------------
+
+	%\printbibliography[heading=bibintoc]
+
+	\input{BibGls/Bibliographie}
+
+	%------------------------------------------
+	%	THE FULL TABLE OF CONTENTS
+	%-------------------------------------------
+
+	\input{Frontmatter/FullToc}
+
+	%---------------------------------------------
+
+\end{document}

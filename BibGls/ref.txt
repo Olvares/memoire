@@ -1,0 +1,33 @@
+Tepa-Yotto, G.; Winsou, JK ; Dahoueto, B. ; Tamò, M. Assessing New Scouting Approaches for Field Sampling of Spodoptera frugiperda and Its Parasitoids, dans Actes de la 1ère Conférence électronique internationale sur l'entomologie, 1-15 juillet 2021, MDPI : Bâle, Suisse, doi:10.3390/IECE-10397
+
+https://www.fao.org/news/story/en/item/1142085/icode/
+https://www.google.com/url?sa=t&source=web&rct=j&url=http://www.fao.org/3/i8665en/i8665en.pdf&ved=2ahUKEwiwzI_kqebzAhUcA2MBHZwXC7kQFnoECDgQAQ&usg=AOvVaw2g3xw738JrdlX778hEBRVp
+
+@article{aruna2019yield,
+  title={Yield losses in maize (Zea mays) due to fall armyworm infestation and potential IoT-based interventions for its control},
+  author={Aruna Balla, Bhaskar M and Bagade, Prashant and Rawal, Nalin},
+  journal = {Journal of Entomology \& Zoology Studies},
+  year={2019},
+  volume = {7},
+  number = {5},
+  page = {920-927}
+}
+
+
+new
+@article{babu2019report,
+  title={Rapport d'un ravageur exotique envahissant la chenille légionnaire d'automne, Spodoptera frugiperda (JE Smith) sur maïs dans le sud du Rajasthan},
+  author={Babu, S Ramesh et Kalyan, R et Joshi, Sonika et Balai, C et Mahla, M et Rokadia, P},
+  journal={Journal of Entomology and Zoology Studies},
+  volume={7},
+  nombre={3},
+  pages={1296--1300},
+  année={2019}
+}
+
+@article{prasanna2018fall,
+  title={Fall armyworm in Africa: a guide for integrated pest management},
+  author={Prasanna, BM and Huesing, JE and Eddy, Regina and Peschke, VM},
+  year={2018},
+  publisher={USAID}
+}
