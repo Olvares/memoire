@@ -1,0 +1,14 @@
+@article{10.2307/3495425,
+ ISSN = {00154040, 19385102},
+ URL = {http://www.jstor.org/stable/3495425},
+ abstract = {Research on two host strains of the fall armyworm (FAW), Spodoptera frugiperda [J. E. Smith], is reviewed. They differ at allozyme loci and mtDNA restriction enzyme profiles, in their development on a variety of plants, and in their resistance to insecticides. Data on interstrain matings indicate unidirectional incompatibilities in the laboratory and strong preferences among males for females of their own strain in nature. Further study is required to clarify precise strain affinities for the long list of FAW host records. Information on phenologies and geographic distributions is presented but clearly in need of in-depth study. Those studying FAW are recommended to collect from a single host, to keep host records with laboratory colonies, to replenish colonies with individuals from the same host, and to establish a set of voucher specimens for each collection or study. /// Se revisa el estudio sobre dos tipos de hospederos del gusano cogollero, Spodoptera frugiperda (J. E. Smith). Ellos difieren en el loci de alozyme y en la restricción del mtDNA de las enzymas, en su desarrollo en varios tipos de plantas, y en su resistencia a insecticidas. Datos sobre cruce de razas indican incompatibdades no-direccionales en el laboratorio, y una gran preferencia entre los machos hacia hembras de su propia raza bajo condiciones naturales. Se requiere un estudio adicional para aclarar las afinidades de las razas hacia la larga lista de hospederos del gusano cogollero. Se presenta información sobre la fenología y distribución geográfica, pero está claramente necesitada de un estudio a fondo. Se recomienda a aquellos que estudian el gusano cogollero, que lo coleccionen de un solo hospedero, que mantengan un registro del hospedero de las colonias de laboratorio, que reemplacen las colonias con indivíduos del mismo hospedero, y que establescan un grupo de espécimenes justificante de cada colección o estudio.},
+ author = {Dorothy P. Pashley},
+ journal = {The Florida Entomologist},
+ number = {3},
+ pages = {227--234},
+ publisher = {Florida Entomological Society},
+ title = {Current Status of Fall Armyworm Host Strains},
+ volume = {71},
+ year = {1988}
+}
+

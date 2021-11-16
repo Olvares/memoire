@@ -1,0 +1,77 @@
+\documentclass[11pt]{beamer}
+\setbeameroption{show notes on second screen}
+
+%\usetheme{Warsaw}
+\usetheme{Boadilla}
+%\usecolortheme{rose}
+%\useinnertheme{rectangles}
+\usefonttheme{serif}
+%\setbeamercovered{transparent}
+%\definecolor{vertmoyen}{rgb}{0.20,0.43,0.09}
+\usecolortheme[named=violet]{structure}
+\usepackage{enumerate}
+\hypersetup{pdfpagemode=FullScreen}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage[french]{babel}
+\setbeamersize{text margin left = 5mm,text margin right = 5mm}
+
+\usepackage{color}
+\usepackage{xcolor}
+\usepackage{pgf}
+\usepackage{tikz}
+\usepackage{eurosym}
+\usepackage{graphicx}
+%\usepackage{picins}
+\DeclareGraphicsExtensions{.jpg,.pdf,.png}
+\usepackage{amssymb, amsmath, amsfonts}
+\usepackage{url}
+\usepackage{hyperref}
+\usepackage{setspace}
+\usepackage{gensymb}
+\usepackage{mathrsfs}
+\usepackage{chemfig}
+\usepackage{pgfplots}
+\usepackage{siunitx}
+\usepackage{booktabs}
+\usepackage{tabularx}
+\usepackage{array}
+\usepackage{ragged2e, makecell, mhchem}
+\usepackage{fancyhdr}
+%\pagestyle{fancy}
+%\pagestyle{empty}
+
+\usepackage{nicematrix}
+\usepackage{setspace} % Interlignes
+\usepackage{caption} % Pour renommer les capion avec
+% \captionsetup[table]{name=New Table Name}
+\usepackage{multirow}
+\usepackage{rotating}
+%\usepackage[colorlinks = true, linkcolor = blue, citecolor = blue]{hyperref} % Pour changer la couleur de la table des matieres
+
+% Pour changer la police par defaut
+\input{bibSettings/polices}
+
+%\usepackage{lscape} % Pour metre en paysage en utilisant \begin{landscape} code du tableau \end{landscape}
+
+%\usepackage{overlays}
+
+%\usepackage{csquotes}
+\usepackage[
+	backend = biber,        % compilateur par défaut pour biblatex
+	sorting = nyt,          % trier par nom, année, titre
+	citestyle = authoryear-icomp, % style de citation auteur-année
+	bibstyle = authoryear,  % style de bibliographie alphabétique
+	firstinits = true, 		% pour afficher tous les prénoms et noms intermédiaires sous forme d’initiales
+	maxcitenames = 2,
+	maxbibnames = 50,
+	doi = false,
+	isbn = false,
+	url = false,
+	eprint = false
+]{biblatex}
+\addbibresource{../BibGls/Biblio.bib}
+
+\usepackage{calculator}

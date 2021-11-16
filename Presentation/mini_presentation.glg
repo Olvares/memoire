@@ -1,0 +1,18 @@
+bib2gls version 2.8 (2021-11-05)
+Reading mini_presentation.aux
+TeX character encoding: UTF-8
+Initialising resource mini_presentation.glstex.
+Parsing bib files for resource mini_presentation.glstex.
+Default encoding: not set
+Detected encoding: UTF-8
+Reading ..\BibGls\abbrvs.bib
+Encoding: UTF-8
+Cross-resource references allowed.
+Processing resource mini_presentation.glstex.
+Selecting entries for resource mini_presentation.glstex.
+texparserlib: S.~frugiperda -> S. frugiperda
+Writing D:\ENSGMM\3e année\Demarche de redaction de Memoire\Protocole de recherche\Memoire\Presentation\mini_presentation.glstex
+Encoding: UTF-8
+cla
+spodo
+2 entries written to D:\ENSGMM\3e année\Demarche de redaction de Memoire\Protocole de recherche\Memoire\Presentation\mini_presentation.glstex.

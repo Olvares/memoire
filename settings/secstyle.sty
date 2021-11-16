@@ -1,0 +1,336 @@
+
+\NeedsTeXFormat{LaTeX2e}
+\ProvidesPackage{settings/secstyle}[2021/10/18 section styles]
+
+%========== REQUIRED PACKAGE ==========
+\usepackage[explicit]{titlesec}
+\usepackage{titletoc}
+%\usepackage{xcolor}
+%\RequirePackage{etoolbox}
+%\RequirePackage{xparse}
+
+%\newbool{sspace}
+%\newbool{cspaceL}
+%\newbool{cspaceChap}
+
+%\DeclareOption{secspace}{\booltrue{sspace}}
+%\DeclareOption{chapspaceL}{\booltrue{cspaceL}}
+%\DeclareOption{chapspaceChap}{\booltrue{cspaceChap}}
+
+\def\chap@sp{1.5pc} % Chapter space 1\chapsp title
+\def\sec@sp{2pc} % Section space 1.1\secsp title
+
+\def\ichap@sp{1.5pc}
+\def\isec@sp{3.5pc}
+
+%\ifbool{sspace}{}{}
+%
+%\ifbool{cspaceL}{%
+%	\def\chap@sp{1.5pc}
+%	\def\sec@sp{2pc}
+%
+%	\def\ichap@sp{1.5pc}
+%	\def\isec@sp{3.5pc}
+%
+%	\mychaptc
+%}{}
+%
+%\ifbool{cspaceChap}{%
+%	\def\chap@sp{6pc}
+%	\def\sec@sp{2pc}
+%
+%	\def\ichap@sp{6pc}
+%	\def\isec@sp{2pc}
+%
+%	\mychaptc
+%}{}
+
+\def\ssec@sp{3pc} % Subsection space 1.1.1\ssecsp title
+\def\sssec@sp{4pc} % Subsubection space 1.1.1.1\sssecsp title
+\def\para@sp{5pc} % for paragraph
+\def\subpar@sp{6pc} % for subparagraph
+
+%% --> offset 1, 1.1, ....
+% Can be modifyed but the bellow only if necessary
+\def\issec@sp{6.5pc}
+\def\isssec@sp{10.5}
+\def\ipar@sp{15.5}
+\def\isubpar@sp{21.5}
+
+
+
+%---------------------------------------------
+%					CHAPTER
+%---------------------------------------------
+
+%\newcommand{\mychaptc}{
+\titlecontents
+	{chapter}%
+	[\ichap@sp]%
+	{\addvspace{4pt}\filright}%% Modifié (1pc)
+	{\bf%
+		\contentslabel[%
+			%\textcolor{blue}%
+			{%\chaptertitlename~
+				\thecontentslabel~}% Chapitre 1
+		]%
+		{\chap@sp}%
+	}%
+	{\bf\hspace{-\chap@sp}}%
+	{%\textcolor{blue}{
+		\bf\hfill\contentspage}%}%
+	[\addvspace{0pt}]%% Modifié (2pt)
+
+%\titlespacing*{\chapter}{0pt}{-20pt}{0pt}
+%}
+
+
+
+
+
+%---------------------------------------------
+%					SECTION
+%---------------------------------------------
+%--------- NUMBERED -------------
+\titleformat
+	{\section}
+	[block]
+	{\Large\sf\bfseries}
+	{\Large\thesection.}
+	{0.5\baselineskip}% En block, c'est un espace horizontal
+	{#1}
+	%[]
+%--------- UNNUMBERED -----------
+\titleformat
+	{name = \section, numberless}
+	[block]
+	{\Large\sf\bfseries}
+	{}
+	{0pt}% En block, c'est un espace horizontal
+	{#1}
+	[\addcontentsline{toc}{section}{#1}]
+%--------- SPACES -------------
+\titlespacing*
+	{\section} % command
+	{0pt} % left
+	{0.5\baselineskip} % before-sep
+	{0pt}% after-sep
+
+%------------ IN TOC -----------
+\titlecontents
+	{section} % section
+	[\isec@sp] % left
+	{\addvspace{0pt}\filright} % above-code
+	{%\bf % numbered-entry-format
+		\contentslabel[%
+			%\textcolor{blue}%
+			{\thecontentslabel~}%
+		]%
+		{\sec@sp}% Position vers la gauche des numeros par rapport aux titres
+	}%
+	{%\bf  % numberless-entry-format
+		\hspace{-\sec@sp}
+	}
+	{%\bf\textcolor{blue}{
+		\dotfill\contentspage}%} % filler-page-format
+	[\addvspace{0pt}] % below-code
+%====================================================
+
+
+%---------------------------------------------
+%					SUB-SECTION
+%---------------------------------------------
+%--------- NUMBERED -------------
+\titleformat
+	{\subsection}
+	[block]
+	{\large\sf\bfseries}
+	{\large\thesubsection.}
+	{0.5\baselineskip}% En block, c'est un espace horizontal
+	{#1}
+	%[]
+
+%--------- UNNUMBERED -----------
+\titleformat
+	{name=\subsection, numberless}
+	[block]
+	{\large\sf\bfseries}
+	{}
+	{0pt}% En block, c'est un espace horizontal
+	{#1}
+	[\addcontentsline{toc}{subsection}{#1}]
+
+%--------- SPACES -------------
+\titlespacing*
+	{\subsection}
+	{0pt}
+	{0.3\baselineskip}
+	{0pt}
+
+%------------ IN TOC -----------
+\titlecontents
+	{subsection}%
+	[\issec@sp]% Position des titres
+	{\addvspace{-3pt}\filright}%% Espace vertical avant
+	{%
+		\contentslabel[%
+			%\textcolor{blue}%
+			{\thecontentslabel~}%
+		]%
+		{\ssec@sp}% Position vers la gauche des numeros par rapport aux titres
+	}%
+	{\hspace{-\ssec@sp}}% Espace et mise en  gras des sections sans numero
+	{%\textcolor{blue}{
+		\dotfill\contentspage}%}%
+	[\addvspace{0pt}]%% Espace vertical après
+%====================================================
+
+
+%---------------------------------------------
+%					SUB-SUB-SECTION
+%---------------------------------------------
+%--------- NUMBERED -------------
+\titleformat
+	{\subsubsection}
+	[block]
+	{\sf\bfseries}
+	{\thesubsubsection.}
+	{0.5\baselineskip}% En block, c'est un espace horizontal
+	{#1}
+	%[]
+
+%--------- UNNUMBERED -----------
+\titleformat
+	{name=\subsubsection, numberless}
+	[block]
+	{\sf\bfseries}
+	{}
+	{0pt}% En block, c'est un espace horizontal
+	{#1}
+	[\addcontentsline{toc}{subsubsection}{#1}]
+
+%--------- SPACES -------------
+\titlespacing*
+	{\subsubsection}
+	{0pt}
+	{0\baselineskip}
+	{0pt}
+
+%------------ IN TOC -----------
+\titlecontents
+	{subsubsection}%
+	[\isssec@sp]% Position des titres
+	{\addvspace{-3pt}\filright}%% Espace vertical avant
+	{%
+		\contentslabel[%
+			%\textcolor{blue}%
+			{\thecontentslabel~}%
+		]%
+		{\sssec@sp+2pc} % Space between number and title
+	}%
+	{\hspace{-\sssec@sp}} % -Space between number and title
+	{%\textcolor{blue}{
+		\dotfill\contentspage}%}%
+	[\addvspace{0pt}]%% Espace vertical après
+%====================================================
+
+
+%---------------------------------------------
+%					PARAGRAPH
+%---------------------------------------------
+%--------- NUMBERED -------------
+\titleformat
+	{\paragraph}
+	[block]
+	{\itshape}
+	{\theparagraph.}
+	{0pt}% En block, c'est un espace horizontal
+	{#1}
+	%[]
+
+%--------- UNNUMBERED -------------
+\titleformat
+	{name=\paragraph, numberless}
+	[block]
+	{\itshape}
+	{}
+	{0pt}% En block, c'est un espace horizontal
+	{#1}
+	[\addcontentsline{toc}{paragraph}{#1}]
+
+%--------- SPACES -------------
+\titlespacing*
+	{\paragraph}
+	{0pt}
+	{0\baselineskip}
+	{0pt}
+
+%------------ IN TOC -----------
+\titlecontents
+	{paragraph}%
+	[\ipar@sp]% Position des titres
+	{\addvspace{-3pt}\filright}%% Espace vertical avant
+	{%
+		\contentslabel[%
+		%\textcolor{blue}%
+		{\thecontentslabel~}%
+		]%
+		{\para@sp}% Position vers la gauche des numeros par rapport aux titres
+	}%
+	{\hspace{-\para@sp}}% Espace et mise en  gras des sections sans numero
+	{%\textcolor{blue}{
+		\dotfill\contentspage}%}%
+	[\addvspace{0pt}]%% Espace vertical après
+%====================================================
+
+
+%---------------------------------------------
+%					SUB-PARAGRAPH
+%---------------------------------------------
+%--------- NUMBERED -------------
+\titleformat
+	{\subparagraph}
+	[block]
+	{\sffamily}
+	{\thesubparagraph.}
+	{0pt}% En block, c'est un espace horizontal
+	{#1}
+	%[]
+
+%--------- UNNUMBERED -------------
+\titleformat
+	{name=\subparagraph, numberless}
+	[block]
+	{\sffamily}
+	{}
+	{0pt}% En block, c'est un espace horizontal
+	{#1}
+	[\addcontentsline{toc}{subparagraph}{#1}]
+
+%--------- SPACES -------------
+\titlespacing*
+	{\subparagraph}
+	{0pt}
+	{0\baselineskip}
+	{0pt}
+
+%------------ IN TOC -----------
+\titlecontents
+	{subparagraph}%
+	[\isubpar@sp]% Position des titres
+	{\addvspace{-3pt}\filright}%% Espace vertical avant
+	{%
+		\contentslabel[%
+		%\textcolor{blue}%
+		{\thecontentslabel~}%
+		]%
+		{\isubpar@sp}% Position vers la gauche des numeros par rapport aux titres
+	}%
+	{\hspace{-\isubpar@sp+1pc}}% Espace et mise en  gras des sections sans numero
+	{%\textcolor{blue}{
+		\dotfill\contentspage}%}%
+	[\addvspace{0pt}]%% Espace vertical après
+%====================================================
+%\ExecuteOptions{}
+%\ProcessOptions\relax
+%\endinput

@@ -1,0 +1,15 @@
+\documentclass{article}
+\usepackage{calculator}
+%\use
+\usepackage{tikz}
+\begin{document}
+	\begin{tikzpicture}[scale=0.8]
+		\draw[step=1cm,gray,very thin] (-1,-1) grid (16,5);
+		\draw[-latex, thick] (-1,0) -- (16, 0) node[right]{$t$};
+		\draw[-latex, thick] (0,-1) -- (0, 5) node[above]{$degats$};
+		\draw[blue, thick] (0,0) -- ++(2,0) node[below]{$t_l$} -- +(2,4) -- ++(2,0) node[below]{$t_p$} -- ++(2,0) node[below]{$t_a$} -- ++(2,0) node[below]{$t_e$} -- ++(2,0) -- +(2,4) -- ++(2,0) -- ++(2,0) -- ++(2,0);
+		\draw ++(1,0) node[below = 5pt, fill = white]{\oe uf} ++(2,0) node[below = 5pt, fill = white]{larve} ++(2,0) node[below = pt, fill = white]{pupe} ++(2,0) node[below = 5pt, fill = white]{adulte};
+	\end{tikzpicture}
+
+
+\end{document}

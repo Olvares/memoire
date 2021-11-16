@@ -1,0 +1,2954 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.10) (preloaded format=pdflatex 2021.11.11)  16 NOV 2021 14:14
+entering extended mode
+**./main.tex
+(main.tex
+LaTeX2e <2021-06-01> patch level 1
+L3 programming layer <2021-10-18> (settings/Preambule.tex
+(settings/MastersDoctoralThesis.cls
+
+LaTeX Warning: You have requested document class `settings/MastersDoctoralThesi
+s',
+               but the document class provides `MastersDoctoralThesis'.
+
+Document Class: MastersDoctoralThesis 2017/08/27 v1.6 LaTeXTemplates.com
+
+(C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox.sty
+Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count182
+)
+(C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/xparse\xpa
+rse.sty
+(C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/latex/l3kernel\expl3.sty
+Package: expl3 2021-10-18 L3 programming layer (loader) 
+
+(C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-p
+dftex.def
+File: l3backend-pdftex.def 2021-10-18 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count183
+\l__pdf_internal_box=\box50
+))
+Package: xparse 2021-08-27 L3 Experimental document command parser
+)
+(C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/latex/base\book.cls
+Document Class: book 2021/02/12 v1.4n Standard LaTeX document class
+(C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/latex/base\bk12.clo
+File: bk12.clo 2021/02/12 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count184
+\c@chapter=\count185
+\c@section=\count186
+\c@subsection=\count187
+\c@subsubsection=\count188
+\c@paragraph=\count189
+\c@subparagraph=\count190
+\c@figure=\count191
+\c@table=\count192
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen138
+)
+(C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.sty
+Package: babel 2021/10/19 3.65 The Babel package
+\babel@savecnt=\count193
+\U@D=\dimen139
+\l@unhyphenated=\language84
+
+(C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/generic/babel\txtbabel.def)
+\bbl@readstream=\read2
+\bbl@dirlevel=\count194
+*************************************
+* Local config file bblopts.cfg used
+*
+(C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/latex/arabi\bblopts.cfg
+File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
+ babel
+)
+(C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/generic/babel-french\french
+.ldf
+Language: french 2021/07/20 v3.5m French support from the babel system
+Package babel Info: Hyphen rules for 'acadian' set to \l@french
+(babel)             (\language24). Reported on input line 91.
+Package babel Info: Hyphen rules for 'canadien' set to \l@french
+(babel)             (\language24). Reported on input line 92.
+\FB@nonchar=\count195
+Package babel Info: Making : an active character on input line 430.
+Package babel Info: Making ; an active character on input line 431.
+Package babel Info: Making ! an active character on input line 432.
+Package babel Info: Making ? an active character on input line 433.
+\FBguill@level=\count196
+\FBold@everypar=\toks16
+\FB@Mht=\dimen140
+\mc@charclass=\count197
+\mc@charfam=\count198
+\mc@charslot=\count199
+\std@mcc=\count266
+\dec@mcc=\count267
+\listindentFB=\dimen141
+\descindentFB=\dimen142
+\labelindentFB=\dimen143
+\labelwidthFB=\dimen144
+\leftmarginFB=\dimen145
+\parindentFFN=\dimen146
+\FBfnindent=\dimen147
+))
+(C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/latex/carlisle\scalefnt.sty
+) (C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks17
+)
+(C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrbase.s
+ty
+Package: scrbase 2021/06/25 v3.34 KOMA-Script package (KOMA-Script-independent 
+basics and keyval usage)
+
+(C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrlfile.
+sty
+Package: scrlfile 2021/06/25 v3.34 KOMA-Script package (file load hooks)
+
+(C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrlfile-
+hook.sty
+Package: scrlfile-hook 2021/06/25 v3.34 KOMA-Script package (using LaTeX hooks)
+
+
+(C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrlogo.s
+ty
+Package: scrlogo 2021/06/25 v3.34 KOMA-Script package (logo)
+)))
+Applying: [2021/05/01] Usage of raw or classic option list on input line 252.
+Already applied: [0000/00/00] Usage of raw or classic option list on input line
+ 368.
+)
+(C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrhack.s
+ty
+Package: scrhack 2021/06/25 v3.34 KOMA-Script package (hacking other packages)
+
+(C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrkbase.
+sty
+Package: scrkbase 2021/06/25 v3.34 KOMA-Script package (KOMA-Script-dependent b
+asics and keyval usage)
+)
+(C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/latex/xpatch\xpatch.sty
+Package: xpatch 2020/03/25 v0.3a Extending etoolbox patching commands
+))
+(C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/latex/setspace\setspace.sty
+Package: setspace 2011/12/19 v6.7a set line spacing
+)
+Package scrhack Info: loading setspace hack on input line 193.
+
+(C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\setspace.
+hak
+File: setspace.hak 2021/06/25 v3.34 KOMA-Script scrhack part (hacking package s
+etspace)
+)
+(C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/latex/tools\longtable.sty
+Package: longtable 2021-05-07 v4.16 Multi-page Table package (DPC)
+\LTleft=\skip49
+\LTright=\skip50
+\LTpre=\skip51
+\LTpost=\skip52
+\LTchunksize=\count268
+\LTcapwidth=\dimen148
+\LT@head=\box51
+\LT@firsthead=\box52
+\LT@foot=\box53
+\LT@lastfoot=\box54
+\LT@gbox=\box55
+\LT@cols=\count269
+\LT@rows=\count270
+\c@LT@tables=\count271
+\c@LT@chunks=\count272
+\LT@p@ftn=\toks18
+)
+(C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/latex/siunitx\siunitx.sty
+Package: siunitx 2021-11-03 v3.0.35 A comprehensive (SI) units package
+\l__siunitx_angle_tmp_dim=\dimen149
+\l__siunitx_angle_marker_box=\box56
+\l__siunitx_angle_unit_box=\box57
+\l__siunitx_compound_count_int=\count273
+
+(C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/latex/translations\translat
+ions.sty
+Package: translations 2021/01/17 v1.10a internationalization of LaTeX2e package
+s (CN)
+
+(C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/generic/pdftexcmds\pdftexcm
+ds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/generic/infwarerr\infwarerr
+.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+(C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
+Package: iftex 2020/03/06 v1.0d TeX engine tests
+)
+(C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty
+Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+))
+\l__siunitx_number_exponent_fixed_int=\count274
+\l__siunitx_number_min_decimal_int=\count275
+\l__siunitx_number_min_integer_int=\count276
+\l__siunitx_number_round_precision_int=\count277
+\l__siunitx_number_group_minimum_int=\count278
+
+(C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+
+(C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks19
+\ex@=\dimen150
+))
+\l__siunitx_table_tmp_box=\box58
+\l__siunitx_table_tmp_dim=\dimen151
+\l__siunitx_table_column_width_dim=\dimen152
+\l__siunitx_table_integer_box=\box59
+\l__siunitx_table_decimal_box=\box60
+\l__siunitx_table_before_box=\box61
+\l__siunitx_table_after_box=\box62
+\l__siunitx_table_before_dim=\dimen153
+\l__siunitx_table_carry_dim=\dimen154
+\l__siunitx_unit_tmp_int=\count279
+\l__siunitx_unit_position_int=\count280
+\l__siunitx_unit_total_int=\count281
+
+(C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/l3keys2e\l
+3keys2e.sty
+Package: l3keys2e 2021-08-27 LaTeX2e option processing using LaTeX3 keys
+)
+(C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/latex/tools\array.sty
+Package: array 2021/04/20 v2.5e Tabular extension package (FMi)
+\col@sep=\dimen155
+\ar@mcellbox=\box63
+\extrarowheight=\dimen156
+\NC@list=\toks20
+\extratabsurround=\skip53
+\backup@length=\skip54
+\ar@cellbox=\box64
+))
+(C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
+Package: graphicx 2020/12/05 v1.2c Enhanced LaTeX Graphics (DPC,SPQR)
+
+(C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
+Package: graphics 2021/03/04 v1.4d Standard LaTeX Graphics (DPC,SPQR)
+(C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics
+.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 107.
+
+(C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.d
+ef
+File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen157
+\Gin@req@width=\dimen158
+)
+(C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/latex/booktabs\booktabs.sty
+Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
+\heavyrulewidth=\dimen159
+\lightrulewidth=\dimen160
+\cmidrulewidth=\dimen161
+\belowrulesep=\dimen162
+\belowbottomsep=\dimen163
+\aboverulesep=\dimen164
+\abovetopsep=\dimen165
+\cmidrulesep=\dimen166
+\cmidrulekern=\dimen167
+\defaultaddspace=\dimen168
+\@cmidla=\count282
+\@cmidlb=\count283
+\@aboverulesep=\dimen169
+\@belowrulesep=\dimen170
+\@thisruleclass=\count284
+\@lastruleclass=\count285
+\@thisrulewidth=\dimen171
+) (C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption.sty
+Package: caption 2020/10/26 v3.5g Customizing captions (AR)
+(C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption3.sty
+Package: caption3 2020/10/21 v2.2e caption3 kernel (AR)
+\captionmargin=\dimen172
+\captionmargin@=\dimen173
+\captionwidth=\dimen174
+\caption@tempdima=\dimen175
+\caption@indent=\dimen176
+\caption@parindent=\dimen177
+\caption@hangindent=\dimen178
+Package caption Info: Standard document class detected.
+Package caption Info: french babel package is loaded.
+)
+\c@caption@flags=\count286
+\c@continuedfloat=\count287
+Package caption Info: longtable package is loaded.
+
+(C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/latex/caption\ltcaption.sty
+Package: ltcaption 2020/05/30 v1.4b longtable captions (AR)
+))
+(C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmath.sty
+Package: amsmath 2021/04/20 v2.17j AMS math features
+\@mathmargin=\skip55
+
+For additional information on amsmath, use the `?' option.
+(C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen179
+)
+(C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn.sty
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count288
+LaTeX Info: Redefining \frac on input line 234.
+\uproot@=\count289
+\leftroot@=\count290
+LaTeX Info: Redefining \overline on input line 399.
+\classnum@=\count291
+\DOTSCASE@=\count292
+LaTeX Info: Redefining \ldots on input line 496.
+LaTeX Info: Redefining \dots on input line 499.
+LaTeX Info: Redefining \cdots on input line 620.
+\Mathstrutbox@=\box65
+\strutbox@=\box66
+\big@size=\dimen180
+LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
+\macc@depth=\count293
+\c@MaxMatrixCols=\count294
+\dotsspace@=\muskip16
+\c@parentequation=\count295
+\dspbrk@lvl=\count296
+\tag@help=\toks21
+\row@=\count297
+\column@=\count298
+\maxfields@=\count299
+\andhelp@=\toks22
+\eqnshift@=\dimen181
+\alignsep@=\dimen182
+\tagshift@=\dimen183
+\tagwidth@=\dimen184
+\totwidth@=\dimen185
+\lineht@=\dimen186
+\@envbody=\toks23
+\multlinegap=\skip56
+\multlinetaggap=\skip57
+\mathdisplay@stack=\toks24
+LaTeX Info: Redefining \[ on input line 2923.
+LaTeX Info: Redefining \] on input line 2924.
+)
+(C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+)
+(C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+)
+(C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/latex/caption\subcaption.st
+y
+Package: subcaption 2020/10/07 v1.3j Sub-captions (AR)
+\c@subfigure=\count300
+\c@subtable=\count301
+)
+(C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/latex/tools\enumerate.sty
+Package: enumerate 2015/07/23 v3.00 enumerate extensions (DPC)
+\@enLab=\toks25
+)
+(C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/latex/float\float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count302
+\float@exts=\toks26
+\float@box=\box67
+\@float@everytoks=\toks27
+\@floatcapt=\box68
+)
+Package scrhack Info: loading float hack on input line 215.
+
+(C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\float.hak
+File: float.hak 2021/06/25 v3.34 KOMA-Script scrhack part (hacking package floa
+t)
+
+(C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\tocbasic.
+sty
+Package: tocbasic 2021/06/25 v3.34 KOMA-Script package (handling toc-files)
+\scr@dte@tocline@numberwidth=\skip58
+\scr@dte@tocline@numbox=\box69
+)
+Package scrhack Info: redefining \newfloat on input line 163.
+Package scrhack Info: redefining \listof on input line 163.
+Package scrhack Info: undefining \float@addtolists on input line 163.
+)
+(C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/latex/tools\xspace.sty
+Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
+)
+(C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/latex/xcolor\xcolor.sty
+Package: xcolor 2021/10/31 v2.13 LaTeX color extensions (UK)
+
+(C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cf
+g
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 227.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1352.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1356.
+Package xcolor Info: Model `RGB' extended on input line 1368.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1370.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1371.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1372.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1373.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1374.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1375.
+)
+(C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+(C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+)
+\Gm@cnth=\count303
+\Gm@cntv=\count304
+\c@Gm@tempcnt=\count305
+\Gm@bindingoffset=\dimen187
+\Gm@wd@mp=\dimen188
+\Gm@odd@mp=\dimen189
+\Gm@even@mp=\dimen190
+\Gm@layoutwidth=\dimen191
+\Gm@layoutheight=\dimen192
+\Gm@layouthoffset=\dimen193
+\Gm@layoutvoffset=\dimen194
+\Gm@dimlist=\toks28
+
+(C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.cfg
+))
+(C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrlayer-
+scrpage.sty
+Package: scrlayer-scrpage 2021/06/25 v3.34 KOMA-Script package (end user interf
+ace for scrlayer)
+
+(C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrlayer.
+sty
+Package: scrlayer 2021/06/25 v3.34 KOMA-Script package (defining layers and pag
+e styles)
+\footheight=\skip59
+Package scrlayer Info: patching LaTeX kernel macro \pagestyle on input line 216
+2.
+)
+Package scrbase Info: Unknown processing state.
+(scrbase)             Processing option `markcase=used'
+(scrbase)             of member `.scrlayer-scrpage.sty' of family
+(scrbase)             `KOMA' doesn't set
+(scrbase)             a valid state. This will be interpreted
+(scrbase)             as \FamilyKeyStateProcessed on input line 636.
+)
+Package scrlayer-scrpage Info: auto-selection of `pagestyleset=standard'.
+
+1: chapter
+1: chapter
+1: section
+
+(C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/latex/shorttoc\shorttoc.sty
+Package: shorttoc 2002/08/20 v1.3 Short table of contents (JPFD)
+) (C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/latex/etoc\etoc.sty
+Package: etoc 2021/09/23 v1.09e Completely customisable TOCs (JFB)
+
+(C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/latex/tools\multicol.sty
+Package: multicol 2019/12/09 v1.8y multicolumn formatting (FMi)
+\c@tracingmulticols=\count306
+\mult@box=\box70
+\multicol@leftmargin=\dimen195
+\c@unbalance=\count307
+\c@collectmore=\count308
+\doublecol@number=\count309
+\multicoltolerance=\count310
+\multicolpretolerance=\count311
+\full@width=\dimen196
+\page@free=\dimen197
+\premulticols=\dimen198
+\postmulticols=\dimen199
+\multicolsep=\skip60
+\multicolbaselineskip=\skip61
+\partial@page=\box71
+\last@line=\box72
+\maxbalancingoverflow=\dimen256
+\mult@rightbox=\box73
+\mult@grightbox=\box74
+\mult@gfirstbox=\box75
+\mult@firstbox=\box76
+\@tempa=\box77
+\@tempa=\box78
+\@tempa=\box79
+\@tempa=\box80
+\@tempa=\box81
+\@tempa=\box82
+\@tempa=\box83
+\@tempa=\box84
+\@tempa=\box85
+\@tempa=\box86
+\@tempa=\box87
+\@tempa=\box88
+\@tempa=\box89
+\@tempa=\box90
+\@tempa=\box91
+\@tempa=\box92
+\@tempa=\box93
+\@tempa=\box94
+\@tempa=\box95
+\@tempa=\box96
+\@tempa=\box97
+\@tempa=\box98
+\@tempa=\box99
+\@tempa=\box100
+\@tempa=\box101
+\@tempa=\box102
+\@tempa=\box103
+\@tempa=\box104
+\@tempa=\box105
+\@tempa=\box106
+\@tempa=\box107
+\@tempa=\box108
+\@tempa=\box109
+\@tempa=\box110
+\@tempa=\box111
+\@tempa=\box112
+\@tempa=\box113
+\c@minrows=\count312
+\c@columnbadness=\count313
+\c@finalcolumnbadness=\count314
+\last@try=\dimen257
+\multicolovershoot=\dimen258
+\multicolundershoot=\dimen259
+\mult@nat@firstbox=\box114
+\colbreak@box=\box115
+\mc@col@check@num=\count315
+)
+\Etoc@toctoks=\toks29
+\c@etoc@tocid=\count316
+\c@etoc@tocdepth=\count317
+\etoc@framed@titlebox=\box116
+\etoc@framed@contentsbox=\box117
+)
+(C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/latex/minitoc\minitoc.sty
+Package: minitoc 2018/07/12 v62 Package minitoc
+
+(C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/latex/minitoc\mtcmess.sty
+Package: mtcmess 2006/03/14
+)
+Package minitoc Info: I0001
+(minitoc)             *** minitoc package, version 62 ***.
+\tf@mtc=\write3
+\mtcindent=\skip62
+\mtcskipamount=\skip63
+Package minitoc Info: I0005
+(minitoc)             compatible with hyperref.
+Package minitoc Info: I0023
+(minitoc)             part level macros available.
+Package minitoc Info: I0003
+(minitoc)             chapter level macros available.
+\mtc@toks=\toks30
+\mtc@strutbox=\box118
+\mtc@hstrutbox=\box119
+Package minitoc Info: I0002
+(minitoc)             Autoconfiguration of extensions.
+\openout3 = `main.mtc0'.
+
+\openout3 = `main.mtc'.
+
+
+(main.mtc0)
+Package minitoc Info: I0012
+(minitoc)             Long extensions (Unix-like) will be used.
+Package minitoc Info: I0031
+(minitoc)             ==> this version is configured for UNIX-like 
+(minitoc)                 (long extensions) file names.
+\openout3 = `main.mtc'.
+
+\openout3 = `main.mtc0'.
+
+\c@mtc=\count318
+\c@minitocdepth=\count319
+\c@ptc=\count320
+\c@parttocdepth=\count321
+\ptcindent=\skip64
+Package minitoc Info: I0010
+(minitoc)             The english language is selected.
+(minitoc)              on input line 4910.
+
+(C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/latex/minitoc\english.mld
+File: english.mld 2006/01/13
+)
+(C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/latex/minitoc\english.mld
+File: english.mld 2006/01/13
+)
+Package minitoc Info: I0010
+(minitoc)             The french language is selected.
+(minitoc)              on input line 4911.
+
+(C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/latex/minitoc\french.mld
+File: french.mld 2006/03/21
+))) (settings/polices.tex
+(C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\chancery.sty
+Package: chancery 2020/03/25 PSNFSS-v9.3 (SPQR) 
+)
+(C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/latex/beton\beton.sty
+Package: beton 1995/03/05 v1.3
+
+Package: `beton' v1.3 <1995/03/05> (FJ)
+LaTeX Info: Redefining \oldstylenums on input line 56.
+) (C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/latex/euler\euler.sty
+Package: euler 1995/03/05 v2.5
+
+Package: `euler' v2.5 <1995/03/05> (FJ and FMi)
+LaTeX Font Info:    Redeclaring symbol font `letters' on input line 35.
+LaTeX Font Info:    Encoding `OML' has changed to `U' for symbol font
+(Font)              `letters' in the math version `normal' on input line 35.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
+(Font)                  OML/cmm/m/it --> U/eur/m/n on input line 35.
+LaTeX Font Info:    Encoding `OML' has changed to `U' for symbol font
+(Font)              `letters' in the math version `bold' on input line 35.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/cmm/b/it --> U/eur/m/n on input line 35.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  U/eur/m/n --> U/eur/b/n on input line 36.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 47.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 48.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 49.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 50.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 51.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 52.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 53.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 54.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 55.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 56.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 57.
+\symEulerFraktur=\mathgroup6
+LaTeX Font Info:    Overwriting symbol font `EulerFraktur' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 63.
+LaTeX Font Info:    Redeclaring math alphabet \mathfrak on input line 64.
+LaTeX Info: Redefining \oldstylenums on input line 85.
+\symEulerScript=\mathgroup7
+LaTeX Font Info:    Overwriting symbol font `EulerScript' in version `bold'
+(Font)                  U/eus/m/n --> U/eus/b/n on input line 93.
+LaTeX Font Info:    Redeclaring math symbol \aleph on input line 97.
+LaTeX Font Info:    Redeclaring math symbol \Re on input line 98.
+LaTeX Font Info:    Redeclaring math symbol \Im on input line 99.
+LaTeX Font Info:    Redeclaring math delimiter \vert on input line 101.
+LaTeX Font Info:    Redeclaring math delimiter \backslash on input line 103.
+LaTeX Font Info:    Redeclaring math symbol \neg on input line 106.
+LaTeX Font Info:    Redeclaring math symbol \wedge on input line 108.
+LaTeX Font Info:    Redeclaring math symbol \vee on input line 110.
+LaTeX Font Info:    Redeclaring math symbol \setminus on input line 112.
+LaTeX Font Info:    Redeclaring math symbol \sim on input line 113.
+LaTeX Font Info:    Redeclaring math symbol \mid on input line 114.
+LaTeX Font Info:    Redeclaring math delimiter \arrowvert on input line 116.
+LaTeX Font Info:    Redeclaring math symbol \mathsection on input line 117.
+\symEulerExtension=\mathgroup8
+LaTeX Font Info:    Redeclaring math symbol \coprod@ on input line 125.
+LaTeX Font Info:    Redeclaring math symbol \prod@ on input line 125.
+LaTeX Font Info:    Redeclaring math symbol \sum@ on input line 125.
+LaTeX Font Info:    Redeclaring math symbol \intop on input line 130.
+LaTeX Font Info:    Redeclaring math symbol \ointop on input line 131.
+LaTeX Font Info:    Redeclaring math symbol \braceld on input line 132.
+LaTeX Font Info:    Redeclaring math symbol \bracerd on input line 133.
+LaTeX Font Info:    Redeclaring math symbol \bracelu on input line 134.
+LaTeX Font Info:    Redeclaring math symbol \braceru on input line 135.
+LaTeX Font Info:    Redeclaring math symbol \infty on input line 136.
+LaTeX Font Info:    Redeclaring math symbol \nearrow on input line 153.
+LaTeX Font Info:    Redeclaring math symbol \searrow on input line 154.
+LaTeX Font Info:    Redeclaring math symbol \nwarrow on input line 155.
+LaTeX Font Info:    Redeclaring math symbol \swarrow on input line 156.
+LaTeX Font Info:    Redeclaring math symbol \Leftrightarrow on input line 157.
+LaTeX Font Info:    Redeclaring math symbol \Leftarrow on input line 158.
+LaTeX Font Info:    Redeclaring math symbol \Rightarrow on input line 159.
+LaTeX Font Info:    Redeclaring math symbol \leftrightarrow on input line 160.
+LaTeX Font Info:    Redeclaring math symbol \leftarrow on input line 161.
+LaTeX Font Info:    Redeclaring math symbol \rightarrow on input line 163.
+LaTeX Font Info:    Redeclaring math delimiter \uparrow on input line 166.
+LaTeX Font Info:    Redeclaring math delimiter \downarrow on input line 168.
+LaTeX Font Info:    Redeclaring math delimiter \updownarrow on input line 170.
+LaTeX Font Info:    Redeclaring math delimiter \Uparrow on input line 172.
+LaTeX Font Info:    Redeclaring math delimiter \Downarrow on input line 174.
+LaTeX Font Info:    Redeclaring math delimiter \Updownarrow on input line 176.
+LaTeX Font Info:    Redeclaring math symbol \leftharpoonup on input line 177.
+LaTeX Font Info:    Redeclaring math symbol \leftharpoondown on input line 178.
+
+LaTeX Font Info:    Redeclaring math symbol \rightharpoonup on input line 179.
+LaTeX Font Info:    Redeclaring math symbol \rightharpoondown on input line 180
+.
+LaTeX Font Info:    Redeclaring math delimiter \lbrace on input line 182.
+LaTeX Font Info:    Redeclaring math delimiter \rbrace on input line 184.
+\symcmmigroup=\mathgroup9
+LaTeX Font Info:    Overwriting symbol font `cmmigroup' in version `bold'
+(Font)                  OML/cmm/m/it --> OML/cmm/b/it on input line 200.
+LaTeX Font Info:    Redeclaring math accent \vec on input line 201.
+LaTeX Font Info:    Redeclaring math symbol \triangleleft on input line 202.
+LaTeX Font Info:    Redeclaring math symbol \triangleright on input line 203.
+LaTeX Font Info:    Redeclaring math symbol \star on input line 204.
+LaTeX Font Info:    Redeclaring math symbol \lhook on input line 205.
+LaTeX Font Info:    Redeclaring math symbol \rhook on input line 206.
+LaTeX Font Info:    Redeclaring math symbol \flat on input line 207.
+LaTeX Font Info:    Redeclaring math symbol \natural on input line 208.
+LaTeX Font Info:    Redeclaring math symbol \sharp on input line 209.
+LaTeX Font Info:    Redeclaring math symbol \smile on input line 210.
+LaTeX Font Info:    Redeclaring math symbol \frown on input line 211.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 254.
+))
+(C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/latex/frcursive\frcursive.s
+ty
+Package: frcursive 2004/02/01 v1.2 support package for French Cursive
+\seyesThickness=\skip65
+\seyes@box=\box120
+\seyes@ln=\skip66
+) (settings/fncystyle.sty
+Package: settings/fncystyle 2016/02/10 packages and several chapter styles
+
+(C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/latex/base\inputenc.sty
+Package: inputenc 2021/02/14 v1.3d Input encoding file
+\inpenc@prehook=\toks31
+\inpenc@posthook=\toks32
+)
+(C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/latex/base\fontenc.sty
+Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
+LaTeX Font Info:    Trying to load font information for T1+ccr on input line 11
+2.
+
+(C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/latex/ccfonts\t1ccr.fd
+File: t1ccr.fd 1999/11/22 v1.0a (WaS)
+))
+(C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/latex/lm\lmodern.sty
+Package: lmodern 2009/10/30 v1.6 Latin Modern Fonts
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> OT1/lmr/m/n on input line 22.
+LaTeX Font Info:    Encoding `U' has changed to `OML' for symbol font
+(Font)              `letters' in the math version `normal' on input line 23.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
+(Font)                  U/eur/m/n --> OML/lmm/m/it on input line 23.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/cmsy/m/n --> OMS/lmsy/m/n on input line 24.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> OMX/lmex/m/n on input line 25.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 26.
+LaTeX Font Info:    Encoding `U' has changed to `OML' for symbol font
+(Font)              `letters' in the math version `bold' on input line 27.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  U/eur/b/n --> OML/lmm/b/it on input line 27.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/cmsy/b/n --> OMS/lmsy/b/n on input line 28.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> OMX/lmex/m/n on input line 29.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 31.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/cmss/m/n --> OT1/lmss/m/n on input line 32.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> OT1/lmr/m/it on input line 33.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 34.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 35.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/bx/n --> OT1/lmss/bx/n on input line 36.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> OT1/lmr/bx/it on input line 37.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 38.
+)
+(C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/latex/multirow\multirow.sty
+Package: multirow 2021/03/15 v2.8 Span multiple rows of a table
+\multirow@colwidth=\skip67
+\multirow@cntb=\count322
+\multirow@dima=\skip68
+\bigstrutjot=\dimen260
+)
+(C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/latex/spverbatim\spverbatim
+.sty
+Package: spverbatim 2009/08/10 v1.0 Verbatim with breakable spaces
+)
+(C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/latex/enumitem\enumitem.sty
+Package: enumitem 2019/06/20 v3.9 Customized lists
+\labelindent=\skip69
+\enit@outerparindent=\dimen261
+\enit@toks=\toks33
+\enit@inbox=\box121
+\enit@count@id=\count323
+\enitdp@description=\count324
+) (C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/latex/tools\afterpage.sty
+Package: afterpage 2014/10/28 v1.08 After-Page Package (DPC)
+\AP@output=\toks34
+\AP@partial=\box122
+\AP@footins=\box123
+)
+(C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/latex/titlesec\titletoc.sty
+Package: titletoc 2021/07/05 v2.14 TOC entries
+\ttl@leftsep=\dimen262
+) (C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/latex/tocloft\tocloft.sty
+Package: tocloft 2017/08/31 v2.3i parameterised ToC, etc., typesetting
+Package tocloft Info: The document has chapter divisions on input line 51.
+\cftparskip=\skip70
+\cftbeforetoctitleskip=\skip71
+\cftaftertoctitleskip=\skip72
+\cftbeforepartskip=\skip73
+\cftpartnumwidth=\skip74
+\cftpartindent=\skip75
+\cftbeforechapskip=\skip76
+\cftchapindent=\skip77
+\cftchapnumwidth=\skip78
+\cftbeforesecskip=\skip79
+\cftsecindent=\skip80
+\cftsecnumwidth=\skip81
+\cftbeforesubsecskip=\skip82
+\cftsubsecindent=\skip83
+\cftsubsecnumwidth=\skip84
+\cftbeforesubsubsecskip=\skip85
+\cftsubsubsecindent=\skip86
+\cftsubsubsecnumwidth=\skip87
+\cftbeforeparaskip=\skip88
+\cftparaindent=\skip89
+\cftparanumwidth=\skip90
+\cftbeforesubparaskip=\skip91
+\cftsubparaindent=\skip92
+\cftsubparanumwidth=\skip93
+\cftbeforeloftitleskip=\skip94
+\cftafterloftitleskip=\skip95
+\cftbeforefigskip=\skip96
+\cftfigindent=\skip97
+\cftfignumwidth=\skip98
+\c@lofdepth=\count325
+\c@lotdepth=\count326
+\cftbeforelottitleskip=\skip99
+\cftafterlottitleskip=\skip100
+\cftbeforetabskip=\skip101
+\cfttabindent=\skip102
+\cfttabnumwidth=\skip103
+)
+(C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/latex/titlesec\titlesec.sty
+Package: titlesec 2021/07/05 v2.14 Sectioning titles
+\ttl@box=\box124
+\beforetitleunit=\skip104
+\aftertitleunit=\skip105
+\ttl@plus=\dimen263
+\ttl@minus=\dimen264
+\ttl@toksa=\toks35
+\titlewidth=\dimen265
+\titlewidthlast=\dimen266
+\titlewidthfirst=\dimen267
+)
+(C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/latex/microtype\microtype.s
+ty
+Package: microtype 2021/10/31 v3.0 Micro-typographical refinements (RS)
+\MT@toks=\toks36
+\MT@count=\count327
+\MT@tempbox=\box125
+\MT@leftmarginkern=\dimen268
+\MT@rightmarginkern=\dimen269
+LaTeX Info: Redefining \textls on input line 1114.
+\MT@outer@kern=\dimen270
+LaTeX Info: Redefining \textmicrotypecontext on input line 1700.
+\MT@listname@count=\count328
+
+(C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/latex/microtype\microtype-p
+dftex.def
+File: microtype-pdftex.def 2021/10/31 v3.0 Definitions specific to pdftex (RS)
+LaTeX Info: Redefining \lsstyle on input line 915.
+LaTeX Info: Redefining \lslig on input line 915.
+\MT@outer@space=\skip106
+)
+Package microtype Info: Loading configuration file microtype.cfg.
+
+(C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/latex/microtype\microtype.c
+fg
+File: microtype.cfg 2021/10/31 v3.0 microtype main configuration file (RS)
+))
+(C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/latex/pgf/frontendlayer\tik
+z.sty
+(C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/latex/pgf/basiclayer\pgf.st
+y
+(C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgfrcs.
+sty
+(C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfut
+il-common.tex
+\pgfutil@everybye=\toks37
+\pgfutil@tempdima=\dimen271
+\pgfutil@tempdimb=\dimen272
+
+(C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfut
+il-common-lists.tex))
+(C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfut
+il-latex.def
+\pgfutil@abb=\box126
+)
+(C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfrc
+s.code.tex
+(C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/generic/pgf\pgf.revision.te
+x)
+Package: pgfrcs 2021/05/15 v3.1.9a (3.1.9a)
+))
+Package: pgf 2021/05/15 v3.1.9a (3.1.9a)
+
+(C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/latex/pgf/basiclayer\pgfcor
+e.sty
+(C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/latex/pgf/systemlayer\pgfsy
+s.sty
+(C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgf
+sys.code.tex
+Package: pgfsys 2021/05/15 v3.1.9a (3.1.9a)
+
+(C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfke
+ys.code.tex
+\pgfkeys@pathtoks=\toks38
+\pgfkeys@temptoks=\toks39
+
+(C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfke
+ysfiltered.code.tex
+\pgfkeys@tmptoks=\toks40
+))
+\pgf@x=\dimen273
+\pgf@y=\dimen274
+\pgf@xa=\dimen275
+\pgf@ya=\dimen276
+\pgf@xb=\dimen277
+\pgf@yb=\dimen278
+\pgf@xc=\dimen279
+\pgf@yc=\dimen280
+\pgf@xd=\dimen281
+\pgf@yd=\dimen282
+\w@pgf@writea=\write4
+\r@pgf@reada=\read3
+\c@pgf@counta=\count329
+\c@pgf@countb=\count330
+\c@pgf@countc=\count331
+\c@pgf@countd=\count332
+\t@pgf@toka=\toks41
+\t@pgf@tokb=\toks42
+\t@pgf@tokc=\toks43
+\pgf@sys@id@count=\count333
+
+(C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgf
+.cfg
+File: pgf.cfg 2021/05/15 v3.1.9a (3.1.9a)
+)
+Driver file for pgf: pgfsys-pdftex.def
+
+(C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgf
+sys-pdftex.def
+File: pgfsys-pdftex.def 2021/05/15 v3.1.9a (3.1.9a)
+
+(C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgf
+sys-common-pdf.def
+File: pgfsys-common-pdf.def 2021/05/15 v3.1.9a (3.1.9a)
+)))
+(C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgf
+syssoftpath.code.tex
+File: pgfsyssoftpath.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfsyssoftpath@smallbuffer@items=\count334
+\pgfsyssoftpath@bigbuffer@items=\count335
+)
+(C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgf
+sysprotocol.code.tex
+File: pgfsysprotocol.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+))
+(C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfc
+ore.code.tex
+Package: pgfcore 2021/05/15 v3.1.9a (3.1.9a)
+
+(C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath.co
+de.tex
+(C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathcal
+c.code.tex
+(C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathuti
+l.code.tex)
+(C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathpar
+ser.code.tex
+\pgfmath@dimen=\dimen283
+\pgfmath@count=\count336
+\pgfmath@box=\box127
+\pgfmath@toks=\toks44
+\pgfmath@stack@operand=\toks45
+\pgfmath@stack@operation=\toks46
+)
+(C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfun
+ctions.code.tex
+(C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfun
+ctions.basic.code.tex)
+(C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfun
+ctions.trigonometric.code.tex)
+(C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfun
+ctions.random.code.tex)
+(C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfun
+ctions.comparison.code.tex)
+(C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfun
+ctions.base.code.tex)
+(C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfun
+ctions.round.code.tex)
+(C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfun
+ctions.misc.code.tex)
+(C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfun
+ctions.integerarithmetics.code.tex)))
+(C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathflo
+at.code.tex
+\c@pgfmathroundto@lastzeros=\count337
+))
+(C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfint.cod
+e.tex)
+(C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfc
+orepoints.code.tex
+File: pgfcorepoints.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@picminx=\dimen284
+\pgf@picmaxx=\dimen285
+\pgf@picminy=\dimen286
+\pgf@picmaxy=\dimen287
+\pgf@pathminx=\dimen288
+\pgf@pathmaxx=\dimen289
+\pgf@pathminy=\dimen290
+\pgf@pathmaxy=\dimen291
+\pgf@xx=\dimen292
+\pgf@xy=\dimen293
+\pgf@yx=\dimen294
+\pgf@yy=\dimen295
+\pgf@zx=\dimen296
+\pgf@zy=\dimen297
+)
+(C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfc
+orepathconstruct.code.tex
+File: pgfcorepathconstruct.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@path@lastx=\dimen298
+\pgf@path@lasty=\dimen299
+)
+(C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfc
+orepathusage.code.tex
+File: pgfcorepathusage.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@shorten@end@additional=\dimen300
+\pgf@shorten@start@additional=\dimen301
+)
+(C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfc
+orescopes.code.tex
+File: pgfcorescopes.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfpic=\box128
+\pgf@hbox=\box129
+\pgf@layerbox@main=\box130
+\pgf@picture@serial@count=\count338
+)
+(C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfc
+oregraphicstate.code.tex
+File: pgfcoregraphicstate.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgflinewidth=\dimen302
+)
+(C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfc
+oretransformations.code.tex
+File: pgfcoretransformations.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@pt@x=\dimen303
+\pgf@pt@y=\dimen304
+\pgf@pt@temp=\dimen305
+)
+(C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfc
+orequick.code.tex
+File: pgfcorequick.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfc
+oreobjects.code.tex
+File: pgfcoreobjects.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfc
+orepathprocessing.code.tex
+File: pgfcorepathprocessing.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfc
+orearrows.code.tex
+File: pgfcorearrows.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfarrowsep=\dimen306
+)
+(C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfc
+oreshade.code.tex
+File: pgfcoreshade.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@max=\dimen307
+\pgf@sys@shading@range@num=\count339
+\pgf@shadingcount=\count340
+)
+(C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfc
+oreimage.code.tex
+File: pgfcoreimage.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+
+(C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfc
+oreexternal.code.tex
+File: pgfcoreexternal.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfexternal@startupbox=\box131
+))
+(C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfc
+orelayers.code.tex
+File: pgfcorelayers.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfc
+oretransparency.code.tex
+File: pgfcoretransparency.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfc
+orepatterns.code.tex
+File: pgfcorepatterns.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfc
+orerdf.code.tex
+File: pgfcorerdf.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)))
+(C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodu
+leshapes.code.tex
+File: pgfmoduleshapes.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfnodeparttextbox=\box132
+)
+(C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodu
+leplot.code.tex
+File: pgfmoduleplot.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)
+(C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/latex/pgf/compatibility\pgf
+comp-version-0-65.sty
+Package: pgfcomp-version-0-65 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@nodesepstart=\dimen308
+\pgf@nodesepend=\dimen309
+)
+(C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/latex/pgf/compatibility\pgf
+comp-version-1-18.sty
+Package: pgfcomp-version-1-18 2021/05/15 v3.1.9a (3.1.9a)
+))
+(C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgffor.
+sty
+(C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgfkeys
+.sty
+(C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfke
+ys.code.tex))
+(C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/latex/pgf/math\pgfmath.sty
+(C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath.co
+de.tex))
+(C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgffo
+r.code.tex
+Package: pgffor 2021/05/15 v3.1.9a (3.1.9a)
+
+(C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath.co
+de.tex)
+\pgffor@iter=\dimen310
+\pgffor@skip=\dimen311
+\pgffor@stack=\toks47
+\pgffor@toks=\toks48
+))
+(C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/t
+ikz\tikz.code.tex
+Package: tikz 2021/05/15 v3.1.9a (3.1.9a)
+
+(C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgfli
+braryplothandlers.code.tex
+File: pgflibraryplothandlers.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgf@plot@mark@count=\count341
+\pgfplotmarksize=\dimen312
+)
+\tikz@lastx=\dimen313
+\tikz@lasty=\dimen314
+\tikz@lastxsaved=\dimen315
+\tikz@lastysaved=\dimen316
+\tikz@lastmovetox=\dimen317
+\tikz@lastmovetoy=\dimen318
+\tikzleveldistance=\dimen319
+\tikzsiblingdistance=\dimen320
+\tikz@figbox=\box133
+\tikz@figbox@bg=\box134
+\tikz@tempbox=\box135
+\tikz@tempbox@bg=\box136
+\tikztreelevel=\count342
+\tikznumberofchildren=\count343
+\tikznumberofcurrentchild=\count344
+\tikz@fig@count=\count345
+
+(C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodu
+lematrix.code.tex
+File: pgfmodulematrix.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+\pgfmatrixcurrentrow=\count346
+\pgfmatrixcurrentcolumn=\count347
+\pgf@matrix@numberofcolumns=\count348
+)
+\tikz@expandcount=\count349
+
+(C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/t
+ikz/libraries\tikzlibrarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+)))
+(C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/latex/tools\calc.sty
+Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count350
+\calc@Bcount=\count351
+\calc@Adimen=\dimen321
+\calc@Bdimen=\dimen322
+\calc@Askip=\skip107
+\calc@Bskip=\skip108
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count352
+\calc@Cskip=\skip109
+)
+\chapternum=\skip110
+\c@ttlp@side=\count353
+\ttlp@side=\count354
+)
+(C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/latex/base\fontenc.sty
+Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
+LaTeX Font Info:    Trying to load font information for T1+lmr on input line 11
+2.
+
+(C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/latex/lm\t1lmr.fd
+File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+))
+(C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/latex/tools\verbatim.sty
+Package: verbatim 2020-07-07 v1.5u LaTeX2e package for verbatim enhancements
+\every@verbatim=\toks49
+\verbatim@line=\toks50
+\verbatim@in@stream=\read4
+)
+(C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.sty
+Package: biblatex 2020/12/31 v3.16 programmable bibliographies (PK/MW)
+
+(C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvoptions.s
+ty
+Package: kvoptions 2020-10-07 v3.14 Key value format for package options (HO)
+
+(C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/generic/kvsetkeys\kvsetkeys
+.sty
+Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
+))
+(C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/latex/logreq\logreq.sty
+Package: logreq 2010/08/04 v1.0 xml request logger
+\lrq@indent=\count355
+
+(C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/latex/logreq\logreq.def
+File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
+))
+(C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/latex/base\ifthen.sty
+Package: ifthen 2020/11/24 v1.1c Standard LaTeX ifthen package (DPC)
+)
+(C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty
+\Urlmuskip=\muskip17
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+\c@tabx@nest=\count356
+\c@listtotal=\count357
+\c@listcount=\count358
+\c@liststart=\count359
+\c@liststop=\count360
+\c@citecount=\count361
+\c@citetotal=\count362
+\c@multicitecount=\count363
+\c@multicitetotal=\count364
+\c@instcount=\count365
+\c@maxnames=\count366
+\c@minnames=\count367
+\c@maxitems=\count368
+\c@minitems=\count369
+\c@citecounter=\count370
+\c@maxcitecounter=\count371
+\c@savedcitecounter=\count372
+\c@uniquelist=\count373
+\c@uniquename=\count374
+\c@refsection=\count375
+\c@refsegment=\count376
+\c@maxextratitle=\count377
+\c@maxextratitleyear=\count378
+\c@maxextraname=\count379
+\c@maxextradate=\count380
+\c@maxextraalpha=\count381
+\c@abbrvpenalty=\count382
+\c@highnamepenalty=\count383
+\c@lownamepenalty=\count384
+\c@maxparens=\count385
+\c@parenlevel=\count386
+\blx@tempcnta=\count387
+\blx@tempcntb=\count388
+\blx@tempcntc=\count389
+\blx@maxsection=\count390
+\blx@maxsegment@0=\count391
+\blx@notetype=\count392
+\blx@parenlevel@text=\count393
+\blx@parenlevel@foot=\count394
+\blx@sectionciteorder@0=\count395
+\blx@entrysetcounter=\count396
+\blx@biblioinstance=\count397
+\labelnumberwidth=\skip111
+\labelalphawidth=\skip112
+\biblabelsep=\skip113
+\bibitemsep=\skip114
+\bibnamesep=\skip115
+\bibinitsep=\skip116
+\bibparsep=\skip117
+\bibhang=\skip118
+\blx@bcfin=\read5
+\blx@bcfout=\write5
+\blx@langwohyphens=\language85
+\c@mincomprange=\count398
+\c@maxcomprange=\count399
+\c@mincompwidth=\count400
+Package biblatex Info: Trying to load biblatex default data model...
+Package biblatex Info: ... file 'blx-dm.def' found.
+
+(C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-dm.def
+File: blx-dm.def 2020/12/31 v3.16 biblatex localization (PK/MW)
+)
+Package biblatex Info: Trying to load biblatex citestyle data model...
+Package biblatex Info: ... file 'authoryear-icomp.dbx' not found.
+Package biblatex Info: Trying to load biblatex bibstyle data model...
+Package biblatex Info: ... file 'authoryear.dbx' not found.
+Package biblatex Info: Trying to load biblatex custom data model...
+Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
+\c@afterword=\count401
+\c@savedafterword=\count402
+\c@annotator=\count403
+\c@savedannotator=\count404
+\c@author=\count405
+\c@savedauthor=\count406
+\c@bookauthor=\count407
+\c@savedbookauthor=\count408
+\c@commentator=\count409
+\c@savedcommentator=\count410
+\c@editor=\count411
+\c@savededitor=\count412
+\c@editora=\count413
+\c@savededitora=\count414
+\c@editorb=\count415
+\c@savededitorb=\count416
+\c@editorc=\count417
+\c@savededitorc=\count418
+\c@foreword=\count419
+\c@savedforeword=\count420
+\c@holder=\count421
+\c@savedholder=\count422
+\c@introduction=\count423
+\c@savedintroduction=\count424
+\c@namea=\count425
+\c@savednamea=\count426
+\c@nameb=\count427
+\c@savednameb=\count428
+\c@namec=\count429
+\c@savednamec=\count430
+\c@translator=\count431
+\c@savedtranslator=\count432
+\c@shortauthor=\count433
+\c@savedshortauthor=\count434
+\c@shorteditor=\count435
+\c@savedshorteditor=\count436
+\c@labelname=\count437
+\c@savedlabelname=\count438
+\c@institution=\count439
+\c@savedinstitution=\count440
+\c@lista=\count441
+\c@savedlista=\count442
+\c@listb=\count443
+\c@savedlistb=\count444
+\c@listc=\count445
+\c@savedlistc=\count446
+\c@listd=\count447
+\c@savedlistd=\count448
+\c@liste=\count449
+\c@savedliste=\count450
+\c@listf=\count451
+\c@savedlistf=\count452
+\c@location=\count453
+\c@savedlocation=\count454
+\c@organization=\count455
+\c@savedorganization=\count456
+\c@origlocation=\count457
+\c@savedoriglocation=\count458
+\c@origpublisher=\count459
+\c@savedorigpublisher=\count460
+\c@publisher=\count461
+\c@savedpublisher=\count462
+\c@language=\count463
+\c@savedlanguage=\count464
+\c@origlanguage=\count465
+\c@savedoriglanguage=\count466
+\c@pageref=\count467
+\c@savedpageref=\count468
+\shorthandwidth=\skip119
+\shortjournalwidth=\skip120
+\shortserieswidth=\skip121
+\shorttitlewidth=\skip122
+\shortauthorwidth=\skip123
+\shorteditorwidth=\skip124
+\locallabelnumberwidth=\skip125
+\locallabelalphawidth=\skip126
+\localshorthandwidth=\skip127
+\localshortjournalwidth=\skip128
+\localshortserieswidth=\skip129
+\localshorttitlewidth=\skip130
+\localshortauthorwidth=\skip131
+\localshorteditorwidth=\skip132
+Package biblatex Info: Trying to load compatibility code...
+Package biblatex Info: ... file 'blx-compat.def' found.
+
+(C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-compat.d
+ef
+File: blx-compat.def 2020/12/31 v3.16 biblatex compatibility (PK/MW)
+)
+Package biblatex Info: Trying to load generic definitions...
+Package biblatex Info: ... file 'biblatex.def' found.
+
+(C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.def
+File: biblatex.def 2020/12/31 v3.16 biblatex compatibility (PK/MW)
+\c@textcitecount=\count469
+\c@textcitetotal=\count470
+\c@textcitemaxnames=\count471
+\c@biburlbigbreakpenalty=\count472
+\c@biburlbreakpenalty=\count473
+\c@biburlnumpenalty=\count474
+\c@biburlucpenalty=\count475
+\c@biburllcpenalty=\count476
+\biburlbigskip=\muskip18
+\biburlnumskip=\muskip19
+\biburlucskip=\muskip20
+\biburllcskip=\muskip21
+\c@smartand=\count477
+)
+Package biblatex Info: Trying to load bibliography style 'authoryear'...
+Package biblatex Info: ... file 'authoryear.bbx' found.
+
+(C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/bbx\authorye
+ar.bbx
+File: authoryear.bbx 2020/12/31 v3.16 biblatex bibliography style (PK/MW)
+Package biblatex Info: Trying to load bibliography style 'standard'...
+Package biblatex Info: ... file 'standard.bbx' found.
+
+(C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/bbx\standard
+.bbx
+File: standard.bbx 2020/12/31 v3.16 biblatex bibliography style (PK/MW)
+\c@bbx:relatedcount=\count478
+\c@bbx:relatedtotal=\count479
+))
+Package biblatex Info: Trying to load citation style 'authoryear-icomp'...
+Package biblatex Info: ... file 'authoryear-icomp.cbx' found.
+
+(C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/cbx\authorye
+ar-icomp.cbx
+File: authoryear-icomp.cbx 2020/12/31 v3.16 biblatex citation style (PK/MW)
+Package biblatex Info: Redefining '\cite'.
+Package biblatex Info: Redefining '\parencite'.
+Package biblatex Info: Redefining '\footcite'.
+Package biblatex Info: Redefining '\footcitetext'.
+Package biblatex Info: Redefining '\smartcite'.
+Package biblatex Info: Redefining '\textcite'.
+Package biblatex Info: Redefining '\textcites'.
+Package biblatex Info: Redefining '\cites'.
+Package biblatex Info: Redefining '\parencites'.
+Package biblatex Info: Redefining '\footcites'.
+Package biblatex Info: Redefining '\footcitetexts'.
+Package biblatex Info: Redefining '\smartcites'.
+)
+Package biblatex Info: Trying to load configuration file...
+Package biblatex Info: ... file 'biblatex.cfg' found.
+
+(C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.cfg
+File: biblatex.cfg 
+)
+
+Package biblatex Warning: 'firstinits' option is deprecated.
+(biblatex)                Please use 'giveninits' instead.
+
+)
+(C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/latex/csquotes\csquotes.sty
+Package: csquotes 2021-02-22 v5.2l context-sensitive quotations (JAW)
+\csq@reset=\count480
+\csq@gtype=\count481
+\csq@glevel=\count482
+\csq@qlevel=\count483
+\csq@maxlvl=\count484
+\csq@tshold=\count485
+\csq@ltx@everypar=\toks51
+
+(C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/latex/csquotes\csquotes.def
+File: csquotes.def 2021-02-22 v5.2l csquotes generic definitions (JAW)
+)
+Package csquotes Info: Trying to load configuration file 'csquotes.cfg'...
+Package csquotes Info: ... configuration file loaded successfully.
+
+(C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/latex/csquotes\csquotes.cfg
+File: csquotes.cfg 
+)
+Package csquotes Info: Enabling multilingual quotes.
+)) (BibGls/Glossary_entries.tex
+(C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/latex/glossaries-extra\glos
+saries-extra.sty
+Package: glossaries-extra 2021/11/04 v1.47 (NLCT)
+
+(C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/latex/xkeyval\xkeyval.sty
+Package: xkeyval 2020/11/20 v2.8 package option processing (HA)
+
+(C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\xkeyval.tex
+
+(C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\xkvutils.te
+x
+\XKV@toks=\toks52
+\XKV@tempa@toks=\toks53
+)
+\XKV@depth=\count486
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+))
+(C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/latex/glossaries/base\gloss
+aries.sty
+Package: glossaries 2021/11/01 v4.49 (NLCT)
+
+(C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/latex/mfirstuc\mfirstuc.sty
+Package: mfirstuc 2021/10/15 v2.07 (NLCT)
+\@glsmfirst=\toks54
+\@glsmrest=\toks55
+)
+(C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/latex/textcase\textcase.sty
+Package: textcase 2019/09/14 v1.00 Text only upper/lower case changing (DPC)
+) (C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/latex/xfor\xfor.sty
+Package: xfor 2009/02/05 v1.05 (NLCT)
+)
+(C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/latex/datatool\datatool-bas
+e.sty
+Package: datatool-base 2019/09/27 v2.32 (NLCT)
+
+(C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/latex/substr\substr.sty
+Package: substr 2009/10/20 v1.2 Handle substrings
+\c@su@anzahl=\count487
+)
+(C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/latex/datatool\datatool-fp.
+sty
+Package: datatool-fp 2019/09/27 v2.32 (NLCT)
+ (C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/latex/fp\fp.sty
+Package: fp 1995/04/02
+
+`Fixed Point Package', Version 0.8, April 2, 1995 (C) Michael Mehlich
+(C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/latex/fp\defpattern.sty
+Package: defpattern 1994/10/12
+\actioncount=\count488
+)
+(C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/latex/fp\fp-basic.sty
+Package: fp-basic 1996/05/13
+\FP@xs=\count489
+\FP@xia=\count490
+\FP@xib=\count491
+\FP@xfa=\count492
+\FP@xfb=\count493
+\FP@rega=\count494
+\FP@regb=\count495
+\FP@regs=\count496
+\FP@times=\count497
+)
+(C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/latex/fp\fp-addons.sty
+Package: fp-addons 1995/03/15
+)
+(C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/latex/fp\fp-snap.sty
+Package: fp-snap 1995/04/05
+)
+(C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/latex/fp\fp-exp.sty
+Package: fp-exp 1995/04/03
+)
+(C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/latex/fp\fp-trigo.sty
+Package: fp-trigo 1995/04/14
+)
+(C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/latex/fp\fp-pas.sty
+Package: fp-pas 1994/08/29
+)
+(C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/latex/fp\fp-random.sty
+Package: fp-random 1995/02/23
+\FPseed=\count498
+)
+(C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/latex/fp\fp-eqn.sty
+Package: fp-eqn 1995/04/03
+)
+(C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/latex/fp\fp-upn.sty
+Package: fp-upn 1996/10/21
+)
+(C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/latex/fp\fp-eval.sty
+Package: fp-eval 1995/04/03
+)))
+\@dtl@toks=\toks56
+\@dtl@tmpcount=\count499
+\dtl@tmplength=\skip133
+\dtl@sortresult=\count500
+\@dtl@numgrpsepcount=\count501
+\@dtl@datatype=\count502
+\dtl@codeA=\count503
+\dtl@codeB=\count504
+\@dtl@foreach@level=\count505
+)
+(C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/latex/glossaries/base\gloss
+aries-compatible-307.sty
+Package: glossaries-compatible-307 2021/11/01 v4.49 (NLCT)
+)
+(C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/latex/tracklang\tracklang.s
+ty
+Package: tracklang 2020/06/30 v1.5 (NLCT) Track Languages
+
+(C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/generic/tracklang\tracklang
+.tex))
+(C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/latex/glossaries-french\glo
+ssaries-french.ldf
+File: glossaries-french.ldf 2016/12/12 v1.1
+)
+\gls@level=\count506
+\@gls@tmpb=\toks57
+\gls@tmplen=\skip134
+\glskeylisttok=\toks58
+\glslabeltok=\toks59
+\glsshorttok=\toks60
+\glslongtok=\toks61
+
+(C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/latex/glossaries/styles\glo
+ssary-hypernav.sty
+Package: glossary-hypernav 2021/11/01 v4.49 (NLCT)
+)
+(C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/latex/glossaries/styles\glo
+ssary-list.sty
+Package: glossary-list 2021/11/01 v4.49 (NLCT)
+\glslistdottedwidth=\skip135
+)
+(C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/latex/glossaries/styles\glo
+ssary-long.sty
+Package: glossary-long 2021/11/01 v4.49 (NLCT)
+\glsdescwidth=\skip136
+\glspagelistwidth=\skip137
+)
+(C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/latex/glossaries/styles\glo
+ssary-super.sty
+Package: glossary-super 2021/11/01 v4.49 (NLCT)
+
+(C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/latex/supertabular\supertab
+ular.sty
+Package: supertabular 2020/02/02 v4.1g the supertabular environment
+\c@tracingst=\count507
+\ST@wd=\dimen323
+\ST@rightskip=\skip138
+\ST@leftskip=\skip139
+\ST@parfillskip=\skip140
+\ST@pageleft=\dimen324
+\ST@headht=\dimen325
+\ST@tailht=\dimen326
+\ST@pagesofar=\dimen327
+\ST@pboxht=\dimen328
+\ST@lineht=\dimen329
+\ST@prevht=\dimen330
+\ST@toadd=\dimen331
+\ST@dimen=\dimen332
+\ST@pbox=\box137
+))
+(C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/latex/glossaries/styles\glo
+ssary-tree.sty
+Package: glossary-tree 2021/11/01 v4.49 (NLCT)
+\glstreeindent=\skip141
+))
+(C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/latex/glossaries-extra\glos
+saries-extra-bib2gls.sty
+Package: glossaries-extra-bib2gls 2021/11/04 v1.47 (NLCT)
+)
+\@glsxtr@leveloffset=\count508
+\glsxtrresourcecount=\count509
+\@glsxtrnewgls@inner=\count510
+\glsshortpltok=\toks62
+\glslongpltok=\toks63
+
+(C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/latex/glossaries-extra\glos
+saries-extra-stylemods.sty
+Package: glossaries-extra-stylemods 2021/11/04 v1.47 (NLCT)
+\glsxtrAltTreeIndent=\skip142
+\glsxtrtreetopindent=\skip143
+)) (main.glstex))
+(C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hyperref.sty
+Package: hyperref 2021-06-07 v7.00m Hypertext links for LaTeX
+
+(C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/generic/kvdefinekeys\kvdefi
+nekeys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+)
+(C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/generic/pdfescape\pdfescape
+.sty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+)
+(C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/latex/hycolor\hycolor.sty
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+)
+(C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/latex/letltxmacro\letltxmac
+ro.sty
+Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
+)
+(C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/latex/auxhook\auxhook.sty
+Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
+)
+\@linkdim=\dimen333
+\Hy@linkcounter=\count511
+\Hy@pagecounter=\count512
+
+(C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\pd1enc.def
+File: pd1enc.def 2021-06-07 v7.00m Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+)
+(C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hyperref-lan
+gpatches.def
+File: hyperref-langpatches.def 2021-06-07 v7.00m Hyperref: patches for babel la
+nguages
+)
+(C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/generic/intcalc\intcalc.sty
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+)
+(C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/generic/etexcmds\etexcmds.s
+ty
+Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
+)
+\Hy@SavedSpaceFactor=\count513
+
+(C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\puenc.def
+File: puenc.def 2021-06-07 v7.00m Hyperref: PDF Unicode definition (HO)
+Now handling font encoding PU ...
+... no UTF-8 mapping file for font encoding PU
+)
+Package hyperref Info: Hyper figures OFF on input line 4192.
+Package hyperref Info: Link nesting OFF on input line 4197.
+Package hyperref Info: Hyper index ON on input line 4200.
+Package hyperref Info: Plain pages OFF on input line 4207.
+Package hyperref Info: Backreferencing OFF on input line 4212.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4445.
+\c@Hy@tempcnt=\count514
+LaTeX Info: Redefining \url on input line 4804.
+\XeTeXLinkMargin=\dimen334
+
+(C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/generic/bitset\bitset.sty
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+
+(C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/generic/bigintcalc\bigintca
+lc.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
+)
+))
+\Fld@menulength=\count515
+\Field@Width=\dimen335
+\Fld@charsize=\dimen336
+Package hyperref Info: Hyper figures OFF on input line 6076.
+Package hyperref Info: Link nesting OFF on input line 6081.
+Package hyperref Info: Hyper index ON on input line 6084.
+Package hyperref Info: backreferencing OFF on input line 6091.
+Package hyperref Info: Link coloring OFF on input line 6096.
+Package hyperref Info: Link coloring with OCG OFF on input line 6101.
+Package hyperref Info: PDF/A mode OFF on input line 6106.
+LaTeX Info: Redefining \ref on input line 6146.
+LaTeX Info: Redefining \pageref on input line 6150.
+
+(C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/latex/base\atbegshi-ltx.sty
+Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
+package with kernel methods
+)
+\Hy@abspage=\count516
+\c@Item=\count517
+\c@Hfootnote=\count518
+)
+Package scrhack Info: hyperref hack deactivated because of
+(scrhack)             detection of hyperref version, that doesn't
+(scrhack)             need that hack, on input line 7.
+Package hyperref Info: Driver (autodetected): hpdftex.
+
+(C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hpdftex.def
+File: hpdftex.def 2021-06-07 v7.00m Hyperref driver for pdfTeX
+
+(C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/latex/base\atveryend-ltx.st
+y
+Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atvery packag
+e
+with kernel methods
+)
+\Fld@listcount=\count519
+\c@bookmark@seq@number=\count520
+
+(C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/latex/rerunfilecheck\rerunf
+ilecheck.sty
+Package: rerunfilecheck 2019/12/05 v1.9 Rerun checks for auxiliary files (HO)
+
+(C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/generic/uniquecounter\uniqu
+ecounter.sty
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
+)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+86.
+)
+\Hy@SectionHShift=\skip144
+)
+Package hyperref Info: Option `bookmarksopen' set `true' on input line 7.
+Package hyperref Info: Option `hypertexnames' set `false' on input line 7.
+Package hyperref Info: Option `colorlinks' set `true' on input line 7.
+Package hyperref Info: Option `unicode' set `true' on input line 7.
+Package hyperref Info: Option `breaklinks' set `true' on input line 7.
+
+
+Package biblatex Warning: Conflicting options.
+(biblatex)                '<namepart>inits' conflicts with 'uniquename=full'.
+(biblatex)                Setting 'uniquename=init' on input line 7.
+
+Package csquotes Info: Checking for multilingual support...
+Package csquotes Info: ... found 'babel' package.
+(main.aux (Chapters/Introduction.aux) (Chapters/Chapter1.aux)
+(Chapters/Chapter2.aux) (Chapters/Chapter3.aux) (Chapters/Chapter4.aux)
+(Appendices/AppendixA.aux))
+\openout1 = `main.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Info: Redefining \degres on input line 7.
+Package french.ldf Info: Setting StandardItemizeEnv=true for
+(french.ldf)             compatibility with enumitem package,
+(french.ldf)             reported on input line 7.
+Package french.ldf Info: Setting StandardEnumerateEnv=true for
+(french.ldf)             compatibility with enumitem package,
+(french.ldf)             reported on input line 7.
+LaTeX Info: Redefining \up on input line 7.
+
+(C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/latex/translations/dicts\tr
+anslations-basic-dictionary-french.trsl
+File: translations-basic-dictionary-french.trsl (french translation file `trans
+lations-basic-dictionary')
+)
+Package translations Info: loading dictionary `translations-basic-dictionary' f
+or `french'. on input line 7.
+
+(C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.
+mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count521
+\scratchdimen=\dimen337
+\scratchbox=\box138
+\nofMPsegments=\count522
+\nofMParguments=\count523
+\everyMPshowfont=\toks64
+\MPscratchCnt=\count524
+\MPscratchDim=\dimen338
+\MPnumerator=\count525
+\makeMPintoPDFobject=\count526
+\everyMPtoPDFconversion=\toks65
+)
+(C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf
+-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+
+(C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys
+.cfg
+File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
+))
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: float package is loaded.
+Package caption Info: hyperref package is loaded.
+Package caption Info: supertabular package is loaded.
+Package caption Info: End \AtBeginDocument code.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* bindingoffset: 14.22636pt
+* modes: includehead includefoot twoside 
+* h-part:(L,W,R)=(71.13188pt, 404.02908pt, 108.12054pt)
+* v-part:(T,H,B)=(42.67912pt, 759.6886pt, 42.67912pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=404.02908pt
+* \textheight=689.14812pt
+* \oddsidemargin=13.08826pt
+* \evensidemargin=35.85056pt
+* \topmargin=-29.59087pt
+* \headheight=20.66669pt
+* \headsep=19.8738pt
+* \topskip=12.0pt
+* \footskip=30.0pt
+* \marginparwidth=98.0pt
+* \marginparsep=7.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidetrue
+* \@mparswitchtrue
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+Package scrlayer Info: Setting magic \footheight to \baselineskip while
+(scrlayer)             \begin{document} on input line 7.
+\Etoc@tf=\read6
+\c@minilofdepth=\count527
+\c@minilotdepth=\count528
+\c@partlofdepth=\count529
+\c@partlotdepth=\count530
+\c@sectlofdepth=\count531
+\c@sectlotdepth=\count532
+Package minitoc(hints) Info: I0049
+(minitoc(hints))             ==> You requested the hints option. 
+(minitoc(hints))             Some hints are eventually given below.
+Package minitoc(hints) Info: I0047
+(minitoc(hints))             --- The tocloft package is loaded. 
+(minitoc(hints))             See the minitoc package documentation 
+(minitoc(hints))             for specific precautions.
+
+Package minitoc(hints) Warning: W0099
+(minitoc(hints))                --- The titlesec package is loaded. 
+(minitoc(hints))                It is incompatible 
+(minitoc(hints))                with the minitoc package.
+
+
+Package minitoc(hints) Warning: W0040
+(minitoc(hints))                --- The titletoc package is loaded. 
+(minitoc(hints))                It is incompatible 
+(minitoc(hints))                with the minitoc package.
+
+
+Package minitoc(hints) Warning: W0030
+(minitoc(hints))                --- The \part command is altered 
+(minitoc(hints))                after minitoc.
+
+
+Package minitoc(hints) Warning: W0023
+(minitoc(hints))                --- It may be the consequence 
+(minitoc(hints))                of loading the ``hyperref'' package.
+
+
+Package minitoc(hints) Warning: W0028
+(minitoc(hints))                --- The \chapter command is altered 
+(minitoc(hints))                after minitoc.
+
+
+Package minitoc(hints) Warning: W0023
+(minitoc(hints))                --- It may be the consequence 
+(minitoc(hints))                of loading the ``hyperref'' package.
+
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 7.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/lmr/m/n --> OT1/lmr/m/up on input line 7.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/lmr/bx/n --> OT1/lmr/m/up on input line 7.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/lmr/m/up --> OT1/lmr/b/up on input line 7.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 7.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/lmr/bx/n --> OT1/lmr/b/up on input line 7.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/lmr/bx/n --> OT1/lmr/b/up on input line 7.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 7.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/lmss/m/n --> OT1/lmss/m/up on input line 7.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/lmss/bx/n --> OT1/lmss/m/up on input line 7.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 7.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/lmr/m/it --> OT1/lmr/m/it on input line 7.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/lmr/bx/it --> OT1/lmr/m/it on input line 7.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 7.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/lmtt/m/n --> OT1/lmtt/m/up on input line 7.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/lmtt/m/n --> OT1/lmtt/m/up on input line 7.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/lmss/m/up --> OT1/lmss/b/up on input line 7.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/lmr/m/it --> OT1/lmr/b/it on input line 7.
+LaTeX Info: Redefining \microtypecontext on input line 7.
+Package microtype Info: Applying patch `item' on input line 7.
+Package microtype Info: Applying patch `toc' on input line 7.
+Package microtype Info: Applying patch `eqnum' on input line 7.
+
+Package microtype Warning: Unable to apply patch `footnote' on input line 7.
+
+Package microtype Info: Generating PDF output.
+Package microtype Info: Character protrusion enabled (level 2).
+Package microtype Info: Using default protrusion set `alltext'.
+Package microtype Info: Automatic font expansion enabled (level 2),
+(microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
+Package microtype Info: Using default expansion set `alltext-nott'.
+LaTeX Info: Redefining \showhyphens on input line 7.
+Package microtype Info: No adjustment of tracking.
+Package microtype Info: No adjustment of interword spacing.
+Package microtype Info: No adjustment of character kerning.
+(C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-cmr.cfg
+File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
+(RS)
+)
+Package biblatex Info: Trying to load language 'french'...
+Package biblatex Info: ... file 'french.lbx' found.
+
+(C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/lbx\french.l
+bx
+File: french.lbx 2020/12/31 v3.16 biblatex localization (PK/MW)
+)
+Package biblatex Info: Input encoding 'utf8' detected.
+Package biblatex Info: Automatic encoding selection.
+(biblatex)             Assuming data encoding 'utf8'.
+Package biblatex Info: Document encoding is UTF8 ....
+Package biblatex Info: ... and expl3
+(biblatex)             2021-10-18 L3 programming layer (loader) 
+(biblatex)             is new enough (at least 2020/04/06),
+(biblatex)             setting 'casechanger=expl3'.
+
+(C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-case-exp
+l3.sty
+Package: blx-case-expl3 2020/12/31 v3.16 expl3 case changing code for biblatex
+)
+\openout5 = `main.bcf'.
+
+Package biblatex Info: Trying to load bibliographic data...
+Package biblatex Info: ... file 'main.bbl' found.
+ (main.bbl)
+Package biblatex Info: Reference section=0 on input line 7.
+Package biblatex Info: Reference segment=0 on input line 7.
+Package hyperref Info: Link coloring ON on input line 7.
+
+(C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\nameref.sty
+Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
+
+(C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/latex/refcount\refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+)
+(C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/generic/gettitlestring\gett
+itlestring.sty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+)
+\c@section@level=\count533
+)
+LaTeX Info: Redefining \ref on input line 7.
+LaTeX Info: Redefining \pageref on input line 7.
+LaTeX Info: Redefining \nameref on input line 7.
+ (main.out) (main.out)
+\@outlinefile=\write6
+\openout6 = `main.out'.
+
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\gls' on input line 7.
+
+(Frontmatter/Page_de_garde.tex
+1: section
+Package microtype Info: Character `029' is missing
+(microtype)             in font `T1/lmr/m/sc/12'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `029' is missing
+(microtype)             in font `T1/lmr/m/sc/20.74'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `029' is missing
+(microtype)             in font `T1/lmr/m/sc/17.28'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `029' is missing
+(microtype)             in font `T1/lmr/m/sc/14.4'.
+(microtype)             Ignoring protrusion settings for this character.
+[1
+
+
+
+{C:/Users/olivier/AppData/Local/MiKTeX/pdftex/config/pdftex.map}]
+LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 4
+4.
+
+(C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/latex/lm\ot1lmr.fd
+File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+
+LaTeX Font Warning: Font shape `OT1/lmr/m/up' undefined
+(Font)              using `OT1/lmr/m/n' instead on input line 44.
+
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 4
+4.
+(C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/latex/lm\omllmm.fd
+File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
+44.
+
+(C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/latex/lm\omslmsy.fd
+File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
+44.
+
+(C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/latex/lm\omxlmex.fd
+File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <12> on input line 44.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <8> on input line 44.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <6> on input line 44.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 44.
+
+
+(C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+(C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-msa.cfg
+File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 44.
+
+(C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+(C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-msb.cfg
+File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
+)
+LaTeX Font Info:    Trying to load font information for U+euf on input line 44.
+
+(C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\ueuf.fd
+File: ueuf.fd 2013/01/14 v3.01 Euler Fraktur
+)
+(C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-euf.cfg
+File: mt-euf.cfg 2006/07/03 v1.1 microtype config. file: AMS Euler Fraktur (RS)
+
+)
+LaTeX Font Info:    Trying to load font information for U+eus on input line 44.
+
+(C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\ueus.fd
+File: ueus.fd 2013/01/14 v3.01 Euler Script
+)
+(C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-eus.cfg
+File: mt-eus.cfg 2006/07/28 v1.2 microtype config. file: AMS Euler Script (RS)
+)
+LaTeX Font Info:    Trying to load font information for U+euex on input line 44
+.
+(C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\ueuex.fd
+File: ueuex.fd 2013/01/14 v3.01 Euler extra symbols
+)
+
+Package scrlayer-scrpage Warning: \footheight to low.
+(scrlayer-scrpage)                At least 19.85594pt needed,
+(scrlayer-scrpage)                but only 17.99446pt found.
+(scrlayer-scrpage)                I'll enlarge \footheight, for further
+(scrlayer-scrpage)                processing, but you should do this yourself,
+(scrlayer-scrpage)                e.g., using
+(scrlayer-scrpage)                  \setlength{\footheight}{19.85594pt}
+(scrlayer-scrpage)                in your preamble.
+(scrlayer-scrpage)                I'll also increase \footskip on input line 44
+.
+
+[2]) (Frontmatter/Declaration.tex
+--------------------
+ Declaration of Authorship
+--------------------
+
+Underfull \hbox (badness 10000) in paragraph at lines 15--16
+
+ []
+
+1: section
+[3
+
+] [4
+
+]) (Frontmatter/Dedication.tex [5] [6
+
+]
+--------------------
+ Dedicatory
+--------------------
+) (Frontmatter/Abstract.tex
+1: section
+[7] [8
+
+]
+--------------------
+ R\'esum\'e
+--------------------
+
+Overfull \vbox (11.004pt too high) detected at line 7
+ []
+
+) (Frontmatter/Acknowledgements.tex
+1: section
+[9] [10
+
+]
+--------------------
+ Remerciements
+--------------------
+) (Frontmatter/Contents.tex
+Package minitoc Info: I0034
+(minitoc)             PREPARING MINILOFS FROM main.lof on input line 6.
+Package minitoc Info: I0033
+(minitoc)             Writing main.mlf1.
+\openout3 = `main.mlf1'.
+
+Package minitoc Info: I0033
+(minitoc)             Writing main.mlf2.
+\openout3 = `main.mlf2'.
+
+Package minitoc Info: I0033
+(minitoc)             Writing main.mlf3.
+\openout3 = `main.mlf3'.
+
+Package minitoc Info: I0033
+(minitoc)             Writing main.mlf4.
+\openout3 = `main.mlf4'.
+
+Package minitoc Info: I0033
+(minitoc)             Writing main.mlf5.
+\openout3 = `main.mlf5'.
+
+Package minitoc Info: I0033
+(minitoc)             Writing main.mlf6.
+\openout3 = `main.mlf6'.
+
+Package minitoc Info: I0037
+(minitoc)             PREPARING MINILOTS FROM main.lot on input line 7.
+Package minitoc Info: I0033
+(minitoc)             Writing main.mlt1.
+\openout3 = `main.mlt1'.
+
+Package minitoc Info: I0033
+(minitoc)             Writing main.mlt2.
+\openout3 = `main.mlt2'.
+
+Package minitoc Info: I0033
+(minitoc)             Writing main.mlt3.
+\openout3 = `main.mlt3'.
+
+Package minitoc Info: I0033
+(minitoc)             Writing main.mlt4.
+\openout3 = `main.mlt4'.
+
+Package minitoc Info: I0033
+(minitoc)             Writing main.mlt5.
+\openout3 = `main.mlt5'.
+
+Package minitoc Info: I0033
+(minitoc)             Writing main.mlt6.
+\openout3 = `main.mlt6'.
+
+
+1: section
+[11] [12
+
+] (main.toc)
+1: section
+[13] [14
+
+] (main.lof)
+\tf@lof=\write7
+\openout7 = `main.lof'.
+
+
+1: section
+[15] [16
+
+] (main.lot)
+\tf@lot=\write8
+\openout8 = `main.lot'.
+
+) (BibGls/Glossary_print.tex
+1: section
+[17] [18
+
+])
+1: section
+[19
+
+] [20
+
+]
+
+Package glossaries-extra Warning: No entries defined in glossary `symbols' on i
+nput line 27.
+
+1: section
+[21
+
+] [22
+
+]
+1: section
+\openout2 = `Chapters/Introduction.aux'.
+
+(Chapters/Introduction.tex
+Chapitre 1.
+\tf@toc=\write9
+\openout9 = `main.toc'.
+
+Package minitoc Info: I0006
+(minitoc)             main.mlf1 is empty on input line 3.
+Package minitoc Info: I0006
+(minitoc)             main.mlt1 is empty on input line 3.
+
+LaTeX Warning: Citation 'sparks1979' on page 1 undefined on input line 8.
+
+
+LaTeX Warning: Citation 'day2017fall' on page 1 undefined on input line 8.
+
+
+LaTeX Warning: Citation 'goergen2016first' on page 1 undefined on input line 8.
+
+
+
+LaTeX Warning: Citation 'day2017fall' on page 1 undefined on input line 8.
+
+
+LaTeX Warning: Citation 'huesing2018integrated' on page 1 undefined on input li
+ne 8.
+
+
+LaTeX Warning: Citation 'sparks1979' on page 1 undefined on input line 8.
+
+
+LaTeX Warning: Citation 'rose1975migration' on page 1 undefined on input line 8
+.
+
+
+LaTeX Warning: Citation 'BAUDRON2019141' on page 1 undefined on input line 8.
+
+
+LaTeX Warning: Citation 'DEVI2018727' on page 1 undefined on input line 8.
+
+
+LaTeX Warning: Citation 'day2017fall' on page 1 undefined on input line 8.
+
+1: section
+[1
+
+
+]
+
+LaTeX Warning: Citation 'HARRISON2019318' on page 2 undefined on input line 10.
+
+
+
+LaTeX Warning: Citation 'Kumela2019' on page 2 undefined on input line 10.
+
+
+LaTeX Warning: Citation 'DEGROOTE2020106804' on page 2 undefined on input line 
+10.
+
+
+LaTeX Warning: Citation 'thierfelder2018low' on page 2 undefined on input line 
+10.
+
+
+LaTeX Warning: Citation 'HARRISON2019318' on page 2 undefined on input line 10.
+
+
+
+Underfull \hbox (badness 4205) in paragraph at lines 10--11
+[]\T1/lmr/m/n/12 (+20) Depuis l'in-va-sion du conti-nent par la []CLA, la ré-ac
+-tion im-mé-diate
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 10--11
+\T1/lmr/m/n/12 (+20) des gou-ver-ne-ments a été d'in-ves-tir dans les pes-ti-ci
+des chi-miques
+ []
+
+
+Underfull \hbox (badness 1616) in paragraph at lines 10--11
+\T1/lmr/m/n/12 (+20) ([]) et leur uti-li-sa-tion reste la prin-ci-pale stra-té-
+gie
+ []
+
+
+LaTeX Warning: Citation 'day2017fall' on page 2 undefined on input line 12.
+
+
+LaTeX Warning: Citation 'Kumela2019' on page 2 undefined on input line 12.
+
+
+LaTeX Warning: Citation 'mcgrath2018monitoring' on page 2 undefined on input li
+ne 12.
+
+
+LaTeX Warning: Citation 'BAUDRON2019141' on page 2 undefined on input line 12.
+
+[2]) [3]
+\openout2 = `Chapters/Chapter1.aux'.
+
+ (Chapters/Chapter1.tex [4
+
+
+
+
+]
+Chapitre 2.
+
+Underfull \hbox (badness 2401) in paragraph at lines 5--5
+ [][] [][][]\T1/lmr/m/n/12 (+20) Origine et his-to-rique du Spo-dop-tera fru-gi
+-perda (ché-nille 
+ []
+
+\openout3 = `main.mtc'.
+
+\openout3 = `main.mtc'.
+
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10.95> on input line 5.
+(main.mlf2)
+\openout3 = `main.mtc'.
+
+\openout3 = `main.mtc'.
+
+ (main.mlt2)
+
+LaTeX Font Warning: Font shape `T1/lmr/bx/sc' undefined
+(Font)              using `T1/lmr/bx/n' instead on input line 11.
+
+1: section
+[5]
+Underfull \hbox (badness 4316) in paragraph at lines 36--36
+|[]\T1/lmr/bx/n/17.28 (+20) Origine et his-to-rique du Spo-dop-tera
+ []
+
+
+LaTeX Warning: Citation 'smith1797natural' on page 6 undefined on input line 40
+.
+
+
+LaTeX Warning: Citation 'Glover1856' on page 6 undefined on input line 40.
+
+
+LaTeX Warning: Citation 'luginbill1928fall' on page 6 undefined on input line 4
+2.
+
+
+LaTeX Warning: Citation 'walton1936fall' on page 6 undefined on input line 42.
+
+
+LaTeX Warning: Citation 'luginbill1928fall' on page 6 undefined on input line 4
+3.
+
+
+LaTeX Warning: Citation 'sparks1979' on page 6 undefined on input line 43.
+
+[6]
+
+LaTeX Warning: Citation 'fao201812' on page 7 undefined on input line 47.
+
+<Figures//egg.png, id=333, 188.50426pt x 172.2435pt>
+File: Figures//egg.png Graphic file (type png)
+<use Figures//egg.png>
+Package pdftex.def Info: Figures//egg.png  used on input line 53.
+(pdftex.def)             Requested size: 121.2118pt x 99.58328pt.
+<Figures//jlarv.png, id=335, 182.48175pt x 160.1985pt>
+File: Figures//jlarv.png Graphic file (type png)
+<use Figures//jlarv.png>
+Package pdftex.def Info: Figures//jlarv.png  used on input line 60.
+(pdftex.def)             Requested size: 121.21239pt x 99.58603pt.
+<Figures//fivstlarv.png, id=336, 190.311pt x 147.55125pt>
+File: Figures//fivstlarv.png Graphic file (type png)
+<use Figures//fivstlarv.png>
+Package pdftex.def Info: Figures//fivstlarv.png  used on input line 66.
+(pdftex.def)             Requested size: 121.21202pt x 99.58603pt.
+<Figures//adlarv.png, id=337, 190.311pt x 172.84575pt>
+File: Figures//adlarv.png Graphic file (type png)
+<use Figures//adlarv.png>
+Package pdftex.def Info: Figures//adlarv.png  used on input line 73.
+(pdftex.def)             Requested size: 121.21202pt x 99.58333pt.
+<Figures//pupe.png, id=338, 182.48175pt x 130.086pt>
+File: Figures//pupe.png Graphic file (type png)
+<use Figures//pupe.png>
+Package pdftex.def Info: Figures//pupe.png  used on input line 80.
+(pdftex.def)             Requested size: 121.21239pt x 99.58888pt.
+<Figures//papi.png, id=339, 189.1065pt x 113.223pt>
+File: Figures//papi.png Graphic file (type png)
+<use Figures//papi.png>
+Package pdftex.def Info: Figures//papi.png  used on input line 86.
+(pdftex.def)             Requested size: 121.21242pt x 99.58644pt.
+
+LaTeX Warning: Citation 'fao201812' on page 7 undefined on input line 91.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+LaTeX Warning: Citation 'SimmonsLynch1998' on page 7 undefined on input line 95
+.
+
+
+LaTeX Warning: Citation 'prasanna2018fall' on page 7 undefined on input line 95
+.
+
+
+LaTeX Warning: Citation 'hardke2015' on page 7 undefined on input line 95.
+
+
+LaTeX Warning: Citation 'Abrahams2017' on page 7 undefined on input line 95.
+
+
+LaTeX Warning: Citation 'chapaw2021' on page 7 undefined on input line 95.
+
+
+LaTeX Warning: Citation 'HARRISON2019318' on page 7 undefined on input line 96.
+
+
+[7]
+
+LaTeX Warning: Citation 'Abrahams2017' on page 8 undefined on input line 98.
+
+
+Package glossaries-extra Warning: Glossary entry `snp' has not been defined on 
+input line 98.
+
+
+LaTeX Warning: Citation 'sibanda2018' on page 8 undefined on input line 98.
+
+
+LaTeX Warning: Citation 'nagoshi2018' on page 8 undefined on input line 98.
+
+
+LaTeX Warning: Citation 'Pashely1988' on page 8 undefined on input line 98.
+
+
+LaTeX Warning: Citation 'Pashely1988' on page 8 undefined on input line 98.
+
+
+LaTeX Warning: Citation 'Pashely1988' on page 8 undefined on input line 98.
+
+
+LaTeX Warning: Citation 'Kuate2019' on page 8 undefined on input line 98.
+
+[8 <./Figures//egg.png> <./Figures//jlarv.png> <./Figures//fivstlarv.png> <./Fi
+gures//adlarv.png> <./Figures//pupe.png> <./Figures//papi.png>]
+
+LaTeX Warning: Citation 'prasanna2018fall' on page 9 undefined on input line 10
+5.
+
+
+LaTeX Warning: Citation 'Casmuz2017' on page 9 undefined on input line 105.
+
+
+LaTeX Warning: Citation 'Abrahams2017' on page 9 undefined on input line 105.
+
+
+LaTeX Warning: Citation 'prasanna2018fall' on page 9 undefined on input line 10
+5.
+
+
+LaTeX Warning: Citation 'goergen2016first' on page 9 undefined on input line 11
+0.
+
+
+LaTeX Warning: Citation 'Stokstad2017' on page 9 undefined on input line 111.
+
+
+LaTeX Warning: Citation 'Abrahams2017' on page 9 undefined on input line 112.
+
+
+LaTeX Warning: Citation 'fao201812' on page 9 undefined on input line 112.
+
+
+LaTeX Warning: Citation 'fao201806' on page 9 undefined on input line 112.
+
+[9]
+
+LaTeX Warning: Citation 'Rwomushana2018' on page 10 undefined on input line 114
+.
+
+
+LaTeX Warning: Citation 'Rwomushana2018' on page 10 undefined on input line 115
+.
+
+
+LaTeX Warning: Citation 'chapaw2021' on page 10 undefined on input line 115.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 114--117
+[]\T1/lmr/m/n/12 (+20) Lesotho est le seul pays d'Afrique aus-trale sans pré-se
+nce []CLA
+ []
+
+<Figures//SpodoDistMay21.jpg, id=366, 692.5875pt x 336.50719pt>
+File: Figures//SpodoDistMay21.jpg Graphic file (type jpg)
+<use Figures//SpodoDistMay21.jpg>
+Package pdftex.def Info: Figures//SpodoDistMay21.jpg  used on input line 122.
+(pdftex.def)             Requested size: 404.02908pt x 196.30905pt.
+
+LaTeX Warning: Citation 'fao2021' on page 10 undefined on input line 123.
+
+
+Underfull \hbox (badness 1472) in paragraph at lines 188--188
+|[]\T1/lmr/bx/n/17.28 (+20) Prévention et contrôle du Spo-dop-tera
+ []
+
+
+LaTeX Warning: Citation 'Abrahams2017' on page 10 undefined on input line 191.
+
+
+LaTeX Warning: Citation 'prasanna2018fall' on page 10 undefined on input line 1
+91.
+
+
+LaTeX Warning: Citation 'Abrahams2017' on page 10 undefined on input line 191.
+
+
+LaTeX Warning: Citation 'Stokstad2017' on page 10 undefined on input line 191.
+
+
+LaTeX Warning: Citation 'Abrahams2017' on page 10 undefined on input line 191.
+
+[10 <./Figures//SpodoDistMay21.jpg>]
+
+LaTeX Warning: Citation 'hruska2019' on page 11 undefined on input line 193.
+
+
+LaTeX Warning: Citation 'day2017fall' on page 11 undefined on input line 193.
+
+
+LaTeX Warning: Citation 'chapaw2021' on page 11 undefined on input line 193.
+
+[11]
+
+LaTeX Warning: Citation 'fao201812' on page 12 undefined on input line 195.
+
+
+LaTeX Warning: Citation 'chapaw2021' on page 12 undefined on input line 195.
+
+) [12]
+\openout2 = `Chapters/Chapter2.aux'.
+
+ (Chapters/Chapter2.tex
+Chapitre 3.
+Package minitoc Info: I0006
+(minitoc)             main.mlf3 is empty on input line 3.
+Package minitoc Info: I0006
+(minitoc)             main.mlt3 is empty on input line 3.
+
+LaTeX Warning: Citation 'coquillard1997modelisation' on page 13 undefined on in
+put line 15.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 15--16
+[]\T1/lmr/m/n/12 (+20) Une dé-fi-ni-tion de ce qu'est un mo-dèle est pro-po-sée
+ par
+ []
+
+
+Underfull \hbox (badness 1383) in paragraph at lines 15--16
+\T1/lmr/m/n/12 (+20) ([]) :  Un mo-dèle est une abs-trac-tion qui
+ []
+
+1: section
+[13
+
+
+
+
+]
+
+LaTeX Warning: Citation 'lebon:tel-01747618' on page 14 undefined on input line
+ 17.
+
+
+LaTeX Warning: Citation 'rebaudo:tel-00836104' on page 14 undefined on input li
+ne 20.
+
+[14]
+LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 3
+3.
+ (C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/latex/lm\ts1lmr.fd
+File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+
+LaTeX Warning: Citation 'DeAngelisMooij2005' on page 15 undefined on input line
+ 38.
+
+
+LaTeX Warning: Citation 'beslon2008apprivoiser' on page 15 undefined on input l
+ine 38.
+
+
+LaTeX Warning: Citation 'roughgarden2012individual' on page 15 undefined on inp
+ut line 38.
+
+
+LaTeX Warning: Citation 'Griebeler2000' on page 15 undefined on input line 38.
+
+
+LaTeX Warning: Citation 'lebon:tel-01747618' on page 15 undefined on input line
+ 38.
+
+[15]
+
+LaTeX Warning: Citation 'bacaer2011short' on page 16 undefined on input line 41
+.
+
+
+LaTeX Warning: Citation 'HARRISON201488' on page 16 undefined on input line 41.
+
+
+
+LaTeX Warning: Citation 'kostitzin1937biologie' on page 16 undefined on input l
+ine 41.
+
+
+LaTeX Warning: Citation 'VolterraBrelot1931' on page 16 undefined on input line
+ 41.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 41--42
+[]\T1/lmr/m/n/12 (+20) Les mo-dèles d'in-ter-ac-tions entre po-pu-la-tions sont
+ donc éga-le-ment
+ []
+
+
+LaTeX Warning: Citation 'nundloll:tel-00850358' on page 16 undefined on input l
+ine 49.
+
+
+LaTeX Warning: Citation 'Solomon1949' on page 16 undefined on input line 50.
+
+
+LaTeX Warning: Citation 'Holling1961' on page 16 undefined on input line 50.
+
+
+LaTeX Warning: Citation 'ARDITI1989311' on page 16 undefined on input line 50.
+
+
+LaTeX Warning: Citation 'Beddington1975' on page 16 undefined on input line 50.
+
+
+
+LaTeX Warning: Citation 'DeAngelis1975' on page 16 undefined on input line 50.
+
+
+LaTeX Warning: Citation 'Beddington1975' on page 16 undefined on input line 50.
+
+
+[16]
+
+LaTeX Warning: Citation 'Holling1961' on page 17 undefined on input line 54.
+
+
+LaTeX Warning: Citation 'EDMUNDS2007379' on page 17 undefined on input line 56.
+
+
+
+LaTeX Warning: Citation 'MILLS1996121' on page 17 undefined on input line 65.
+
+
+LaTeX Warning: Citation 'nundloll:tel-00850358' on page 17 undefined on input l
+ine 65.
+
+
+LaTeX Warning: Citation 'Kang2008' on page 17 undefined on input line 66.
+
+
+LaTeX Warning: Citation 'HORNE199153' on page 17 undefined on input line 66.
+
+[17]
+
+LaTeX Warning: Citation 'FENG2008449' on page 18 undefined on input line 73.
+
+
+LaTeX Warning: Citation 'FENG2011190' on page 18 undefined on input line 73.
+
+
+LaTeX Warning: Citation 'Li2006' on page 18 undefined on input line 78.
+
+
+LaTeX Warning: Citation 'LIU2008442' on page 18 undefined on input line 78.
+
+
+LaTeX Warning: Citation 'ALLEN1993847' on page 18 undefined on input line 80.
+
+
+LaTeX Warning: Citation 'Gutierrez1985' on page 18 undefined on input line 80.
+
+
+LaTeX Warning: Citation 'Kermack1927' on page 18 undefined on input line 80.
+
+
+LaTeX Warning: Citation 'McKendrick1925' on page 18 undefined on input line 80.
+
+
+
+LaTeX Warning: Citation 'ALLEN1993847' on page 18 undefined on input line 80.
+
+
+LaTeX Warning: Citation 'ALLEN1991369' on page 18 undefined on input line 80.
+
+[18]
+
+LaTeX Warning: Citation 'SUN20141507' on page 19 undefined on input line 82.
+
+
+LaTeX Warning: Citation 'lebon:tel-01747618' on page 19 undefined on input line
+ 82.
+
+[19] [20] [21] [22]
+
+LaTeX Warning: Command \textquoteright invalid in math mode on input line 110.
+
+
+LaTeX Warning: Command \textquoteright invalid in math mode on input line 110.
+
+
+LaTeX Warning: Citation 'lebon:tel-01747618' on page 23 undefined on input line
+ 127.
+
+) [23] [24]
+\openout2 = `Chapters/Chapter3.aux'.
+
+ (Chapters/Chapter3.tex
+Chapitre 4.
+)
+1: section
+[25
+
+
+
+
+]
+\openout2 = `Chapters/Chapter4.aux'.
+
+ (Chapters/Chapter4.tex [26
+
+
+
+
+]
+Chapitre 5.
+)
+1: section
+[27]
+\openout2 = `Appendices/AppendixA.aux'.
+
+ (Appendices/AppendixA.tex [28
+
+
+
+
+]
+Annexe A.
+LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 1
+1.
+(C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/latex/lm\t1lmtt.fd
+File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `lmtt' (encoding: T1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+)
+1: section
+[29] (BibGls/Bibliographie.tex
+
+LaTeX Warning: Empty bibliography on input line 2.
+
+) (Frontmatter/FullToc.tex [30
+
+
+
+]
+Underfull \hbox (badness 2401) in paragraph at lines 8--8
+ [][] [][][]\T1/lmr/m/n/12 (+20) Origine et his-to-rique du Spo-dop-tera fru-gi
+-perda (ché-nille 
+ []
+
+1: section
+[31])
+Package minitoc Info: I0009
+(minitoc)             Listing minitoc auxiliary files. 
+(minitoc)             Creating the main.maf file.
+\openout3 = `main.maf'.
+
+Package minitoc(hints) Info: I0053
+(minitoc(hints))             You have loaded the float package; 
+(minitoc(hints))             please be aware that the minitoc package 
+(minitoc(hints))             facilities can not be used for new types 
+(minitoc(hints))             of floats defined by the float package.
+
+
+Package minitoc(hints) Warning: W0024
+(minitoc(hints))                Some hints have been written 
+(minitoc(hints))                in the main.log file.
+
+[32] (main.aux (Chapters/Introduction.aux) (Chapters/Chapter1.aux)
+(Chapters/Chapter2.aux) (Chapters/Chapter3.aux) (Chapters/Chapter4.aux)
+(Appendices/AppendixA.aux))
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
+
+LaTeX Warning: There were undefined references.
+
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: 35C2B1876134EE8E432BC63636C3CD67;7191.
+
+Package biblatex Warning: Please (re)run Biber on the file:
+(biblatex)                main
+(biblatex)                and rerun LaTeX afterwards.
+
+Package logreq Info: Writing requests to 'main.run.xml'.
+\openout1 = `main.run.xml'.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 53609 strings out of 478869
+ 1109276 string characters out of 2849210
+ 1974893 words of memory out of 3000000
+ 70029 multiletter control sequences out of 15000+600000
+ 522544 words of font info for 203 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 115i,20n,111p,1939b,2714s stack positions out of 5000i,500n,10000p,200000b,80000s
+pdfTeX warning (dest): name{Hfootnote.37} has been referenced but does not ex
+ist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.32} has been referenced but does not exis
+t, replaced by a fixed one
+
+{C:/Users/olivier/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}{C
+:/Users/olivier/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathsy.enc}
+{C:/Users/olivier/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathex.en
+c}{C:/Users/olivier/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathit.
+enc}{C:/Users/olivier/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ts1.e
+nc}{C:/Users/olivier/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc
+}<C:/Users/olivier/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/eu
+ler/euex10.pfb><C:/Users/olivier/AppData/Local/Programs/MiKTeX/fonts/type1/publ
+ic/amsfonts/euler/euex8.pfb><C:/Users/olivier/AppData/Local/Programs/MiKTeX/fon
+ts/type1/public/amsfonts/euler/eufm10.pfb><C:/Users/olivier/AppData/Local/Progr
+ams/MiKTeX/fonts/type1/public/lm/lmbx10.pfb><C:/Users/olivier/AppData/Local/Pro
+grams/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Users/olivier/AppData/Local/P
+rograms/MiKTeX/fonts/type1/public/lm/lmbxi10.pfb><C:/Users/olivier/AppData/Loca
+l/Programs/MiKTeX/fonts/type1/public/lm/lmcsc10.pfb><C:/Users/olivier/AppData/L
+ocal/Programs/MiKTeX/fonts/type1/public/lm/lmex10.pfb><C:/Users/olivier/AppData
+/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi12.pfb><C:/Users/olivier/AppDa
+ta/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi8.pfb><C:/Users/olivier/AppD
+ata/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Users/olivier/App
+Data/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Users/olivier/Ap
+pData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr17.pfb><C:/Users/olivier/A
+ppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr8.pfb><C:/Users/olivier/A
+ppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri12.pfb><C:/Users/olivier
+/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmro12.pfb><C:/Users/olivi
+er/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmro17.pfb><C:/Users/oli
+vier/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><C:/Users/o
+livier/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy8.pfb><C:/Users/
+olivier/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt10.pfb>
+Output written on main.pdf (54 pages, 1462059 bytes).
+PDF statistics:
+ 651 PDF objects out of 1000 (max. 8388607)
+ 116 named destinations out of 1000 (max. 500000)
+ 66376 words of extra memory for PDF output out of 74296 (max. 10000000)
+

@@ -1,0 +1,615 @@
+\input{bibSettings/packages}
+\input{bibSettings/commandes}
+\input{Glossary_entries}
+\usepackage{pgf}
+
+\usepackage{pgfpages}
+%\pgfpagesuselayout{resize to}[a4paper,border shrink=5mm,landscape] % OR
+%\pgfpagesuselayout{2 on 1}[a4paper,border shrink=5mm]
+\mode<handout>{\setbeamercolor{background canvas}{bg=black!5}} % With
+
+
+\title[Modélisation des dégâts de la \glsentryshort{cla}]{Modélisation des dégâts de la \glsentrylong{cla}, \gls{spodo} sur le rendement du maïs au Bénin}
+\subtitle{Une brève présentation}
+\author[Olivier M. \textsc{Adjagba}]{Olivier Mahumawon \textsc{Adjagba}\inst{1}}
+\institute[ENSGMM]{
+	\inst{1}Ecole Nationale Supérieure de Génie Mathématiques et Modélisation
+	%\and
+	%\inst{2}Fakult\"at f\"ur Elektrotechnik und Informatik\\
+	%Technical University of Berlin
+}
+%\date{\today}
+\date[GTI 2021]{GTI, 2021}
+
+\pgfdeclareimage{titlegraphic}{../Figures/papi}
+
+%\titlegraphic{\pgfuseimage{titlegraphic}}
+\subject{Sujet}
+\keywords{keywords}
+
+
+
+
+\def\dx{\mathrm{d}}
+\newcommand{\dxdt}[2][t]{\frac{\dx#2}{\dx#1}}
+
+\setbeamercovered{transparent}
+
+
+
+\begin{document}
+	\begin{frame}
+		\titlepage
+	\end{frame}
+
+	\begin{frame}{Sommaire}
+		\tableofcontents
+	\end{frame}
+
+	\section{Introduction}
+	\begin{frame}{Introduction}
+		La \gls{cla} est un ravageur qui détruit à grande échelle les cultures céréalière \autocite{day2017fall}. Son intrusion en Afrique depuis 2016 \autocite{goergen2016first} cause des pertes considérables. Plusieurs mesures de contrôle et de préventions ont été prises, mais celles-ci sont soit couteuses, soit menacent la sécurité alimentaire et environnementale, etc, soit inefficace,... Nous avons par exemple l'utilisation des insecticides, les OGM... La recherche d'une solution à moindre coût et préservant la sécurité alimentaire s'impose. D'où le recours aux mesures agro-écologiques qui consistent à combattre ce ravageur par d'autres insectes qui sont donc ses prédateur.
+
+		L'objet de cette étude est de modéliser l'impact de ce ravageur sur le rendement du maïs.
+	\end{frame}
+
+	\section{Ce qui a été fait}
+	\begin{frame}{Ce qui a été fait}
+		%Considering the importance of maize to a majority of countries producing maize in Africa, the present work aims to utilize ordinary differential equation in exploring the implications of FAW infestation in a maize field planted with initial number of maize seeds at time t = 0 and obtaining maximum harvest at the end of the season. To come up with the intended results, we propose two subgeneric models, each with stage-structured in both of populations (maize and FAW) to determine the population dynamics in the presence and absence of immigration of the adult moth and estimate the yield when control measures such as pesticides and harvesting are deployed.
+		Compte tenu de l'importance du maïs pour la majorité des pays produisant du maïs en Afrique, \autocite{Daudi2021} a utilisé une équation différentielle ordinaire pour explorer les conséquences de l'infestation de la \gls{cla} dans un champ de maïs avec un nombre initial de graines à $t = 0$ et obtenir une moisson maximale à la fin de la saison. Pour trouver les résultats prévus, nous proposons deux modèles génériques, chacun avec une structure par étape dans les deux populations (maïs et \gls{cla}) pour déterminer la dynamique de la population en présence et en absence d'immigration de l'adulte de la \gls{cla} et estimer le rendement lorsque des mesures de contrôle telles que les pesticides et la récolte sont déployées.
+
+		Les deux sous-modèles sont associés à deux périodes I et II supposée se dérouler sur une période de temps $[0,T]$ :
+		\begin{enumerate}
+			\item Période I : période végétative de $[0, t_1]$;
+			\item Période II : période reproductive de $[t_1, T]$.
+		\end{enumerate}
+
+		%The two submodels introduced herein consist of two pop- ulations: maize and FAW, both of which are stage-structured giving a total of five populations. We consider maize growth from emergence to maturity at any given time t > 0, growing
+		%Les deux sous-modèles introduits ici se composent de deux populations : le maïs et la FAW, qui sont tous deux structurés par étape donnant un total de cinq populations. Nous considérons la croissance du maïs de l'émergence à la maturité à tout instant t> 0, en croissance
+		%through two time periods: Period I and Period II. Period I, which is assumed to take place over a time period [0,t], denotes the vegetative stage and comprises planting of maize seeds, seed emergence, development of whorl leaves, and tasselling, while period II, which takes place over a time period [t1, t2], denotes the reproductive stage and consists of corncob, kernel development, and maturity. On the other hand, the FAW population at any timet>0 has been subdivided into egg population, caterpillar pop- ulation, and the adult moth population. Although the FAW has six larval instar stages, we have considered this as single group called caterpillar in order to reduce complexity of the model. We assume that weather condition, environment condition, and planting system of maize seeds favor seed germination and their corresponding growth in both stages with no natural death rate before harvest. In this regard, we let x (t) represent the population density of maize in the vegetative stage and let x2 (1) rep- resent the population density of maize in the reproductive stage, while w(t), y(t), and z(1) represent the population density of eggs, caterpillars, and the adult moths, respec- tively. We also assume that caterpillar with a mortality rate 4y is the only threat to maize throughout its growt and the adult moth takes over in the reproduction process. When food is limited, the older caterpillar of FAW exhibits a cannibalistic behavior on the smaller larvae (25, 26].
+		%à travers deux périodes : Période I et Période II. La période I, qui est supposée se dérouler sur une période de temps [0,t], dénote le stade végétatif et comprend la plantation des graines de maïs, la levée des graines, le développement des feuilles verticillées et la formation de la panicule, tandis que la période II, qui se déroule sur une période période de temps [t1, t2], désigne le stade de reproduction et comprend l'épi de maïs, le développement du grain et la maturité. D'autre part, la population de chenille légionnaire d'automne à tout instant t > 0 a été subdivisée en population d'œufs, population de chenilles et population de papillons adultes. Bien que la chenille légionnaire d'automne ait six stades larvaires larvaires, nous l'avons considéré comme un seul groupe appelé chenille afin de réduire la complexité du modèle. Nous supposons que les conditions météorologiques, les conditions environnementales et le système de plantation des graines de maïs favorisent la germination des graines et leur croissance correspondante aux deux stades sans taux de mortalité naturelle avant la récolte. À cet égard, on laisse x (t) représenter la densité de population de maïs au stade végétatif et x2 (1) représenter la densité de population de maïs au stade reproductif, tandis que w(t), y(t), et z(1) représente la densité de population des œufs, des chenilles et des papillons adultes, respectivement. Nous supposons également que la chenille avec un taux de mortalité de 4 ans est la seule menace pour le maïs tout au long de sa croissance et que le papillon adulte prend le relais dans le processus de reproduction. Lorsque la nourriture est limitée, la chenille plus âgée de la chenille légionnaire d'automne présente un comportement cannibale sur les larves plus petites (25, 26).
+
+		%The population density of eggs is replenished through the laying of eggs by the adult moth at a constant rate p per day and reduced through hatching into caterpillar and destruction (mortality) at ratesy and 4,,, respectively. On the other hand, the adult moth's population density is refilled through the caterpillar's development into an adult moth at a constant rate and reduced through mortality at a rate fl. We further assume that, in a season (i.e., Period I and Period ), there is no maize seed replantation and the model in both stages has no maize recruitment. Therefore, the classes x (t) and x (t) decline constantly due to caterpillar attack at the rates of a and 7, respectively, with a destruction rate A in each stage. The study assumes nonnegative values of the model parameters and variables in context with populations being considered. The formulation of this model is also supported by the following assumptions:
+		%La densité de population d'œufs est reconstituée par la ponte d'œufs par le papillon adulte à un taux constant p par jour et réduite par l'éclosion en chenille et la destruction (mortalité) à des tauxy et 4,,, respectivement. D'autre part, la densité de population du papillon adulte est rechargée par le développement de la chenille en un papillon adulte à un taux constant et réduite par la mortalité à un taux fl. Nous supposons en outre que, dans une saison (c. Par conséquent, les classes x (t) et x (t) diminuent constamment en raison de l'attaque des chenilles aux taux de a et de 7, respectivement, avec un taux de destruction A à chaque étape. L'étude suppose des valeurs non négatives des paramètres et des variables du modèle dans le contexte des populations considérées. La formulation de ce modèle est également étayée par les hypothèses suivantes :
+		%(i) Planting of maize seed is done at t = 0; therefore, the development rate of each maize plant from the vegetative stage to the reproductive stage is the same (i) Le semis de maïs se fait à t = 0 ; par conséquent, le taux de développement de chaque plante de maïs du stade végétatif au stade reproducteur est le même et continue.
+		%(ii) At t = 0, x (0)) = k, where k represents the maxi- mum number of maize plants the field under (ii) À t = 0, x (0)) = k, où k représente le nombre maximum de plants de maïs du champ sous considération peut avoir.
+		%(iii) Assume that the only source of food for the cat- erpillar is maize, so that, in its absence, caterpillar (iii) Supposons que la seule source de nourriture pour la chenille est le maïs, de sorte qu'en son absence, la chenille s'éteint.
+		%(iv) The number of maize plants in a garden cannot exceed k as t 1, where T represents time to maturity stage. (iv) Le nombre de plantes de maïs dans un jardin ne peut pas dépasser k comme t 1, où T représente le temps à l'étape de maturité.
+
+		%TABLE 1: Description of the model state variables used in the model. Description Tableau 1: Description des variables d'état du modèle utilisées dans le modèle. Description
+		%Population density of the maize plants growing in the vegetative stage at any time t Population density of the maize plants growing in the reproductive stage at any time t Population density of the caterpillars at any timet Population density of adult moths at any timet Population density of the cggs laid at any time t
+		%Densité de la Population des plantes de maïs grandissant dans la phase végétative à tout instant t
+		%Densité de la Population des plantes de maïs grandissant dans la phase de reproduction à tout instant t
+		%densité de la Population des chenilles à tout instant de densité de la Population des mites adultes à tout instant timet densité de la Population des cggs posés à tout instant t
+		%TABLE 2: Descriptions of the parameters used in the model. TABLE 2: Descriptions des paramètres utilisés dans le modèle.
+		%The rate at which caterpillars attack x (t) The rate at which caterpillars attack x (1) Eggs-laying rate Maximum number of maize plants the garden under consideration can have at t = 0 The rate at which the caterpillars develops into an adult moth The rate at which the eggs hatch into caterpillar species Caterpillar's death rate Adult moth's death rate Eggs death rate The rate at which maize dies due to caterpillar attack
+		%Le taux auquel les chenilles attaquent x (t) Le taux auquel les chenilles attaquent x (1) Taux de pose des œufs Nombre maximum de plantes de maïs que le jardin en considération peut avoir à t = 0 Le taux auquel les chenilles se développent en un papillon adulte Le taux auquel les œufs éclosent en espèces chenilles Le taux de mort de Caterpillar Le taux de mortalité des adultes Taux de mort des œufs Le taux auquel le maïs meurt en raison d'une attaque de chenille
+
+	\end{frame}
+
+	\begin{frame}{Ce qui a été fait}{Variables d'état du modèle}
+		\small
+		\begin{table}
+			\centering
+			\caption{Description des variables d'état du modèle utilisées dans le modèle}
+			\begin{tabularx}{\textwidth}{>{$}c<{$}X}
+				\toprule
+				\multicolumn{1}{l}{\bf Variables}\	& \bf\centering Description		\tabularnewline
+				\midrule
+				x_1(t)	& Densité de la Population des plantes de maïs grandissant dans la phase végétative à tout instant $t$	\\
+				x_2(t)	& Densité de la Population des plantes de maïs grandissant dans la phase de reproduction à tout instant $t$	\\
+				w(t)	& densité de la Population des \oe uf posés à tout instant $t$	\\
+				y(t)	& densité de la Population des chenilles à tout instant $t$	\\
+				z(t)	& de densité de la Population des mites adultes à tout instant $t$	\\
+				\bottomrule
+			\end{tabularx}
+		\end{table}
+	\end{frame}
+
+	\begin{frame}{Ce qui a été fait}{Paramètres du modèle}
+		\small
+		\begin{table}
+			\centering
+			\caption{Descriptions des paramètres utilisés dans le modèle}
+			\begin{tabularx}{\textwidth}{>{$}c<{$}X}
+				\toprule
+				\multicolumn{1}{l}{\bf Param.}\	& \bf\centering Description		\tabularnewline
+				\midrule
+				\alpha	& Le taux auquel les chenilles attaquent $x_1(t)$	\\
+				\eta	& Le taux auquel les chenilles attaquent $x_2(2)$	\\
+				\rho	& Taux de fertilité des papillons adultes		\\
+				k		& Nombre maximum de plantes de maïs dans le champ à $t = 0$	\\
+				\delta	& Le taux auquel les chenilles se développent en papillon adulte	\\
+				\gamma	& Le taux auquel les œufs éclosent en chenilles	\\
+				\mu_w	& Taux de mort des œufs	\\
+				\mu_y	& Le taux de mortalité des chenilles	\\
+				\mu_z	& Le taux de mortalité des adultes	\\
+				\lambda	& Le taux auquel le maïs meurt dû à une attaque de chenille	\\
+				\bottomrule
+			\end{tabularx}
+		\end{table}
+	\end{frame}
+
+	\begin{frame}{Ce qui a été fait}{Hypothèses du modèle}
+		 La formulation de ce modèle est soutenue par les hypothèses suivantes :
+		 \begin{enumerate}[(i)]
+		 	\item Le semis de maïs se fait à $t = 0$ ; par conséquent, le taux de développement de chaque plante de maïs du stade de semis%végétatif
+		 	au stade reproducteur est le même et continue. \label{hi}
+		 	\item À $t = 0$, $x_1(0) = k$. \label{hii}
+		 	\item Supposons que la seule source de nourriture pour la chenille est le maïs, de sorte qu'en son absence, la chenille s'éteint. \label{hiii}
+		 	\item Le nombre de plantes de maïs dans un champ ne peut pas dépasser $k\ \forall\; t \geq 0$. \label{hiv}
+		 \end{enumerate}
+	\end{frame}
+
+	\begin{frame}[label=Dmodel]{Ce qui a été fait}{Le modèle en cas de non immigration}
+		\begin{block}{Stade Végétative ($0 \le t \le t_1$)}
+			\begin{equation}
+				\left\{\begin{array}{l}
+					\dxdt{x_1}	= - \alpha x_1 y - \lambda x_1	\\
+					\dxdt{y}	= e_1\alpha x_1 y + \gamma w -\delta y - \mu_y y	\\
+					\dxdt{z}	= \delta y - \mu_z z	\\
+					\dxdt{w}	= \rho z - \gamma w - \mu_w w	\\
+				\end{array}\right.
+				\label{eq1}
+			\end{equation}
+			avec les conditions initiales suivantes :
+			\begin{equation*}
+				\left\{\begin{array}{l}
+					x_1(0)	= k		\\
+					x_2(0)	= 0		\\
+					\{y, z, w\} \ge \{0, 0, 0\}
+				\end{array}\right.
+			\end{equation*}
+
+			\hfill\hyperlink{defaut}{\beamergotobutton{Retour}}
+		\end{block}
+	\end{frame}
+
+	\begin{frame}{Ce qui a été fait}{Le modèle en cas de non immigration}
+		\begin{block}{Stade reproductive ($t_1 \le t \le T$)}
+			\begin{equation}
+				\left\{\begin{array}{l}
+					\dxdt{x_2} 	=	- \eta x_2 y - \lambda x_1	\\
+					\dxdt{y} 	=	e_2\eta x_2 y + \gamma w -\delta y - \mu_y y	\\
+					\dxdt{z} 	=	\delta y - \mu_z z	\\
+					\dxdt{w} 	=	\rho z - \gamma w - \mu_w w	\\
+				\end{array}\right.
+				\label{eq2}
+			\end{equation}
+			Les conditions initiales de ce système sont données par la solution du système \ref{eq1} à $t = t_1$.
+		\end{block}
+	\end{frame}
+
+	\begin{frame}{Ce qui a été fait}{Le modèle en cas de non immigration}
+		\begin{block}{Forme matricielle}
+			On peut écrire chacun de ces systèmes sous forme matricielle comme suit :
+			\begin{equation}
+				\dxdt{X} = A(X)X + F\quad\text{pour le système \ref{eq1}}
+				\label{eqM1}
+			\end{equation}
+			avec $$\begin{array}{l}
+				X = [x_1,  y, z, w]^T							\\
+				F = [0, 0, 0, 0]^T								\\
+				A(X) = \left[\begin{array}{*{4}{c}}
+					-(\alpha y + \lambda)	& 0	& 0	& 0			\\
+					e_1\alpha y	& -(\delta + \mu_y)	& 0	& \gamma\\
+					0	& \delta	& -\mu_z	& 0						\\
+					0	& 0	& -\rho	& -(\gamma + \mu_w)
+				\end{array}\right]
+			\end{array}$$
+		\end{block}
+	\end{frame}
+
+	\begin{frame}{Ce qui a été fait}{Le modèle en cas de non immigration}
+		\begin{block}{Forme matricielle}
+			On peut écrire chacun de ces systèmes sous forme matricielle comme suit :
+			\begin{equation}
+				\dxdt{Y} = B(Y)Y + G\quad\text{pour le système \ref{eq2}}
+				\label{eqM2}
+			\end{equation}
+			avec $$\begin{array}{l}
+				Y = [x_2,  y, z, w]^T							\\
+				G = [0, 0, 0, 0]^T								\\
+				B(Y) = \left[\begin{array}{*{4}{c}}
+					-(\eta y + \lambda)	& 0	& 0	& 0			\\
+					e_2\eta y	& -(\delta + \mu_y)	& 0	& \gamma\\
+					0	& \delta	& -\mu_z	& 0						\\
+					0	& 0	& -\rho	& -(\gamma + \mu_w)
+				\end{array}\right]
+			\end{array}$$
+		\end{block}
+	\end{frame}
+
+	\begin{frame}{Ce qui a été fait}
+		%\begin{overlayarea}{\textwidth}{\textheight}
+			\onslide<.->{Voir le fichier \href{Daudi.pdf}{l'article} pour voir les courbes de l'évolution de la population du maïs et celle du ravageur aux divers stades.
+
+			Il y a également le cas où il y a immigration et le cas où des mesures de contrôle on été appliquées.
+
+			\onslide<+(1)->{\begin{block}{Pourquoi proposer un autre modèle}
+				\note{Le modèle de \autocite{Daudi2021} présente quelques défauts :}
+				\begin{enumerate}
+					\item Avec le modèle, nombre de maïs décroit de façon exponentielle même en cas d'absence de ravageurs. \label{defaut}
+					\note[item]{$$\dxdt{x_2} = - \eta x_2 y - \lambda x_1$$}
+
+					%\hfill\hyperlink{Dmodel}{\beamerskipbutton{Voir modèle}}
+
+					\item Non prise en compte du stade nymphal,
+					\note[item]{En effet, à ce stade, l'insecte ne se nourrit, ni ne se reproduit. Il devient une pupe et s'enfonce dans le sol de 6 à 8cm où il reste pendant 8 à 9 jours avant d'émerger et devenir papillon adulte et le cycle recommence}
+
+					\item Non prise en compte du cannibalisme des jeunes larves.
+					\note[item]{Prendre en compte dans le modèle les deux premiers stades larvaires.}
+				\end{enumerate}
+			\end{block}}}
+		%\end{overlayarea}
+	\end{frame}
+
+
+
+	\section{Ce que je compte faire}
+	\begin{frame}%{Ce que je compte faire}
+		Nous comptons intégrer le premier défaut qui est le défaut majeur relevés sur le modèle.
+		\note{Pour les autres, on peut considérer que les variations liées à ces stades en questions sont plus ou moins prises en compte dans les stades parents}
+
+		%Nous intégrerons également dans notre modèle l'effet Allee sur la population du ravageur et adopter la forme de l'équation différentielle de Verhulst. En effet, l'effet Allee est ...
+
+		%\begin{equation}
+		%	\dxdt{N} = rN\left(1 - \frac{N}{K}\right)\left(\frac{N}{Ke} - 1\right)
+		%\end{equation}
+	%Ce modèle est celui de Verhulst avec effet Allee donné par $Ke$
+		%Nous pensons également utiliser le modèle multi-agent pour simuler cette dynamique spacio-temporelle du ma¨s et du ravageur.
+	\end{frame}
+
+	%\begin{frame}{Ce que je compte faire}
+	%	Avec ce modèle, l'évolution de la population est donnée par la courbe suivante.
+
+%	%	\includegraphics[scale=0.5]{images/velhAllee}
+	%\end{frame}
+
+	\begin{frame}{Spécification du modèle}
+		%\setbeamercovered{transparent}
+		\begin{overprint}%{\textwidth}%{\textheight}
+		\onslide<+->{%\begin{block}{}%{Spécifications du modèle}
+			Nous développons un modèle structuré par étape à la fois sur la population du maïs et celle de la \gls{cla}.
+		}
+			\vskip\baselineskip
+		\onslide<+->{
+			Nous considérons trois stades de développement pour le maïs :
+			\begin{enumerate}%[<>][mini template]
+				\item le stade de semis,
+				\item le stade végétatif,
+				\item le stade de reproduction.
+			\end{enumerate}
+		}
+
+		\onslide<+->{
+			Concernant la \gls{cla}, nous avons quatre stades de développement :
+			\begin{enumerate}%[<+-9>]%[mini template]
+				\item le stade f\oe utal,
+				\item le stade larvaire,
+				\item le stade nymphal,
+				\item le stade adulte
+			\end{enumerate}}
+			%\end{block}
+		%}
+		\end{overprint}
+	\end{frame}
+
+	\begin{frame}{Variables du modèle}
+		%\setbeamercovered{transparent}
+		\begin{overprint}%{\textwidth}{\textheight}
+			\onslide*<+-+(1)>{%\begin{block}{Variables du modèle}
+				\onslide<.->{
+					Nous admettons les variables du modèle de \cite{Daudi2021} sauf que pour notre modèle, $\lambda$, n'est pas le dégât infligé par les larves aux maïs, mais plutôt le taux de mortalité dû aux aléas climatiques.% $\alpha$ et $\eta$ ne sont pas constant, amis dépendent du temps.
+				}
+
+				%\only<5-6>{Nous estimerons ces paramètres à l'aide des de fonctions linéaire, exponentielle et logarithmique.}
+
+				%\only<6>{$\lambda$ sera sous forme d'une fonction périodique retardée comme suit :
+
+				\vskip \baselineskip
+				\onslide<+->{
+					Nous ajoutons $M$ qui est qui est capacité limite que la population de maïs peut atteindre en décroissant par l'effet du ravageur. \note{Puisque FAO}
+				}
+
+				%\vskip \baselineskip
+				%Nous notons également $\theta$, le,
+				%\begin{equation}
+				%	\lambda(t) = \sum_{k=0}^{N} f(t-t_{4k+1})u(t-t_{4k+1}) - f(t-t_{4k+2})u(t-t_{4k+2})
+				%\end{equation}
+				%où $f(t)$ prend l'une des formes pré-citées et $u(t)$, a fonction retardée. $N$ représente le nombre de générations de la \gls{cla} sur la période considérée}
+
+			%	%\only<7>{
+				%	La représentation graphique de $\lambda$ pour une fonction $f$ linéaire est la suivante :
+
+
+		%%		%	\def\xmax{16}
+				%	\def\ymax{5}
+				%	\def\xmin{-1}
+				%	\def\ymin{-1}
+				%	\begin{tikzpicture}[scale=0.68]
+				%		\draw[step=1cm,gray,very thin] (\xmin,\ymin) grid (\xmax,\ymax);
+				%		\draw[-latex, thick] (\xmin,0) -- (\xmax, 0) node[right]{$t$};
+				%		\draw[-latex, thick] (0,\ymin) -- (0, \ymax) node[above]{$degats$};
+				%		\foreach \x in {0, 2,..., \xmax}{
+				%			\draw[thick] (\x cm, -3pt) -- (\x cm, 3pt);
+				%		}
+				%		\draw[blue, thick] (0,0) node[left = 5pt, below]{$0$} --
+				%			++(2,0) node[below]{$t_1$} --
+				%			+(2,4) -- ++(2,0) node[below]{$t_2$} --
+				%			++(2,0) node[below]{$t_3$} --
+				%			++(2,0) node[below]{$t_4$} --
+				%			++(2,0) node[below]{$t_5$} --
+				%			+(2,4) -- ++(2,0) node[below]{$t_6$} --
+				%			++(2,0) node[below]{$t_7$} --
+				%			++(2,0) node[below]{$t_8$};
+
+			%	%		\draw ++(1,-1) node[below = 5pt, fill = white]{\oe uf} ++(2,0) node[below = 5pt, fill = white]{larve} ++(2,0) node[below = 5pt, fill = white]{pupe} ++(2,0) node[below = 5pt, fill = white]{adulte};
+				%	\end{tikzpicture}
+				%}
+
+			%	%\only<8->{
+				%	Au stade nymphal, nous notons $\beta$ le taux auquel les chenilles se développent en pupe (supposé constant) et donc $\delta$ de vient donc le taux auquel les pupes se transforment en paillon et $\mu_v$ son taux de mortalité. L'équation différentielle de la variation de la population donne :
+				%	\begin{equation}
+				%		\dxdt{v} = \beta y - \mu_v v
+				%	\end{equation}
+				%	avec $v$ la population de pupe.
+
+			%	%	\only<9->{
+				%		Nous notons également $\theta$, le taux de germination du maïs, $t_0$, la durée du stade de semis ($[0, t_0]$) qui est la date à partir de laquelle la plante est supposée avoir de feuilles afin que le processus de dégâts dû à la \gls{cla} pourrait commencer. $t_1$
+				%	}
+				%}
+				%\end{block}
+			}
+
+			\onslide*<+>{\small
+				%\onslide<.>{
+					\begin{table}
+						\centering
+						\caption{Description des variables d'état de notre modèle}
+						\begin{tabularx}{\textwidth}{>{$}c<{$}X}
+							\toprule
+							\multicolumn{1}{l}{\bf Variables}	& \bf\centering Description		\tabularnewline
+							\midrule
+							x_0(t)	& Densité de la Population des semis/plantes de maïs lors de la phase de semis à tout instant $t \in [0,t_0]$	\\
+							x_1(t)	& Densité de la Population des plantes de maïs grandissant dans la phase végétative à tout instant $t \in [t_0,t_1]$	\\
+							x_2(t)	& Densité de la Population des plantes de maïs grandissant dans la phase de reproduction à tout instant $t \in [t_1,T]$	\\
+							w(t)	& densité de la Population des \oe uf posés à tout instant $t$	\\
+							y(t)	& densité de la Population des chenilles à tout instant $t$	\\
+							z(t)	& de densité de la Population des mites adultes à tout instant $t$	\\
+							\bottomrule
+						\end{tabularx}
+					\end{table}
+				}
+
+			\onslide*<+>{\small
+				\begin{table}
+					\centering
+					\caption{Descriptions des paramètres de notre modèle}
+					\begin{tabularx}{\textwidth}{>{$}c<{$}X}
+						\toprule
+						\multicolumn{1}{l}{\bf Param.}	& \bf\centering Description		\tabularnewline
+						\midrule
+						\alpha\ \text{(resp. $\eta$)}	& Le taux auquel les chenilles attaquent $x_1(t)$ (resp. $x_2$)	\\
+						%\eta	& Le taux auquel les chenilles attaquent $x_2(2)$	\\
+						\rho	& Taux de fertilité des papillons adultes		\\
+						k		& Nombre maximum de plantes de maïs dans le champ à $t = 0$	\\
+						M		& Nombre minimum de plantes de maïs restant $\forall\; t \ge 0$	\\
+						\delta	& Le taux auquel les chenilles se développent en papillon adulte	\\
+						\gamma	& Le taux auquel les œufs éclosent en chenilles	\\
+						\mu_w	& Taux de mort des œufs	\\
+						\mu_y	& Le taux de mortalité des chenilles	\\
+						\mu_z	& Le taux de mortalité des adultes	\\
+						\lambda	& Le taux auquel le maïs meurt dû à une attaque de chenille	\\
+						\bottomrule
+					\end{tabularx}
+				\end{table}
+				}
+			%\end{frame}
+			%}
+		\end{overprint}
+	\end{frame}
+
+	\begin{frame}{Hypothèses du modèle}
+		%\setbeamercovered{transparent}
+		%\begin{overlayarea}{\textwidth}{\textheight}
+			%\only<12>{
+		%\begin{block}%{Hypothèses du modèle}
+			Nous admettons les hypothèses du modèle de \cite{Daudi2021}.% Nous complétons une nouvelle hypothèse :
+			%\begin{enumerate}
+			%	\item Le cycle de vie des deux populations est constant pour chaque stade,
+			%\end{enumerate}
+		%\end{block}%}
+	\end{frame}
+
+	\begin{frame}{Formulation du modèle}
+		\framesubtitle{Modèle de base}
+	\begin{overlayarea}{\textwidth}{\textheight}
+		\begin{block}{Modèle proie-prédateur}
+			\only<+>{
+				Forme générale
+				\begin{equation}
+					\left\{\begin{array}{l}
+						\stackrel{.}{x} = f(x) - g(\cdot)y		\\
+						\stackrel{.}{y} = h(\cdot)y - m(\cdot)y
+					\end{array}\right.
+					\label{eqpp1}
+				\end{equation}
+				\note{avec $f(x)$ la fonction de croissance, $g(.)$, la réponse fonctionnelle, $h(.)$, le taux de capture par prédateur et $m(.)$, le taux de mortalité des prédateurs.}
+			}
+			\only<+>{
+				Fonction de croissance $f(x)$
+				\begin{equation}
+					f(x) = \left\{\begin{array}{ll}
+						rx,						& \text{Malthus}		\\
+
+						rx\left(1 - \dfrac{x}{K}\right),		& \text{Verhulst}		\\
+
+						rx\ln\left(\dfrac{x}{K}\right),		& \text{Gompertz}		\\
+
+						rx v\left(1 - \left(\dfrac{x}{K}\right)^\frac{1}{v}\right),	& \text{Forme générale des}		\\
+							& \text{fonctions logistiques}		\\
+
+						rx\left(1 - \dfrac{x}{K}\right)\left(\frac{x}{K_A} - 1\right),		& \text{Croissance avec effet Allee}		\\
+
+						\dots	&
+					\end{array}\right.
+					\label{eqppf}
+				\end{equation}
+
+			}
+
+			\only<+-+(1)>{
+				Réponse fonctionnelle $g(\cdot)$
+				\only<.>{
+					\begin{equation}
+						g(x) = \left\{\begin{array}{ll}
+							ax,						& \text{Lotka-Volterra}		\\
+
+							\Bigg\{\begin{array}{ll}
+								ax,	& \forall\; x \le \bar{x}	\\
+								ax,	& \forall\; x > \bar{x}
+							\end{array}\Bigg.		& \text{Holling Type I}		\\
+
+							\dfrac{ax}{dx + c}	&\text{ Holling Type II}		\\
+
+							\dfrac{ax^v}{dx^v + c}	& \text{Holling Type III}		\\
+							1 - e^{ux},		& \text{Ivlev}		\\
+
+							\dots	&
+						\end{array}\right.
+						\label{eqppg1}
+					\end{equation}
+				}
+
+				\only<+>{
+					\begin{equation}
+						g(x,y) = \left\{\begin{array}{ll}
+							\dfrac{ax}{dx + (by + b_0)c},	& \text{Beddington-DeAngelis}		\\
+
+							\dfrac{ax}{dx + cy},		& \text{Ratio-dependent}	\\
+
+							\dots	&
+						\end{array}\right.
+						\label{eqppg2}
+					\end{equation}
+				}
+			}
+
+			\only<+>{
+				%\onslide<+->{
+					Réponse numérique $h(\cdot)$
+					\begin{equation}
+						h(\cdot) = eg(\cdot)
+						\label{eqpph}
+					\end{equation}
+				%}
+
+				%\onslide<+>{
+					Taux de mortalité $m(\cdot)$
+					\begin{equation}
+						m(\cdot) = \left\lbrace\begin{array}{ll}
+							m		& \text{mortalité constante}		\\
+							m + qy	& \text{mortalité augmentant en fonction} 	\\
+									& \text{de la densité de prédateur} 	\\
+							m + qy	& \text{mortalité dû à d'autres formes }	\\
+									& \text{de cannibalisme}	\\
+							\dots	&
+						\end{array}\right.
+						\label{eqppm}
+					\end{equation}
+				%}
+			}
+		\end{block}
+	\end{overlayarea}
+	\end{frame}
+
+	\begin{frame}{Formulation du modèle}
+		\framesubtitle<+->{Notre modèle}
+	\begin{overlayarea}{\textwidth}{\textheight}
+		\begin{block}{Forme générale}
+			\begin{equation}
+				\left\{\begin{array}{l}
+					\dxdt{x}	=	- \alpha(t) x y - \lambda(t) x	\\
+					\dxdt{y}	=	e_1\alpha(t) x_1 y + \gamma w -\theta y - \mu_y y	\\
+					\dxdt{v}	=	\theta y - \mu_v v	\\
+					\dxdt{z}	=	\delta v - \mu_z z	\\
+					\dxdt{w}	=	\rho z - \gamma w - \mu_w w	\\
+				\end{array}\right.
+				\label{eqm2}
+			\end{equation}
+		\end{block}
+		%\begin{block}{Forme générale}
+		%\onslide<.>{
+		%	\onslide<.->{Stade de semis ($0 \le t \le t_0$)
+		%		\begin{equation}
+		%			\left\{\begin{array}{l}
+		%				\dxdt{x_0}	=	(1 - \theta) x_0	\\
+		%				\dxdt{y}	=	0	\\
+		%				\dxdt{v}	=	0	\\
+		%				\dxdt{z}	=	0	\\
+		%				\dxdt{w}	=	0	\\
+		%			\end{array}\right.
+		%			\label{eqm1}
+		%		\end{equation}
+		%		avec les conditions initiales suivantes :
+		%		$\displaystyle
+		%			\left\{\begin{array}{l}
+		%				x_0(0)	= k,\ x_2(0) = 0		\\
+		%				x_1(0) = 0\ \forall\, t < t_0			\\
+		%				\{y, v, z, w\} 	\ge \{0, 0, 0, 0\}
+		%			\end{array}\right.
+		%		$
+		%	}
+
+	%	%	\only<14>{Stade Végétative ($t_0 \le t \le t_1$)
+		%		\begin{equation}
+		%			\left\{\begin{array}{l}
+		%				\dxdt{x_1}	=	- \alpha(t) x_1 y - \lambda(t) x_1	\\
+		%				\dxdt{y}	=	e_1\alpha(t) x_1 y + \gamma w -\theta y - \mu_y y	\\
+		%				\dxdt{v}	=	\theta y - \mu_v v	\\
+		%				\dxdt{z}	=	\delta v - \mu_z z	\\
+		%				\dxdt{w}	=	\rho z - \gamma w - \mu_w w	\\
+		%			\end{array}\right.
+		%			\label{eqm2}
+		%		\end{equation}
+		%		avec les conditions initiales suivantes :
+		%		$
+		%			\left\{\begin{array}{l}
+		%				x_1(t_0) = x_0(t_0),\ x_2(t_0)	= 0		\\
+		%				x_0(t_0) = 0\ \forall\, t > t_0			\\
+		%				\{y, v, z, w\} 	\ge \{0, 0, 0, 0\}
+		%			\end{array}\right.
+		%		$}
+
+	%	%		\only<15>{Stade de reproduction ($t_0 \le t \le t_1$)
+		%			\begin{equation}
+		%				\left\{\begin{array}{l}
+		%					\dxdt{x_2}	=	- \eta(t) x_2 y - \lambda(t) x_2	\\
+		%					\dxdt{y}	=	e_1\eta(t) x_2 y + \gamma w -\theta y - \mu_y y	\\
+		%					\dxdt{v}	=	\theta y - \mu_v v	\\
+		%					\dxdt{z}	=	\delta v - \mu_z z	\\
+		%					\dxdt{w}	=	\rho z - \gamma w - \mu_w w	\\
+		%				\end{array}\right.
+		%				\label{eqm3}
+		%			\end{equation}
+		%			avec les conditions initiales suivantes :
+		%			$
+		%			\left\{\begin{array}{l}
+		%				x_2(t_0) = x_1(t_0),\ x_0(t_1 = 0		\\
+		%				x_1(t_0) = 0\ \forall\, t > t_1			\\
+		%				\{y, v, z, w\} 	\ge \{0, 0, 0, 0\}
+		%			\end{array}\right.
+		%			$
+		%		}
+		%	}
+		%	%\end{block}
+
+		\end{overlayarea}
+	\end{frame}
+
+	\section{Bibliographie}
+	\begin{frame}{Bibliographie}
+		\input{../BibGls/Bibliographie}
+	\end{frame}
+\end{document}

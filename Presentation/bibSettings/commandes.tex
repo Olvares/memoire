@@ -1,0 +1,58 @@
+%************************** COULEUR DES BLOCKS PERSONNALISES ***********************
+\setbeamercolor{titre}{bg=red,fg=white}
+\setbeamercolor{texte}{bg=red!10,fg=black}
+\beamerboxesdeclarecolorscheme{ap}{cyan}{cyan!10} % pour sheme = couleur
+\beamerboxesdeclarecolorscheme{exemple}{black}{white}
+\beamerboxesdeclarecolorscheme{rem}{orange}{gray!30}
+
+%\input{Theoreme_personnalise.tex}
+%***********************************************************************************
+\hypersetup{pdfpagemode=FullScreen} % Commande permettant de mettre en mode fullpage dans un lecteur PDF
+\setcounter{secnumdepth}{0}
+% **********************************************************************************
+%********************* COMMANDES CREEES ***************************************
+	\def\Hy{\mathcal{H}}
+	\def\R{\mathbb{R}}
+	\def\N{\mathbb{N}}
+	\def\Z{\mathbb{Z}}
+	\def\F{\mathcal{F}}
+	\newcommand{\mrm}[1]{\ \mathrm{#1}\ }
+	\newcommand{\enu}{\ \ \quad\clubsuit}
+	%\newcommand{\F}{\mathcal{F}}
+%******************************************************************************
+
+\author{Olivier \textsc{Adjagba}}
+\title{Modélisation}
+%\subtitle{Initiation au \LaTeX}
+%\setbeamercovered{transparent}
+%\setbeamertemplate{navigation symbols}{}
+%\logo{images/wsc.png}
+\institute{ENSGMM}
+%\date{}
+%\subject{ok super}
+
+%*************************** PAGE AVANT SECTION/SOUS-SECTION ************************
+\AtBeginSection[]{
+	\begin{frame}
+		\frametitle{Sommaire}
+		%\transwipe[duration=0.5]
+		\tableofcontents[sectionstyle = show/shaded, subsectionstyle = hide]
+	\end{frame}
+}
+\AtBeginSubsection{
+	\begin{frame}
+		\frametitle{Sommaire}
+		%\transsplithorizontalin[duration=0.5]
+		\tableofcontents[sectionstyle = show/hide, subsectionstyle = show/shaded/hide]
+	\end{frame}
+}
+% ***********************************************************************************
+
+\renewcommand{\arraystretch}{1.3}
+% Alignement en bas
+\newcolumntype{R}[1]{>{\raggedleft\arraybackslash}m{#1}}
+\newcolumntype{C}[1]{>{\centering\arraybackslash}m{#1}}
+\newcolumntype{L}[1]{>{\raggedright\arraybackslash}m{#1}}
+
+% Renommer le caption table : \usepackage{caption}
+\captionsetup[table]{name=Tableau}
