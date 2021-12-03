@@ -1,0 +1,182 @@
+\section{Modélisation sur les des insectes, plantes et leurs interactions} % Main chapter title
+\label{Chapter1} % For referencing the chapter elsewhere, use \ref{Chapter1}
+%\minitoclt
+
+%-------------------------------------------------------------------
+% Define some commands to keep the formatting separated from the content
+%\newcommand{\keyword}[1]{\textbf{#1}}
+%\newcommand{\tabhead}[1]{\textbf{#1}}
+%\newcommand{\code}[1]{\texttt{#1}}
+%\newcommand{\file}[1]{\texttt{\bfseries#1}}
+%\newcommand{\option}[1]{\texttt{\itshape#1}}
+%--------------------------------------------------------------------
+
+\subsection{La notion de modèle}
+Une définition de ce qu’est un modèle est proposée par \autocite{coquillard1997modelisation} : \og Un modèle est une abstraction qui simplifie le système réel étudié en ignorant de nombreuses caractéristiques du système réel étudié, pour se focaliser sur les aspects qui intéressent le modélisateur et qui définissent la problématique du modèle\fg. Un modèle est donc une représentation idéalisée et simplifiée d’un système biologique complexe. Il se restreint à quelques aspects essentiels de son objet d’étude afin de répondre à un questionnement précis. La démarche de modélisation passe ainsi par tout d’abord, la détermination d’un objet d’étude, puis la formalisation d’une problématique, la définition des hypothèses ainsi que de l’échelle de modélisation, l’évaluation des processus internes, la simulation de l’évolution du système puis sa validation par comparaison aux données expérimentales ou aux théories [Davi et al.]. %\autocite{lebon:tel-01747618} cas échaéant.
+
+La modélisation est un outil très performant dans le domaine de l’agronomie ou de l’écologie. Elle remplit de nombreux objectifs : de simplification, de quantification, de test d’hypothèses, de détermination de paramètres, d’études de systèmes ainsi que de comparaison et de généralisation mais aussi de prévision. En agriculture par exemple, la modélisation peut fournir des informations quantitatives sur la période de culture, l’irrigation, la fertilisation, la lutte contre les ravageurs, et le climat \autocite{lebon:tel-01747618}.
+
+\subsection{Les modèles individus centrés}
+L’approche individus centrés (Individual-Based Models ou IBMs en anglais) s’est principalement développée à la fin des années 90 bien que son origine semble remontrer aux années 60 \autocite{DeAngelisMooij2005}. Ces modèles s’appuient sur des parallèles en économie et sciences sociales, les systèmes multi-agents ou encore l’intelligence artificielle et les modèles particulaires de la physique \autocite{beslon2008apprivoiser}. Ces modèles  sont aussi appelés modèles d'automate cellulaire et sont utilisés en fonction du questionnement, du modèle d’étude, du contexte, de l’échelle et de la résolution considérée \autocite{rebaudo:tel-00836104}. Ce dernier  Selon Grimm and Railsback [2005], il n’existerait pas de définition absolue des IBMs \autocite{roughgarden2012individual}. Les IBMs simulent des populations ou des ensembles de populations en les décomposant à un niveau local, c’est à dire en individus (ou groupe restreint d’individus). Chaque individu interagit de manière indépendante avec son environnement et avec les autres individus. La dynamique globale de la population émerge donc naturellement des ”choix” de chaque individu. Différents processus peuvent être pris en compte dans le cadre des IBMs : la variabilité spatiale, le détail du cycle de vie de chaque individus, les variations comportementales, l’apprentissage et l’évolution. \autocite{Griebeler2000} a ainsi mis en place un IBM afin de déterminer l’importance des habitats sous-optimal dans la survie des dectinelles chagrinées, Platycleis albopunctata. Son modèle est en fait constitué de deux sous modèles : l’un pour la croissance démographique des dectinelles qui dépend principalement de la température et le second pour la simulation de deux zones de reproduction distinctes. Ce modèle a permis de mettre en évidence que la présence d’un environnement sous-optimal encerclant une zone favorable à la reproduction permettait de diminuer de près de 50\% la population de dectinelles \autocite{lebon:tel-01747618}.
+
+\subsection{Les modèles de type proie-prédateur et leurs dérivés}
+Les modèles d’interactions entre populations sont donc également particulièrement connus, avec des modèles classiques tels que ceux de Lotka-Volterra \autocite{bacaer2011short, HARRISON201488, kostitzin1937biologie, VolterraBrelot1931} qui peuvent représenter des relations proies/prédateurs, de compétition voire même de coopération. Ces modèles reposent sur au minimum deux équations différentielles pour chacun des deux compartiments. Dans ce type de modélisation, il s’agit souvent de coupler deux équations globales ce qui donne d’un point de vue général :
+\begin{equation}
+	\left\{\begin{array}{rcl}
+		\stackrel{.}{x}	& = & f(x) - g(.)y		\\
+		\stackrel{.}{y}	& = & h(.)y - m(.)y
+	\end{array}\right.
+	\label{eq:proiepred}
+\end{equation}
+
+Les proies sont soumises à une fonction de croissance ($f(x)$) qui peut prendre différentes formes \autocite{nundloll:tel-00850358} %(voir la section 3.2.1)
+et les prédateurs à une loi de mortalité ($m(.)$). L’interaction entre les deux populations se fait sous la forme des réponses fonctionnelles ($g(.)$) et numériques ($h(.)$) \autocite{Solomon1949}. La réponse fonctionnelle (le nombre de proies tuées par prédateur et par unité de temps) peut être soit dépendante de la densité des proies mais indépendante de celle des prédateurs (courbe de Holling par exemple \autocite{Holling1961} ; soit directement dépendant de la densité de prédateur \autocite{ARDITI1989311, Beddington1975, DeAngelis1975}. Ainsi, \cite{Beddington1975} met en avant les possibles interférences entre les prédateurs ($R$) dans l’équation d’efficience de recherche des proies ($E$) :
+\begin{equation}
+	E = \frac{a}{1 + at_h N + bt_w R}
+\end{equation}
+où $a$ est le taux d’attaque, $b$, la fréquence de rencontre d’une proie, $t_h$ le temps perdu à manipuler la proie, $t_w$ le temps perdu entre deux proies et $N$ le nombre de proies. La réponse numérique (l’augmentation de la population de prédateur due à la consommation de proies) peut également être représentée par trois courbes de Holling \autocite{Holling1961}.
+
+Les fonctions de du système d'équations \ref{eq:proiepred} peuvent prendre des formes diverses \autocite{nundloll:tel-00850358} :
+\begin{enumerate}[\lefthand]
+	\item la fonction de croissance $f(x)$
+	\begin{equation}
+		f(x) = \left\{\begin{array}{ll}
+			rx,						& \text{Malthus}		\\
+
+			rx\left(1 - \dfrac{x}{K}\right),		& \text{Verhulst}		\\
+
+			rx\ln\left(\dfrac{x}{K}\right),		& \text{Gompertz}		\\
+
+			rx v\left(1 - \left(\dfrac{x}{K}\right)^\frac{1}{v}\right),	& \text{Forme générale des}		\\
+			& \text{fonctions logistiques}		\\
+
+			rx\left(1 - \dfrac{x}{K}\right)\left(\dfrac{x}{K_A} - 1\right),		& \text{Croissance avec effet Allee}		%\\
+
+			%\dots	&
+		\end{array}\right.
+		\label{eqppf}
+	\end{equation}
+
+	\item la réponse fonctionnelle $g(\cdot)$ :
+	\begin{equation}
+		g(x) = \left\{\begin{array}{ll}
+			ax,						& \text{Lotka-Volterra}		\\
+
+			\Bigg\{\begin{array}{ll}
+				ax,	& \forall\; x \le \bar{x}	\\
+				ax,	& \forall\; x > \bar{x}
+			\end{array}\Bigg.		& \text{Holling Type I}		\\
+
+			\dfrac{ax}{dx + c}	&\text{ Holling Type II}		\\
+
+			\dfrac{ax^v}{dx^v + c}	& \text{Holling Type III}		\\
+			1 - e^{ux},		& \text{Ivlev}		%\\
+
+			%\dots	&
+		\end{array}\right.
+		\label{eqppg1}
+	\end{equation}
+
+	\begin{equation}
+		g(x,y) = \left\{\begin{array}{ll}
+			\dfrac{ax}{dx + (by + b_0)c},	& \text{Beddington-DeAngelis}		\\
+
+			\dfrac{ax}{dx + cy},		& \text{Ratio-dependent}	%\\
+
+			%\dots	&
+		\end{array}\right.
+		\label{eqppg2}
+	\end{equation}
+
+	\item la réponse numérique $h(\cdot)$
+	\begin{equation}
+		h(\cdot) = eg(\cdot)
+		\label{eqpph}
+	\end{equation}
+
+	\item le taux de mortalité $m(\cdot)$
+	\begin{equation}
+		m(x) = \left\lbrace\begin{array}{ll}
+			m		& \text{mortalité constante}		\\
+			m + qy	& \text{mortalité augmentant en fonction} 	\\
+			& \text{de la densité de prédateur} 	%\\
+			%\dots	&
+		\end{array}\right.
+		\label{eqppm}
+	\end{equation}
+
+	\begin{equation}
+		m(y) = \left\lbrace\begin{array}{ll}
+			m + \phi(\cdot)y	& \text{mortalité dû à d'autres formes de cannibalisme}	%\\
+			%\dots	&
+		\end{array}\right.
+		\label{eqppm2}
+	\end{equation}
+\end{enumerate}
+
+Ces modèles ont été largement utilisés afin de déterminer les conditions de co-existence ou d’exclusion des populations d’insectes. Ainsi, \cite{EDMUNDS2007379} présente un modèle discret structuré en âge avec deux espèces compétitives basé sur un modèle \emph{lpa} :
+\begin{equation}
+	\left\{\begin{array}{l}
+		l_{t+1} = ba_t \exp(- c_{el}l_t - c_{ea}a_t),	\\
+		p_{t+1} = l_t(1 - \mu_l),					\\
+		a_{t+1} = p_t \exp(- c_{pa}a_t) +a_t(1 - \mu_a)
+	\end{array}\right.
+\end{equation}
+
+avec $l_t$ le nombre de larves, $p_t$ le nombre d’individus qui ne se nourrissent pas (nymphes, pupes,...), $a_t$ le nombre d’adultes sexuellement actifs, le paramètre $b$ représente la natalité des larves, les paramètres $\mu$ leur mortalité et les paramètres $c$ les taux de cannibalisme. Il met en évidence l’importance des conditions initiales dans l’existence de bassins d’attractions qui déterminent les notions de co-existence ou d’exclusion. Ce type de modélisation de la compétition des espèces a également donné lieu à la modélisation des contrôles biologiques \autocite{MILLS1996121,nundloll:tel-00850358}. En effet, les contrôles biologiques sont principalement basés sur l’utilisation d’espèces prédatrice ou parasites des ravageurs afin d’en contrôler la population. %(voir section 2.3.2).
+Il est à souligner l’absence souvent complète d’un compartiment plante dans cette modélisation du contrôle. Découlant plus ou moins directement des relations de type Lotka-Volterra, la modélisation de type hôte-parasite est l’une des modélisations les plus répandues lorsque l’on considère les interactions plantes-insectes. Principalement basée sur des lois de Holling, elle peut intégrer plus ou moins de raffinements (toxicité, impact de la qualité nutritionnelle des plantes, intervention d’un troisième étage trophique sous la forme de prédateurs...) mais repose la plupart du temps sur des équations globales. Par exemple, \cite{Kang2008} décrit l’étude d’un modèle mathématique discret sur la dynamique plante-herbivore (qui est ici un insecte : la spongieuse \emph{Lymantria dispar L.}) sur la base du système suivant, dérivé du modèle classique de Nicholson Bailey \autocite{HORNE199153} pour les hôtes-parasitoïdes :
+\begin{equation}
+	\left\{\begin{array}{rcl}
+		P_{n+1}	& = & \lambda P_n g(P_n) f(H_n)		\\
+		H_{n+1}	& = & c \lambda P_n g(P_n) [1 - f(H_n)]
+	\end{array}\right.
+\end{equation}
+avec $P$ pour la population de plantes, $H$ pour la population d’herbivores, et $f(H_n)$ la fraction des herbivores parasités qui survit. Il met en évidence deux stratégies de contrôle (soit réduire la population de ravageur, soit augmenter le taux de croissance végétatif de la plante). \cite{FENG2008449} et \cite{FENG2011190} décrivent également un système plantes-insectes sous la forme hôte-parasite mais avec une réponse fonctionnelle de type Holling 2 modifiée
+\begin{equation}
+	C(N) = f(N)\left(1 - \frac{T f(N)}{M}\right).
+\end{equation}
+
+Ainsi, cette nouvelle réponse fonctionnelle prend en compte un impact négatif des plantes sur les ravageurs $\left(1 - \frac{T f(N)}{M}\right)$ qui peut dépasser l’impact positif lié à l’apport nutritif végétal lors de forts taux de toxicité. Les auteurs décrivent alors deux types de comportement face à cette toxine : soit les herbivores sont capables de réguler cet apport nocif soit ils ne le peuvent pas. Les conséquences de ces deux comportements sont étudiés dans des diagrammes de bifurcation. Ainsi, pour des taux de consommation relativement bas, l’effet toxique a tendance à augmenter les risques de cycle limite de type \og paradoxe de l’enrichissement\fg alors qu’à fort taux de consommation, cette probabilité est diminuée. Ces études ont également été étayés par d’autres travaux \autocite{Li2006, LIU2008442}.
+
+D’autres modèles s’appuient également sur des relations de type proie prédateur (\autocite{ALLEN1993847} et les références associées) mais couplent des équations complexes de type compartemental. Le modèle de \cite{Gutierrez1985} reprend par exemple les effets des herbivores sur les différentes allocations de matière dans la plante (ici la vigne), sur la base du modèle de McKendrick von Foerster \autocite{Kermack1927, McKendrick1925}. \autocite{ALLEN1993847, ALLEN1991369} considèrent l’impact du foreur de sarment de la vigne (\emph{Amphicerus bicaudatus}) sur un vignoble (l’échelle est donc ici celle de la population contrairement aux deux modèles cités précédemment).
+
+La population de ravageurs est découpée en trois classes (selon l’impact sur le matériel végétal) tandis que les équations de type proie-prédateur sont modifiées afin de prendre en compte les spécificités de cette interaction foreur de sarment de vigne et vigne. Ce modèle est utilisé à des fins de contrôle de populations. Les équations à retard peuvent aussi être utilisées afin de modéliser les interactions entre plusieurs antagonistes. Par exemple, \cite{SUN20141507} présentent un modèle à retard afin de mieux comprendre les invasions importantes d’insectes ravageurs. Le modèle couple une équation de réaction-diffusion des herbivores à une équation de retard représentant les réactions de défenses des plantes. Ce modèle permet de mettre en évidence une valeur seuil déterminant l’occurrence de l’invasion \autocite{lebon:tel-01747618}.
+
+%\section{Les modèles de simulation}
+%La modélisation couplée se retrouve également dans les modèles de simulations. Ces modèles sont utilisé dans le cadre de l’épidémiologie ou la mise en évidence de perte de rendement chez les plantes. Ils couplent souvent des équations complexes de plantes à des équations plus globales d’insectes ou même à des modélisations d’insectes structurées en âge. Les modèles de simulations sont des modèles conçus principalement pour répondre à des questionnements précis sur des systèmes biologiques bien définis. Ils sont utilisés pour tester des scénarios de contrôle et de lutte, pour explorer certaines hypothèses difficilement testables d’un point de vue expérimental ou pas encore mises au point, ou pour l’étude de sensibilité de certains paramètres des systèmes biologiques. Ils nécessitent une bonne compréhension du système biologique ainsi que du questionnement auxquels ils se rattachent. Les modèles de simulation sont également des outils éducatifs performants.
+%
+%L’association du système d’équation de Manetsch de 1976 et du modèle de flux énergétique (pool de carbone) a permis le développement des premiers modèles de simulations sur coton, pommier, niébé, vigne et manioc ([Bonato, 1995] et les références associées). Par exemple, Bonato [1993] a développé un modèle à deux compartiment, l’un pour la plante (manioc) et l’autre pour le ravageur (acarien vert et rouge). Du point de vue de la plante, le suivi est effectué sur la dynamique de la biomasse sèche des feuilles, tiges, racines non tuberisées, tubercules et fruits, ainsi que sur le nombre de fruits et de feuilles. Du point de vue des ravageurs, seuls le nombre d’oeufs et de stades mobiles sont suivis. L’interaction se fait par détournement d’une partie des assimilas destinés à l’origine à la reproduction. Il s’agit donc ici d’un couplage complexe.
+%
+%D’autres modèles de simulation ont également été développés dans le but d’intégrer les attaques de ravageurs au fonctionnement de la plante et plus particulièrement à l’élaboration du rendement. Ainsi, Aggarwal et al. [2006] ont créé InfoCrop, un modèle dynamique générique couplant une description complexe de la plante à des équations plus globales afin de répondre à cette question. Ce modèle intègre l’effet du climat, de la variété, du sol, des ravageurs et des pratiques culturales sur la dynamique des nutriments dans le sol et dans la plante. Sa structure, contenant les processus clés de la croissance des plantes et de leur interactions avec l’environnement, est basée sur le modèle Sucros et ses dérivés [van Laar and Goudrian, 1997]. Les modèles de simulation ont aussi été utilisés pour comparer différents scénarios de management des cultures [Grechi, 2008] ou de régime alimentaire des herbivores [Hutchings and Gordon, 2001].
+%
+%\section{Les modèles couplés spatialisés}
+%L’hétérogénéité spatiale est un phénomène répandu dans le cadre de la modélisation hôte-parasite (ou proie-prédateur). Elle peut tout aussi bien prendre la forme de scénarii de parasitisme différents [Hassell, 2000], de division de l’habitat [Hanski and Ovaskainen, 2000, Lutscher et al., 2005], ou encore de processus de dispersion [Briggs and Hoopes, 2004]. Selon le processus pris en compte, il existe différents types de modélisations : les modélisations par patchs [Kang and Armbruster, 2011], les modélisations de réaction-diffusion [Medvinsky et al., 2004, Zhang and Li, 2014], l’approche par méta-populations et les modèles basés sur les flux [Edelstein-Keshet, 1986, Lopes et al., 2007].
+%
+%Cette dernière approches combinent le concept de méta-population et celle de la structuration en âge des populations d’insectes. Ce type de modélisation a été utilisé, par exemple, par Lopes et al. [2007] dans un contexte d’environnement spatialement hétérogène afin de démontrer l’efficacité d’un contrôle par parasitoïdes (Lysiphlebus testaceipes) sur les pucerons (Aphis gossypii) en serre de melon. Il a également été repris par Edelstein-Keshet [1986] qui décrit la fréquence de distribution de la qualité nutritionnelle des plantes (quantité de fibres, d’azote, de composés de défense...) en fonction de la densité de ravageurs par un système d’équations différentielles. Bien que cette qualité nutrionnelle dépende fortement de l’âge physiologique de la plante, elle peut également varier lors d’une attaque d’herbivore. Par exemple, la tordeuse grise du mélèze induit une augmentation de la quantité de fibre dans les aiguilles du mélèze [Edelstein-Keshet, 1986].
+%
+%Le concept de population sous la forme de patchs couplé à un phénomène de dispersion des insectes est utilisé par Kang and Armbruster [2011]. Ce travail reprend le modèle mathématique discret de Kang et al. [2008b]. Le modèle est en fait décomposé en trois étapes différentes : la croissance de la plante, la dispersion des insectes et l’attaque des insectes. Le but de cette modélisation est d’étudier les modifications engendrées par les insectes sur la dynamique globale et locale de deux patchs de plantes. En sus de ceci, un effet d’Allee est rajouté à un exemple de population de plantes afin de comprendre son influence. De la réflexion issue de cette modélisation découle des stratégies de contrôle des insectes.
+%
+%Enfin, certains modèles de simulation peuvent également inclure des notions de spatialité. Ainsi, Cosmos [Vinatier et al., 2009] est un modèle stochastique, basé sur l’individu qui reproduit les mouvements locaux des adultes du charançon du bananier (\emph{Cosmopolites sordidus)}, le dépôt des oeufs par les femelles ainsi que le développement, la mortalité et l’attaque des larves. Ce modèle est principalement utilisé afin de concevoir des arrangements spatiaux des bananeraies et leur effets sur l’infestation du charançon du bananier.
+%
+%\section{Les modèles complexes}
+%Il existe des modèles de dynamiques de populations prenant en compte des contraintes de croissance extérieures tels que le modèle de Saudreau et al. [2013] où le microclimat de la plante induit des modifications de développement de la population d’insecte. Ces travaux s’appuient sur un modèle biophysique couplant un modèle de distribution des radiations au travers de la canopée, un modèle biophysique traduisant le budget énergétique des mines et un modèle empirique représentant la température du ravageur (ici une larve mineuse). Cet ensemble de modèles permet de (i) prédire la répartition spatiale des microclimates dans la plante (un pommier) en tenant compte de l’architecture de la plante mais aussi de la structure du verger et des conditions climatiques, (ii) de prédire la température à l’intérieur des mines et (iii) de simuler le temps de développement et la survie des larves en fonction de ces microclimats. Cette modélisation permet d’étudier au final les effets de différentes pratiques telles que l’élagage sur la population d’insectes ravageurs. Un autre modèle prenant en compte une contrainte extérieure sous la forme de la disponibilité en ressource et du coefficient de maturation des larves est le modèle de De Roos et al. [2007] évoqué précédemment.
+%
+%\section{Les modèles multi-agents}
+\subsection{Les modèles compartimentaux}
+Les modèles compartimentaux ont été historiquement utilisés en épidémiologie dans la description de l’évolution des maladie \autocite{bacaer2011short,Kermack1927, McKendrick1925}. Ces modèles se basent sur l’interaction entre trois compartiments, les sains (S), les infectieux (I) et ceux en rémission (R). Chaque compartiment est un groupe homogène et isotope. Cependant, cette idée de compartiments ne s’est pas restreint à la seule étude des maladie infectieuses et a été reprise dans des modélisations des dynamiques d’insectes et de plantes.
+
+\subsection{Les modèles de méta-population}
+Les modèles de méta-population incluent de multiples patchs de populations liés entre eux par des phénomènes de diffusion et dispersion \autocite{HANSKI2008}. La méta-population peut être constituée d’une unique espèce ou de plusieurs (on peut alors parler de méta-communauté). Les questions principales de cette modélisation repose sur la compréhension de la dynamique des différents patchs (extinction, extension,\dots). Le premier modèle de méta-population a été proposé par Levins \autocite{HANSKI2008}. Ce modèle est basé sur la notion de présence/absence. Ainsi si $p = 1$, tous les sites sont occupés par la population, si $p = 0$ tous les sites sont vides (la population s’éteint). Le modèle prend alors la forme de :
+\begin{equation}
+	\frac{dp}{dt} = taux\ d’immigration - taux\ d’extinction
+\end{equation}
+
+Le taux d’immigration représente le taux auquel les sites sont colonisés par l’espèce considérée alors que le taux d’extinction représente le taux auquel les sites se vident. Le modèle de Levins s’écrit plus précisément :
+\begin{equation}
+	\frac{dp}{dt} = ip(1-p) - ep
+\end{equation}
+où $i$ et $e$ sont les probabilités d’immigration et d’extinction
+
+
+Il existe dans la littérature beaucoup d'autres modèles qui sont développer, toujours dans le but de mieux appréhender les interactions existant entre les plantes et les insectes (voir \autocite{lebon:tel-01747618} pour une revue plus détaillée sur ces modèles). Ce dernier, dans le but d’apporter de nouvelles pistes de réflexion dans le domaine des interactions plantes-insectes, a conduit trois études différentes sur la compensation chez les plantes. Dans la première, il a développé un modèle mathématique générique, dont l’étude a mis en évidence l’existence de paramètres seuils qui déterminent la co-existence ou non de différents types d’équilibres de compensation. La seconde étude, expérimentale, a permis de tester l’hypothèse de compensation chez la tomate en réponse à la mineuse de la tomate, \bact{Tuta absoluta}. Dans son expérience, le cultivar de tomate a présenté des tendances à la compensation pour deux niveaux d’infestation, et à la sur-compensation reproductive en cas de faible infestation. Enfin, toujours dans le cas de la tomate et \bact{T. absoluta}, les derniers développements s’appuient sur un modèle informatique de type \og Structure-Fonction\fg. Ce modèle a permis de tester et visualiser différentes situations (dates et positionnements de l’attaque) sur une représentation plus réaliste de la plante.
+

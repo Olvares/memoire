@@ -1,0 +1,3978 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.1 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nyt/global//global/global}
+    \entry{Abrahams2017}{online}{}
+      \name{author}{15}{}{%
+        {{un=0,uniquepart=base,hash=1bd643079be968bcda551f9b8b42a911}{%
+           family={Abrahams},
+           familyi={A\bibinitperiod},
+           given={P.},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d6e4527731932ce296820188106176ee}{%
+           family={Beale},
+           familyi={B\bibinitperiod},
+           given={T.},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=faaaf074358709b0a743c74371eef790}{%
+           family={Cock},
+           familyi={C\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0e600c3d9a00ff93c9207c864be499c2}{%
+           family={Corniani},
+           familyi={C\bibinitperiod},
+           given={N.},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d44fc5bbcf0d1f309967da236e28f8ef}{%
+           family={Day},
+           familyi={D\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=94acab8c308bcbf607ec8645b746a637}{%
+           family={Godwin},
+           familyi={G\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0983714877cadd5c67401c54a3e5a415}{%
+           family={Gomez},
+           familyi={G\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=281eea34a59b9bc4f3d45bd55efee34d}{%
+           family={Moreno},
+           familyi={M\bibinitperiod},
+           given={P.\bibnamedelimi G.},
+           giveni={P\bibinitperiod\bibinitdelim G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=71a68e71ac8e816c41deefb23c9fc817}{%
+           family={Murphy},
+           familyi={M\bibinitperiod},
+           given={S.\bibnamedelimi T.},
+           giveni={S\bibinitperiod\bibinitdelim T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=41a549010f35932413fde3a03f54560c}{%
+           family={Opon-Mensah},
+           familyi={O\bibinithyphendelim M\bibinitperiod},
+           given={B.},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d90f13d64d35e61ed864ea56b76ae22b}{%
+           family={Phiri},
+           familyi={P\bibinitperiod},
+           given={N.},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=642d439642adaed7c81734e025e04578}{%
+           family={Richards},
+           familyi={R\bibinitperiod},
+           given={G.},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0be2b728aaa476941fb2d8463d71e216}{%
+           family={Pratt},
+           familyi={P\bibinitperiod},
+           given={C.},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6b7b4a1b1712b8f295fb02fcee4f319a}{%
+           family={Silvestri},
+           familyi={S\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5718fbd970131cdb1258257da2ac4ac3}{%
+           family={Witt},
+           familyi={W\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{organization}{1}{%
+        {CABI, Wallingford, UK}%
+      }
+      \strng{namehash}{587bb697e4ba67d532e74f14cf1b6f00}
+      \strng{fullhash}{233875357f3238797caf2572497c3029}
+      \strng{bibnamehash}{233875357f3238797caf2572497c3029}
+      \strng{authorbibnamehash}{233875357f3238797caf2572497c3029}
+      \strng{authornamehash}{587bb697e4ba67d532e74f14cf1b6f00}
+      \strng{authorfullhash}{233875357f3238797caf2572497c3029}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{4}
+      \field{title}{Fall Armyworm Status- Impacts and Control Options in Africa : Preliminary Evidence Note}
+      \field{year}{2017}
+      \verb{urlraw}
+      \verb https://www.invasive-species.org/Uploads/InvasiveSpecies/FAWinception-report.pdf
+      \endverb
+      \verb{url}
+      \verb https://www.invasive-species.org/Uploads/InvasiveSpecies/FAWinception-report.pdf
+      \endverb
+    \endentry
+    \entry{ALLEN1993847}{article}{}
+      \name{author}{3}{ul=2}{%
+        {{un=0,uniquepart=base,hash=bd7b89b8a302c32e52e1b562252f769a}{%
+           family={Allen},
+           familyi={A\bibinitperiod},
+           given={Linda\bibnamedelima J.S.},
+           giveni={L\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=cf3950627066f9c5ac59e633257bfd9d}{%
+           family={Hannigan},
+           familyi={H\bibinitperiod},
+           given={Mary\bibnamedelima K.},
+           giveni={M\bibinitperiod\bibinitdelim K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=da1289784efb754573249cc5466f74d8}{%
+           family={Strauss},
+           familyi={S\bibinitperiod},
+           given={Monty\bibnamedelima J.},
+           giveni={M\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{50a89f5c587b223ec3bd2d915d8b9556}
+      \strng{fullhash}{d48d9e889e9ceee849f64ed1edb52dc4}
+      \strng{bibnamehash}{d48d9e889e9ceee849f64ed1edb52dc4}
+      \strng{authorbibnamehash}{d48d9e889e9ceee849f64ed1edb52dc4}
+      \strng{authornamehash}{50a89f5c587b223ec3bd2d915d8b9556}
+      \strng{authorfullhash}{d48d9e889e9ceee849f64ed1edb52dc4}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0092-8240}
+      \field{journaltitle}{Bulletin of Mathematical Biology}
+      \field{number}{4}
+      \field{title}{Mathematical analysis of a model for a plant-herbivore system}
+      \field{volume}{55}
+      \field{year}{1993}
+      \field{pages}{847\bibrangedash 864}
+      \range{pages}{18}
+      \verb{doi}
+      \verb https://doi.org/10.1016/S0092-8240(05)80192-2
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S0092824005801922
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S0092824005801922
+      \endverb
+    \endentry
+    \entry{ALLEN1991369}{article}{}
+      \name{author}{4}{ul=2}{%
+        {{un=0,uniquepart=base,hash=bd7b89b8a302c32e52e1b562252f769a}{%
+           family={Allen},
+           familyi={A\bibinitperiod},
+           given={Linda\bibnamedelima J.S.},
+           giveni={L\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=da1289784efb754573249cc5466f74d8}{%
+           family={Strauss},
+           familyi={S\bibinitperiod},
+           given={Monty\bibnamedelima J.},
+           giveni={M\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ef699f5fa36d92915b42e762605cfff0}{%
+           family={Thorvilson},
+           familyi={T\bibinitperiod},
+           given={Harlan\bibnamedelima G.},
+           giveni={H\bibinitperiod\bibinitdelim G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a002495daaea25ea85d9300e35d9b52f}{%
+           family={Lipe},
+           familyi={L\bibinitperiod},
+           given={William\bibnamedelima N.},
+           giveni={W\bibinitperiod\bibinitdelim N\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{4ff32e5f9dad7018999d02d867d2117c}
+      \strng{fullhash}{c24b20ccfdea16132ae29ee70141c2cf}
+      \strng{bibnamehash}{c24b20ccfdea16132ae29ee70141c2cf}
+      \strng{authorbibnamehash}{c24b20ccfdea16132ae29ee70141c2cf}
+      \strng{authornamehash}{4ff32e5f9dad7018999d02d867d2117c}
+      \strng{authorfullhash}{c24b20ccfdea16132ae29ee70141c2cf}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0304-3800}
+      \field{journaltitle}{Ecological Modelling}
+      \field{number}{1}
+      \field{title}{A preliminary mathematical model of the apple twig borer (Coleoptera: Bostrichidae) and grapes on the Texas high plains}
+      \field{volume}{58}
+      \field{year}{1991}
+      \field{pages}{369\bibrangedash 382}
+      \range{pages}{14}
+      \verb{doi}
+      \verb https://doi.org/10.1016/0304-3800(91)90046-4
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/0304380091900464
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/0304380091900464
+      \endverb
+    \endentry
+    \entry{ANGUELOV2017437}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=1af05cd525a40d0b7458bd621f2f5ab0}{%
+           family={Anguelov},
+           familyi={A\bibinitperiod},
+           given={Roumen},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=776f44dc6d6b6cb62914c01f4311ee49}{%
+           family={Dufourd},
+           familyi={D\bibinitperiod},
+           given={Claire},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=377cebdf517c2322b6aa81b599f80dc7}{%
+           family={Dumont},
+           familyi={D\bibinitperiod},
+           given={Yves},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{0489c5bf0e6a101fb82ec8ae088ada56}
+      \strng{fullhash}{6574ef20f6c49af40651fe2be2e66ae0}
+      \strng{bibnamehash}{6574ef20f6c49af40651fe2be2e66ae0}
+      \strng{authorbibnamehash}{6574ef20f6c49af40651fe2be2e66ae0}
+      \strng{authornamehash}{0489c5bf0e6a101fb82ec8ae088ada56}
+      \strng{authorfullhash}{6574ef20f6c49af40651fe2be2e66ae0}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0307-904X}
+      \field{journaltitle}{Applied Mathematical Modelling}
+      \field{title}{Mathematical model for pest–insect control using mating disruption and trapping}
+      \field{volume}{52}
+      \field{year}{2017}
+      \field{pages}{437\bibrangedash 457}
+      \range{pages}{21}
+      \verb{doi}
+      \verb https://doi.org/10.1016/j.apm.2017.07.060
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S0307904X17305085
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S0307904X17305085
+      \endverb
+    \endentry
+    \entry{ARDITI1989311}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=ef7508d7e41ff3631d34650ce7caa763}{%
+           family={Arditi},
+           familyi={A\bibinitperiod},
+           given={Roger},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a95c796d0fd16a4a78b7cda5a40483c1}{%
+           family={Ginzburg},
+           familyi={G\bibinitperiod},
+           given={Lev\bibnamedelima R.},
+           giveni={L\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{9c0f06850482a174621533bf1faac049}
+      \strng{fullhash}{9c0f06850482a174621533bf1faac049}
+      \strng{bibnamehash}{9c0f06850482a174621533bf1faac049}
+      \strng{authorbibnamehash}{9c0f06850482a174621533bf1faac049}
+      \strng{authornamehash}{9c0f06850482a174621533bf1faac049}
+      \strng{authorfullhash}{9c0f06850482a174621533bf1faac049}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0022-5193}
+      \field{journaltitle}{Journal of Theoretical Biology}
+      \field{number}{3}
+      \field{title}{Coupling in predator-prey dynamics: Ratio-Dependence}
+      \field{volume}{139}
+      \field{year}{1989}
+      \field{pages}{311\bibrangedash 326}
+      \range{pages}{16}
+      \verb{doi}
+      \verb https://doi.org/10.1016/S0022-5193(89)80211-5
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S0022519389802115
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S0022519389802115
+      \endverb
+    \endentry
+    \entry{bacaer2011short}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=5614bcbaca17a7a1ddb07a3da448a77c}{%
+           family={Bacaër},
+           familyi={B\bibinitperiod},
+           given={Nicolas},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Springer Science \& Business Media}%
+      }
+      \strng{namehash}{5614bcbaca17a7a1ddb07a3da448a77c}
+      \strng{fullhash}{5614bcbaca17a7a1ddb07a3da448a77c}
+      \strng{bibnamehash}{5614bcbaca17a7a1ddb07a3da448a77c}
+      \strng{authorbibnamehash}{5614bcbaca17a7a1ddb07a3da448a77c}
+      \strng{authornamehash}{5614bcbaca17a7a1ddb07a3da448a77c}
+      \strng{authorfullhash}{5614bcbaca17a7a1ddb07a3da448a77c}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{A short history of mathematical population dynamics}
+      \field{year}{2011}
+    \endentry
+    \entry{BAUDRON2019141}{article}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=6c65473b9ba33b120b843b20aabe5e4a}{%
+           family={Baudron},
+           familyi={B\bibinitperiod},
+           given={Frédéric},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4fee38d07579ea6fafb04d13fc5689b2}{%
+           family={Zaman-Allah},
+           familyi={Z\bibinithyphendelim A\bibinitperiod},
+           given={Mainassara\bibnamedelima Abdou},
+           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=45885b28aff7bd88f21d1cc068884dd3}{%
+           family={Chaipa},
+           familyi={C\bibinitperiod},
+           given={Isaac},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a6e9f415687460d5e5a74ab3a16a3784}{%
+           family={Chari},
+           familyi={C\bibinitperiod},
+           given={Newton},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1642d4e74aa180d8e238da75a2c9f63a}{%
+           family={Chinwada},
+           familyi={C\bibinitperiod},
+           given={Peter},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{202ae6deb30bde79cec8b6ed363a7b29}
+      \strng{fullhash}{f99a6b5aa27bf74a224c1e6c0ec4207d}
+      \strng{bibnamehash}{f99a6b5aa27bf74a224c1e6c0ec4207d}
+      \strng{authorbibnamehash}{f99a6b5aa27bf74a224c1e6c0ec4207d}
+      \strng{authornamehash}{202ae6deb30bde79cec8b6ed363a7b29}
+      \strng{authorfullhash}{f99a6b5aa27bf74a224c1e6c0ec4207d}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0261-2194}
+      \field{journaltitle}{Crop Protection}
+      \field{title}{Understanding the factors influencing fall armyworm (Spodoptera frugiperda J.E. Smith) damage in African smallholder maize fields and quantifying its impact on yield. A case study in Eastern Zimbabwe}
+      \field{volume}{120}
+      \field{year}{2019}
+      \field{pages}{141\bibrangedash 150}
+      \range{pages}{10}
+      \verb{doi}
+      \verb https://doi.org/10.1016/j.cropro.2019.01.028
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S0261219419300304
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S0261219419300304
+      \endverb
+    \endentry
+    \entry{Beddington1975}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=f36b89f9d909ff17f201537c179aee17}{%
+           family={Beddington},
+           familyi={B\bibinitperiod},
+           given={J.\bibnamedelimi R.},
+           giveni={J\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {[Wiley, British Ecological Society]}%
+      }
+      \strng{namehash}{f36b89f9d909ff17f201537c179aee17}
+      \strng{fullhash}{f36b89f9d909ff17f201537c179aee17}
+      \strng{bibnamehash}{f36b89f9d909ff17f201537c179aee17}
+      \strng{authorbibnamehash}{f36b89f9d909ff17f201537c179aee17}
+      \strng{authornamehash}{f36b89f9d909ff17f201537c179aee17}
+      \strng{authorfullhash}{f36b89f9d909ff17f201537c179aee17}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{00218790, 13652656}
+      \field{journaltitle}{Journal of Animal Ecology}
+      \field{number}{1}
+      \field{title}{Mutual Interference Between Parasites or Predators and its Effect on Searching Efficiency}
+      \field{volume}{44}
+      \field{year}{1975}
+      \field{pages}{331\bibrangedash 340}
+      \range{pages}{10}
+      \verb{urlraw}
+      \verb http://www.jstor.org/stable/3866
+      \endverb
+      \verb{url}
+      \verb http://www.jstor.org/stable/3866
+      \endverb
+    \endentry
+    \entry{beslon2008apprivoiser}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=aa04ef05d15664c5e67201cf9e4f5d8a}{%
+           family={Beslon},
+           familyi={B\bibinitperiod},
+           given={Guillaume},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{aa04ef05d15664c5e67201cf9e4f5d8a}
+      \strng{fullhash}{aa04ef05d15664c5e67201cf9e4f5d8a}
+      \strng{bibnamehash}{aa04ef05d15664c5e67201cf9e4f5d8a}
+      \strng{authorbibnamehash}{aa04ef05d15664c5e67201cf9e4f5d8a}
+      \strng{authornamehash}{aa04ef05d15664c5e67201cf9e4f5d8a}
+      \strng{authorfullhash}{aa04ef05d15664c5e67201cf9e4f5d8a}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Habilitation à Diriger des Recherches, INSA-Lyon}
+      \field{title}{Apprivoiser la vie; modélisation individu-centrée de systèmes biologiques complexes}
+      \field{year}{2008}
+    \endentry
+    \entry{Bista2020}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=f3a2b18e771534b4d2e282133db835ec}{%
+           family={Bista},
+           familyi={B\bibinitperiod},
+           given={Srisha},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f1d45e66420d7682f9116b5aeff0b637}{%
+           family={Thapa},
+           familyi={T\bibinitperiod},
+           given={Manisha},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=529fca94c6446a81a7cd1811dd28f6a3}{%
+           family={Khanal},
+           familyi={K\bibinitperiod},
+           given={Saugat},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{bf412d2146f265a6141202d2c49374a3}
+      \strng{fullhash}{20e7e9933fe8609993382cbac89b0151}
+      \strng{bibnamehash}{20e7e9933fe8609993382cbac89b0151}
+      \strng{authorbibnamehash}{20e7e9933fe8609993382cbac89b0151}
+      \strng{authornamehash}{bf412d2146f265a6141202d2c49374a3}
+      \strng{authorfullhash}{20e7e9933fe8609993382cbac89b0151}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{International Journal of Agriculture Environment and Biotechnology}
+      \field{month}{08}
+      \field{title}{Fall armyworm: Menace to Nepalese farming and the integrated management approaches}
+      \field{volume}{5}
+      \field{year}{2020}
+      \field{pages}{1011\bibrangedash 1018}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.22161/ijeab.54.21
+      \endverb
+    \endentry
+    \entry{Casmuz2017}{article}{}
+      \name{author}{8}{}{%
+        {{un=0,uniquepart=base,hash=42f816ebe450df00f14e76037600a3d0}{%
+           family={Casmuz},
+           familyi={C\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5814f64cbde6dc77675e171dfefc12fe}{%
+           family={Juarez},
+           familyi={J\bibinitperiod},
+           given={M.\bibnamedelimi L.},
+           giveni={M\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0665a9a2004072a2a6b1abe901683ae7}{%
+           family={Socias},
+           familyi={S\bibinitperiod},
+           given={M.\bibnamedelimi G.},
+           giveni={M\bibinitperiod\bibinitdelim G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=986428bdde1bfdd3958d0f7ee64f0c30}{%
+           family={Murua},
+           familyi={M\bibinitperiod},
+           given={M.\bibnamedelimi G.},
+           giveni={M\bibinitperiod\bibinitdelim G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=eb3f4d4c787aa5298067b79e6e9ef1d6}{%
+           family={Prieto},
+           familyi={P\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=cb5c309eb13705f6c589354be162672d}{%
+           family={Medina},
+           familyi={M\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=76155eb1e939f2b0f10e680053607d20}{%
+           family={Willink},
+           familyi={W\bibinitperiod},
+           given={E.},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3badeebd01c1b4aa5b84c8ce4d91d899}{%
+           family={Gastaminza},
+           familyi={G\bibinitperiod},
+           given={G.},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{b95dbcda2e328ef45c893e03fde90820}
+      \strng{fullhash}{f4339d23d1a8c314701212615c3029ad}
+      \strng{bibnamehash}{f4339d23d1a8c314701212615c3029ad}
+      \strng{authorbibnamehash}{f4339d23d1a8c314701212615c3029ad}
+      \strng{authornamehash}{b95dbcda2e328ef45c893e03fde90820}
+      \strng{authorfullhash}{f4339d23d1a8c314701212615c3029ad}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Revista De La Sociedad Entomológica Argentina}
+      \field{title}{Review of the Host Plants of Fall Armyworm, Spodoptera Frugiperda (Lepidoptera: Noctuidae)}
+      \field{volume}{69}
+      \field{year}{2017}
+      \field{pages}{3}
+      \range{pages}{1}
+    \endentry
+    \entry{coquillard1997modelisation}{book}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=1ae59fd86aa76765a2d97e59d754b3d6}{%
+           family={Coquillard},
+           familyi={C\bibinitperiod},
+           given={Patrick},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c8bdb1578d5640980c970178c3f15e62}{%
+           family={Hill},
+           familyi={H\bibinitperiod},
+           given={David\bibnamedelima RC},
+           giveni={D\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3994201af5736d20e095b3d6f7295d58}{%
+           family={Sime-Ngando},
+           familyi={S\bibinithyphendelim N\bibinitperiod},
+           given={T},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Masson Paris}%
+      }
+      \strng{namehash}{86d869e7242e9b2fc8bb8a07d4e4802e}
+      \strng{fullhash}{9a7c680ca734c6c8f0bd88a6719d578f}
+      \strng{bibnamehash}{9a7c680ca734c6c8f0bd88a6719d578f}
+      \strng{authorbibnamehash}{9a7c680ca734c6c8f0bd88a6719d578f}
+      \strng{authornamehash}{86d869e7242e9b2fc8bb8a07d4e4802e}
+      \strng{authorfullhash}{9a7c680ca734c6c8f0bd88a6719d578f}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Modélisation et simulation d'écosystèmes: des modèles déterministes aux simulations à évènements discrets}
+      \field{year}{1997}
+    \endentry
+    \entry{Daudi2021}{article}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=41e7df97b46e2904935e9a2a9d467360}{%
+           family={Daudi},
+           familyi={D\bibinitperiod},
+           given={Salamida},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=bff5c2a666b8ff8842e32b3ca73709d9}{%
+           family={Luboobi},
+           familyi={L\bibinitperiod},
+           given={Livingstone},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d2745fe72c43d7b05afce94761986c7f}{%
+           family={Kgosimore},
+           familyi={K\bibinitperiod},
+           given={Moatlhodi},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=fdf3a65b1fc6010f61c1017aab895426}{%
+           family={Kuznetsov},
+           familyi={K\bibinitperiod},
+           given={Dmitry},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=4c82061b756089004f4651fbeb8fd08c}{%
+           family={Yu},
+           familyi={Y\bibinitperiod},
+           given={Jianshe},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Hindawi}%
+      }
+      \strng{namehash}{cb798e3e7afb04bdbb94a511b81730e4}
+      \strng{fullhash}{7058846c9292d623f52da3cd2010dc26}
+      \strng{bibnamehash}{7058846c9292d623f52da3cd2010dc26}
+      \strng{authorbibnamehash}{7058846c9292d623f52da3cd2010dc26}
+      \strng{authornamehash}{cb798e3e7afb04bdbb94a511b81730e4}
+      \strng{authorfullhash}{7058846c9292d623f52da3cd2010dc26}
+      \strng{editorbibnamehash}{4c82061b756089004f4651fbeb8fd08c}
+      \strng{editornamehash}{4c82061b756089004f4651fbeb8fd08c}
+      \strng{editorfullhash}{4c82061b756089004f4651fbeb8fd08c}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1687-9643}
+      \field{journaltitle}{International Journal of Differential Equations}
+      \field{month}{3}
+      \field{pagetotal}{16}
+      \field{title}{Modelling the Control of the Impact of Fall Armyworm (Spodoptera frugiperda) Infestations on Maize Production}
+      \field{volume}{2021}
+      \field{year}{2021}
+      \verb{doi}
+      \verb 10.1155/2021/8838089
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1155/2021/8838089
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1155/2021/8838089
+      \endverb
+    \endentry
+    \entry{day2017fall}{article}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{10}{}{%
+        {{un=0,uniquepart=base,hash=46f9db909f5a334f81360e9e0fa5adac}{%
+           family={Day},
+           familyi={D\bibinitperiod},
+           given={Roger},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=cb52211fad812f2257455cf6fca8478c}{%
+           family={Abrahams},
+           familyi={A\bibinitperiod},
+           given={Phil},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e3bc9f5dd9f17b093899e15662f760e6}{%
+           family={Bateman},
+           familyi={B\bibinitperiod},
+           given={Melanie},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ca1155086ac59bc7a4a78e37e4116a93}{%
+           family={Beale},
+           familyi={B\bibinitperiod},
+           given={Tim},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f5bb2a4ff148d2a87674ab1dd8102b5d}{%
+           family={Clottey},
+           familyi={C\bibinitperiod},
+           given={Victor},
+           giveni={V\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e3b998d7363c7be4d183f7414958008e}{%
+           family={Cock},
+           familyi={C\bibinitperiod},
+           given={Matthew},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4ecf09b6875b7938cd82690f681cc0e9}{%
+           family={Colmenarez},
+           familyi={C\bibinitperiod},
+           given={Yelitza},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ec868793152d2d47f060fb71f91b2b67}{%
+           family={Corniani},
+           familyi={C\bibinitperiod},
+           given={Natalia},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=36fb4fc89052b36b87b4dbd443319959}{%
+           family={Early},
+           familyi={E\bibinitperiod},
+           given={Regan},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=afebd9d39bd700d665b99fed6ed0d74c}{%
+           family={Godwin},
+           familyi={G\bibinitperiod},
+           given={Julien},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Research Information}%
+      }
+      \strng{namehash}{f5a56ac1cdd252d95e2e06d41c5733e4}
+      \strng{fullhash}{3b52d1a9e86e6a5e3260cbbc4cd3dfbe}
+      \strng{bibnamehash}{3b52d1a9e86e6a5e3260cbbc4cd3dfbe}
+      \strng{authorbibnamehash}{3b52d1a9e86e6a5e3260cbbc4cd3dfbe}
+      \strng{authornamehash}{f5a56ac1cdd252d95e2e06d41c5733e4}
+      \strng{authorfullhash}{3b52d1a9e86e6a5e3260cbbc4cd3dfbe}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Outlooks on Pest Management}
+      \field{number}{5}
+      \field{title}{Fall armyworm: impacts and implications for Africa}
+      \field{volume}{28}
+      \field{year}{2017}
+      \field{pages}{196\bibrangedash 201}
+      \range{pages}{6}
+    \endentry
+    \entry{DEGROOTE2020106804}{article}{}
+      \name{author}{6}{}{%
+        {{un=0,uniquepart=base,hash=822bd5fb5b29141926f371349e121710}{%
+           family={{De Groote}},
+           familyi={D\bibinitperiod},
+           given={Hugo},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=21c3cc335d9faa8df5a7bcfcf9604e39}{%
+           family={Kimenju},
+           familyi={K\bibinitperiod},
+           given={Simon\bibnamedelima C.},
+           giveni={S\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2983b7b3302d8e1f60f5bb4a1f885ca4}{%
+           family={Munyua},
+           familyi={M\bibinitperiod},
+           given={Bernard},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f12f2e394f9b3f2297c94cf9166eadbb}{%
+           family={Palmas},
+           familyi={P\bibinitperiod},
+           given={Sebastian},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=18ca50172de5ef29a9b57d39a9aed6f9}{%
+           family={Kassie},
+           familyi={K\bibinitperiod},
+           given={Menale},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=77946efb10eec20f78c819b73d0ed6dc}{%
+           family={Bruce},
+           familyi={B\bibinitperiod},
+           given={Anani},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{34ad2e53cb039f68cef43b86978efbea}
+      \strng{fullhash}{e430f60eb97590ae734f79de9eb84431}
+      \strng{bibnamehash}{e430f60eb97590ae734f79de9eb84431}
+      \strng{authorbibnamehash}{e430f60eb97590ae734f79de9eb84431}
+      \strng{authornamehash}{34ad2e53cb039f68cef43b86978efbea}
+      \strng{authorfullhash}{e430f60eb97590ae734f79de9eb84431}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0167-8809}
+      \field{journaltitle}{Agriculture, Ecosystems \& Environment}
+      \field{title}{Spread and impact of fall armyworm (Spodoptera frugiperda J.E. Smith) in maize production areas of Kenya}
+      \field{volume}{292}
+      \field{year}{2020}
+      \field{pages}{106804}
+      \range{pages}{1}
+      \verb{doi}
+      \verb https://doi.org/10.1016/j.agee.2019.106804
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S0167880919304219
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S0167880919304219
+      \endverb
+    \endentry
+    \entry{DeAngelis1975}{article}{}
+      \name{author}{3}{ul=2}{%
+        {{un=0,uniquepart=base,hash=4e9cc4aa78ca388992d0d2e45116649a}{%
+           family={DeAngelis},
+           familyi={D\bibinitperiod},
+           given={D.\bibnamedelimi L.},
+           giveni={D\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b10b673b4ce69de87072943f4487bd8b}{%
+           family={Goldstein},
+           familyi={G\bibinitperiod},
+           given={R.\bibnamedelimi A.},
+           giveni={R\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=57521ddd9ae9b895b90c58b875ebbc4f}{%
+           family={O'Neill},
+           familyi={O\bibinitperiod},
+           given={R.\bibnamedelimi V.},
+           giveni={R\bibinitperiod\bibinitdelim V\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{f848c053c94afd6ca007c9e8a0d98edf}
+      \strng{fullhash}{7d8c16eddb1afe8d7e58d39572b54a5d}
+      \strng{bibnamehash}{7d8c16eddb1afe8d7e58d39572b54a5d}
+      \strng{authorbibnamehash}{7d8c16eddb1afe8d7e58d39572b54a5d}
+      \strng{authornamehash}{f848c053c94afd6ca007c9e8a0d98edf}
+      \strng{authorfullhash}{7d8c16eddb1afe8d7e58d39572b54a5d}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Ecology}
+      \field{number}{4}
+      \field{title}{A Model for Tropic Interaction}
+      \field{volume}{56}
+      \field{year}{1975}
+      \field{pages}{881\bibrangedash 892}
+      \range{pages}{12}
+      \verb{doi}
+      \verb https://doi.org/10.2307/1936298
+      \endverb
+      \verb{eprint}
+      \verb https://esajournals.onlinelibrary.wiley.com/doi/pdf/10.2307/1936298
+      \endverb
+      \verb{urlraw}
+      \verb https://esajournals.onlinelibrary.wiley.com/doi/abs/10.2307/1936298
+      \endverb
+      \verb{url}
+      \verb https://esajournals.onlinelibrary.wiley.com/doi/abs/10.2307/1936298
+      \endverb
+    \endentry
+    \entry{DeAngelisMooij2005}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=e98d80b382c7d4106081e30fe7ef5827}{%
+           family={DeAngelis},
+           familyi={D\bibinitperiod},
+           given={Donald\bibnamedelima L.},
+           giveni={D\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=527da857b1ac68cbb67350c679072cd9}{%
+           family={Mooij},
+           familyi={M\bibinitperiod},
+           given={Wolf\bibnamedelima M.},
+           giveni={W\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{de42ece78a0242ff73fb76341c1330e3}
+      \strng{fullhash}{de42ece78a0242ff73fb76341c1330e3}
+      \strng{bibnamehash}{de42ece78a0242ff73fb76341c1330e3}
+      \strng{authorbibnamehash}{de42ece78a0242ff73fb76341c1330e3}
+      \strng{authornamehash}{de42ece78a0242ff73fb76341c1330e3}
+      \strng{authorfullhash}{de42ece78a0242ff73fb76341c1330e3}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Annual Review of Ecology, Evolution, and Systematics}
+      \field{number}{1}
+      \field{title}{Individual-Based Modeling of Ecological and Evolutionary Processes}
+      \field{volume}{36}
+      \field{year}{2005}
+      \field{pages}{147\bibrangedash 168}
+      \range{pages}{22}
+      \verb{doi}
+      \verb 10.1146/annurev.ecolsys.36.102003.152644
+      \endverb
+      \verb{eprint}
+      \verb https://doi.org/10.1146/annurev.ecolsys.36.102003.152644
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1146/annurev.ecolsys.36.102003.152644
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1146/annurev.ecolsys.36.102003.152644
+      \endverb
+    \endentry
+    \entry{DEVI2018727}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=9b3d8e1933a6662e21e31dcb2fd38533}{%
+           family={Devi},
+           familyi={D\bibinitperiod},
+           given={Sharmila},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{9b3d8e1933a6662e21e31dcb2fd38533}
+      \strng{fullhash}{9b3d8e1933a6662e21e31dcb2fd38533}
+      \strng{bibnamehash}{9b3d8e1933a6662e21e31dcb2fd38533}
+      \strng{authorbibnamehash}{9b3d8e1933a6662e21e31dcb2fd38533}
+      \strng{authornamehash}{9b3d8e1933a6662e21e31dcb2fd38533}
+      \strng{authorfullhash}{9b3d8e1933a6662e21e31dcb2fd38533}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0140-6736}
+      \field{journaltitle}{The Lancet}
+      \field{number}{10122}
+      \field{title}{Fall armyworm threatens food security in southern Africa}
+      \field{volume}{391}
+      \field{year}{2018}
+      \field{pages}{727}
+      \range{pages}{1}
+      \verb{doi}
+      \verb https://doi.org/10.1016/S0140-6736(18)30431-8
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S0140673618304318
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S0140673618304318
+      \endverb
+    \endentry
+    \entry{Early391847}{article}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=36fb4fc89052b36b87b4dbd443319959}{%
+           family={Early},
+           familyi={E\bibinitperiod},
+           given={Regan},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d919033626a29903b7b8143d12b2c1b0}{%
+           family={González-Moreno},
+           familyi={G\bibinithyphendelim M\bibinitperiod},
+           given={Pablo},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c5b061ac5f064f8ec027d327cf68e33e}{%
+           family={Murphy},
+           familyi={M\bibinitperiod},
+           given={Sean\bibnamedelima T.},
+           giveni={S\bibinitperiod\bibinitdelim T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=46f9db909f5a334f81360e9e0fa5adac}{%
+           family={Day},
+           familyi={D\bibinitperiod},
+           given={Roger},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Cold Spring Harbor Laboratory}%
+      }
+      \strng{namehash}{6073ed9b2f6ce1ab85de78fc5d84118b}
+      \strng{fullhash}{06b26b85eff75c3712a13bc56a1738f8}
+      \strng{bibnamehash}{06b26b85eff75c3712a13bc56a1738f8}
+      \strng{authorbibnamehash}{06b26b85eff75c3712a13bc56a1738f8}
+      \strng{authornamehash}{6073ed9b2f6ce1ab85de78fc5d84118b}
+      \strng{authorfullhash}{06b26b85eff75c3712a13bc56a1738f8}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{bioRxiv}
+      \field{title}{Forecasting the global extent of invasion of the cereal pest Spodoptera frugiperda, the fall armyworm}
+      \field{year}{2018}
+      \verb{doi}
+      \verb 10.1101/391847
+      \endverb
+      \verb{eprint}
+      \verb https://www.biorxiv.org/content/early/2018/08/15/391847.full.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.biorxiv.org/content/early/2018/08/15/391847
+      \endverb
+      \verb{url}
+      \verb https://www.biorxiv.org/content/early/2018/08/15/391847
+      \endverb
+    \endentry
+    \entry{EDMUNDS2007379}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=29d70ad6f42f5b0420226d5b39200767}{%
+           family={Edmunds},
+           familyi={E\bibinitperiod},
+           given={Jeffrey\bibnamedelima L.},
+           giveni={J\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{29d70ad6f42f5b0420226d5b39200767}
+      \strng{fullhash}{29d70ad6f42f5b0420226d5b39200767}
+      \strng{bibnamehash}{29d70ad6f42f5b0420226d5b39200767}
+      \strng{authorbibnamehash}{29d70ad6f42f5b0420226d5b39200767}
+      \strng{authornamehash}{29d70ad6f42f5b0420226d5b39200767}
+      \strng{authorfullhash}{29d70ad6f42f5b0420226d5b39200767}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0040-5809}
+      \field{journaltitle}{Theoretical Population Biology}
+      \field{number}{3}
+      \field{title}{Multiple attractors in a discrete competition model}
+      \field{volume}{72}
+      \field{year}{2007}
+      \field{pages}{379\bibrangedash 388}
+      \range{pages}{10}
+      \verb{doi}
+      \verb https://doi.org/10.1016/j.tpb.2007.07.004
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S0040580907000755
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S0040580907000755
+      \endverb
+    \endentry
+    \entry{fao201806}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=4807e0aebe86c17f559853f35515b533}{%
+           family={FAO},
+           familyi={F\bibinitperiod}}}%
+      }
+      \list{organization}{2}{%
+        {Food}%
+        {Agriculture Organization (FAO) of the United Nations}%
+      }
+      \strng{namehash}{4807e0aebe86c17f559853f35515b533}
+      \strng{fullhash}{4807e0aebe86c17f559853f35515b533}
+      \strng{bibnamehash}{4807e0aebe86c17f559853f35515b533}
+      \strng{authorbibnamehash}{4807e0aebe86c17f559853f35515b533}
+      \strng{authornamehash}{4807e0aebe86c17f559853f35515b533}
+      \strng{authorfullhash}{4807e0aebe86c17f559853f35515b533}
+      \field{extraname}{1}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{6}
+      \field{title}{Fall Armyworm Keeps Spreading and Becomes More Destructive}
+      \field{year}{2018}
+      \verb{urlraw}
+      \verb https://www.fao.org/news/story/en/item/1142085/icode/
+      \endverb
+      \verb{url}
+      \verb https://www.fao.org/news/story/en/item/1142085/icode/
+      \endverb
+    \endentry
+    \entry{fao2021}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=4807e0aebe86c17f559853f35515b533}{%
+           family={FAO},
+           familyi={F\bibinitperiod}}}%
+      }
+      \list{organization}{2}{%
+        {Food}%
+        {Agriculture Organization (FAO) of the United Nations}%
+      }
+      \strng{namehash}{4807e0aebe86c17f559853f35515b533}
+      \strng{fullhash}{4807e0aebe86c17f559853f35515b533}
+      \strng{bibnamehash}{4807e0aebe86c17f559853f35515b533}
+      \strng{authorbibnamehash}{4807e0aebe86c17f559853f35515b533}
+      \strng{authornamehash}{4807e0aebe86c17f559853f35515b533}
+      \strng{authorfullhash}{4807e0aebe86c17f559853f35515b533}
+      \field{extraname}{2}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{5}
+      \field{title}{Global Action for Fall Armyworm Control}
+      \field{year}{2021}
+      \verb{urlraw}
+      \verb https://www.fao.org/fall-armyworm/monitoring-tools/faw-map/en
+      \endverb
+      \verb{url}
+      \verb https://www.fao.org/fall-armyworm/monitoring-tools/faw-map/en
+      \endverb
+    \endentry
+    \entry{fao201812}{online}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=4807e0aebe86c17f559853f35515b533}{%
+           family={FAO},
+           familyi={F\bibinitperiod}}}%
+        {{un=0,uniquepart=base,hash=d4e2cab6c6d60b89733c1206a96fc16f}{%
+           family={PPD},
+           familyi={P\bibinitperiod}}}%
+      }
+      \list{organization}{2}{%
+        {Food}%
+        {Agriculture Organization (FAO) of the United Nations}%
+      }
+      \strng{namehash}{a5ff92e02fea374a50ec1aee483535d5}
+      \strng{fullhash}{a5ff92e02fea374a50ec1aee483535d5}
+      \strng{bibnamehash}{a5ff92e02fea374a50ec1aee483535d5}
+      \strng{authorbibnamehash}{a5ff92e02fea374a50ec1aee483535d5}
+      \strng{authornamehash}{a5ff92e02fea374a50ec1aee483535d5}
+      \strng{authorfullhash}{a5ff92e02fea374a50ec1aee483535d5}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{12}
+      \field{title}{Integrated Management of the Fall Armyworm on Maize: A Guide for Farmer Field Schools in Africa}
+      \field{year}{2018}
+      \verb{urlraw}
+      \verb http://www.fao.org/3/i8741en/i8741EN.pdf
+      \endverb
+      \verb{url}
+      \verb http://www.fao.org/3/i8741en/i8741EN.pdf
+      \endverb
+    \endentry
+    \entry{FENG2008449}{article}{}
+      \name{author}{3}{ul=2}{%
+        {{un=0,uniquepart=base,hash=caff8214e30e1d9a95e1e19ef7ca42f6}{%
+           family={Feng},
+           familyi={F\bibinitperiod},
+           given={Zhilan},
+           giveni={Z\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a89d3a171198d1126f1eb2515bd506ee}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Rongsong},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e98d80b382c7d4106081e30fe7ef5827}{%
+           family={DeAngelis},
+           familyi={D\bibinitperiod},
+           given={Donald\bibnamedelima L.},
+           giveni={D\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{ee926377f69d9b056508088e3511a7b5}
+      \strng{fullhash}{cd0de4b49f461ca2f611b01698cd2c8f}
+      \strng{bibnamehash}{cd0de4b49f461ca2f611b01698cd2c8f}
+      \strng{authorbibnamehash}{cd0de4b49f461ca2f611b01698cd2c8f}
+      \strng{authornamehash}{ee926377f69d9b056508088e3511a7b5}
+      \strng{authorfullhash}{cd0de4b49f461ca2f611b01698cd2c8f}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0040-5809}
+      \field{journaltitle}{Theoretical Population Biology}
+      \field{number}{3}
+      \field{title}{Plant–herbivore interactions mediated by plant toxicity}
+      \field{volume}{73}
+      \field{year}{2008}
+      \field{pages}{449\bibrangedash 459}
+      \range{pages}{11}
+      \verb{doi}
+      \verb https://doi.org/10.1016/j.tpb.2007.12.004
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S0040580907001347
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S0040580907001347
+      \endverb
+    \endentry
+    \entry{FENG2011190}{article}{}
+      \name{author}{4}{ul=2}{%
+        {{un=0,uniquepart=base,hash=caff8214e30e1d9a95e1e19ef7ca42f6}{%
+           family={Feng},
+           familyi={F\bibinitperiod},
+           given={Zhilan},
+           giveni={Z\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=55f85171f3d5cd0f1da3021bea99275a}{%
+           family={Qiu},
+           familyi={Q\bibinitperiod},
+           given={Zhipeng},
+           giveni={Z\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a89d3a171198d1126f1eb2515bd506ee}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Rongsong},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e98d80b382c7d4106081e30fe7ef5827}{%
+           family={DeAngelis},
+           familyi={D\bibinitperiod},
+           given={Donald\bibnamedelima L.},
+           giveni={D\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{d5f76d1b900fe3f54ae08d9da9f84cc6}
+      \strng{fullhash}{3cdaa636e86c4b84b072e2eee14f6272}
+      \strng{bibnamehash}{3cdaa636e86c4b84b072e2eee14f6272}
+      \strng{authorbibnamehash}{3cdaa636e86c4b84b072e2eee14f6272}
+      \strng{authornamehash}{d5f76d1b900fe3f54ae08d9da9f84cc6}
+      \strng{authorfullhash}{3cdaa636e86c4b84b072e2eee14f6272}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0025-5564}
+      \field{journaltitle}{Mathematical Biosciences}
+      \field{number}{2}
+      \field{title}{Dynamics of a plant–herbivore–predator system with plant-toxicity}
+      \field{volume}{229}
+      \field{year}{2011}
+      \field{pages}{190\bibrangedash 204}
+      \range{pages}{15}
+      \verb{doi}
+      \verb https://doi.org/10.1016/j.mbs.2010.12.005
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S0025556410001860
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S0025556410001860
+      \endverb
+    \endentry
+    \entry{Fortin2008}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=a9ba8e948d878c9f5413de01f710a3ff}{%
+           family={Fortin},
+           familyi={F\bibinitperiod},
+           given={André},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=c319009c56c0acfcdf6d638509a4549f}{%
+           family={Polytechnique\bibnamedelimb de\bibnamedelima Monréal},
+           familyi={P\bibinitperiod\bibinitdelim d\bibinitperiod\bibinitdelim M\bibinitperiod},
+           given={Edition},
+           giveni={E\bibinitperiod},
+           prefix={de\bibnamedelima l'Ecole},
+           prefixi={d\bibinitperiod\bibinitdelim l\bibinitperiod}}}%
+      }
+      \strng{namehash}{a9ba8e948d878c9f5413de01f710a3ff}
+      \strng{fullhash}{a9ba8e948d878c9f5413de01f710a3ff}
+      \strng{bibnamehash}{a9ba8e948d878c9f5413de01f710a3ff}
+      \strng{authorbibnamehash}{a9ba8e948d878c9f5413de01f710a3ff}
+      \strng{authornamehash}{a9ba8e948d878c9f5413de01f710a3ff}
+      \strng{authorfullhash}{a9ba8e948d878c9f5413de01f710a3ff}
+      \strng{editorbibnamehash}{c319009c56c0acfcdf6d638509a4549f}
+      \strng{editornamehash}{c319009c56c0acfcdf6d638509a4549f}
+      \strng{editorfullhash}{c319009c56c0acfcdf6d638509a4549f}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{chapter}{Chapitre 7 : Equations différentielles}
+      \field{pagetotal}{448}
+      \field{title}{Analyse numérique pour ingénieurs}
+      \field{year}{2008}
+      \field{pages}{351\bibrangedash 400}
+      \range{pages}{50}
+    \endentry
+    \entry{Kuate2019}{article}{}
+      \name{author}{11}{}{%
+        {{un=0,uniquepart=base,hash=5075cac1a28b4fef09882a3c8531c4f2}{%
+           family={Fotso\bibnamedelima Kuate},
+           familyi={F\bibinitperiod\bibinitdelim K\bibinitperiod},
+           given={Apollin},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1493ff7d5ee9f52c52c7c93fc36c6f6e}{%
+           family={Hanna},
+           familyi={H\bibinitperiod},
+           given={Rachid},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8305312ebe8077e5da3adc44bbed320f}{%
+           family={Doumtsop\bibnamedelima Fotio},
+           familyi={D\bibinitperiod\bibinitdelim F\bibinitperiod},
+           given={Armand\bibnamedelimb R.\bibnamedelimi P.},
+           giveni={A\bibinitperiod\bibinitdelim R\bibinitperiod\bibinitdelim P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=606322affe7511d8e85c8fcb461c5cc6}{%
+           family={Abang},
+           familyi={A\bibinitperiod},
+           given={Albert\bibnamedelima Fomumbod},
+           giveni={A\bibinitperiod\bibinitdelim F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=be791dd87fff3ce0de7a131849c28587}{%
+           family={Nanga},
+           familyi={N\bibinitperiod},
+           given={Samuel\bibnamedelima Nanga},
+           giveni={S\bibinitperiod\bibinitdelim N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=21d3de4b1a8c5c5516e87e8ea3642e81}{%
+           family={Ngatat},
+           familyi={N\bibinitperiod},
+           given={Sergine},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6517f43a12db33b44c98bf4c3721e756}{%
+           family={Tindo},
+           familyi={T\bibinitperiod},
+           given={Maurice},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7b1fdd4c7d2cbc9ba030a9379e9d0dee}{%
+           family={Masso},
+           familyi={M\bibinitperiod},
+           given={Cargele},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f21f7951ba7e8f5775ba0058087e1892}{%
+           family={Ndemah},
+           familyi={N\bibinitperiod},
+           given={Rose},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5c2e6ea0cdc7b88c0d38c4e30f35cba5}{%
+           family={Suh},
+           familyi={S\bibinitperiod},
+           given={Christopher},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6cc95ca4e81c863697e750e70b460e88}{%
+           family={Fiaboe},
+           familyi={F\bibinitperiod},
+           given={Komi\bibnamedelimb Kouma\bibnamedelima Mokpokpo},
+           giveni={K\bibinitperiod\bibinitdelim K\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Public Library of Science}%
+      }
+      \strng{namehash}{3708a8dd71595322890bfdc8cddad649}
+      \strng{fullhash}{1e0387759a3eb6ba048090fad7337a09}
+      \strng{bibnamehash}{1e0387759a3eb6ba048090fad7337a09}
+      \strng{authorbibnamehash}{1e0387759a3eb6ba048090fad7337a09}
+      \strng{authornamehash}{3708a8dd71595322890bfdc8cddad649}
+      \strng{authorfullhash}{1e0387759a3eb6ba048090fad7337a09}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{PloS One}
+      \field{number}{4}
+      \field{title}{Spodoptera Frugiperda Smith (Lepidoptera: Noctuidae) in Cameroon: Case Study on Its Distribution, Damage, Pesticide Use, Genetic Differentiation and Host Plants}
+      \field{volume}{14}
+      \field{year}{2019}
+      \field{pages}{1\bibrangedash 18}
+      \range{pages}{18}
+      \verb{doi}
+      \verb 10.1371/journal.pone.0215749
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1371/journal.pone.0215749
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1371/journal.pone.0215749
+      \endverb
+    \endentry
+    \entry{Glover1856}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=0dc4409b3d272b1827df060add6b1ecc}{%
+           family={Glover},
+           familyi={G\bibinitperiod},
+           given={Townend},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Washington}%
+      }
+      \list{publisher}{1}{%
+        {Washington, Cornelius Wendell, printer}%
+      }
+      \strng{namehash}{0dc4409b3d272b1827df060add6b1ecc}
+      \strng{fullhash}{0dc4409b3d272b1827df060add6b1ecc}
+      \strng{bibnamehash}{0dc4409b3d272b1827df060add6b1ecc}
+      \strng{authorbibnamehash}{0dc4409b3d272b1827df060add6b1ecc}
+      \strng{authornamehash}{0dc4409b3d272b1827df060add6b1ecc}
+      \strng{authorfullhash}{0dc4409b3d272b1827df060add6b1ecc}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{pagetotal}{300}
+      \field{title}{Insects frequenting the cotton-plant}
+      \field{year}{1856}
+      \field{pages}{64\bibrangedash 115}
+      \range{pages}{52}
+      \verb{doi}
+      \verb https://doi.org/10.5962/bhl.title.138377
+      \endverb
+    \endentry
+    \entry{goergen2016first}{article}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=c017c493537c437dc6a4fe6320f9ed29}{%
+           family={Goergen},
+           familyi={G\bibinitperiod},
+           given={Georg},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=eb9aaddb14d55279b8d03c26c48eea7b}{%
+           family={Kumar},
+           familyi={K\bibinitperiod},
+           given={P\bibnamedelima Lava},
+           giveni={P\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=dd473100bbdfa7a968f3bc3874e550e3}{%
+           family={Sankung},
+           familyi={S\bibinitperiod},
+           given={Sagnia\bibnamedelima B},
+           giveni={S\bibinitperiod\bibinitdelim B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=57d48e582f8e9c4ff013cf5008d9760d}{%
+           family={Togola},
+           familyi={T\bibinitperiod},
+           given={Abou},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ead3733beabcc711e9d5644510591c99}{%
+           family={Tamò},
+           familyi={T\bibinitperiod},
+           given={Manuele},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Public Library of Science San Francisco, CA USA}%
+      }
+      \strng{namehash}{adb9c697e0d73942fc635a346c4b8284}
+      \strng{fullhash}{aefd7b6d2ffc8c0b7081db9bfdf73e35}
+      \strng{bibnamehash}{aefd7b6d2ffc8c0b7081db9bfdf73e35}
+      \strng{authorbibnamehash}{aefd7b6d2ffc8c0b7081db9bfdf73e35}
+      \strng{authornamehash}{adb9c697e0d73942fc635a346c4b8284}
+      \strng{authorfullhash}{aefd7b6d2ffc8c0b7081db9bfdf73e35}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{PloS one}
+      \field{number}{10}
+      \field{title}{First report of outbreaks of the fall armyworm Spodoptera frugiperda (JE Smith)(Lepidoptera, Noctuidae), a new alien invasive pest in West and Central Africa}
+      \field{volume}{11}
+      \field{year}{2016}
+      \field{pages}{e0165632}
+      \range{pages}{-1}
+    \endentry
+    \entry{Griebeler2000}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=581565af8068d4ca745b824b06c75043}{%
+           family={Griebeler},
+           familyi={G\bibinitperiod},
+           given={Eva\bibnamedelima M.},
+           giveni={E\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5b6ce7484290dfc853a874c4057450f5}{%
+           family={Gottschalk},
+           familyi={G\bibinitperiod},
+           given={Eckhard},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{e5f6c69b56f132802e63439ac8a38ac4}
+      \strng{fullhash}{e5f6c69b56f132802e63439ac8a38ac4}
+      \strng{bibnamehash}{e5f6c69b56f132802e63439ac8a38ac4}
+      \strng{authorbibnamehash}{e5f6c69b56f132802e63439ac8a38ac4}
+      \strng{authornamehash}{e5f6c69b56f132802e63439ac8a38ac4}
+      \strng{authorfullhash}{e5f6c69b56f132802e63439ac8a38ac4}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1572-9753}
+      \field{journaltitle}{Journal of Insect Conservation}
+      \field{month}{12}
+      \field{number}{4}
+      \field{title}{An Individual Based Model of the Impact of Suboptimal Habitat on Survival of the Grey Bush Cricket, Platycleis Albopunctata (Orthoptera: Tettigoniidae)}
+      \field{volume}{4}
+      \field{year}{2000}
+      \field{pages}{225\bibrangedash 237}
+      \range{pages}{13}
+      \verb{doi}
+      \verb 10.1023/A:1011343609779
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1023/A:1011343609779
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1023/A:1011343609779
+      \endverb
+    \endentry
+    \entry{Gutierrez1985}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=ed2f3749bc1fcd505e0b4e2355ea3ad2}{%
+           family={Gutierrez},
+           familyi={G\bibinitperiod},
+           given={A.\bibnamedelimi P.},
+           giveni={A\bibinitperiod\bibinitdelim P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=efec2a12abbeafde72925e87647d6737}{%
+           family={Williams},
+           familyi={W\bibinitperiod},
+           given={D.\bibnamedelimi W.},
+           giveni={D\bibinitperiod\bibinitdelim W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1d14f8fb8ce31b1e1ef12b3e7ef2cb0e}{%
+           family={Kido},
+           familyi={K\bibinitperiod},
+           given={H.},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{34822c7722ed5bcf1a3481502fdc398e}
+      \strng{fullhash}{c0bcea4e706ec4c2a1bc985cd8bd360c}
+      \strng{bibnamehash}{c0bcea4e706ec4c2a1bc985cd8bd360c}
+      \strng{authorbibnamehash}{c0bcea4e706ec4c2a1bc985cd8bd360c}
+      \strng{authornamehash}{34822c7722ed5bcf1a3481502fdc398e}
+      \strng{authorfullhash}{c0bcea4e706ec4c2a1bc985cd8bd360c}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Crop Science}
+      \field{number}{5}
+      \field{title}{A Model of Grape Growth and Development: the Mathematical Structure and Biological Considerations1}
+      \field{volume}{25}
+      \field{year}{1985}
+      \field{pages}{cropsci1985.0011183X002500050001x}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb https://doi.org/10.2135/cropsci1985.0011183X002500050001x
+      \endverb
+      \verb{eprint}
+      \verb https://acsess.onlinelibrary.wiley.com/doi/pdf/10.2135/cropsci1985.0011183X002500050001x
+      \endverb
+      \verb{urlraw}
+      \verb https://acsess.onlinelibrary.wiley.com/doi/abs/10.2135/cropsci1985.0011183X002500050001x
+      \endverb
+      \verb{url}
+      \verb https://acsess.onlinelibrary.wiley.com/doi/abs/10.2135/cropsci1985.0011183X002500050001x
+      \endverb
+    \endentry
+    \entry{HANSKI2008}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=4e8fe655600212cfe1becbefd9ed25ab}{%
+           family={Hanski},
+           familyi={H\bibinitperiod},
+           given={Ilkka},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3974dd0ecb5158e1aa4b6bef54790606}{%
+           family={Gilpin},
+           familyi={G\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{a8e87ccc481f05389c25794e9f39b922}
+      \strng{fullhash}{a8e87ccc481f05389c25794e9f39b922}
+      \strng{bibnamehash}{a8e87ccc481f05389c25794e9f39b922}
+      \strng{authorbibnamehash}{a8e87ccc481f05389c25794e9f39b922}
+      \strng{authornamehash}{a8e87ccc481f05389c25794e9f39b922}
+      \strng{authorfullhash}{a8e87ccc481f05389c25794e9f39b922}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0024-4066}
+      \field{journaltitle}{Biological Journal of the Linnean Society}
+      \field{month}{1}
+      \field{number}{1-2}
+      \field{title}{Metapopulation dynamics: brief history and conceptual domain}
+      \field{volume}{42}
+      \field{year}{2008}
+      \field{pages}{3\bibrangedash 16}
+      \range{pages}{14}
+      \verb{doi}
+      \verb 10.1111/j.1095-8312.1991.tb00548.x
+      \endverb
+      \verb{eprint}
+      \verb https://academic.oup.com/biolinnean/article-pdf/42/1-2/3/14064274/j.1095-8312.1991.tb00548.x.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1111/j.1095-8312.1991.tb00548.x
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1111/j.1095-8312.1991.tb00548.x
+      \endverb
+    \endentry
+    \entry{hardke2015}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=10e85d5ecd3bfe01d456a39915f16297}{%
+           family={Hardke},
+           familyi={H\bibinitperiod},
+           given={J.\bibnamedelimi T.},
+           giveni={J\bibinitperiod\bibinitdelim T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f13079ccd1fbf0b59ea2251d80699f3d}{%
+           family={Lorenz},
+           familyi={L\bibinitperiod},
+           given={G.\bibnamedelimi M.},
+           giveni={G\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f306dc33fb6b2653c99defa75b6f8a4b}{%
+           family={Leonard},
+           familyi={L\bibinitperiod},
+           given={B.\bibnamedelimi R.},
+           giveni={B\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{3cff10c46f3fa469e6696a791f899916}
+      \strng{fullhash}{ea7fe309a536ff2ab0907bc86bde66e2}
+      \strng{bibnamehash}{ea7fe309a536ff2ab0907bc86bde66e2}
+      \strng{authorbibnamehash}{ea7fe309a536ff2ab0907bc86bde66e2}
+      \strng{authornamehash}{3cff10c46f3fa469e6696a791f899916}
+      \strng{authorfullhash}{ea7fe309a536ff2ab0907bc86bde66e2}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Integrated Pest Management}
+      \field{title}{Fall Armyworm (Lepidoptera: Noctuidae) Ecology in Southeastern Cotton}
+      \field{volume}{6}
+      \field{year}{2015}
+      \field{pages}{10}
+      \range{pages}{1}
+    \endentry
+    \entry{HARRISON201488}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=6f8d6035278ef5beb0f808f73cef0b52}{%
+           family={Harrison},
+           familyi={H\bibinitperiod},
+           given={Rhett\bibnamedelima D.},
+           giveni={R\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{6f8d6035278ef5beb0f808f73cef0b52}
+      \strng{fullhash}{6f8d6035278ef5beb0f808f73cef0b52}
+      \strng{bibnamehash}{6f8d6035278ef5beb0f808f73cef0b52}
+      \strng{authorbibnamehash}{6f8d6035278ef5beb0f808f73cef0b52}
+      \strng{authornamehash}{6f8d6035278ef5beb0f808f73cef0b52}
+      \strng{authorfullhash}{6f8d6035278ef5beb0f808f73cef0b52}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1146-609X}
+      \field{journaltitle}{Acta Oecologica}
+      \field{note}{Special Issue: Plant-insect mutualisms and their parasites: figs and fig wasps}
+      \field{title}{Ecology of a fig ant–plant}
+      \field{volume}{57}
+      \field{year}{2014}
+      \field{pages}{88\bibrangedash 96}
+      \range{pages}{9}
+      \verb{doi}
+      \verb https://doi.org/10.1016/j.actao.2013.05.008
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S1146609X13000854
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S1146609X13000854
+      \endverb
+    \endentry
+    \entry{HARRISON2019318}{article}{}
+      \name{author}{7}{ul=1}{%
+        {{un=0,uniquepart=base,hash=6f8d6035278ef5beb0f808f73cef0b52}{%
+           family={Harrison},
+           familyi={H\bibinitperiod},
+           given={Rhett\bibnamedelima D.},
+           giveni={R\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=74d646a966419dfa0a88fa06b42ff0b2}{%
+           family={Thierfelder},
+           familyi={T\bibinitperiod},
+           given={Christian},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6c65473b9ba33b120b843b20aabe5e4a}{%
+           family={Baudron},
+           familyi={B\bibinitperiod},
+           given={Frédéric},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1642d4e74aa180d8e238da75a2c9f63a}{%
+           family={Chinwada},
+           familyi={C\bibinitperiod},
+           given={Peter},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c2231802365db37a69df8fbd5f2b608d}{%
+           family={Midega},
+           familyi={M\bibinitperiod},
+           given={Charles},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4a3148c2b311a39a0fb8c0a3c4c64061}{%
+           family={Schaffner},
+           familyi={S\bibinitperiod},
+           given={Urs},
+           giveni={U\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=870d49f0320e54e6462b58fcf6c5cfe2}{%
+           family={{van den Berg}},
+           familyi={v\bibinitperiod},
+           given={Johnnie},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{4ff5a2d280e20130684c0e4d184644e6}
+      \strng{fullhash}{60e6db30bf18b0ca609513b8a28766bb}
+      \strng{bibnamehash}{60e6db30bf18b0ca609513b8a28766bb}
+      \strng{authorbibnamehash}{60e6db30bf18b0ca609513b8a28766bb}
+      \strng{authornamehash}{4ff5a2d280e20130684c0e4d184644e6}
+      \strng{authorfullhash}{60e6db30bf18b0ca609513b8a28766bb}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0301-4797}
+      \field{journaltitle}{Journal of Environmental Management}
+      \field{title}{Agro-ecological options for fall armyworm (Spodoptera frugiperda JE Smith) management: Providing low-cost, smallholder friendly solutions to an invasive pest}
+      \field{volume}{243}
+      \field{year}{2019}
+      \field{pages}{318\bibrangedash 330}
+      \range{pages}{13}
+      \verb{doi}
+      \verb https://doi.org/10.1016/j.jenvman.2019.05.011
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S0301479719306097
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S0301479719306097
+      \endverb
+    \endentry
+    \entry{Heller1998}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=78ac4ffac6d0ee1e2e5f05f1df899eba}{%
+           family={Heller},
+           familyi={H\bibinitperiod},
+           given={R},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9cf0825ac26509b88c75287fc1388a3c}{%
+           family={Esnault},
+           familyi={E\bibinitperiod},
+           given={R},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f39a0f249110eb4b35ef1b5e90f3ebe6}{%
+           family={Lance},
+           familyi={L\bibinitperiod},
+           given={C},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Dunod}%
+      }
+      \strng{namehash}{b92878ed5ed0c6042601781756204247}
+      \strng{fullhash}{e648d045ec5464aa1dba356b8085c66b}
+      \strng{bibnamehash}{e648d045ec5464aa1dba356b8085c66b}
+      \strng{authorbibnamehash}{e648d045ec5464aa1dba356b8085c66b}
+      \strng{authornamehash}{b92878ed5ed0c6042601781756204247}
+      \strng{authorfullhash}{e648d045ec5464aa1dba356b8085c66b}
+      \field{extraname}{1}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{6}
+      \field{title}{Physiologie végétale 1.Nutrition}
+      \field{year}{1998}
+    \endentry
+    \entry{Heller2000}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=78ac4ffac6d0ee1e2e5f05f1df899eba}{%
+           family={Heller},
+           familyi={H\bibinitperiod},
+           given={R},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9cf0825ac26509b88c75287fc1388a3c}{%
+           family={Esnault},
+           familyi={E\bibinitperiod},
+           given={R},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f39a0f249110eb4b35ef1b5e90f3ebe6}{%
+           family={Lance},
+           familyi={L\bibinitperiod},
+           given={C},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Dunod}%
+      }
+      \strng{namehash}{b92878ed5ed0c6042601781756204247}
+      \strng{fullhash}{e648d045ec5464aa1dba356b8085c66b}
+      \strng{bibnamehash}{e648d045ec5464aa1dba356b8085c66b}
+      \strng{authorbibnamehash}{e648d045ec5464aa1dba356b8085c66b}
+      \strng{authornamehash}{b92878ed5ed0c6042601781756204247}
+      \strng{authorfullhash}{e648d045ec5464aa1dba356b8085c66b}
+      \field{extraname}{2}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{6}
+      \field{title}{Physiologie végétale 2.Développement}
+      \field{year}{2000}
+    \endentry
+    \entry{Holland2008}{inbook}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=630c7b3e1952928b6fa01cb87e0255b5}{%
+           family={Holland},
+           familyi={H\bibinitperiod},
+           given={{J. N.}},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=807d77cebc471f9dfb7e113621b8202c}{%
+           family={Bronstein},
+           familyi={B\bibinitperiod},
+           given={{Judith L}},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {English (US)}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier Inc.}%
+      }
+      \strng{namehash}{d3b6306cf46a100c7207cbcc52902722}
+      \strng{fullhash}{d3b6306cf46a100c7207cbcc52902722}
+      \strng{bibnamehash}{d3b6306cf46a100c7207cbcc52902722}
+      \strng{authorbibnamehash}{d3b6306cf46a100c7207cbcc52902722}
+      \strng{authornamehash}{d3b6306cf46a100c7207cbcc52902722}
+      \strng{authorfullhash}{d3b6306cf46a100c7207cbcc52902722}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Encyclopedia of Ecology, Five-Volume Set}
+      \field{isbn}{9780080454054}
+      \field{month}{1}
+      \field{title}{Mutualism}
+      \field{year}{2008}
+      \field{pages}{2485\bibrangedash 2491}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.1016/B978-008045405-4.00673-X
+      \endverb
+    \endentry
+    \entry{Holling1961}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=b9c24232241f1d914c44897497ec62e8}{%
+           family={Holling},
+           familyi={H\bibinitperiod},
+           given={C.\bibnamedelimi S.},
+           giveni={C\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{b9c24232241f1d914c44897497ec62e8}
+      \strng{fullhash}{b9c24232241f1d914c44897497ec62e8}
+      \strng{bibnamehash}{b9c24232241f1d914c44897497ec62e8}
+      \strng{authorbibnamehash}{b9c24232241f1d914c44897497ec62e8}
+      \strng{authornamehash}{b9c24232241f1d914c44897497ec62e8}
+      \strng{authorfullhash}{b9c24232241f1d914c44897497ec62e8}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Annual Review of Entomology}
+      \field{number}{1}
+      \field{title}{Principles of Insect Predation}
+      \field{volume}{6}
+      \field{year}{1961}
+      \field{pages}{163\bibrangedash 182}
+      \range{pages}{20}
+      \verb{doi}
+      \verb 10.1146/annurev.en.06.010161.001115
+      \endverb
+      \verb{eprint}
+      \verb https://doi.org/10.1146/annurev.en.06.010161.001115
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1146/annurev.en.06.010161.001115
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1146/annurev.en.06.010161.001115
+      \endverb
+    \endentry
+    \entry{HORNE199153}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=fc1839ec3751fa75be3a8cf6dc9900b7}{%
+           family={Horne},
+           familyi={H\bibinitperiod},
+           given={Janet},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=dc13aa721f8f2881795679823586d71a}{%
+           family={Bailey},
+           familyi={B\bibinitperiod},
+           given={Peter},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{51fbff321fdec1fb1a32380683734532}
+      \strng{fullhash}{51fbff321fdec1fb1a32380683734532}
+      \strng{bibnamehash}{51fbff321fdec1fb1a32380683734532}
+      \strng{authorbibnamehash}{51fbff321fdec1fb1a32380683734532}
+      \strng{authornamehash}{51fbff321fdec1fb1a32380683734532}
+      \strng{authorfullhash}{51fbff321fdec1fb1a32380683734532}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0261-2194}
+      \field{journaltitle}{Crop Protection}
+      \field{number}{1}
+      \field{title}{Bruchus pisorum L. (Coleoptera, Bruchidae) control by a knockdown pyrethroid in field peas}
+      \field{volume}{10}
+      \field{year}{1991}
+      \field{pages}{53\bibrangedash 56}
+      \range{pages}{4}
+      \verb{doi}
+      \verb https://doi.org/10.1016/0261-2194(91)90026-N
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/026121949190026N
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/026121949190026N
+      \endverb
+    \endentry
+    \entry{hruska2019}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=7977e79ead436d8c74bddb6dd7333891}{%
+           family={Hruska},
+           familyi={H\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{7977e79ead436d8c74bddb6dd7333891}
+      \strng{fullhash}{7977e79ead436d8c74bddb6dd7333891}
+      \strng{bibnamehash}{7977e79ead436d8c74bddb6dd7333891}
+      \strng{authorbibnamehash}{7977e79ead436d8c74bddb6dd7333891}
+      \strng{authornamehash}{7977e79ead436d8c74bddb6dd7333891}
+      \strng{authorfullhash}{7977e79ead436d8c74bddb6dd7333891}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{CAB Reviews}
+      \field{title}{Fall Armyworm (Spodoptera Frugiperda) Management by Smallholders}
+      \field{volume}{14}
+      \field{year}{2019}
+      \field{pages}{43}
+      \range{pages}{1}
+    \endentry
+    \entry{huesing2018integrated}{article}{}
+      \name{author}{6}{}{%
+        {{un=0,uniquepart=base,hash=b757a21a91cd5a9fc4f9079e69ffb147}{%
+           family={Huesing},
+           familyi={H\bibinitperiod},
+           given={J.\bibnamedelimi E.},
+           giveni={J\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=06e3dfc1268ec56c7d7663afba716e17}{%
+           family={Prasanna},
+           familyi={P\bibinitperiod},
+           given={B.\bibnamedelimi M.},
+           giveni={B\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8d9cfe25f539778de71e310b54bbe7ff}{%
+           family={McGrath},
+           familyi={M\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e474b25f1ed54723f1b4ec024708bada}{%
+           family={Chinwada},
+           familyi={C\bibinitperiod},
+           given={P},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=48ffc6249ca8299e4d2120d2a6f03f98}{%
+           family={Jepson},
+           familyi={J\bibinitperiod},
+           given={P},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=926d8e756248e27f6c89f7068b354f26}{%
+           family={Capinera},
+           familyi={C\bibinitperiod},
+           given={J.\bibnamedelimi L},
+           giveni={J\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{3cb7c19621356aee247fd61490eb2bdf}
+      \strng{fullhash}{32f4e090ae1c9a2e084a3d7823ee6f33}
+      \strng{bibnamehash}{32f4e090ae1c9a2e084a3d7823ee6f33}
+      \strng{authorbibnamehash}{32f4e090ae1c9a2e084a3d7823ee6f33}
+      \strng{authornamehash}{3cb7c19621356aee247fd61490eb2bdf}
+      \strng{authorfullhash}{32f4e090ae1c9a2e084a3d7823ee6f33}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Fall Armyworm in Africa: A Guide for Integrated Pest Management. CIMMYT, Mexico, CDMX}
+      \field{title}{Integrated pest management of fall armyworm in Africa: an introduction}
+      \field{year}{2018}
+    \endentry
+    \entry{Kang2008}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=7ce02d2bb79ab69c332f88ae3f8c44f1}{%
+           family={Kang},
+           familyi={K\bibinitperiod},
+           given={Yun},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=098ef7281062cce82c8cd51e56685d1d}{%
+           family={Armbruster},
+           familyi={A\bibinitperiod},
+           given={Dieter},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2db799e18900b1e4021706d4a9d2b37c}{%
+           family={Kuang},
+           familyi={K\bibinitperiod},
+           given={Yang},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Taylor \& Francis}%
+      }
+      \strng{namehash}{54e9b26dd720498c72f11638aee7e561}
+      \strng{fullhash}{8decf1c5e2aaeea42106ed4e3d7a529f}
+      \strng{bibnamehash}{8decf1c5e2aaeea42106ed4e3d7a529f}
+      \strng{authorbibnamehash}{8decf1c5e2aaeea42106ed4e3d7a529f}
+      \strng{authornamehash}{54e9b26dd720498c72f11638aee7e561}
+      \strng{authorfullhash}{8decf1c5e2aaeea42106ed4e3d7a529f}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Biological Dynamics}
+      \field{note}{PMID: 22880694}
+      \field{number}{2}
+      \field{title}{Dynamics of a plant–herbivore model}
+      \field{volume}{2}
+      \field{year}{2008}
+      \field{pages}{89\bibrangedash 101}
+      \range{pages}{13}
+      \verb{doi}
+      \verb 10.1080/17513750801956313
+      \endverb
+      \verb{eprint}
+      \verb https://doi.org/10.1080/17513750801956313
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1080/17513750801956313
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1080/17513750801956313
+      \endverb
+    \endentry
+    \entry{chapaw2021}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=ba1d37cf6886adb25361910bf7c5df6c}{%
+           family={Kasoma},
+           familyi={K\bibinitperiod},
+           given={Chapwa},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b80f0a6bedb72f221ac5564565a4f54d}{%
+           family={Shimelis},
+           familyi={S\bibinitperiod},
+           given={Hussein},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=73865a0b1a840388ec26ed7eef7b6cb6}{%
+           family={Laing},
+           familyi={L\bibinitperiod},
+           given={Mark\bibnamedelima D.},
+           giveni={M\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Taylor \& Francis}%
+      }
+      \strng{namehash}{7570468c366d99b8b82dfb15e6b6b482}
+      \strng{fullhash}{fbaebe6fe8dc692d8c5caed47704cc02}
+      \strng{bibnamehash}{fbaebe6fe8dc692d8c5caed47704cc02}
+      \strng{authorbibnamehash}{fbaebe6fe8dc692d8c5caed47704cc02}
+      \strng{authornamehash}{7570468c366d99b8b82dfb15e6b6b482}
+      \strng{authorfullhash}{fbaebe6fe8dc692d8c5caed47704cc02}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Crop Improvement}
+      \field{number}{1}
+      \field{title}{Fall armyworm invasion in Africa: implications for maize production and breeding}
+      \field{volume}{35}
+      \field{year}{2021}
+      \field{pages}{111\bibrangedash 146}
+      \range{pages}{36}
+      \verb{doi}
+      \verb 10.1080/15427528.2020.1802800
+      \endverb
+      \verb{eprint}
+      \verb https://doi.org/10.1080/15427528.2020.1802800
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1080/15427528.2020.1802800
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1080/15427528.2020.1802800
+      \endverb
+    \endentry
+    \entry{Kermack1927}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=a59aa6e9308e1e3bba57fdedf5dc8c7b}{%
+           family={Kermack},
+           familyi={K\bibinitperiod},
+           given={William\bibnamedelima Ogilvy},
+           giveni={W\bibinitperiod\bibinitdelim O\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e1656f458a4b4fc9274c6aa99919cd69}{%
+           family={McKendrick},
+           familyi={M\bibinitperiod},
+           given={A.\bibnamedelimi G.},
+           giveni={A\bibinitperiod\bibinitdelim G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3199118a5c2f14acc23f12f8fa53eb28}{%
+           family={Walker},
+           familyi={W\bibinitperiod},
+           given={Gilbert\bibnamedelima Thomas},
+           giveni={G\bibinitperiod\bibinitdelim T\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{401cdc5f3aeaa7ffed66246f99d1f43d}
+      \strng{fullhash}{4917a783d8fa130a7fb516a1acc8147a}
+      \strng{bibnamehash}{4917a783d8fa130a7fb516a1acc8147a}
+      \strng{authorbibnamehash}{4917a783d8fa130a7fb516a1acc8147a}
+      \strng{authornamehash}{401cdc5f3aeaa7ffed66246f99d1f43d}
+      \strng{authorfullhash}{4917a783d8fa130a7fb516a1acc8147a}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Proceedings of the Royal Society of London. Series A, Containing Papers of a Mathematical and Physical Character}
+      \field{number}{772}
+      \field{title}{A contribution to the mathematical theory of epidemics}
+      \field{volume}{115}
+      \field{year}{1927}
+      \field{pages}{700\bibrangedash 721}
+      \range{pages}{22}
+      \verb{doi}
+      \verb 10.1098/rspa.1927.0118
+      \endverb
+      \verb{eprint}
+      \verb https://royalsocietypublishing.org/doi/pdf/10.1098/rspa.1927.0118
+      \endverb
+      \verb{urlraw}
+      \verb https://royalsocietypublishing.org/doi/abs/10.1098/rspa.1927.0118
+      \endverb
+      \verb{url}
+      \verb https://royalsocietypublishing.org/doi/abs/10.1098/rspa.1927.0118
+      \endverb
+    \endentry
+    \entry{kostitzin1937biologie}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=fd4b10566020377174934688b1afadad}{%
+           family={Kostitzin},
+           familyi={K\bibinitperiod},
+           given={V.A.},
+           giveni={V\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Librairie Armand Colin}%
+      }
+      \strng{namehash}{fd4b10566020377174934688b1afadad}
+      \strng{fullhash}{fd4b10566020377174934688b1afadad}
+      \strng{bibnamehash}{fd4b10566020377174934688b1afadad}
+      \strng{authorbibnamehash}{fd4b10566020377174934688b1afadad}
+      \strng{authornamehash}{fd4b10566020377174934688b1afadad}
+      \strng{authorfullhash}{fd4b10566020377174934688b1afadad}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{series}{Collection Armand Colin}
+      \field{title}{Biologie mathématique}
+      \field{year}{1937}
+      \verb{urlraw}
+      \verb https://books.google.bj/books?id=7hTtGOI\_gkUC
+      \endverb
+      \verb{url}
+      \verb https://books.google.bj/books?id=7hTtGOI%5C_gkUC
+      \endverb
+    \endentry
+    \entry{Kumela2019}{article}{}
+      \name{author}{7}{}{%
+        {{un=0,uniquepart=base,hash=679e0939d7687b7a937932c3635dcfec}{%
+           family={Kumela},
+           familyi={K\bibinitperiod},
+           given={Teshome},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=df363b120267d14b81fa5d2eff473779}{%
+           family={Simiyu},
+           familyi={S\bibinitperiod},
+           given={Josephine},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=291e7d07925c766dde68a06923762a0f}{%
+           family={Sisay},
+           familyi={S\bibinitperiod},
+           given={Birhanu},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1d9af623dc67bf5b979b4f462f17c965}{%
+           family={Likhayo},
+           familyi={L\bibinitperiod},
+           given={Paddy},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a513f5d3e5585db387654c1191a8905a}{%
+           family={Mendesil},
+           familyi={M\bibinitperiod},
+           given={Esayas},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9c30850912cbc38f9dfd068faba89bef}{%
+           family={Gohole},
+           familyi={G\bibinitperiod},
+           given={Linnet},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=227c4a3dc60dee4c32c256dbef7813a3}{%
+           family={Tefera},
+           familyi={T\bibinitperiod},
+           given={Tadele},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Taylor \& Francis}%
+      }
+      \strng{namehash}{047bbe689d6c42eac0f63a4e62a49b45}
+      \strng{fullhash}{472d671cb7708a765f0f055151b576f9}
+      \strng{bibnamehash}{472d671cb7708a765f0f055151b576f9}
+      \strng{authorbibnamehash}{472d671cb7708a765f0f055151b576f9}
+      \strng{authornamehash}{047bbe689d6c42eac0f63a4e62a49b45}
+      \strng{authorfullhash}{472d671cb7708a765f0f055151b576f9}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{International Journal of Pest Management}
+      \field{number}{1}
+      \field{title}{Farmers' knowledge, perceptions, and management practices of the new invasive pest, fall armyworm (Spodoptera frugiperda) in Ethiopia and Kenya}
+      \field{volume}{65}
+      \field{year}{2019}
+      \field{pages}{1\bibrangedash 9}
+      \range{pages}{9}
+      \verb{doi}
+      \verb 10.1080/09670874.2017.1423129
+      \endverb
+      \verb{eprint}
+      \verb https://doi.org/10.1080/09670874.2017.1423129
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1080/09670874.2017.1423129
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1080/09670874.2017.1423129
+      \endverb
+    \endentry
+    \entry{lebon:tel-01747618}{thesis}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=ccf9aecdf9154bac7c09ed5f4c5bf8a0}{%
+           family={Lebon},
+           familyi={L\bibinitperiod},
+           given={Audrey},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{1}{%
+        {Université Montpellier II - Sciences et Techniques du Languedoc}%
+      }
+      \strng{namehash}{ccf9aecdf9154bac7c09ed5f4c5bf8a0}
+      \strng{fullhash}{ccf9aecdf9154bac7c09ed5f4c5bf8a0}
+      \strng{bibnamehash}{ccf9aecdf9154bac7c09ed5f4c5bf8a0}
+      \strng{authorbibnamehash}{ccf9aecdf9154bac7c09ed5f4c5bf8a0}
+      \strng{authornamehash}{ccf9aecdf9154bac7c09ed5f4c5bf8a0}
+      \strng{authorfullhash}{ccf9aecdf9154bac7c09ed5f4c5bf8a0}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{12}
+      \field{number}{2014MON20161}
+      \field{title}{{La compensation dans les interactions plantes-insectes : modélisation, simulation et expérimentation}}
+      \field{type}{Theses}
+      \field{year}{2014}
+      \verb{file}
+      \verb https://tel.archives-ouvertes.fr/tel-01747618/file/45126_LEBON_2014_archivage_cor.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://tel.archives-ouvertes.fr/tel-01747618
+      \endverb
+      \verb{url}
+      \verb https://tel.archives-ouvertes.fr/tel-01747618
+      \endverb
+      \keyw{Plant-Insect Interaction ; Compensation ; Mathematical modelling ; Tuta absoluta ; Computer simulation ; Défense des plantes ; Interaction plantes-insectes ; Modélisation mathématique ; Simulation informatique}
+    \endentry
+    \entry{Li2006}{article}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=c15dca1dd47bb240c99f7cf6481272a5}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Ya},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=caff8214e30e1d9a95e1e19ef7ca42f6}{%
+           family={Feng},
+           familyi={F\bibinitperiod},
+           given={Zhilan},
+           giveni={Z\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=17974f5f9b09cd596613c35a6bfc25bf}{%
+           family={Swihart},
+           familyi={S\bibinitperiod},
+           given={Robert},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f2119bf36b539d7493f3f7b02b0b288c}{%
+           family={Bryant},
+           familyi={B\bibinitperiod},
+           given={John},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a25649024683821648cc7a0385b65b13}{%
+           family={Huntly},
+           familyi={H\bibinitperiod},
+           given={Nancy},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{9b368b0e068a0369ec112d7edba4c0f8}
+      \strng{fullhash}{2673675bfabd79a6987e3d2f9cf9e5e1}
+      \strng{bibnamehash}{2673675bfabd79a6987e3d2f9cf9e5e1}
+      \strng{authorbibnamehash}{2673675bfabd79a6987e3d2f9cf9e5e1}
+      \strng{authornamehash}{9b368b0e068a0369ec112d7edba4c0f8}
+      \strng{authorfullhash}{2673675bfabd79a6987e3d2f9cf9e5e1}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1572-9222}
+      \field{journaltitle}{Journal of Dynamics and Differential Equations}
+      \field{month}{10}
+      \field{number}{4}
+      \field{title}{Modeling the Impact of Plant Toxicity on Plant–Herbivore Dynamics}
+      \field{volume}{18}
+      \field{year}{2006}
+      \field{pages}{1021\bibrangedash 1042}
+      \range{pages}{22}
+      \verb{doi}
+      \verb 10.1007/s10884-006-9029-y
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1007/s10884-006-9029-y
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1007/s10884-006-9029-y
+      \endverb
+    \endentry
+    \entry{LIU2008442}{article}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=a89d3a171198d1126f1eb2515bd506ee}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Rongsong},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=caff8214e30e1d9a95e1e19ef7ca42f6}{%
+           family={Feng},
+           familyi={F\bibinitperiod},
+           given={Zhilan},
+           giveni={Z\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ea626935cf22fe68624f1c0508cee26b}{%
+           family={Zhu},
+           familyi={Z\bibinitperiod},
+           given={Huaiping},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e98d80b382c7d4106081e30fe7ef5827}{%
+           family={DeAngelis},
+           familyi={D\bibinitperiod},
+           given={Donald\bibnamedelima L.},
+           giveni={D\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{6822ae1d2087b12d3c1d5c08908c420c}
+      \strng{fullhash}{3f26b2faa4fcaa8ba6d53ec00bef1586}
+      \strng{bibnamehash}{3f26b2faa4fcaa8ba6d53ec00bef1586}
+      \strng{authorbibnamehash}{3f26b2faa4fcaa8ba6d53ec00bef1586}
+      \strng{authornamehash}{6822ae1d2087b12d3c1d5c08908c420c}
+      \strng{authorfullhash}{3f26b2faa4fcaa8ba6d53ec00bef1586}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0022-0396}
+      \field{journaltitle}{Journal of Differential Equations}
+      \field{number}{2}
+      \field{title}{Bifurcation analysis of a plant–herbivore model with toxin-determined functional response}
+      \field{volume}{245}
+      \field{year}{2008}
+      \field{pages}{442\bibrangedash 467}
+      \range{pages}{26}
+      \verb{doi}
+      \verb https://doi.org/10.1016/j.jde.2007.10.034
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S0022039607003592
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S0022039607003592
+      \endverb
+    \endentry
+    \entry{luginbill1928fall}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=20f4484538aae5a8b8683ef73150ab12}{%
+           family={Luginbill},
+           familyi={L\bibinitperiod},
+           given={Philip},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {US Department of Agriculture}%
+      }
+      \strng{namehash}{20f4484538aae5a8b8683ef73150ab12}
+      \strng{fullhash}{20f4484538aae5a8b8683ef73150ab12}
+      \strng{bibnamehash}{20f4484538aae5a8b8683ef73150ab12}
+      \strng{authorbibnamehash}{20f4484538aae5a8b8683ef73150ab12}
+      \strng{authornamehash}{20f4484538aae5a8b8683ef73150ab12}
+      \strng{authorfullhash}{20f4484538aae5a8b8683ef73150ab12}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{number}{34}
+      \field{pagetotal}{92}
+      \field{title}{The fall army worm}
+      \field{year}{1928}
+    \endentry
+    \entry{mcgrath2018monitoring}{article}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{10}{}{%
+        {{un=0,uniquepart=base,hash=8d9cfe25f539778de71e310b54bbe7ff}{%
+           family={McGrath},
+           familyi={M\bibinitperiod},
+           given={D},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b757a21a91cd5a9fc4f9079e69ffb147}{%
+           family={Huesing},
+           familyi={H\bibinitperiod},
+           given={J\bibnamedelima E},
+           giveni={J\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d2771bc605b21870addf053867d7e13e}{%
+           family={Beiriger},
+           familyi={B\bibinitperiod},
+           given={R},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f5045562af7fb47158a412874be99081}{%
+           family={Nuessly},
+           familyi={N\bibinitperiod},
+           given={G},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ba7c490051c839e2d8524e602b88c93b}{%
+           family={Tepa-Yotto},
+           familyi={T\bibinithyphendelim Y\bibinitperiod},
+           given={TG},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d321f65febdd34739c45263f89db7cc4}{%
+           family={Hodson},
+           familyi={H\bibinitperiod},
+           given={D},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=60e792df902cf835d3205f8ad16adfbe}{%
+           family={Kimathi},
+           familyi={K\bibinitperiod},
+           given={E},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=74a39dedcb5a62f049e0f1014f168fd0}{%
+           family={Felege},
+           familyi={F\bibinitperiod},
+           given={E},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6c3c006e098b6f279ca3ec52363f6a14}{%
+           family={Abah\bibnamedelima Obaje},
+           familyi={A\bibinitperiod\bibinitdelim O\bibinitperiod},
+           given={J},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a5fe9f896f819f59afa92acaebd2bd3a}{%
+           family={Mulaa},
+           familyi={M\bibinitperiod},
+           given={M},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {CIMMYT Mexico City, Mexico}%
+      }
+      \strng{namehash}{e2add8bf35e5c0908c167ec626f13c2c}
+      \strng{fullhash}{cbdb18573809f22fc4d8bb4ead386f81}
+      \strng{bibnamehash}{cbdb18573809f22fc4d8bb4ead386f81}
+      \strng{authorbibnamehash}{cbdb18573809f22fc4d8bb4ead386f81}
+      \strng{authornamehash}{e2add8bf35e5c0908c167ec626f13c2c}
+      \strng{authorfullhash}{cbdb18573809f22fc4d8bb4ead386f81}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{fall armyworm in Africa: a guide for integrated pest management}
+      \field{title}{Monitoring, surveillance, and scouting for fall armyworm}
+      \field{year}{2018}
+      \field{pages}{11\bibrangedash 28}
+      \range{pages}{18}
+    \endentry
+    \entry{McKendrick1925}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=e1656f458a4b4fc9274c6aa99919cd69}{%
+           family={McKendrick},
+           familyi={M\bibinitperiod},
+           given={A.\bibnamedelimi G.},
+           giveni={A\bibinitperiod\bibinitdelim G\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Cambridge University Press}%
+      }
+      \strng{namehash}{e1656f458a4b4fc9274c6aa99919cd69}
+      \strng{fullhash}{e1656f458a4b4fc9274c6aa99919cd69}
+      \strng{bibnamehash}{e1656f458a4b4fc9274c6aa99919cd69}
+      \strng{authorbibnamehash}{e1656f458a4b4fc9274c6aa99919cd69}
+      \strng{authornamehash}{e1656f458a4b4fc9274c6aa99919cd69}
+      \strng{authorfullhash}{e1656f458a4b4fc9274c6aa99919cd69}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Proceedings of the Edinburgh Mathematical Society}
+      \field{title}{Applications of Mathematics to Medical Problems}
+      \field{volume}{44}
+      \field{year}{1925}
+      \field{pages}{98\bibrangedash 130}
+      \range{pages}{33}
+      \verb{doi}
+      \verb 10.1017/S0013091500034428
+      \endverb
+    \endentry
+    \entry{Meyer1998}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=df751cd8349a28054982fe13fee7e1b7}{%
+           family={Meyer},
+           familyi={M\bibinitperiod},
+           given={G.\bibnamedelimi A.},
+           giveni={G\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{df751cd8349a28054982fe13fee7e1b7}
+      \strng{fullhash}{df751cd8349a28054982fe13fee7e1b7}
+      \strng{bibnamehash}{df751cd8349a28054982fe13fee7e1b7}
+      \strng{authorbibnamehash}{df751cd8349a28054982fe13fee7e1b7}
+      \strng{authornamehash}{df751cd8349a28054982fe13fee7e1b7}
+      \strng{authorfullhash}{df751cd8349a28054982fe13fee7e1b7}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Functional Ecology}
+      \field{number}{2}
+      \field{title}{Pattern of defoliation and its effect on photosynthesis and growth of Goldenrod}
+      \field{volume}{12}
+      \field{year}{1998}
+      \field{pages}{270\bibrangedash 279}
+      \range{pages}{10}
+      \verb{doi}
+      \verb https://doi.org/10.1046/j.1365-2435.1998.00193.x
+      \endverb
+      \verb{eprint}
+      \verb https://besjournals.onlinelibrary.wiley.com/doi/pdf/10.1046/j.1365-2435.1998.00193.x
+      \endverb
+      \verb{urlraw}
+      \verb https://besjournals.onlinelibrary.wiley.com/doi/abs/10.1046/j.1365-2435.1998.00193.x
+      \endverb
+      \verb{url}
+      \verb https://besjournals.onlinelibrary.wiley.com/doi/abs/10.1046/j.1365-2435.1998.00193.x
+      \endverb
+      \keyw{Compensatory photosynthesis,concentrated damage,dispersed damage,herbivory,Solidago altissima}
+    \endentry
+    \entry{MILLS1996121}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=0b4464a7e4400db32aa6801eb276a135}{%
+           family={Mills},
+           familyi={M\bibinitperiod},
+           given={N.J.},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8c796686aa6bdfdbe7c87e0b856889cd}{%
+           family={Getz},
+           familyi={G\bibinitperiod},
+           given={W.M.},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{9073b71b38b997bcf13fdd3a778bf06b}
+      \strng{fullhash}{9073b71b38b997bcf13fdd3a778bf06b}
+      \strng{bibnamehash}{9073b71b38b997bcf13fdd3a778bf06b}
+      \strng{authorbibnamehash}{9073b71b38b997bcf13fdd3a778bf06b}
+      \strng{authornamehash}{9073b71b38b997bcf13fdd3a778bf06b}
+      \strng{authorfullhash}{9073b71b38b997bcf13fdd3a778bf06b}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0304-3800}
+      \field{journaltitle}{Ecological Modelling}
+      \field{note}{Ecological Resource Modelling}
+      \field{number}{2}
+      \field{title}{Modelling the biological control of insect pests: a review of host-parasitoid models}
+      \field{volume}{92}
+      \field{year}{1996}
+      \field{pages}{121\bibrangedash 143}
+      \range{pages}{23}
+      \verb{doi}
+      \verb https://doi.org/10.1016/0304-3800(95)00177-8
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/0304380095001778
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/0304380095001778
+      \endverb
+    \endentry
+    \entry{nagoshi2018}{article}{}
+      \name{author}{6}{}{%
+        {{un=0,uniquepart=base,hash=fc36a9a68c2f655397ac9f364ee37630}{%
+           family={Nagoshi},
+           familyi={N\bibinitperiod},
+           given={Rodney\bibnamedelima N.},
+           giveni={R\bibinitperiod\bibinitdelim N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c017c493537c437dc6a4fe6320f9ed29}{%
+           family={Goergen},
+           familyi={G\bibinitperiod},
+           given={Georg},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=bd1a0eadfa975115de283dca1f108f68}{%
+           family={Tounou},
+           familyi={T\bibinitperiod},
+           given={Kodjo\bibnamedelima Agbeko},
+           giveni={K\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c52e4f92606836afec0f3753d65194b4}{%
+           family={Agboka},
+           familyi={A\bibinitperiod},
+           given={Komi},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=047b1a6b2f0d6a3c07a34d677b6c5c9e}{%
+           family={Koffi},
+           familyi={K\bibinitperiod},
+           given={Djima},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5e9b4766f683a75e874292187cda6ad2}{%
+           family={Meagher},
+           familyi={M\bibinitperiod},
+           given={Robert\bibnamedelima L.},
+           giveni={R\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{4d0ba1a90d4aad2f04287875aae8c2f3}
+      \strng{fullhash}{088a2e7bd46190fe27c2809a7c6e8aa1}
+      \strng{bibnamehash}{088a2e7bd46190fe27c2809a7c6e8aa1}
+      \strng{authorbibnamehash}{088a2e7bd46190fe27c2809a7c6e8aa1}
+      \strng{authornamehash}{4d0ba1a90d4aad2f04287875aae8c2f3}
+      \strng{authorfullhash}{088a2e7bd46190fe27c2809a7c6e8aa1}
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{2045-2322}
+      \field{journaltitle}{Science Reports}
+      \field{month}{02}
+      \field{number}{1}
+      \field{title}{Analysis of Strain Distribution, Migratory Potential, and Invasion History of Fall Armyworm Populations in Northern sub-Saharan Africa}
+      \field{volume}{8}
+      \field{year}{2018}
+      \field{pages}{3710}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1038/s41598-018-21954-1
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1038/s41598-018-21954-1
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1038/s41598-018-21954-1
+      \endverb
+    \endentry
+    \entry{nundloll:tel-00850358}{thesis}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=07e8432ed783020dee07b1e4bb3ce9fb}{%
+           family={Nundloll},
+           familyi={N\bibinitperiod},
+           given={Sapna},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{1}{%
+        {Université Nice Sophia Antipolis}%
+      }
+      \strng{namehash}{07e8432ed783020dee07b1e4bb3ce9fb}
+      \strng{fullhash}{07e8432ed783020dee07b1e4bb3ce9fb}
+      \strng{bibnamehash}{07e8432ed783020dee07b1e4bb3ce9fb}
+      \strng{authorbibnamehash}{07e8432ed783020dee07b1e4bb3ce9fb}
+      \strng{authornamehash}{07e8432ed783020dee07b1e4bb3ce9fb}
+      \strng{authorfullhash}{07e8432ed783020dee07b1e4bb3ce9fb}
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{3}
+      \field{title}{{Dos and Don'ts in Augmentative Biological Control: Insights from Mathematical Modelling}}
+      \field{type}{Theses}
+      \field{year}{2010}
+      \verb{file}
+      \verb https://tel.archives-ouvertes.fr/tel-00850358/file/NUNDLOLL2010_Manuscript_tel.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://tel.archives-ouvertes.fr/tel-00850358
+      \endverb
+      \verb{url}
+      \verb https://tel.archives-ouvertes.fr/tel-00850358
+      \endverb
+      \keyw{modélisation mathematique ; système proie-prédateur ; lutte biologique ; systèmes semi-discrets ; stabilité ; systèmes impulsionnels ; systèmes dynamiques}
+    \endentry
+    \entry{Oerke2006crop}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=fb970868260e83edd7cd30b09fd218a3}{%
+           family={Oerke},
+           familyi={O\bibinitperiod},
+           given={E-C},
+           giveni={E\bibinithyphendelim C\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Cambridge University Press}%
+      }
+      \strng{namehash}{fb970868260e83edd7cd30b09fd218a3}
+      \strng{fullhash}{fb970868260e83edd7cd30b09fd218a3}
+      \strng{bibnamehash}{fb970868260e83edd7cd30b09fd218a3}
+      \strng{authorbibnamehash}{fb970868260e83edd7cd30b09fd218a3}
+      \strng{authornamehash}{fb970868260e83edd7cd30b09fd218a3}
+      \strng{authorfullhash}{fb970868260e83edd7cd30b09fd218a3}
+      \field{sortinit}{O}
+      \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The Journal of Agricultural Science}
+      \field{number}{1}
+      \field{title}{Crop losses to pests}
+      \field{volume}{144}
+      \field{year}{2006}
+      \field{pages}{31\bibrangedash 43}
+      \range{pages}{13}
+      \verb{doi}
+      \verb https://doi.org/10.1017/S0021859605005708
+      \endverb
+    \endentry
+    \entry{Zhang2017}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=4b3be0bbc2f91e427fe33f931b3461e5}{%
+           family={Páez\bibnamedelima Chávez},
+           familyi={P\bibinitperiod\bibinitdelim C\bibinitperiod},
+           given={Joseph},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=44c9d0547eecf4b9078c41d29d89c964}{%
+           family={Jungmann},
+           familyi={J\bibinitperiod},
+           given={Dirk},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=de30418f40ad4315469404b97008fbf1}{%
+           family={Siegmund},
+           familyi={S\bibinitperiod},
+           given={Stefan},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=67cf1f71a516120793970cb0772e206e}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Guodong},
+           giveni={G\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Hindawi}%
+      }
+      \strng{namehash}{5eb5fdebfbd5617a28ac566ff26dace2}
+      \strng{fullhash}{e310cc97e67baba0bd43ec5a2325113b}
+      \strng{bibnamehash}{e310cc97e67baba0bd43ec5a2325113b}
+      \strng{authorbibnamehash}{e310cc97e67baba0bd43ec5a2325113b}
+      \strng{authornamehash}{5eb5fdebfbd5617a28ac566ff26dace2}
+      \strng{authorfullhash}{e310cc97e67baba0bd43ec5a2325113b}
+      \strng{editorbibnamehash}{67cf1f71a516120793970cb0772e206e}
+      \strng{editornamehash}{67cf1f71a516120793970cb0772e206e}
+      \strng{editorfullhash}{67cf1f71a516120793970cb0772e206e}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1687-9643}
+      \field{journaltitle}{International Journal of Differential Equations}
+      \field{month}{12}
+      \field{title}{Modeling and Analysis of Integrated Pest Control Strategies via Impulsive Differential Equations}
+      \field{volume}{2017}
+      \field{year}{2017}
+      \field{pages}{437\bibrangedash 457}
+      \range{pages}{21}
+      \verb{doi}
+      \verb 10.1155/2017/1820607
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1155/2017/1820607
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1155/2017/1820607
+      \endverb
+    \endentry
+    \entry{Pashely1988}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=2658e8b4b17123f2f8dd7ba92d3c36e4}{%
+           family={Pashley},
+           familyi={P\bibinitperiod},
+           given={Dorothy\bibnamedelima P.},
+           giveni={D\bibinitperiod\bibinitdelim P\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Florida Entomological Society}%
+      }
+      \strng{namehash}{2658e8b4b17123f2f8dd7ba92d3c36e4}
+      \strng{fullhash}{2658e8b4b17123f2f8dd7ba92d3c36e4}
+      \strng{bibnamehash}{2658e8b4b17123f2f8dd7ba92d3c36e4}
+      \strng{authorbibnamehash}{2658e8b4b17123f2f8dd7ba92d3c36e4}
+      \strng{authornamehash}{2658e8b4b17123f2f8dd7ba92d3c36e4}
+      \strng{authorfullhash}{2658e8b4b17123f2f8dd7ba92d3c36e4}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{00154040, 19385102}
+      \field{journaltitle}{Florida Entomologist}
+      \field{number}{3}
+      \field{title}{Current Status of Fall Armyworm Host Strains}
+      \field{volume}{71}
+      \field{year}{1988}
+      \field{pages}{227\bibrangedash 234}
+      \range{pages}{8}
+      \verb{urlraw}
+      \verb http://www.jstor.org/stable/3495425
+      \endverb
+      \verb{url}
+      \verb http://www.jstor.org/stable/3495425
+      \endverb
+    \endentry
+    \entry{prasanna2018fall}{article}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=06e3dfc1268ec56c7d7663afba716e17}{%
+           family={Prasanna},
+           familyi={P\bibinitperiod},
+           given={BM},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b757a21a91cd5a9fc4f9079e69ffb147}{%
+           family={Huesing},
+           familyi={H\bibinitperiod},
+           given={JE},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7c590268faeeaf3a2d8851d365b713ab}{%
+           family={Eddy},
+           familyi={E\bibinitperiod},
+           given={Regina},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e927db1343cc1e9babaea4acd71c5c18}{%
+           family={Peschke},
+           familyi={P\bibinitperiod},
+           given={VM},
+           giveni={V\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {USAID}%
+      }
+      \strng{namehash}{be29ce8ccd63cefe948be8da7198007c}
+      \strng{fullhash}{8645b4f769edd1f1d8c197ef660223d8}
+      \strng{bibnamehash}{8645b4f769edd1f1d8c197ef660223d8}
+      \strng{authorbibnamehash}{8645b4f769edd1f1d8c197ef660223d8}
+      \strng{authornamehash}{be29ce8ccd63cefe948be8da7198007c}
+      \strng{authorfullhash}{8645b4f769edd1f1d8c197ef660223d8}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Fall armyworm in Africa: a guide for integrated pest management}
+      \field{year}{2018}
+    \endentry
+    \entry{Quesada1995}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=109c867d3fd1f81839a4c9f37689aad7}{%
+           family={Quesada},
+           familyi={Q\bibinitperiod},
+           given={Mauricio},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d5e18f23092b6e4bfbf981c1e78a80a5}{%
+           family={Bollman},
+           familyi={B\bibinitperiod},
+           given={Krista},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=355753733200427b61e96fa647d376f1}{%
+           family={Stephenson},
+           familyi={S\bibinitperiod},
+           given={Andrew\bibnamedelima G.},
+           giveni={A\bibinitperiod\bibinitdelim G\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{c2722ece38f494002afd975837d38a43}
+      \strng{fullhash}{32a13383258a7592b59ee8e68ed9612d}
+      \strng{bibnamehash}{32a13383258a7592b59ee8e68ed9612d}
+      \strng{authorbibnamehash}{32a13383258a7592b59ee8e68ed9612d}
+      \strng{authornamehash}{c2722ece38f494002afd975837d38a43}
+      \strng{authorfullhash}{32a13383258a7592b59ee8e68ed9612d}
+      \field{sortinit}{Q}
+      \field{sortinithash}{ce69a400a872ddd02ee7fdb3b38c6abd}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Ecology}
+      \field{number}{2}
+      \field{title}{Leaf Damage Decreases Pollen Production and Hinders Pollen Performance in Cucurbita Texana}
+      \field{volume}{76}
+      \field{year}{1995}
+      \field{pages}{437\bibrangedash 443}
+      \range{pages}{7}
+      \verb{doi}
+      \verb https://doi.org/10.2307/1941202
+      \endverb
+      \verb{eprint}
+      \verb https://esajournals.onlinelibrary.wiley.com/doi/pdf/10.2307/1941202
+      \endverb
+      \verb{urlraw}
+      \verb https://esajournals.onlinelibrary.wiley.com/doi/abs/10.2307/1941202
+      \endverb
+      \verb{url}
+      \verb https://esajournals.onlinelibrary.wiley.com/doi/abs/10.2307/1941202
+      \endverb
+    \endentry
+    \entry{RAFIKOV2008557}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=5d4e175be73ea2229ca5c6a44b07a385}{%
+           family={Rafikov},
+           familyi={R\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=056d986592258983610ca41a50603bf7}{%
+           family={Balthazar},
+           familyi={B\bibinitperiod},
+           given={J.M.},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=90c99b4b3f52115f6a6896e2d93cdf96}{%
+           family={{von Bremen}},
+           familyi={v\bibinitperiod},
+           given={H.F.},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{f3f3791dc849f1db82067306e544c58d}
+      \strng{fullhash}{b4950694d99ac403d0344f1884a4ce7d}
+      \strng{bibnamehash}{b4950694d99ac403d0344f1884a4ce7d}
+      \strng{authorbibnamehash}{b4950694d99ac403d0344f1884a4ce7d}
+      \strng{authornamehash}{f3f3791dc849f1db82067306e544c58d}
+      \strng{authorfullhash}{b4950694d99ac403d0344f1884a4ce7d}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0096-3003}
+      \field{journaltitle}{Applied Mathematics and Computation}
+      \field{note}{Special Issue on The Foz2006 Congress of Mathematics and its Applications}
+      \field{number}{2}
+      \field{title}{Mathematical modeling and control of population systems: Applications in biological pest control}
+      \field{volume}{200}
+      \field{year}{2008}
+      \field{pages}{557\bibrangedash 573}
+      \range{pages}{17}
+      \verb{doi}
+      \verb https://doi.org/10.1016/j.amc.2007.11.036
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S0096300307011356
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S0096300307011356
+      \endverb
+    \endentry
+    \entry{rebaudo:tel-00836104}{thesis}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=efdc93da7e16ab8a94be31e5e581bfe1}{%
+           family={Rebaudo},
+           familyi={R\bibinitperiod},
+           given={François},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{1}{%
+        {Université Pierre et Marie Curie - Paris VI}%
+      }
+      \strng{namehash}{efdc93da7e16ab8a94be31e5e581bfe1}
+      \strng{fullhash}{efdc93da7e16ab8a94be31e5e581bfe1}
+      \strng{bibnamehash}{efdc93da7e16ab8a94be31e5e581bfe1}
+      \strng{authorbibnamehash}{efdc93da7e16ab8a94be31e5e581bfe1}
+      \strng{authornamehash}{efdc93da7e16ab8a94be31e5e581bfe1}
+      \strng{authorfullhash}{efdc93da7e16ab8a94be31e5e581bfe1}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{7}
+      \field{number}{2012PAO66275}
+      \field{title}{{Modélisation de la dynamique spatio-temporelle d'insectes ravageurs des cultures dans des systèmes socio-écologiques}}
+      \field{type}{Theses}
+      \field{year}{2012}
+      \verb{file}
+      \verb https://tel.archives-ouvertes.fr/tel-00836104/file/these.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://tel.archives-ouvertes.fr/tel-00836104
+      \endverb
+      \verb{url}
+      \verb https://tel.archives-ouvertes.fr/tel-00836104
+      \endverb
+      \keyw{modèles ; simulation ; ravageurs des cultures ; systèmes complexes ; systèmes socio-écologiques ; paysage}
+    \endentry
+    \entry{rose1975migration}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=7f92b496b6a6465e413427e576e0e861}{%
+           family={Rose},
+           familyi={R\bibinitperiod},
+           given={A.\bibnamedelimi H.},
+           giveni={A\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e94b8ad1891c4ec27f40deee73eafb76}{%
+           family={Silversides},
+           familyi={S\bibinitperiod},
+           given={R.\bibnamedelimi H.},
+           giveni={R\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e5b568dc04568e8d83b96c0670e69d4e}{%
+           family={Lindquist},
+           familyi={L\bibinitperiod},
+           given={O.\bibnamedelimi H.},
+           giveni={O\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Cambridge University Press}%
+      }
+      \strng{namehash}{7ff8099d3f6368a15f47468efb09a45a}
+      \strng{fullhash}{a67a9434f6cb64b8924d54f0d74ecd28}
+      \strng{bibnamehash}{a67a9434f6cb64b8924d54f0d74ecd28}
+      \strng{authorbibnamehash}{a67a9434f6cb64b8924d54f0d74ecd28}
+      \strng{authornamehash}{7ff8099d3f6368a15f47468efb09a45a}
+      \strng{authorfullhash}{a67a9434f6cb64b8924d54f0d74ecd28}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The Canadian Entomologist}
+      \field{number}{6}
+      \field{title}{Migration flight by an aphid, Rhopalosiphum maidis (Hemiptera: Aphididae), and a noctuid, Spodoptera frugiperda (Lepidoptera: Noctuidae)}
+      \field{volume}{107}
+      \field{year}{1975}
+      \field{pages}{567\bibrangedash 576}
+      \range{pages}{10}
+    \endentry
+    \entry{roughgarden2012individual}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=71c601215bce8a3ae8c81b58d5bfe4f8}{%
+           family={Roughgarden},
+           familyi={R\bibinitperiod},
+           given={Joan},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{71c601215bce8a3ae8c81b58d5bfe4f8}
+      \strng{fullhash}{71c601215bce8a3ae8c81b58d5bfe4f8}
+      \strng{bibnamehash}{71c601215bce8a3ae8c81b58d5bfe4f8}
+      \strng{authorbibnamehash}{71c601215bce8a3ae8c81b58d5bfe4f8}
+      \strng{authornamehash}{71c601215bce8a3ae8c81b58d5bfe4f8}
+      \strng{authorfullhash}{71c601215bce8a3ae8c81b58d5bfe4f8}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Individual based models in ecology: An evaluation, or how not to ruin a good thing}
+      \field{year}{2012}
+    \endentry
+    \entry{Rwomushana2018}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=e84b1f83d41afc35624e9d786b075f9b}{%
+           family={Rwomushana},
+           familyi={R\bibinitperiod},
+           given={Ivan},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{organization}{1}{%
+        {CABI, Wallingford, UK}%
+      }
+      \list{publisher}{1}{%
+        {Invasive Species Compendium}%
+      }
+      \strng{namehash}{e84b1f83d41afc35624e9d786b075f9b}
+      \strng{fullhash}{e84b1f83d41afc35624e9d786b075f9b}
+      \strng{bibnamehash}{e84b1f83d41afc35624e9d786b075f9b}
+      \strng{authorbibnamehash}{e84b1f83d41afc35624e9d786b075f9b}
+      \strng{authornamehash}{e84b1f83d41afc35624e9d786b075f9b}
+      \strng{authorfullhash}{e84b1f83d41afc35624e9d786b075f9b}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{5}
+      \field{title}{Spodoptera frugiperda (fall armyworm)}
+      \field{year}{2019}
+      \verb{doi}
+      \verb 10.1079/isc.29810.20203373913
+      \endverb
+      \verb{urlraw}
+      \verb https://www.cabi.org/isc/datasheet/29810
+      \endverb
+      \verb{url}
+      \verb https://www.cabi.org/isc/datasheet/29810
+      \endverb
+    \endentry
+    \entry{Sauvion2013}{book}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=4dead98f2385036c9818836af5e1f928}{%
+           family={Sauvion},
+           familyi={S\bibinitperiod},
+           given={Nicolas},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=fe73a5a92fa42ff280883b79a3b12fde}{%
+           family={Calatayud},
+           familyi={C\bibinitperiod},
+           given={Paul-André},
+           giveni={P\bibinithyphendelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ce1e68355246a088124e3ec81becf59b}{%
+           family={Thiéry},
+           familyi={T\bibinitperiod},
+           given={Denis},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b071a8252ac43b3bcaaf403e63883c0c}{%
+           family={Marion-Poll},
+           familyi={M\bibinithyphendelim P\bibinitperiod},
+           given={Frédéric},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Editions Quae}%
+      }
+      \strng{namehash}{098638f3dc9eea6f56f0f2aa64ef4ecc}
+      \strng{fullhash}{5bf2b968a11a342e0f7e2aa0c4be5e08}
+      \strng{bibnamehash}{5bf2b968a11a342e0f7e2aa0c4be5e08}
+      \strng{authorbibnamehash}{5bf2b968a11a342e0f7e2aa0c4be5e08}
+      \strng{authornamehash}{098638f3dc9eea6f56f0f2aa64ef4ecc}
+      \strng{authorfullhash}{5bf2b968a11a342e0f7e2aa0c4be5e08}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Interactions insectes-plantes}
+      \field{year}{2013}
+    \endentry
+    \entry{sibanda2018}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=2e8e7ddbb20e063270d41890897f2414}{%
+           family={Sibanda},
+           familyi={S\bibinitperiod},
+           given={Zibusiso},
+           giveni={Z\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{5}{}{%
+        {{hash=7d54d9da656fa80e4e5a5230e0a2a549}{%
+           family={Joyce},
+           familyi={J\bibinitperiod}}}%
+        {{hash=fe2395ad7d2a70aa5b92ff3856845f63}{%
+           family={Mulila-Mitti},
+           familyi={M\bibinithyphendelim M\bibinitperiod}}}%
+        {{hash=0e3b1d896e9554825ad4153a32c7ac53}{%
+           family={Luchen},
+           familyi={L\bibinitperiod},
+           given={Sina},
+           giveni={S\bibinitperiod}}}%
+        {{hash=84ba55cc8b9fc2b16e871a01ecc62be2}{%
+           family={Hove},
+           familyi={H\bibinitperiod},
+           given={Lewis},
+           giveni={L\bibinitperiod}}}%
+        {{hash=c28d9abbcde2faf971b31ae4fba0e8e0}{%
+           family={Tanyongana},
+           familyi={T\bibinitperiod},
+           given={Ronia},
+           giveni={R\bibinitperiod}}}%
+      }
+      \list{organization}{2}{%
+        {Food}%
+        {Agriculture Organization (FAO) of the United Nations}%
+      }
+      \strng{namehash}{2e8e7ddbb20e063270d41890897f2414}
+      \strng{fullhash}{2e8e7ddbb20e063270d41890897f2414}
+      \strng{bibnamehash}{2e8e7ddbb20e063270d41890897f2414}
+      \strng{authorbibnamehash}{2e8e7ddbb20e063270d41890897f2414}
+      \strng{authornamehash}{2e8e7ddbb20e063270d41890897f2414}
+      \strng{authorfullhash}{2e8e7ddbb20e063270d41890897f2414}
+      \strng{editorbibnamehash}{65e84bf504b2572c4ac9a62e509c5dd7}
+      \strng{editornamehash}{f8ed43b4c90accc668e798910dda314d}
+      \strng{editorfullhash}{65e84bf504b2572c4ac9a62e509c5dd7}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{3}
+      \field{title}{Training manual on fall armyworm}
+      \field{year}{2018}
+      \verb{urlraw}
+      \verb http://www.livestockzimbabwe.com/Publications/Fall%20Army%20Worm%20Training%20Manual.pdf
+      \endverb
+      \verb{url}
+      \verb http://www.livestockzimbabwe.com/Publications/Fall%20Army%20Worm%20Training%20Manual.pdf
+      \endverb
+    \endentry
+    \entry{SimmonsLynch1998}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=ae5593b77f0dba93c61d253166efeaec}{%
+           family={Simmons},
+           familyi={S\bibinitperiod},
+           given={A.\bibnamedelimi M.},
+           giveni={A\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e6181e2962242e78bf20f000486e7ab2}{%
+           family={Lynch},
+           familyi={L\bibinitperiod},
+           given={R.\bibnamedelimi E.},
+           giveni={R\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Florida Entomological Society}%
+      }
+      \strng{namehash}{ed1ac26b6d4fb5378528c4bebb078e1a}
+      \strng{fullhash}{ed1ac26b6d4fb5378528c4bebb078e1a}
+      \strng{bibnamehash}{ed1ac26b6d4fb5378528c4bebb078e1a}
+      \strng{authorbibnamehash}{ed1ac26b6d4fb5378528c4bebb078e1a}
+      \strng{authornamehash}{ed1ac26b6d4fb5378528c4bebb078e1a}
+      \strng{authorfullhash}{ed1ac26b6d4fb5378528c4bebb078e1a}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{00154040, 19385102}
+      \field{journaltitle}{The Florida Entomologist}
+      \field{number}{4}
+      \field{title}{Egg Production and Adult Longevity of Spodoptera Frugiperda, Helicoverpa Zea (Lepidoptera: Noctuidae) and Elasmopalpus Lignosellus (Lepidoptera: Pyrallidae) on Selected Adult Diets}
+      \field{volume}{73}
+      \field{year}{1990}
+      \field{pages}{665\bibrangedash 671}
+      \range{pages}{7}
+      \verb{urlraw}
+      \verb http://www.jstor.org/stable/3495282
+      \endverb
+      \verb{url}
+      \verb http://www.jstor.org/stable/3495282
+      \endverb
+    \endentry
+    \entry{smith1797natural}{book}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=401e80b348faed0713b6866b478bb42a}{%
+           family={Smith},
+           familyi={S\bibinitperiod},
+           given={James\bibnamedelima Edward},
+           giveni={J\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c7d4f32010845155c832147827b2b3f0}{%
+           family={Abbot},
+           familyi={A\bibinitperiod},
+           given={John},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {London}%
+      }
+      \strng{namehash}{8486af97dd7633315352badb5a0790e0}
+      \strng{fullhash}{8486af97dd7633315352badb5a0790e0}
+      \strng{bibnamehash}{8486af97dd7633315352badb5a0790e0}
+      \strng{authorbibnamehash}{8486af97dd7633315352badb5a0790e0}
+      \strng{authornamehash}{8486af97dd7633315352badb5a0790e0}
+      \strng{authorfullhash}{8486af97dd7633315352badb5a0790e0}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{The Natural History of the Rarer Lepidopterous Insects of Georgia. Including Their Systematic Characters, the Particulars of Their Several Metamorphoses, and the Plants on which They Feed}
+      \field{volume}{2}
+      \field{year}{1797}
+    \endentry
+    \entry{Solomon1949}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=6035b18d3e2f5ccd203702e6a328dbd1}{%
+           family={Solomon},
+           familyi={S\bibinitperiod},
+           given={M.\bibnamedelimi E.},
+           giveni={M\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {[Wiley, British Ecological Society]}%
+      }
+      \strng{namehash}{6035b18d3e2f5ccd203702e6a328dbd1}
+      \strng{fullhash}{6035b18d3e2f5ccd203702e6a328dbd1}
+      \strng{bibnamehash}{6035b18d3e2f5ccd203702e6a328dbd1}
+      \strng{authorbibnamehash}{6035b18d3e2f5ccd203702e6a328dbd1}
+      \strng{authornamehash}{6035b18d3e2f5ccd203702e6a328dbd1}
+      \strng{authorfullhash}{6035b18d3e2f5ccd203702e6a328dbd1}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{00218790, 13652656}
+      \field{journaltitle}{Journal of Animal Ecology}
+      \field{number}{1}
+      \field{title}{The Natural Control of Animal Populations}
+      \field{volume}{18}
+      \field{year}{1949}
+      \field{pages}{1\bibrangedash 35}
+      \range{pages}{35}
+      \verb{urlraw}
+      \verb http://www.jstor.org/stable/1578
+      \endverb
+      \verb{url}
+      \verb http://www.jstor.org/stable/1578
+      \endverb
+    \endentry
+    \entry{sparks1979}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=45e8a8eb0fe9008fa1762f5d49e10e4e}{%
+           family={Sparks},
+           familyi={S\bibinitperiod},
+           given={Alton\bibnamedelima N},
+           giveni={A\bibinitperiod\bibinitdelim N\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {JSTOR}%
+      }
+      \strng{namehash}{45e8a8eb0fe9008fa1762f5d49e10e4e}
+      \strng{fullhash}{45e8a8eb0fe9008fa1762f5d49e10e4e}
+      \strng{bibnamehash}{45e8a8eb0fe9008fa1762f5d49e10e4e}
+      \strng{authorbibnamehash}{45e8a8eb0fe9008fa1762f5d49e10e4e}
+      \strng{authornamehash}{45e8a8eb0fe9008fa1762f5d49e10e4e}
+      \strng{authorfullhash}{45e8a8eb0fe9008fa1762f5d49e10e4e}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The Florida Entomologist}
+      \field{number}{2}
+      \field{title}{A review of the biology of the fall armyworm}
+      \field{volume}{62}
+      \field{year}{1979}
+      \field{pages}{82\bibrangedash 87}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.2307/3494083
+      \endverb
+      \verb{urlraw}
+      \verb http://www.jstor.org/stable/3494083
+      \endverb
+      \verb{url}
+      \verb http://www.jstor.org/stable/3494083
+      \endverb
+    \endentry
+    \entry{Stokstad2017}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=bad8316c960639d6e80d9a84ef82a803}{%
+           family={Stokstad},
+           familyi={S\bibinitperiod},
+           given={Erik},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{bad8316c960639d6e80d9a84ef82a803}
+      \strng{fullhash}{bad8316c960639d6e80d9a84ef82a803}
+      \strng{bibnamehash}{bad8316c960639d6e80d9a84ef82a803}
+      \strng{authorbibnamehash}{bad8316c960639d6e80d9a84ef82a803}
+      \strng{authornamehash}{bad8316c960639d6e80d9a84ef82a803}
+      \strng{authorfullhash}{bad8316c960639d6e80d9a84ef82a803}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Science}
+      \field{number}{6337}
+      \field{title}{New crop pest takes Africa at lightning speed}
+      \field{volume}{356}
+      \field{year}{2017}
+      \field{pages}{473\bibrangedash 474}
+      \range{pages}{2}
+      \verb{doi}
+      \verb 10.1126/science.356.6337.473
+      \endverb
+      \verb{eprint}
+      \verb https://www.science.org/doi/pdf/10.1126/science.356.6337.473
+      \endverb
+      \verb{urlraw}
+      \verb https://www.science.org/doi/abs/10.1126/science.356.6337.473
+      \endverb
+      \verb{url}
+      \verb https://www.science.org/doi/abs/10.1126/science.356.6337.473
+      \endverb
+    \endentry
+    \entry{SUN20141507}{article}{}
+      \name{author}{6}{}{%
+        {{un=0,uniquepart=base,hash=195b28a16514fd358294ff2f0c07cd55}{%
+           family={Sun},
+           familyi={S\bibinitperiod},
+           given={Gui-Quan},
+           giveni={G\bibinithyphendelim Q\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3942ccad182f98039db15ea77d9334de}{%
+           family={Chakraborty},
+           familyi={C\bibinitperiod},
+           given={Amit},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=dff1196c99fcfa6d20a7f9193882a272}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Quan-Xing},
+           giveni={Q\bibinithyphendelim X\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=57cca818dc58cb699839c8f2ecefa497}{%
+           family={Jin},
+           familyi={J\bibinitperiod},
+           given={Zhen},
+           giveni={Z\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8d9f762c7e051feac51c853e2f9d5999}{%
+           family={Anderson},
+           familyi={A\bibinitperiod},
+           given={Kurt\bibnamedelima E.},
+           giveni={K\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e3143648985e3e686c3078c65236bb90}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Bai-Lian},
+           giveni={B\bibinithyphendelim L\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{89d856e89ad736c9c953ad85722a46c6}
+      \strng{fullhash}{a2c10cb6ecff063d07588a1f684df239}
+      \strng{bibnamehash}{a2c10cb6ecff063d07588a1f684df239}
+      \strng{authorbibnamehash}{a2c10cb6ecff063d07588a1f684df239}
+      \strng{authornamehash}{89d856e89ad736c9c953ad85722a46c6}
+      \strng{authorfullhash}{a2c10cb6ecff063d07588a1f684df239}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1007-5704}
+      \field{journaltitle}{Communications in Nonlinear Science and Numerical Simulation}
+      \field{number}{5}
+      \field{title}{Influence of time delay and nonlinear diffusion on herbivore outbreak}
+      \field{volume}{19}
+      \field{year}{2021}
+      \field{pages}{1507\bibrangedash 1518}
+      \range{pages}{12}
+      \verb{doi}
+      \verb https://doi.org/10.1016/j.cnsns.2013.09.016
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S1007570413004164
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S1007570413004164
+      \endverb
+    \endentry
+    \entry{thierfelder2018low}{incollection}{}
+      \name{author}{8}{}{%
+        {{un=0,uniquepart=base,hash=74d646a966419dfa0a88fa06b42ff0b2}{%
+           family={Thierfelder},
+           familyi={T\bibinitperiod},
+           given={Christian},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d39dd63f6db4b55a065d22469f560f97}{%
+           family={Niassy},
+           familyi={N\bibinitperiod},
+           given={Sailou},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=48f8603b64b417c1e85abe4dbd02dc84}{%
+           family={Midega},
+           familyi={M\bibinitperiod},
+           given={C},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e6ecbe0d05886113ba142003a965aee7}{%
+           family={Subramanian},
+           familyi={S\bibinitperiod},
+           given={S},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1b8040750468ba2a3ea0084c9af87f12}{%
+           family={Van\bibnamedelimb den\bibnamedelima Berg},
+           familyi={V\bibinitperiod\bibinitdelim d\bibinitperiod\bibinitdelim B\bibinitperiod},
+           given={J},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=06e3dfc1268ec56c7d7663afba716e17}{%
+           family={Prasanna},
+           familyi={P\bibinitperiod},
+           given={BM},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9f636d85d01a892a02ffe481e5469b69}{%
+           family={Baudron},
+           familyi={B\bibinitperiod},
+           given={F},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6f8d6035278ef5beb0f808f73cef0b52}{%
+           family={Harrison},
+           familyi={H\bibinitperiod},
+           given={Rhett\bibnamedelima D.},
+           giveni={R\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {CIMMYT}%
+      }
+      \strng{namehash}{546787ef5453d63a28e12bbac9c78506}
+      \strng{fullhash}{1c7e4a7f889e0282cb4dd036d3364b0d}
+      \strng{bibnamehash}{1c7e4a7f889e0282cb4dd036d3364b0d}
+      \strng{authorbibnamehash}{1c7e4a7f889e0282cb4dd036d3364b0d}
+      \strng{authornamehash}{546787ef5453d63a28e12bbac9c78506}
+      \strng{authorfullhash}{1c7e4a7f889e0282cb4dd036d3364b0d}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{low-cost agronomic practices and landscape management approaches to control FAW}
+      \field{year}{2018}
+    \endentry
+    \entry{VolterraBrelot1931}{book}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=6e5e3813f41e126c439e97c6b8b6d072}{%
+           family={Volterra},
+           familyi={V\bibinitperiod},
+           given={Vito},
+           giveni={V\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9aabceed499f17f4e09041df4771ef1b}{%
+           family={Brelot},
+           familyi={B\bibinitperiod},
+           given={Marcel},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=4d977ee63868c0f1af2982a6f31bc8d9}{%
+           family={Paris},
+           familyi={P\bibinitperiod},
+           given={Gauthier-Villars\bibnamedelimb et\bibnamedelima cie},
+           giveni={G\bibinithyphendelim V\bibinitperiod\bibinitdelim e\bibinitperiod\bibinitdelim c\bibinitperiod}}}%
+      }
+      \strng{namehash}{52a60988a1997dcb100e35648e36d622}
+      \strng{fullhash}{52a60988a1997dcb100e35648e36d622}
+      \strng{bibnamehash}{52a60988a1997dcb100e35648e36d622}
+      \strng{authorbibnamehash}{52a60988a1997dcb100e35648e36d622}
+      \strng{authornamehash}{52a60988a1997dcb100e35648e36d622}
+      \strng{authorfullhash}{52a60988a1997dcb100e35648e36d622}
+      \strng{editorbibnamehash}{4d977ee63868c0f1af2982a6f31bc8d9}
+      \strng{editornamehash}{4d977ee63868c0f1af2982a6f31bc8d9}
+      \strng{editorfullhash}{4d977ee63868c0f1af2982a6f31bc8d9}
+      \field{sortinit}{V}
+      \field{sortinithash}{afb52128e5b4dc4b843768c0113d673b}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{"Les conférences que j'ai faites à l'Institut Henri Poincaré."--Préf.}
+      \field{pagetotal}{214}
+      \field{title}{Leçons sur la théorie mathématique de la lutte pour la vie.}
+      \field{year}{1931}
+    \endentry
+    \entry{walton1936fall}{book}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=237a30844a4dbaf1215308902a483c49}{%
+           family={Walton},
+           familyi={W\bibinitperiod},
+           given={William\bibnamedelima Randolph},
+           giveni={W\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=20f4484538aae5a8b8683ef73150ab12}{%
+           family={Luginbill},
+           familyi={L\bibinitperiod},
+           given={Philip},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {US Department of agriculture}%
+      }
+      \strng{namehash}{95202776733a49871c3033f38ee7addc}
+      \strng{fullhash}{95202776733a49871c3033f38ee7addc}
+      \strng{bibnamehash}{95202776733a49871c3033f38ee7addc}
+      \strng{authorbibnamehash}{95202776733a49871c3033f38ee7addc}
+      \strng{authornamehash}{95202776733a49871c3033f38ee7addc}
+      \strng{authorfullhash}{95202776733a49871c3033f38ee7addc}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{number}{752}
+      \field{title}{The fall armyworm or grass worm and its control}
+      \field{year}{1936}
+    \endentry
+    \entry{Zangerl1088}{article}{}
+      \name{author}{7}{}{%
+        {{un=0,uniquepart=base,hash=4ffd21815d16427fef109fefd4f0eafe}{%
+           family={Zangerl},
+           familyi={Z\bibinitperiod},
+           given={A.\bibnamedelimi R.},
+           giveni={A\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=aa8bf9b7f4324fdd054792af8d487d6f}{%
+           family={Hamilton},
+           familyi={H\bibinitperiod},
+           given={J.\bibnamedelimi G.},
+           giveni={J\bibinitperiod\bibinitdelim G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b9b4de0c663a0181692ffddb05c9e98d}{%
+           family={Miller},
+           familyi={M\bibinitperiod},
+           given={T.\bibnamedelimi J.},
+           giveni={T\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=dd6df43d27d2ab944d15d39e4e6b8ba4}{%
+           family={Crofts},
+           familyi={C\bibinitperiod},
+           given={A.\bibnamedelimi R.},
+           giveni={A\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5479d08b6b7057ec90a591b58c7686a8}{%
+           family={Oxborough},
+           familyi={O\bibinitperiod},
+           given={K.},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d82a1079134444c8028c7bd2752a0f7f}{%
+           family={Berenbaum},
+           familyi={B\bibinitperiod},
+           given={M.\bibnamedelimi R.},
+           giveni={M\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1d5fc7aec9354daabeac40aadd17fb49}{%
+           family={Lucia},
+           familyi={L\bibinitperiod},
+           given={E.\bibnamedelimi H.},
+           giveni={E\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0,
+           prefix={de},
+           prefixi={d\bibinitperiod},
+           prefixun=0}}%
+      }
+      \list{publisher}{1}{%
+        {National Academy of Sciences}%
+      }
+      \strng{namehash}{7131d4028cd8fa2ab6e65834ccb91edd}
+      \strng{fullhash}{49061f7cf19c66752f2274245e98e84a}
+      \strng{bibnamehash}{49061f7cf19c66752f2274245e98e84a}
+      \strng{authorbibnamehash}{49061f7cf19c66752f2274245e98e84a}
+      \strng{authornamehash}{7131d4028cd8fa2ab6e65834ccb91edd}
+      \strng{authorfullhash}{49061f7cf19c66752f2274245e98e84a}
+      \field{sortinit}{Z}
+      \field{sortinithash}{96892c0b0a36bb8557c40c49813d48b3}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0027-8424}
+      \field{journaltitle}{Proceedings of the National Academy of Sciences}
+      \field{number}{2}
+      \field{title}{Impact of folivory on photosynthesis is greater than the sum of its holes}
+      \field{volume}{99}
+      \field{year}{2002}
+      \field{pages}{1088\bibrangedash 1091}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.1073/pnas.022647099
+      \endverb
+      \verb{eprint}
+      \verb https://www.pnas.org/content/99/2/1088.full.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.pnas.org/content/99/2/1088
+      \endverb
+      \verb{url}
+      \verb https://www.pnas.org/content/99/2/1088
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

@@ -3,8 +3,8 @@
 \defcounter {refsection}{0}\relax 
 \beamer@sectionintoc {1}{Introduction}{3}{0}{1}
 \defcounter {refsection}{0}\relax 
-\beamer@sectionintoc {2}{Ce qui a été fait}{5}{0}{2}
+\beamer@sectionintoc {2}{Etat de l'art}{4}{0}{2}
 \defcounter {refsection}{0}\relax 
-\beamer@sectionintoc {3}{Ce que je compte faire}{16}{0}{3}
+\beamer@sectionintoc {3}{Ce que je compte faire}{15}{0}{3}
 \defcounter {refsection}{0}\relax 
-\beamer@sectionintoc {4}{Bibliographie}{31}{0}{4}
+\beamer@sectionintoc {4}{Bibliographie}{30}{0}{4}

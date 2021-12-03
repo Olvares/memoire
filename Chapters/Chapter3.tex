@@ -1,1 +1,322 @@
-\chapter{Matériel et méthodes}
+\chapter{Méthodologie}%{Matériel et méthodes}
+\minitoclt
+Dans ce chapitre, nous présentons les matériels et méthodes qui nous ont servi à produire ce travail.
+
+\section{Matériel}
+	\subsection{Logiciel utilisé}
+\section{Méthodes}
+Dans cette section, nous parlerons du modèle que nous avons développé ainsi que des outils mathématiques ayant concouru au développement de ce dernier.
+
+	\subsection{Modèle de base}
+	Pour développer notre modèle, nous nous sommes appuyés sur le modèle de \textcite{Daudi2021}. Il s'agit d'un modèle dans lequel la population de maïs été celle de la \gls{cla} sont structurées par étape. Ainsi, ils ont considéré la croissance du maïs de l'émergence à la maturité à tout instant $t>0$, à travers deux périodes de développement : Période I et période II. La période I, qui se déroule sur l'intervalle de temps $[0, t_1]$, représente le stade végétatif et comprend la plantation des graines de maïs, l'émergence des graines, le développement des feuilles des verticilles et l'épiaison, tandis que la période II, qui se déroule sur l'intervalle de temps $[t_1, t_2]$, représente le stade reproductif et comprend la formation des épis, le développement des épis et la maturité.
+
+	D'autre part, la population de \gls{cla} à tout instant $t>0$ a été subdivisée en population d'\oe ufs, de chenilles et de papillons adultes. Bien que le \gls{cla} ait six stades larvaires, ils les ont considérés comme un seul groupe appelé chenille afin de réduire la complexité du modèle. Ils ont supposé que les conditions météorologiques, l'environnement et le système de plantation des graines de maïs favorisent la germination des graines et leur croissance correspondante aux deux stades, sans taux de mortalité naturelle avant la récolte.
+
+	%\begin{enumerate}
+	%	\item le stade végétatif qui comprend : la plantation des grains de maïs, l'émergence des plants de maïs, le développement des
+	%\end{enumerate}
+
+	En cas de non immigration des adultes, le modèle s'écrit au stade végétatif comme suit :
+
+	\begin{equation}
+		\left\{\begin{array}{l}
+			\ddxdt{x_1}	= - \alpha x_1 y - \lambda x_1	\\
+			\ddxdt{y}	= e_1\alpha x_1 y + \gamma w -\delta y - \mu_y y	\\
+			\ddxdt{z}	= \delta y - \mu_z z	\\
+			\ddxdt{w}	= \rho z - \gamma w - \mu_w w	\\
+		\end{array}\right.
+		\label{eqd1}
+	\end{equation}
+	avec les conditions initiales vérifiant :
+	\begin{equation}
+		\left\{\begin{array}{l}
+			x_1(0)	= k		\\
+			x_2(0)	= 0		\\
+			y(0) 	\ge 0	\\
+			z(0)	\ge 0	\\
+			w(0)	\ge 0
+		\end{array}\right.
+	\end{equation}
+
+	Au stade reproductif, on a :
+	\begin{equation}
+		\left\{\begin{array}{l}
+			\ddxdt{x_2} 	=	- \eta x_2 y - \lambda x_1	\\
+			\ddxdt{y} 	=	e_2\eta x_2 y + \gamma w -\delta y - \mu_y y	\\
+			\ddxdt{z} 	=	\delta y - \mu_z z	\\
+			\ddxdt{w} 	=	\rho z - \gamma w - \mu_w w	\\
+		\end{array}\right.
+		\label{eqd2}
+	\end{equation}
+	Les conditions initiales de ce système sont données par la solution du système \ref{eqd1} à $t = t_1$.
+
+	Les variables et les paramètres du modèle sont décrits dans les tableaux \ref{tab:daudi:var} et \ref{tab:daudi:param} respectivement.
+
+	\begin{table}
+		\centering
+		\caption{Description des variables d'état du modèle}
+		\label{tab:daudi:var}
+		\begin{tabularx}{\textwidth}{>{$}c<{$}X}
+			\toprule
+			\multicolumn{1}{l}{\bf Variables}\	& \bf\centering Description		\tabularnewline
+			\midrule
+			x_1(t)	& Densité de la population des plantes de maïs grandissant dans la phase végétative à tout instant $t$	\\
+			x_2(t)	& Densité de la population des plantes de maïs grandissant dans la phase de reproduction à tout instant $t$	\\
+			w(t)	& Densité de la population des \oe uf pondus à tout instant $t$	\\
+			y(t)	& Densité de la population des chenilles à tout instant $t$	\\
+			z(t)	& Densité de la population des papillons adultes à tout instant $t$	\\
+			\bottomrule
+		\end{tabularx}
+	\end{table}
+
+	\begin{table}
+		\centering
+		\caption{Descriptions des paramètres du le modèle}
+		\label{tab:daudi:param}
+		\begin{tabularx}{\textwidth}{>{$}c<{$}X}
+			\toprule
+			\multicolumn{1}{l}{\bf Paramètres}\	& \bf\centering Description		\tabularnewline
+			\midrule
+			\alpha	& Le taux auquel les chenilles attaquent $x_1(t)$	\\
+			\eta	& Le taux auquel les chenilles attaquent $x_2(2)$	\\
+			\rho	& Le taux auquel les papillons adultes pondent des \oe uf		\\
+			k		& Le nombre maximum de plantes de maïs dans le champ à $t = 0$	\\
+			\delta	& Le taux auquel les chenilles se développent en papillon adulte	\\
+			\gamma	& Le taux auquel les œufs éclosent en chenilles	\\
+			\mu_w	& Le taux de mortalité des œufs	\\
+			\mu_y	& Le taux de mortalité des chenilles	\\
+			\mu_z	& Le taux de mortalité des adultes	\\
+			\lambda	& Le taux auquel le maïs meurt dû à une attaque de chenille	\\
+			e_1		& Le taux de conversion de la biomasse de maïs biomasse de chenille	\\
+			\bottomrule
+		\end{tabularx}
+	\end{table}
+
+	On voit que les deux équations (\ref{eqd1} et \ref{eqd2}) ont la même forme. La différence entre elle réside dans le fait que les taux d'attaque des chenilles et les taux de conversion de biomasse ne soient pas les mêmes ($\alpha$ et $e_1$ pour le stade végétatif et $\eta$ et $e_2$ pour le stade reproductif).
+
+	Nous avons relevé quelques insuffisances de ce modèles.
+
+	\subsection{Quelques insuffisances du modèle}
+	Tout d'abord, le modèle s'apparente au modèle proie-prédateur de Lotka-Volterra (voir équation \ref{eq:proiepred}, à la page \pageref{eq:proiepred}) où le maïs est la proie et la larve de la \gls{cla}, le prédateur. On peut alors extraire du modèle de \textcite{Daudi2021}, les différentes fonctions présentes dans le modèle de Lotka-Volterra. Ainsi, on a :
+	\begin{enumerate}[\lefthand]
+		\item la fonction de croissance (ici, il s'agit plutôt d'une décroissance) $f(x) = -\lambda x$,
+
+		\item la réponse fonctionnelle $g(x) = \alpha x$ au stade végétatif et $g(x) = \eta x$ au stade reproductif,
+
+		\item la réponse numérique $h(x) = e_1 g(x)$ au stade végétatif et $h(x) = e_2 g(x)$ au stade reproductif,
+
+		\item la mortalité $m(x) = \mu_{y}$.
+	\end{enumerate}
+	Les termes additionnels sont dus au fait que les autres stades de développement de le \gls{cla} soient pris en compte.
+
+	Dans ce modèle, le terme $\alpha x_1 y$ du système \ref{eqd1} indique le nombre de maïs attaqué dans un intervalle $\dx t$. On voit que dans ce système, cette variation réduit automatiquement la population de maïs ; ce qui ne cadre pas avec la réalité. En effet, lorsque la chenille attaque le maïs, celui-ci ne meurt pas nécessairement ni automatiquement. Il faudra des attaques répétées et continues pour tuer probablement le maïs. Il est également possible que le maïs survive même à une attaque continue. D'après \textcite{fao201812}  \og la réaction du rendement du maïs à l’infestation de la \gls{cla}  a été étudiée sur le terrain un certain nombre de fois aux Amériques. Une revue de ces études montre que, même s’ils sont inquiétants, les dommages de la \gls{cla}  dans le maïs ne sont pas dévastateurs. Si quelques études montrent des réductions de rendement dues à la \gls{cla}  de plus de 50 pour cent, la majorité des essais dans les champs montrent des réductions de rendement de moins de 20 pour cent, même avec une forte infestation de \gls{cla}  (jusqu'à 100 pour cent des plants infestés). Les plants de maïs sont capables de compenser les dégâts foliaires, en particulier s’il y a une bonne nutrition des végétaux et de l’humidité\fg. Cela indique clairement que l'attaque de la \gls{cla} n'est pas une fatalité pour la plante de maïs.  On pourrait pourrait dire que l'attaque de la \gls{cla} infecte le maïs. Les maïs infectés peuvent compenser les pertes foliaires et redevenir sains ou mourir. Ce qui nous a amené à introduire le modèle compartimental \gls{sis} dans la population de maïs (voir section \ref{subsec:sis}).
+
+	Le taux auquel le maïs meurt dû à l'attaque de la \gls{cla} a été supposé constant, mais en réalité, plus le maïs est jeune, plus son taux de mortalité par attaque de la \gls{cla} est élevé. D'après \textcite{fao201812} : \og l’infestation de \gls{cla} au début du stade végétatif peut provoquer plus de dommages aux feuilles et de pertes de rendement que l’infestation au stade d’épiaison\fg. Ce taux décroit donc au fur et à mesure que le maïs grandit.
+
+%compartimental \gls{sis} pour développer un modèle qui étudie la dynamique de la population de maïs et de la \gls{cla} ainsi que les interactions qui existent entre eux. Nous avons développé ce modèle en structurant la population du maïs et celle dd la \gls{cla} par étape.
+
+	\subsection{Formulation de notre modèle}
+	Notre    modèle est une version améliorée du modèle de \textcite{Daudi2021}.
+
+	Pour prendre en compte les insuffisances que nous avons relevé, nous avons tout d'abord redéfini et détaillé la structure par étape des deux populations.
+
+		\subsubsection[Structure par étape des deux populations]{Structure par étape de la population du maïs et de celle de la \glsentryshort{cla}}
+		Contrairement au modèle de \textcite{Daudi2021}, nous considérons trois stades de l'évolution du maïs qui sont :
+		\begin{enumerate}
+			\item le stade juvénile qui débute de $t = 0$ et prend fin à $t = t_0$. Cette période correspond au moment où les graines de maïs ont été mises en terre jusqu'à l'émergence des plants avec un minimum de feuillage pour que l'attaque de la \gls{cla} soit possible. En effet, ce n'est pas à partir de l'instant où le maïs est planté que la \gls{cla} peut commencer à faire des ravages. Il faudra que la maïs ait un minimum de feuillage avant même d'attirer l'attention du ravageur. Ce lape de temps est crucial dans notre modèle afin de prendre en compte cette période d'émergence des plants de maïs ; ce qui n'a pas été pris en compte dans le modèle de \textcite{Daudi2021} en cas de non immigration ;
+
+			\item le stade végétatif qui débute de la fin du stade juvénile ($t = t_0$) et s'achève au début de l'efflorescence ; nous notons cet instant $t_1$. C'est au cours de cette période que la \gls{cla} pourra commencer par attaquer. C'est aussi le stade ou cours duquel l'attaque de la \gls{cla} provoque le plus de dégât ;
+
+			\item le stade reproductif qui débute de l'efflorescence ($t_1$) et s'achève à la maturité; nous notons cet instant $T$ qui représente en même temps la durée totale du cycle de vie du maïs.
+		\end{enumerate}
+
+		En ce qui concerne la \gls{cla}, nous avons considéré trois stades tout comme dans le modèle de \textcite{Daudi2021}. Ces trois stades s'énoncent comme suit :
+		\begin{enumerate}
+			\item le stade embryonnaire : il correspond à l'étape où la \gls{cla} est sous forme d'\oe uf ;
+
+			\item le stade larvaire : il correspond à l'étape où la \gls{cla} est sous forme de larve (ver). En effet, d'après la biologie de la \gls{cla} présentée dans notre revue de littérature à la section \ref{revue:cla:bio}, page \pageref{revue:cla:bio}, ce stade est composé de $6$ étapes allant de jeune larve jusqu'à larve mature. Par soucis de simplification, ces six étapes sont regroupées en une seule. C'est à ce stade que la \gls{cla} fait des ravage (attaque le maïs) ;
+
+			\item  le stade adulte (reproductif) : il correspond au stade où la \gls{cla} est à l'étape de reproduction. Il faut noter qu'avant de devenir adulte, la \gls{cla} passe par un stade nymphal (elle prend la forme de pupe). En effet, ce stade est en quelque sorte une phase de transition entre le stade larvaire et le stade adulte. Pour ne pas rendre trop complexe le modèle, nous regroupons ce stade et le stade adulte en un seul.
+		\end{enumerate}
+
+	Pour prendre en compte le fait qu'un maïs attaqué ne meurt pas nécessairement, nous avons introduit le modèle compartimental \gls{sis} dans la dynamique de la population du maïs ; pour la population de \gls{cla}, il s'agira de passage d'un stade de développement à un autre. Nous présenterons alors le modèle \gls{sis} tout en faisant l'analogie avec notre modèle.
+
+		\subsubsection{Le modèle compartimental \gls{sis}}\label{subsec:sis}
+		Les modèles compartimentaux sont des modèles très utilisés en épidémiologie pour décrire l'évolution de la population touchée dans le temps. Il y a plusieurs compartiments ayant donné naissance à plusieurs variantes de modèles compartimentaux. On peut citer entre autre :
+		\begin{enumerate}
+			\item le compartiment S pour les individus Sains encore appelé Susceptibles : les individus appartenant à ce compartiment ne présentent pas de signe d'infection, mais sont susceptibles d'être infectés ;
+
+			\item le compartiment E pour les individus Exposés : les individus appartenant à ce compartiment sont suspectés d'être infectés, mais qui attendent confirmation ;
+
+			\item le compartiment I pour les individus Infectés.
+
+			\item le compartiment R pour les individus Rétablis : les individus appartenant à ce compartiment sont ceux qui guéris de l'infection et en sont immunisés ;
+
+			\item le compartiment D pour les individus Décédés : les individus appartenant à ce compartiment sont ont succombé à l'infection;
+
+			\item etc\dots
+		\end{enumerate}
+
+		Le modèle compartiment \gls{sis} que nous avons choisi prend en compte les compartiments S et I avec possibilité pour ceux du compartiment I d'aller dans le compartiment S. Ce modèle nous permet de prendre en compte le fait qu'un maïs attaqué a la possibilité de compenser les dégâts foliaires et de venir à nouveau sain. Ainsi, lorsque la \gls{cla} attaque, les maïs touchés sont d'abord infectés. En étant infecté, les maïs a la possibilité des mourir si l'attaque continue et que le maïs n'arrive pas à compenser les pertes en poussant de nouvelles feuilles ou redevenir sain sinon.
+
+		\subsubsection{Les variables et paramètres de notre modèle}
+		Pour les variables de notre modèle, nous conservons les mêmes variables que celles du modèle de \textcite{Daudi2021} décrites dans le tableau \ref{tab:daudi:var} sauf que la population de maïs est divisée en deux sous populations au niveau de chaque stade de développement. Ainsi, nous notons $x_S$ la densité de population des maïs sains et $x_I$, celle de la population des maïs attaqués (infectés).
+
+		Concernant les paramètres, nous conservons également ceux de \textcite{Daudi2021} (voir tableau \ref{tab:daudi:param}) sauf le $\lambda$ qui est le taux de mortalité du maïs dû à l'attaque de la \gls{cla} supposé constant. Dans notre modèle, ce taux n'est pas constant ; il dépend du temps.% Nous retranchons le paramètre $\delta$ selon l'hypothèse \ref{h:4}.
+
+		Nous notons $\beta$, le taux de compensation du maïs. Ce taux est lié à la croissance du maïs ; plus le taux de croissance est grand plus ce taux l'est aussi (en se référent à \cite{fao201812}). La mortalité naturelle des maïs est notée $\mu_x$.
+
+		\subsubsection{Les hypothèses du modèle}
+		Notre modèle est soumis aux hypothèses suivantes :
+		\begin{enumerate}[(H1) ]
+			\item La plantation des grains de maïs est fait à $t=0$ et le taux de croissance du maïs est supposé constant du stade sur toute la durée de vie du maïs ;
+
+			\item A $t=t_0$, la population de maïs atteint une valeur maximale notée $k$ et c'est à partir de cet instant que la \gls{cla} pourrait commencer par attaquer ;
+
+			\item Du stade végétatif au stade reproductif, il n'y a pas de plantation de nouveaux plants de maïs ;
+
+			\item Nous supposons que les papillons adultes préfèrent pondre des \oe ufs sur la source de nourriture des chenilles qui est le maïs. En d'autres termes, lorsqu'il n'y a pas de maïs, aucun \oe uf ne sera pondu; donc pas de naissance de chenilles et ainsi, la population de papillons va disparaitre; %La seule source de nourriture des chenilles est le maïs de sorte qu'en absence de ce dernier, les chenille ne peuvent pas se transformer en papillons; ce qui aura pour conséquences de provoquer une décroissance en cascade dans la population de la \gls{cla} ;\label{h:4}
+
+			\item Le taux de mortalité dû à l'attaque des chenilles $\lambda$ n'est pas constant ; ce taux décroit avec le temps et nous le notons $\lambda(t) = ae^{-bt}$. Une autre forme pourrait être choisi selon les observation effectués sur le terrain. Le paramètre $a$ est liée au taux de croissance de la plante ; plus ce taux est grand, plus ce paramètre est petit. Autrement dit, on aura moins de mort dû à la \gls{cla} si le taux de croissance est élevé.
+		\end{enumerate}
+
+		\subsubsection{Le modèle}
+		Les interactions entre les deux populations est illustrées par le diagramme suivant :
+		\begin{figure}
+			\centering
+			\def\a{-4}
+			\begin{tikzpicture}
+				% circes and rectangles
+				\node[draw,inner sep=15pt] (xs) at (0,0) {$x_s(t)$};
+				\node[draw,inner sep=15pt] (xi) at (5,0) {$x_i(t)$};
+				\node[draw, circle, inner sep=10pt] (w) at (-2.5,\a) {$w(t)$};
+				\node[draw, circle,inner sep=10pt] (y) at (2.5,\a) {$y(t)$};
+				\node[draw, circle,inner sep=10pt] (z) at (7.5,\a) {$z(t)$};
+				% inter arrows
+				\draw[-latex] ($(xs.east) - (0,5pt)$) -- ($(xi.west) - (0,5pt)$) node[pos=0.5, below=2pt] {$\alpha x_s y$};
+				\draw[latex-] ($(xs.east) + (0,5pt)$) -- ($(xi.west) + (0,5pt)$) node[pos=0.5, above] {$\beta x_i$};
+				\draw[-latex] (w) -- (y)  node[pos=0.5, above] {$\gamma w$};
+				\draw[-latex] (y) -- (z)  node[pos=0.5, above] {$\delta y$};
+				%\draw[-latex] ($(z.south)$) -- ++(0,-15pt) -- ($(w.south) + (0,-15pt)$)   node[pos=0.5, below] {$\rho$} -- ($(w.south)$);
+				\draw[latex-] ($(w.north)$) -- ++(0, 20pt) node[above] {$\rho x_s z$};
+				\draw[-latex,dashed] ($(y.north)$) -| ($(xs.east) - (\a/2+0.5,5pt)$);
+				\draw[-latex,dashed] ($(xs.south west)$) -- ($(w.north)$);
+				% death arrows
+				\draw[-latex] ($(xs.south)$) -- ++(0,-20pt) node[below] {$\mu_{x} x_s$};
+				\draw[-latex] ($(xi.south)$) -- ++(0,-20pt) node[below] {$\mu_{x} x_i$};
+				\draw[-latex] ($(xi.east)$) -- ++(20pt,0) node[right] {$\lambda(t)x_i$};%{$ae^{-bt}$};
+				\draw[-latex] ($(w.west)$) -- ++(-20pt, 0) node[left] {$\mu_w w$};
+				\draw[-latex] ($(y.north east)$) -- ++(45:20pt) node[right] {$\mu_y y$};
+				\draw[-latex] ($(z.east)$) -- ++(20pt, 0) node[right] {$\mu_z z$};
+			\end{tikzpicture}
+			\caption{Diagramme montrant les interactions en la population du maïs et de celle de la \gls{cla}}
+		\end{figure}
+		Les flèches en pointillées indique l'interaction entre la population de maïs et de celle de la \gls{cla}.
+
+		Au vu de tout ce qui précède, nous avons la forme générale de notre modèle qui est la suivante :
+		\begin{equation}
+			\left\lbrace\begin{array}{l}
+				\xp{x}_s = \beta x_i - \alpha x_s y - \mu_{x} x_{s}		\\
+				\xp{x}_i = \alpha x_s y  - \beta x_i - \lambda(t) x_i - \mu_{x} x_{i}		\\
+				\xp{y} = \gamma w - \delta y - \mu_{y} x_{y}		\\
+				\xp{z} = \delta y - \mu_{z} x_{z}		\\
+				\xp{w} = \rho x_s z - \gamma w - \mu_{w} x_{w}
+			\end{array}\right.
+		\end{equation}
+		%\begin{equation}
+		%	\left\{\begin{array}{l}
+		%		\xp{x}_s = -\alpha x_s y + \beta x_i - \mu_{x} x_{s}		\\
+		%		\xp{x}_i = - \beta x_i - \lambda(t) x_i + \alpha x_s y - \mu_{x} x_{i}		\\
+		%		\xp{y} = -e\alpha x_s y + \gamma w - \mu_{y} x_{y}		\\
+		%		\xp{z} = e\alpha x_s y - \mu_{z} x_{z}		\\
+		%		\xp{w} = -\gamma w + \rho z - \mu_{w} x_{w}
+		%	\end{array}\right.
+		%\end{equation}
+
+		Il faut noter que toutes les variables (pas les paramètres sont en fonction du temps comme le montre notre diagramme. De plus, $\xp{x}_s$ représente $\ddxdt{x_s}$.
+
+		\subsubsection{Propriétés de base du modèle}
+		Pour que le modèle soit épidémiologiquement et mathématiquement bien posé, il faut que tous les paramètres et toutes les variables soient positifs.
+
+		Vérifions si notre système respecte cette propriété de positivité. Pour cela, écrivons notre système sous forme matricielle.
+
+		Sous forme compacte, on a :
+		\begin{equation}
+			\dxdt{X} = A(X)X
+			\label{eq:syst:m}
+		\end{equation}
+		avec
+		\begin{equation*}
+			\begin{array}{c}
+				X = \begin{pmatrix}
+						x_s	& x_i	& y	& z	& w	\\
+				\end{pmatrix}^t
+				\\
+				A(X) = \begin{pmatrix}
+					-(\alpha y + \mu_{x})	& \beta		& 0		& 0		& 0		\\
+					\alpha y	& -(\beta + \lambda(t) + \mu_{x})& 0	& 0	& 0	\\
+					0			& 0		& -(\delta + \mu_{y})	& 0	& \gamma	\\
+					0			& 0		& \delta			& -\mu_{z}	& 0		\\
+					0			& 0		& 0		& \rho x_s	& -(\gamma - \mu_{w})
+				\end{pmatrix}
+			\end{array}
+		\end{equation*}
+
+		\newcommand{\mz}{\textsc{Metzler}\xspace}
+		Cette matrice est une matrice de \mz.
+		\begin{Def}
+			On appelle matrice de \mz, toute matrice $A = (a_{ij}) \in  M_n(\R)$, dont les coefficients vérifient la propriété suivante :
+			\begin{equation}
+				a_{ij} > 0\ \forall\; i \neq j
+			\end{equation}
+			(i.e. dont tous les coefficients extra-diagonaux sont positifs)
+		\end{Def}
+
+		Ainsi, les solutions du système d'équations \ref{eq:syst:m} sont positives selon le théorème suivant :
+		\begin{Theo}
+			Soit le système défini sur $\R_n$ par
+			\begin{equation}
+				\xp{x} = A(x) x
+				\label{eq:syst:th:m}
+			\end{equation}
+			Si pour tout $x \in \R^n,\ A(x)$ est une matrice de \mz, alors le système \ref{eq:syst:th:m} laisse positivement invariant l’orthant positif $R^n_+$.
+		\end{Theo}
+
+		%\begin{equation*}
+		%	\dxdt{x_s} = -\alpha x_s y + \beta x_i - \mu_{x} x_{s}
+		%\end{equation*}
+  %
+		%En essayant de résoudre analytiquement, on a :
+		%\begin{equation*}
+		%	\begin{aligned}
+		%		& \dxdt{x_s}	& = -(\alpha y(t) + \mu_{x}) x_s(t) + \beta x_i(t)	\\
+		%		\Longleftrightarrow\quad	& \frac{\dx x_s}{x_s}	&=
+		%	\end{aligned}
+		%\end{equation*}
+
+
+	%\subsection{Le modèle compartimental \glsentryshort{sis}}
+
+	%\begin{equation}
+	%	\left\{\begin{array}{l}
+	%		\xp{x}_s = -\alpha_{se} x_s + \alpha_{es} x_e + \alpha_{is} x_i - \mu_{x} x_{s}		\\
+	%		\xp{x}_e = -\alpha_{ei} x_e - \alpha_{es} x_e + \alpha_{es} x_s - \mu_{x} x_{e}		\\
+	%		\xp{x}_i = -\alpha_d x_i + \alpha_{is} x_i + \alpha_{ei} x_e - \mu_{x} x_{i}		\\
+	%		\\
+	%		\xp{y} = -\delta y + \gamma w - \mu_{y} x_{y}		\\
+	%		\xp{z} = \delta y - \mu_{z} x_{z}		\\
+	%		\xp{w} = -\gamma w + \rho z - \mu_{w} x_{w}
+	%	\end{array}\right.
+	%\end{equation}
+	%$\rho$ est lié au nombre de maïs sains qu'il y a; donc à $\alpha_e x_s$
+
+	%\begin{equation}
+	%	\left\{\begin{array}{l}
+	%		\xp{x}_s = -\alpha_{si} x_s + \alpha_{is} x_i - \mu_{x} x_{s}		\\
+	%		\xp{x}_i = - \alpha_{is} x_i - \alpha_d x_i + \alpha_{si} x_s - \mu_{x} x_{i}		\\
+	%		\\
+	%		\xp{y} = -\delta y + \gamma w - \mu_{y} x_{y}		\\
+	%		\xp{z} = \delta y - \mu_{z} x_{z}		\\
+	%		\xp{w} = -\gamma w + \rho z - \mu_{w} x_{w}
+	%	\end{array}\right.
+	%\end{equation}

@@ -47,22 +47,37 @@
 	\end{frame}
 
 	\section{Introduction}
-	\begin{frame}{Introduction}
-		La \gls{cla} est un ravageur qui détruit à grande échelle les cultures céréalière \autocite{day2017fall}. Son intrusion en Afrique depuis 2016 \autocite{goergen2016first} cause des pertes considérables. Plusieurs mesures de contrôle et de préventions ont été prises, mais celles-ci sont soit couteuses, soit menacent la sécurité alimentaire et environnementale, etc, soit inefficace,... Nous avons par exemple l'utilisation des insecticides, les OGM... La recherche d'une solution à moindre coût et préservant la sécurité alimentaire s'impose. D'où le recours aux mesures agro-écologiques qui consistent à combattre ce ravageur par d'autres insectes qui sont donc ses prédateur.
+	%\begin{frame}{Introduction}
+	%	La \gls{cla} est un ravageur qui détruit à grande échelle les cultures céréalière \autocite{day2017fall}. Son intrusion en Afrique depuis 2016 \autocite{goergen2016first} cause des pertes considérables. Plusieurs mesures de contrôle et de préventions ont été prises, mais celles-ci sont soit couteuses, soit menacent la sécurité alimentaire et environnementale, etc, soit inefficace,... Nous avons par exemple l'utilisation des insecticides, les OGM... La recherche d'une solution à moindre coût et préservant la sécurité alimentaire s'impose. D'où le recours aux mesures agro-écologiques qui consistent à combattre ce ravageur par d'autres insectes qui sont donc ses prédateur.
 
-		L'objet de cette étude est de modéliser l'impact de ce ravageur sur le rendement du maïs.
-	\end{frame}
+%	%	L'objet de cette étude est de modéliser l'impact de ce ravageur sur le rendement du maïs.
+	%\end{frame}
 
-	\section{Ce qui a été fait}
-	\begin{frame}{Ce qui a été fait}
+	\section{Etat de l'art}
+	\begin{frame}{Etat de l'art}
 		%Considering the importance of maize to a majority of countries producing maize in Africa, the present work aims to utilize ordinary differential equation in exploring the implications of FAW infestation in a maize field planted with initial number of maize seeds at time t = 0 and obtaining maximum harvest at the end of the season. To come up with the intended results, we propose two subgeneric models, each with stage-structured in both of populations (maize and FAW) to determine the population dynamics in the presence and absence of immigration of the adult moth and estimate the yield when control measures such as pesticides and harvesting are deployed.
-		Compte tenu de l'importance du maïs pour la majorité des pays produisant du maïs en Afrique, \autocite{Daudi2021} a utilisé une équation différentielle ordinaire pour explorer les conséquences de l'infestation de la \gls{cla} dans un champ de maïs avec un nombre initial de graines à $t = 0$ et obtenir une moisson maximale à la fin de la saison. Pour trouver les résultats prévus, nous proposons deux modèles génériques, chacun avec une structure par étape dans les deux populations (maïs et \gls{cla}) pour déterminer la dynamique de la population en présence et en absence d'immigration de l'adulte de la \gls{cla} et estimer le rendement lorsque des mesures de contrôle telles que les pesticides et la récolte sont déployées.
-
-		Les deux sous-modèles sont associés à deux périodes I et II supposée se dérouler sur une période de temps $[0,T]$ :
 		\begin{enumerate}
-			\item Période I : période végétative de $[0, t_1]$;
-			\item Période II : période reproductive de $[t_1, T]$.
+			\item Plusieurs modèles on été utilisés pour modéliser les interactions entre plantes et insectes.
+			\item Les interactions sont parfois positives ou négatives ou sans effet
+			\item \autocite{Daudi2021} a utilisé une équation différentielle ordinaire pour explorer les conséquences de l'infestation de la \gls{cla} dans un champ de maïs avec un nombre initial de graines à $t = 0$.
+			\begin{enumerate}
+				\item Structure par étape au niveau des deux populations
+				\item Deux sous-modèles associés à deux périodes I et II ont été utilisés
+				supposée se dérouler sur une période de temps $[0,T]$ :
+				\begin{enumerate}
+					\item Période I : période végétative de $[0, t_1]$;
+					\item Période II : période reproductive de $[t_1, T]$.
+				\end{enumerate}
+			\end{enumerate}
 		\end{enumerate}
+		%Compte tenu de l'importance du maïs pour la majorité des pays produisant du maïs en Afrique, \autocite{Daudi2021} a utilisé une équation différentielle ordinaire pour explorer les conséquences de l'infestation de la \gls{cla} dans un champ de maïs avec un nombre initial de graines à $t = 0$. Pour trouver les résultats prévus, nous proposons deux modèles génériques, chacun avec une structure par étape dans les deux populations (maïs et \gls{cla}) pour déterminer la dynamique de la population en présence et en absence d'immigration de l'adulte de la \gls{cla} et estimer le rendement lorsque des mesures de contrôle telles que les pesticides et la récolte sont déployées.
+
+		%Deux sous-modèles associés à deux périodes I et II ont été utilisés
+		%supposée se dérouler sur une période de temps $[0,T]$ :
+		%\begin{enumerate}
+		%	\item Période I : période végétative de $[0, t_1]$;
+		%	\item Période II : période reproductive de $[t_1, T]$.
+		%\end{enumerate}
 
 		%The two submodels introduced herein consist of two pop- ulations: maize and FAW, both of which are stage-structured giving a total of five populations. We consider maize growth from emergence to maturity at any given time t > 0, growing
 		%Les deux sous-modèles introduits ici se composent de deux populations : le maïs et la FAW, qui sont tous deux structurés par étape donnant un total de cinq populations. Nous considérons la croissance du maïs de l'émergence à la maturité à tout instant t> 0, en croissance
@@ -87,7 +102,7 @@
 
 	\end{frame}
 
-	\begin{frame}{Ce qui a été fait}{Variables d'état du modèle}
+	\begin{frame}{Etat de l'art}{Variables d'état du modèle}
 		\small
 		\begin{table}
 			\centering
@@ -106,7 +121,7 @@
 		\end{table}
 	\end{frame}
 
-	\begin{frame}{Ce qui a été fait}{Paramètres du modèle}
+	\begin{frame}{Etat de l'art}{Paramètres du modèle}
 		\small
 		\begin{table}
 			\centering
@@ -130,7 +145,7 @@
 		\end{table}
 	\end{frame}
 
-	\begin{frame}{Ce qui a été fait}{Hypothèses du modèle}
+	\begin{frame}{Etat de l'art}{Hypothèses du modèle}
 		 La formulation de ce modèle est soutenue par les hypothèses suivantes :
 		 \begin{enumerate}[(i)]
 		 	\item Le semis de maïs se fait à $t = 0$ ; par conséquent, le taux de développement de chaque plante de maïs du stade de semis%végétatif
@@ -141,8 +156,8 @@
 		 \end{enumerate}
 	\end{frame}
 
-	\begin{frame}[label=Dmodel]{Ce qui a été fait}{Le modèle en cas de non immigration}
-		\begin{block}{Stade Végétative ($0 \le t \le t_1$)}
+	\begin{frame}[label=Dmodel]{Etat de l'art}{Le modèle en cas de non immigration}
+		\begin{block}{Stade Végétatif ($0 \le t \le t_1$)}
 			\begin{equation}
 				\left\{\begin{array}{l}
 					\dxdt{x_1}	= - \alpha x_1 y - \lambda x_1	\\
@@ -157,7 +172,9 @@
 				\left\{\begin{array}{l}
 					x_1(0)	= k		\\
 					x_2(0)	= 0		\\
-					\{y, z, w\} \ge \{0, 0, 0\}
+					y(0) 	\ge 0	\\
+					z(0)	\ge 0	\\
+					w(0)	\ge 0
 				\end{array}\right.
 			\end{equation*}
 
@@ -165,8 +182,8 @@
 		\end{block}
 	\end{frame}
 
-	\begin{frame}{Ce qui a été fait}{Le modèle en cas de non immigration}
-		\begin{block}{Stade reproductive ($t_1 \le t \le T$)}
+	\begin{frame}{État de l'art}{Le modèle en cas de non immigration}
+		\begin{block}{Stade reproductif ($t_1 \le t \le T$)}
 			\begin{equation}
 				\left\{\begin{array}{l}
 					\dxdt{x_2} 	=	- \eta x_2 y - \lambda x_1	\\
@@ -177,10 +194,20 @@
 				\label{eq2}
 			\end{equation}
 			Les conditions initiales de ce système sont données par la solution du système \ref{eq1} à $t = t_1$.
+			%avec les conditions initiales suivantes :
+			%\begin{equation*}
+			%	\left\{\begin{array}{l}
+			%		x_2(t_1)	= x_2(t_1)		\\
+			%		x_2(t_1)	= 0		\\
+			%		y(t_1) 	\ge 0	\\
+			%		z(t_1)	\ge 0	\\
+			%		w(t_1)	\ge 0
+			%	\end{array}\right.
+			%\end{equation*}
 		\end{block}
 	\end{frame}
 
-	\begin{frame}{Ce qui a été fait}{Le modèle en cas de non immigration}
+	\begin{frame}{Etat de l'art}{Le modèle en cas de non immigration}
 		\begin{block}{Forme matricielle}
 			On peut écrire chacun de ces systèmes sous forme matricielle comme suit :
 			\begin{equation}
@@ -200,7 +227,7 @@
 		\end{block}
 	\end{frame}
 
-	\begin{frame}{Ce qui a été fait}{Le modèle en cas de non immigration}
+	\begin{frame}{Etat de l'art}{Le modèle en cas de non immigration}
 		\begin{block}{Forme matricielle}
 			On peut écrire chacun de ces systèmes sous forme matricielle comme suit :
 			\begin{equation}
@@ -220,7 +247,7 @@
 		\end{block}
 	\end{frame}
 
-	\begin{frame}{Ce qui a été fait}
+	\begin{frame}{Etat de l'art}
 		%\begin{overlayarea}{\textwidth}{\textheight}
 			\onslide<.->{Voir le fichier \href{Daudi.pdf}{l'article} pour voir les courbes de l'évolution de la population du maïs et celle du ravageur aux divers stades.
 
@@ -287,7 +314,7 @@
 			\begin{enumerate}%[<+-9>]%[mini template]
 				\item le stade f\oe utal,
 				\item le stade larvaire,
-				\item le stade nymphal,
+				%\item le stade nymphal,
 				\item le stade adulte
 			\end{enumerate}}
 			%\end{block}
@@ -300,7 +327,7 @@
 		\begin{overprint}%{\textwidth}{\textheight}
 			\onslide*<+-+(1)>{%\begin{block}{Variables du modèle}
 				\onslide<.->{
-					Nous admettons les variables du modèle de \cite{Daudi2021} sauf que pour notre modèle, $\lambda$, n'est pas le dégât infligé par les larves aux maïs, mais plutôt le taux de mortalité dû aux aléas climatiques.% $\alpha$ et $\eta$ ne sont pas constant, amis dépendent du temps.
+					Nous admettons les variables du modèle de \cite{Daudi2021} sauf que pour notre modèle, $\lambda$ n'est pas le dégât infligé par les larves aux maïs, mais plutôt le taux de mortalité dû aux aléas climatiques.% $\alpha$ et $\eta$ ne sont pas constant, amis dépendent du temps.
 				}
 
 				%\only<5-6>{Nous estimerons ces paramètres à l'aide des de fonctions linéaire, exponentielle et logarithmique.}
@@ -309,7 +336,12 @@
 
 				\vskip \baselineskip
 				\onslide<+->{
-					Nous ajoutons $M$ qui est qui est capacité limite que la population de maïs peut atteindre en décroissant par l'effet du ravageur. \note{Puisque FAO}
+					Nous ajoutons $M$ qui est capacité limite que la population de maïs peut atteindre en décroissant sous l'effet du des aléas climatiques. \note{Puisque FAO}
+				}
+
+				\vskip \baselineskip
+				\onslide<+->{
+					Nous ajoutons également $\beta$ qui le degré ou le taux de résistance du maïs dans le temps.
 				}
 
 				%\vskip \baselineskip
@@ -377,6 +409,7 @@
 							w(t)	& densité de la Population des \oe uf posés à tout instant $t$	\\
 							y(t)	& densité de la Population des chenilles à tout instant $t$	\\
 							z(t)	& de densité de la Population des mites adultes à tout instant $t$	\\
+							\beta	& Le taux de résistance du maïs dans le temps	\\
 							\bottomrule
 						\end{tabularx}
 					\end{table}
@@ -530,10 +563,9 @@
 		\begin{block}{Forme générale}
 			\begin{equation}
 				\left\{\begin{array}{l}
-					\dxdt{x}	=	- \alpha(t) x y - \lambda(t) x	\\
-					\dxdt{y}	=	e_1\alpha(t) x_1 y + \gamma w -\theta y - \mu_y y	\\
-					\dxdt{v}	=	\theta y - \mu_v v	\\
-					\dxdt{z}	=	\delta v - \mu_z z	\\
+					\dxdt{x}	=	(f(x) - g(x) y) e^{-\beta t}	\\%- \alpha(t) x y - \lambda(t) x	\\
+					\dxdt{y}	=	\gamma w - (e_1\alpha(t) x + \theta) y - \mu_y y	\\
+					\dxdt{vz}	=	(e_1\alpha x + \theta) y - \mu_z z	\\
 					\dxdt{w}	=	\rho z - \gamma w - \mu_w w	\\
 				\end{array}\right.
 				\label{eqm2}

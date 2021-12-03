@@ -2346,14 +2346,10 @@
     <bcf:datasource type="file" datatype="bibtex" glob="false">../BibGls/Biblio.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="0">
-    <bcf:citekey order="1">day2017fall</bcf:citekey>
-    <bcf:citekey order="2">goergen2016first</bcf:citekey>
+    <bcf:citekey order="1">Daudi2021</bcf:citekey>
+    <bcf:citekey order="2">Daudi2021</bcf:citekey>
     <bcf:citekey order="3">Daudi2021</bcf:citekey>
     <bcf:citekey order="4">Daudi2021</bcf:citekey>
-    <bcf:citekey order="5">Daudi2021</bcf:citekey>
-    <bcf:citekey order="6">Daudi2021</bcf:citekey>
-    <bcf:citekey order="7">Daudi2021</bcf:citekey>
-    <bcf:citekey order="8">Daudi2021</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nyt">

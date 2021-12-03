@@ -248,7 +248,7 @@
 \newcommand{\HRule}{\rule{.9\linewidth}{.6pt}} % New command to make the lines in the title page
 \newcommand{\decoRule}{\rule{.8\textwidth}{.4pt}} % New command for a rule to be used under figures
 
-\setcounter{tocdepth}{3} % The depth to which the document sections are printed to the table of contents
+%\setcounter{tocdepth}{3} % The depth to which the document sections are printed to the table of contents
 \ProvideDocumentCommand{\addchaptertocentry}{ m }{%
 	%\addstarredchapter{#1}%
 	\addcontentsline{toc}{chapter}{#1}%
@@ -491,7 +491,7 @@ KOMA-script documentation for details.}]{fancyhdr}
 		\tttypeout{Dedicatory}
 		\null\vfil
 		\thispagestyle{plain}
-		\begin{center}{\Large\slshape #1}\end{center}
+		\begin{flushright}{\Large\slshape #1}\end{flushright}
 		\vfil\null
 	}
 }

@@ -1,15 +1,15 @@
-[1] Config.pm:311> INFO - This is Biber 2.16
-[2] Config.pm:314> INFO - Logfile is 'mini_presentation.blg'
-[620] biber-MSWIN64:340> INFO - === 
-[858] Biber.pm:415> INFO - Reading 'mini_presentation.bcf'
-[1556] Biber.pm:952> INFO - Found 3 citekeys in bib section 0
-[1636] Biber.pm:4340> INFO - Processing section 0
-[1720] Biber.pm:4531> INFO - Looking for bibtex format file '../BibGls/Biblio.bib' for section 0
-[2130] bibtex.pm:1689> INFO - LaTeX decoding ...
-[2786] bibtex.pm:1494> INFO - Found BibTeX data source '../BibGls/Biblio.bib'
-[3243] UCollate.pm:68> INFO - Overriding locale 'fr-FR' defaults 'variable = shifted' with 'variable = non-ignorable'
-[3244] UCollate.pm:68> INFO - Overriding locale 'fr-FR' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[3244] Biber.pm:4168> INFO - Sorting list 'nyt/global//global/global' of type 'entry' with template 'nyt' and locale 'fr-FR'
-[3244] Biber.pm:4174> INFO - No sort tailoring available for locale 'fr-FR'
-[3304] bbl.pm:654> INFO - Writing 'mini_presentation.bbl' with encoding 'UTF-8'
-[3330] bbl.pm:757> INFO - Output to mini_presentation.bbl
+[0] Config.pm:311> INFO - This is Biber 2.16
+[0] Config.pm:314> INFO - Logfile is 'mini_presentation.blg'
+[713] biber-MSWIN64:340> INFO - === 
+[956] Biber.pm:415> INFO - Reading 'mini_presentation.bcf'
+[1264] Biber.pm:952> INFO - Found 1 citekeys in bib section 0
+[1321] Biber.pm:4340> INFO - Processing section 0
+[1378] Biber.pm:4531> INFO - Looking for bibtex format file '../BibGls/Biblio.bib' for section 0
+[1649] bibtex.pm:1689> INFO - LaTeX decoding ...
+[1871] bibtex.pm:1494> INFO - Found BibTeX data source '../BibGls/Biblio.bib'
+[2045] UCollate.pm:68> INFO - Overriding locale 'fr-FR' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[2046] UCollate.pm:68> INFO - Overriding locale 'fr-FR' defaults 'variable = shifted' with 'variable = non-ignorable'
+[2046] Biber.pm:4168> INFO - Sorting list 'nyt/global//global/global' of type 'entry' with template 'nyt' and locale 'fr-FR'
+[2046] Biber.pm:4174> INFO - No sort tailoring available for locale 'fr-FR'
+[2177] bbl.pm:654> INFO - Writing 'mini_presentation.bbl' with encoding 'UTF-8'
+[2179] bbl.pm:757> INFO - Output to mini_presentation.bbl

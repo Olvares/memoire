@@ -1,0 +1,668 @@
+\section{Méthodes de résolution numérique des équations différentielles}
+%\section{Les équation différentielles}
+\subsection{Définition} % wikipedia
+	%Une équation différentielle est une équation dont la ou les inconnues sont des fonctions ; elle se présente sous la forme d'une relation entre ces fonctions inconnues et leurs dérivées successives.
+	Une équation différentielle est une équation où l’inconnue est une fonction, et qui se présente sous la forme d’une relation entre cette fonction et ses dérivées.
+
+	On distingue généralement deux types d'équations différentielles :
+	\begin{enumerate}
+		\item les \glspl{edo} où la ou les fonctions inconnues ne dépendent que d'une seule variable ;
+		\item les \glspl{edp} où la ou les fonctions inconnues peuvent dépendre de plusieurs variables indépendantes.
+	\end{enumerate}
+
+	Sans plus de précision, le terme équation différentielle fait le plus souvent référence aux \glspl{edo}.
+
+	On rencontre également d'autres types d'équations différentielles (liste non exhaustive :
+	\begin{enumerate}
+		\item les équations intégro-différentielles qui font intervenir les dérivées de fonction(s) et ses/leurs intégrale(s);
+
+		%\item les équations différentielles holomorphes (EDH) où la ou les fonctions inconnues dépendent d'une seule variable complexe;
+		\item les \glspl{eds} où un ou plusieurs termes de l'équation différentielle sont des processus stochastiques;
+		%\item les équations différentielles abstraites (en) (EDA) où les fonctions inconnues et leurs dérivées prennent leurs valeurs dans des espaces fonctionnels abstraits (espace de Hilbert, espace de Banach, etc.);
+		\glspl{edr} dans lesquelles la dérivée de la fonction inconnue à un moment donné est exprimée selon les valeurs de la fonction aux temps précédents;
+		\item etc\dots
+	\end{enumerate}
+
+	Dans cette section, nous nous intéressons aux \glspl{edo}.
+
+\subsection{Les \glsentrylongpl{edo}}
+	Cette section est tirée du livre de \textcite{Fortin2008}
+
+	La résolution numérique des équations différentielles est probablement le domaine de l'analyse numérique où les applications sont les plus nombreuses. Que ce soit en mécanique des fluides, en transfert de chaleur en analyse de structure, en biologie, en agronomie, etc\dots, on aboutit souvent à la résolution d'équations différentielles, de systèmes d'équations  différentielles ou plus généralement d'équations aux dérivées partielles.
+
+	Dans cette section, les diverses méthodes de résolutions proposées sont d'autant plus précis qu'elles sont d'ordre élevé. Nous considérons principalement les équations différentielles avec conditions initiales.
+
+%	Nous prenons comme point de départ, la formulation générale d'une équation différentielle d'ordre 1 avec condition initiale. La tâche consiste à déterminer une fonction $y(t)$ fonction de :
+	De manière générale, on s’intéresse à trouver une fonction $y\ :\ \R \to  \R$ telle que :
+	\begin{equation}
+		\begin{array}{lll}
+			y^{(m)}(t) = f\big(t, y(t), y'(t), \dots, y^{(m-1)}(t)\big),	& m \in \N^*,	& t\in [t_0,\, t_f]
+		\end{array}
+		\label{eqdif:ordm}
+	\end{equation}
+
+%	\begin{equation}
+%		\left\lbrace\begin{array}{l}
+%			y'(t) = f(t, y(t))		\\
+%			y(t_0) = y_0
+%		\end{array}\right.
+%		\label{eqdif:ord1:1}
+%	\end{equation}
+%	La variable $t$ représente très souvent, (mais pas toujours) le temps. La variable dépendante est notée $y$ et dépend bien sûr de $t$. La fonction $f$ est pour le moment une fonction quelconque de deux variables que nous supposons suffisamment différentiable. La condition $y(t_0) = y_0$ est la condition initiale et en quelque sorte l'état de la solution au moment où on commence à s'y intéresser. Il s'agit d'obtenir $y(t)$ pour $t \ge t_0$, si on cherche une solution analytique, ou une solution approximative, si on utilise une méthode numérique.
+
+	\begin{Def}[\gls{edo}]
+		Une \glsentryfull{edo} est une relation faisant intervenir une fonction inconnue (ici $y$ ) d’une seule variable indépendante (ici $t$ ) et ses dérivées. L’ordre d’une \gls{edo} est déterminé par la dérivée la plus élevée de la fonction inconnue apparaissant dans l’équation.
+	\end{Def}
+
+	L’unicité de la solution à ce type de problème est garantie par l’ajout de conditions supplémentaires.
+
+	En général il s’agit de conditions portant sur la valeur de l’inconnue en certains points. Le nombre de conditions nécessaires étant déterminées par l’ordre de l’\gls{edo}.
+
+	La variable indépendante $t$ représente souvent (mais pas toujours !) le temps.
+
+	Quelques exemples d’\gls{edo}:
+	\begin{equation*}
+		\begin{array}{rl}
+			mg - k(v(t))^2 - v'(t) = 0,	& \text{\gls{edo} d'ordre 1 (non linéaire)}		\\
+			y^{(4)}(t) - ty(t) = 9,		& \text{\gls{edo} d'ordre 4 (linéaire)}		\\
+			(y''(x))^3 - y(x) = x^5		& \text{\gls{edo} d'ordre 2 (non linéaire)}
+		\end{array}
+		%\label{eqdif:ord1:ex1}
+	\end{equation*}
+
+	Dans un premier temps, nous allons nous intéresser aux \gls{edo} d’ordre 1.
+
+	Faisant toujours référence au temps, la condition que l’on ajoute pour pouvoir résoudre est souvent prise en $t_0$ et est dite condition initiale. On parlera de condition finale si la condition est prise en $t_f$.
+	\begin{equation}
+		\left\lbrace\begin{array}{l}
+			y'(t) = f(t, y(t))		\\
+			y(t_0) = y_0
+		\end{array}\right.
+		\label{eqdif:ord1:1}
+	\end{equation}
+	Le système \eqref{eqdif:ord1:1} est dit problème de Cauchy.
+
+	Comme toujours, on souhaite une approche de résolution systématique du problème, viable numériquement.
+
+	Naturellement au niveau numérique il n’est pas possible de construire une solution pour toutes les valeurs possibles de $t$.
+	On ne décrira $y(t)$ que pour un nombre fini de points ! discrétisation de l’\gls{edo}
+	Plus généralement, on se donnera :
+	\begin{enumerate}[•]
+		\item $N$, un nombre de pas de temps,
+		\item $t_i,\ i = 0,\dots, N - 1$, les valeurs du temps où la solution sera approchée,
+		\item $y_i$ sera l’approximation de la solution au temps $t_i$, i.e
+		\begin{equation*}
+			y_i \approx y(t_i)
+		\end{equation*}
+		L’erreur commise au temps $t_i$ sera alors $\lvert y_i - y(t_i)\rvert$. Il n’y a pas d’erreur au temps $t_0$, c’est la condition initiale $y(t_0) = y_0$
+
+		\item $h_i = t_{i+1} - t_i$, les pas de temps. On aura fréquemment un pas de temps constant noté $h$.
+	\end{enumerate}
+
+%
+%	\begin{Def}
+%		L'équation différentielle \eqref{eqdif:ord1:1} est dite d'ordre 1, car seule le dérivée d'ordre 1 de la variable dépendante $y(t)$ est présente. Si des dérivées de $y(t)$ d'ordre 2 apparaissaient dans l'équation différentielle \eqref{eqdif:ord1:1}, on aurait une équation d'ordre 2, et ainsi de suite. Autrement dit, l’ordre d’une \gls{edo} est déterminé par la dérivée la plus élevée de la fonction inconnue apparaissant dans l’équation.
+%	\end{Def}
+%
+	\subsubsection{Méthodes d'Euler}
+		La méthode d'Euler est de loin la méthode la plus simple de résolution numérique d'\glspl{edo}. Elle possède une très belle interprétation géométrique et son emploi est facile. Toutefois, elle est relativement peu utilisée en raison de sa faible précision.
+
+		\paragraph{Méthode d'Euler explicite}
+			Commençons par l’approche géométrique
+
+			On connaît la solution au temps $t_0$, on souhaite une approximation au temps $t_1 = t_0 + h$.
+
+			On connaît également la pente à $y$ en $t_0$
+			\begin{equation*}
+				y'(t_0) = f(t_0, y(t_0)) = f(t_0, y_0)
+			\end{equation*}
+			On suit la droite passant par $(t_0, y_0)$ de pente $f(t_0, y_0)$,
+			\begin{equation*}
+				d_0(t) = y_0 + f(t_0, y_0)(t - t_0)
+			\end{equation*}
+			On prend $y_1 \approx y(t_1)$ comme étant
+			\begin{equation*}
+				y_1 = d_0(t_1) = y_0 + hf(t_0, y_0)
+			\end{equation*}
+			On recommence à partir de $t_1$
+			\begin{equation*}
+				y'(t_1) = f(t_1, y(t_1)) \approx f(t_1, y_1)
+			\end{equation*}
+			on obtient
+			\begin{equation*}
+				d_1(t) = y_1 + f(t_1, y_1)(t - t_1)
+			\end{equation*}
+			et l’on prend
+			\begin{equation*}
+				y_2 = d_1(t_2) = y_1 + hf(t_1, y_1) \approx y(t_2)
+			\end{equation*}
+
+			Une illustration géométrique est donnée par la figure \ref{fig:euler:expl}
+
+			\begin{figure}
+				\includegraphics[scale=0.9]{euler_geomf}
+				\caption{Méthode d'Euler explicite}
+				\label{fig:euler:expl}
+			\end{figure}
+			L’erreur introduite lors du calcul $y_1$ est réintroduite dans le calcul de $y_2$ et ainsi, les erreurs vont se propager d'une itération à l'autre.
+
+			De façon générale, avec la méthode d'Euler explicite, on obtient $y_{n+1}$ à l'aide de la formule suivante :
+			\begin{equation}
+				y_{n+1} = y_n + hf(t_n, y_n)
+			\end{equation}
+
+%
+%		Avec les outils numériques de résolution d'équations différentielles, il n'est plus possible d'obtenir une solution pour toutes les valeurs de la variable indépendante $t$. On obtient plutôt une approximation de la solution analytique seulement à certaines valeurs de $t$ notées $t_i$ et distancées d'une valeur
+%
+%		Reprenons l'équation différentielle \eqref{eqdif:ord1:1} et considérons plus attentivement la condition initiale $y(t__0) = y_0$
+			\begin{Def}[Schéma explicite à un pas]
+				Un schéma numérique explicite à un pas est une relation de la forme
+				\begin{equation}
+					y_{n+1} = y_n + h\phi(t_n, y_n)
+				\end{equation}
+				Autrement dit, pour calculer la solution au pas de temps suivant, on se sert uniquement de la solution au pas de temps précédent (connue).
+			\end{Def}
+
+			Le schéma d’Euler explicite est un schéma à un pas avec $\phi(t, y) = f(t, y)$. Par opposition aux schémas explicites, il y a les schémas implicites.
+
+			\begin{Def}[Schéma implicite]
+				Un schéma numérique implicite est une relation de la forme :
+				\begin{equation}
+					y_{n+1} = y_n + h\phi(t_{n+1}, y_{n+1})
+				\end{equation}
+				Cela implique de résoudre une équation à chaque pas de temps.
+			\end{Def}
+
+			En résumé, pour la méthode d’Euler explicite, on a l’algorithme \ref{alg:E}.
+
+			\begin{lstlisting}[style=pos, caption={Méthode d'Euler explicite},label=alg:E]
+%\textbf{Données :}
+\begin{enumerate}[•]
+	\item Un pas de temps $h$, un nombre maximal de pas de temps N,
+	\item Une condition initiale $(t_0, y_0)$
+\end{enumerate}%
+%\textbf{Résultat :} Une variable (vecteur) contenant la solution à chaque pas de temps%
+%\textbf{Pour} $0 \le n \le N$ :%
+	$y_{n+1} = y_n + hf(t_n, y_n)$;
+	$t_{n+1} = t_n + h$;
+%\textbf{fin}%
+			\end{lstlisting}
+
+			\subparagraph{Convergence de la méthode d'Euler explicite}
+				\begin{equation*}
+					\tilde{y}(t_{n+1}) = y(t_n) + hf(t_n, y(t_n))
+				\end{equation*}
+				On a deux sources d’erreurs :
+				\begin{enumerate}[•]
+					\item Une erreur locale, $\tilde{e}_{n+1}$
+					\begin{equation*}
+						\tilde{e}_{n+1} = y(t_{n + 1}) - \tilde{y}(t_{n+1})
+					\end{equation*}
+
+					\item Une erreur tenant compte de la propagation
+					\begin{equation*}
+						\tilde{e}_{n+1} = \tilde{y}(t_{n+1}) - y_{n + 1}
+					\end{equation*}
+				\end{enumerate}
+				Au final, l’erreur $e_{n+1} = y(t_{n+1}) - y_{n+1}$ est donnée par
+				\begin{equation*}
+					e_{n+1} = \big(y(t_{n + 1}) - \tilde{y}(t_{n+1})\big) + \big(\tilde{y}(t_{n+1}) - y_{n + 1}\big)
+				\end{equation*}
+				On sait quantifier la première erreur. Pour Euler explicite, le développement de Taylor nous donne
+				\begin{equation*}
+					\begin{aligned}
+						y(t_{n+1}) = y(t_n + h)	& = y(t_n) + hy'(t_n) + O(h^2)		\\
+						& =  \underbrace{y(t_n) + hf(t_n, y(t_n))}_{\tilde{y}(t_{n+1})} + O(h^2)
+					\end{aligned}
+				\end{equation*}
+				puisque $y'(t_n) = f(t_n,y(t_n))$
+
+				À partir de ce développement de Taylor, on définit également l’erreur de troncature $\tau_{n+1}(h)$.
+				%\begin{Def}
+				%	L'erreur de troncature au point $t=t_n$ est définie par :
+				%	\begin{equation}
+				%		\tau_{n+1} = \frac{y(t_{n+1}) - y(t_n)}{h} - \phi(t_n, y(t_n))
+				%	\end{equation}
+				%\end{Def}
+				\begin{equation*}
+					\begin{aligned}
+						\tau_{n+1}(h)	&= \frac{y(t_{n+1}) - y(t_n)}{h} - f(t_n, y(t_n)) \\
+									& = O(h)
+					\end{aligned}
+				\end{equation*}
+
+				L’erreur de troncature est l’erreur «locale» en $t_n$. On dit également que la méthode d’Euler explicite est consistante à l’ordre 1, car $\tau_{n+1}(h) = O(h)$.
+
+				Cette erreur ne tient pas compte des erreurs introduites auparavant. Le contrôle de cette erreur n’est pas suffisant pour assurer la convergence de la solution numérique vers la solution exacte. Il faut en plus que la méthode soit stable.
+
+				Définissons d’abord ce que l’on entend par convergence d’un schéma numérique pour une \gls{edo}.
+				\begin{Def}[Convergence ordre $p$]
+					On dit qu’un schéma converge à l’ordre $p$ si
+					\begin{equation*}
+						\max_{1 \le n \le N} \lvert y(t_{n+1}) - y(t_n)\rvert = O(h^p)
+					\end{equation*}
+				\end{Def}
+
+				La convergence à l’ordre $p$ est le fruit de deux éléments : la consistance à l’ordre $p$ et la stabilité.
+				\begin{enumerate}[•]
+					\item La consistance mesure l’erreur locale à un pas de temps $t_n$. C’est l’erreur commise en remplaçant $y_0$ par une différence finie à un pas donné. Elle assure que la solution exacte des équations discrétisées tende vers la solution exacte des équations continues (quand $h \to 0$).
+					\item La stabilité d’un schéma assure que l’erreur de propagation d’un pas de temps à l’autre, est bornée.
+				\end{enumerate}
+
+				\begin{Theo}[de Lax]
+					Si un schéma numérique est stable et consistant à l’ordre $p$ alors il est convergent à l’ordre $p$.
+				\end{Theo}
+
+				Quelques remarques supplémentaires sur la stabilité. La stabilité dépend:
+				\begin{enumerate}[•]
+					\item de l’\gls{edo} considérée (de la fonction $f$) ;
+					\item du schéma numérique. Un schéma numérique peut être :
+					\begin{enumerate}[-]
+						\item conditionnellement stable, i.e stable sous une condition faisant intervenir le pas de
+						discrétisation $h$,
+						\item inconditionnellement stable, i.e stable peu importe le pas de discrétisation $h$,
+						\item instable, i.e la propagation d’erreur dégradera (beaucoup) la solution à chaque pas de temps.
+					\end{enumerate}
+				\end{enumerate}
+
+				Le développement de Taylor ouvre la voie à des schémas d’ordre plus élevé. Voyons la méthode de Taylor du second ordre.
+
+	\subsubsection{Méthode de Taylor}
+		Reprenons le développement de Taylor, et poussons d’un ordre de plus
+		\begin{equation}
+			\begin{aligned}
+				y(t_{n+1})	& = y(t_n) + hy'(t_n) + \frac{y''(t_n)h^2}{2} +  O(h^3)		\\
+				& =  y(t_n) + hf(t_n, y(t_n)) + \frac{f'(t_n, y(t_n))h^2}{2} + O(h^3)
+			\end{aligned}
+			\label{eqdiff:devt}
+		\end{equation}
+		Or
+		\begin{equation*}
+			\begin{aligned}
+				f'(t, y(t))	& = \frac{\partial f(t, y(t))}{\partial t} + \frac{\partial f(t, y(t))h^2}{\partial y} y'(t)		\\
+					& = \frac{\partial f(t, y(t))}{\partial t} + \frac{\partial f(t, y(t))h^2}{\partial y} f(t, y(t))
+			\end{aligned}
+		\end{equation*}
+		Et donc
+		\begin{equation}
+			\begin{aligned}
+				y(t_{n+1}) & =  y(t_n) + hf(t_n, y(t_n)) \\
+				&\quad + \frac{h^2}{2}\left(\frac{\partial f(t_n, y(t_n))}{\partial t} + \frac{\partial f(t_n, y(t_n))}{\partial y} f(t_n, y(t_n))\right)
+			\end{aligned}
+		\end{equation}
+		En remplaçant $y(t_n)$ par $y_n$, on obtient l’algorithme de Taylor d’ordre 2 (algorithme \ref{alg:T2}).
+
+		\begin{lstlisting}[style=pos, caption={Méthode de Taylor d’ordre 2}, label=alg:T2]
+%\textbf{Données :}
+\begin{enumerate}[•]
+	\item Un pas de temps $h$, un nombre maximal de pas de temps N,
+	\item Une condition initiale $(t_0, y_0)$
+\end{enumerate}%
+%\textbf{Résultat :} Une variable (vecteur) contenant la solution à chaque pas de temps%
+%\textbf{Pour} $0 \le n \le N$ :%
+	$\displaystyle y_{n+1} = y_n + hf(t_n, y_n) + \frac{h^2}{2}\left(\frac{\partial f(t_n, y_n)}{\partial t} + \frac{\partial f(t_n, y_n)}{\partial y} f(t_n, y_n)\right)$;
+	$t_{n+1} = t_n + h$;
+%\textbf{fin}%
+		\end{lstlisting}
+
+		Comme Euler explicite, c’est un schéma à un pas, avec
+		\begin{equation}
+			\phi(t_n, y_n) = f(t_n, y_n) + \frac{h}{2}\left(\frac{\partial f(t_n, y_n)}{\partial t} + \frac{\partial f(t_n, y_n)}{\partial y} f(t_n, y_n)\right)
+		\end{equation}
+		On montre que $\tau_{n+1}(h) = O(h^2)$, le schéma est consistant à l’ordre 2.
+
+		L'inconvénient de cette méthode est qu'elle nécessite le calcul des dérivées de la fonction $f$.
+
+		\subsubsection{Méthodes de Runge-Kutta}
+			Il serait avantageux de disposer de méthodes d'ordre de plus en plus élevé tout en évitant les désavantages des méthodes de Taylor, qui nécessitent l'évaluation des dérivées partielles de la fonction $f(t,y)$. Une voie est tracée par les méthodes de Runge-Kutta, qui sont calquées sur les méthodes de Taylor du même ordre.
+
+			\paragraph{Méthode de \gls{rk2}}
+				Reprenons (encore) notre développement de Taylor,
+				\begin{equation}
+					\begin{split}
+						y(t_{n+1}) \ & = y(t_n) + hf(t_n, y(t_n)) \\
+						&\quad + \frac{h^2}{2}\left(\frac{\partial f(t_n, y(t_n))}{\partial t} + \frac{\partial f(t_n, y(t_n))}{\partial y} f(t_n, y(t_n))\right)	\\
+						&\quad + O(h^3)
+					\end{split}
+					\label{eqdif:rk2:exp1}
+				\end{equation}
+				L’idée est de chercher à remplacer les dérivées de $f$ par des évaluations de $f$ en certains points bien choisis. Pour cela, on cherche des poids $\alpha_1$ et $\alpha_2$ et des points $\beta_1$ et $\beta_2$ tels que l’expression
+				\begin{equation}
+						y(t_{n+1}) = y(t_n) + \alpha_1 hf(t_n, y(t_n)) + \alpha_2 hf(t_n + \beta_1 h, y(t_n) + \beta_2 h)
+						\label{eqdif:rk2:1}
+				\end{equation}
+				soit une approximation d’ordre 3. Un développement de Taylor en deux variables nous donne
+				%\begin{equation*}
+					\begin{multline*}
+						f(t_n + \beta_1 h, y(t_n) + \beta_2 h) = f(t_n, y(t_n)) \\
+						+ \beta_1 h \frac{\partial f(t_n, y(t_n))}{\partial t}+ \beta_2 h \frac{\partial f(t_n, y(t_n))}{\partial y}	\\
+						+ O(h^2)
+					\end{multline*}
+				%\end{equation*}
+				et donc, \eqref{eqdif:rk2:1} devient
+				\begin{equation}
+					\begin{split}
+						y(t_{n+1})	& = y(t_n) + (\alpha_1 + \alpha_2) hf(t_n, y(t_n))		\\
+						& \quad + \alpha_2\beta_1 h^2 \frac{\partial f(t_n, y(t_n))}{\partial t} + \alpha_2\beta_2 h^2 \frac{\partial f(t_n, y(t_n))}{\partial y}		\\
+						&\quad + O(h^3)
+					\end{split}
+					\label{eqdif:rk2:exp2}
+				\end{equation}
+
+				On a deux expressions d’ordre 3 : \eqref{eqdif:rk2:exp1} et \eqref{eqdif:rk2:exp2}
+
+				Par identifications des coefficients respectifs, on obtient le système
+				\begin{equation}
+					\left\lbrace\begin{array}{rcl}
+						\alpha_1 + \alpha_2	& =	& 1					\\
+						\alpha_2\beta_1		& =	& \dfrac{1}{2}		\\
+						\alpha_2\beta_2		& =	& \dfrac{f(t_n, y(t_n))}{2}
+					\end{array}\right.
+					\label{eqdif:rk2:sys}
+				\end{equation}
+				On obtient 3 équations pour 4 inconnues; donc pas de solution unique; il y a donc plusieurs combinaisons possibles. On va voir deux solutions populaires.
+
+				\subparagraph{Méthode d’Euler modifiée}
+					On prend
+					\begin{equation*}
+						\left\lbrace\begin{array}{rcl}
+							\alpha_1 = \alpha_2	& =	& \dfrac{1}{2}	\\
+							\beta_1		& =	& 1						\\
+							\beta_2		& =	& f(t_n, y(t_n))
+						\end{array}\right.
+					\end{equation*}
+					En substituant ces valeurs dans l'équation \eqref{eqdif:rk2:1}, on obtient
+					\begin{equation}
+						\begin{aligned}
+							y(t_{n+1}) & = y(t_n)		\\
+							&\quad + \frac{h}{2}\left(f(t_n, y(t_n)) + f\big(t_n + h, y(t_n) + hf(t_n, y(t_n))\big)\right)+ O(h^3)
+						\end{aligned}
+						\label{eqdif:rk2:em}
+					\end{equation}
+
+					Au niveau discret, en remplaçant $y(t_n)$ par son approximation $y_n$, on obtient
+					\begin{equation}
+						y_{n+1} = y_n + \frac{h}{2}\bigg(f(t_n, y_n) + f\big(t_{n} + h, \underbrace{y_n + hf(t_n, y_n)}_{\text{Euler explicite}}\big)\bigg)
+					\label{eqdif:rk2:emn}
+					\end{equation}
+					À chaque itération (pas de temps) on décompose souvent le calcul en deux étapes:
+					\begin{enumerate}
+						\item Calcul de $\widehat{y} = y_n + hf(t_n, y_n)\ \rightarrow$ prédiction,
+						\item Calcul de $y_{n+1} = y_n + \dfrac{h}{2}\big(f(t_n, y_n) + f(t_{n} + h, \widehat{y})\big) \ \rightarrow$ correction
+					\end{enumerate}
+
+					Au final, on a l’algorithme \ref{alg:Em}.
+
+\begin{lstlisting}[style=pos, caption={Méthode d’Euler modifiée}, label=alg:Em]
+%\textbf{Données :}
+\begin{enumerate}[•]
+	\item Un pas de temps $h$, un nombre maximal de pas de temps N,
+	\item Une condition initiale $(t_0, y_0)$
+\end{enumerate}%
+%\textbf{Résultat :} Une variable (vecteur) contenant la solution à chaque pas de temps%
+%\textbf{Pour} $0 \le n \le N$ :%
+	$\displaystyle \widehat{y} = y_n + hf(t_n, y_n)$;
+	$y_{n+1} = y_n + \dfrac{h}{2}\big(f(t_n, y_n) + f(t_{n} + h, \widehat{y})\big)$;
+	$t_{n+1} = t_n + h$;
+%\textbf{fin}%
+\end{lstlisting}
+
+				\subparagraph{Méthode du point milieu}
+					On prend
+					\begin{equation*}
+						\left\lbrace\begin{array}{rcl}
+							\alpha_1	& =	& 0		\\
+							\alpha_2	& =	& 1		\\
+							\beta_1		& =	& \dfrac{1}{2}	\\
+							\beta_2		& =	& \dfrac{f(t_n, y(t_n))}{2}
+						\end{array}\right.
+					\end{equation*}
+					En substituant ces valeurs dans l'équation \eqref{eqdif:rk2:1}, on obtient
+					\begin{equation}
+						y(t_{n+1}) = y(t_n) + hf\left(t_n + \frac{h}{2}, y(t_n) + \dfrac{h f(t_n, y(t_n))}{2}\right) + O(h^3)
+						\label{eqdif:rk2:pm}
+					\end{equation}
+					Au niveau discret, en remplaçant $y(t_n)$ par son approximation $y_n$, on obtient
+					\begin{equation}
+						y_{n+1} = y_n + hf\left(t_n + \frac{h}{2}, y_n + \dfrac{h f(t_n, y_n)}{2}\right)
+						\label{eqdif:rk2:emnd}
+					\end{equation}
+					À chaque itération (pas de temps) on décompose souvent le calcul en deux étapes:
+					\begin{enumerate}
+						\item Calcul de $k_1 = hf(t_n, y_n)$,
+						\item Calcul de $y_{n+1} = y_n + hf\left(t_n + \dfrac{h}{2}, y_n + \dfrac{k_1}{2}\right)$
+					\end{enumerate}
+
+					Au final, on a l’algorithme dit du point milieu (algorithme \ref{alg:Pm}).
+
+\begin{lstlisting}[style=pos, caption={Méthode du point milieu}, label=alg:Pm]
+%\textbf{Données :}
+\begin{enumerate}[•]
+	\item Un pas de temps $h$, un nombre maximal de pas de temps N,
+	\item Une condition initiale $(t_0, y_0)$
+\end{enumerate}%
+%\textbf{Résultat :} Une variable (vecteur) contenant la solution à chaque pas de temps%
+%\textbf{Pour} $0 \le n \le N$ :%
+	$k_1 = hf(t_n, y_n)$;
+	$y_{n+1} = y_n + hf\left(t_n + \dfrac{h}{2}, y_n + \dfrac{k_1}{2}\right)$;
+	$t_{n+1} = t_n + h$;
+%\textbf{fin}%
+\end{lstlisting}
+
+					D’autres combinaisons de coefficients $\alpha_1$, $\alpha_2$, $\beta_1$ et $\beta_2$ sont possibles. Ces deux schémas numériques (Euler modifié et point milieu) sont dites \gls{rk2}.
+
+					Nous allons continuer à augmenter l’ordre du développement de Taylor de l'équation \eqref{eqdiff:devt}, afin d’obtenir des
+					schémas convergeant à l’ordre 4.
+
+			\paragraph{Méthode de \gls{rk4}}
+				On pousse le développement de Taylor à l’ordre 5. Ensuite,  on introduit 4 poids et 6 points, un raisonnement similaire à celui des méthodes de \gls{rk2} nous donne un système de 8 équations pour 10 inconnues.
+
+				Parmi toute les possibilités pour le choix des coefficients, un choix est particulièrement populaire. Voici le schéma «RK 4». À chaque itération (pas de temps), on effectue
+				\begin{enumerate}
+					\item Calcul de $k_1 = hf(t_n, y_n)$,
+					\item Calcul de $k_2 = hf\left(t_n + \dfrac{h}{2}, y_n + \dfrac{k_1}{2}\right)$,
+					\item Calcul de  $k_3 = hf\left(t_n + \dfrac{h}{2}, y_n + \dfrac{k_2}{2}\right)$,
+					\item Calcul de $k_4 = hf(t_n + h, y_n + k_3)$,
+					\item Calcul de $y_{n+1} = y_n + \dfrac{1}{6}(k_1 + 2 k_2 + 2 k_3 + k4)$.
+				\end{enumerate}
+				Cela nous donne l’algorithme \ref{alg:rk4}.% de \gls{rk4},
+
+\begin{lstlisting}[style=pos, caption={Méthode \gls{rk4}}, label=alg:rk4]
+%\textbf{Données :}
+\begin{enumerate}[•]
+	\item Un pas de temps $h$, un nombre maximal de pas de temps N,
+	\item Une condition initiale $(t_0, y_0)$
+\end{enumerate}%
+%\textbf{Résultat :} Une variable (vecteur) contenant la solution à chaque pas de temps%
+%\textbf{Pour} $0 \le n \le N$ :%
+	$k_1 = hf(t_n, y_n)$;
+	$k_2 = hf\left(t_n + \dfrac{h}{2}, y_n + \dfrac{k_1}{2}\right)$;
+	$k_3= y_n + hf\left(t_n + \dfrac{h}{2}, y_n + \dfrac{k_2}{2}\right)$;
+	$k_4 = hf(t_n + h, y_n + k_3)$;
+	$y_{n+1} = y_n + \dfrac{1}{6}(k_1 + 2 k_2 + 2 k_3 + k4)$;
+	$t_{n+1} = t_n + h$;
+%\textbf{fin}%
+\end{lstlisting}
+
+				Le nombre et la complexité des calculs augmentent avec l’ordre:
+				\begin{enumerate}[•]
+					\item Euler explicite : 1 évaluation de la fonction f à chaque itération,
+					\item \gls{rk2} : 2 évaluations de la fonction f à chaque itération,
+					\item \gls{rk4} : 4 évaluations de la fonction f à chaque itération.
+				\end{enumerate}
+				Cependant plus l’ordre est grand plus l’erreur diminue vite quand $h$ diminue.
+
+				\begin{Rem}
+					\begin{enumerate}[•]
+					\item Si la convergence est d’ordre 2, alors l’erreur diminue par un facteur $2^2 = 4$ quand $h$ est divisé par deux,
+					\item Si la convergence est d’ordre 4, alors l’erreur diminue par un facteur $2^4 = 16$ quand $h$ est divisé par deux,
+					\end{enumerate}
+				\end{Rem}
+				De plus, pour $h$ fixé, l’erreur sera plus petite avec une méthode d’ordre 2 qu’avec une méthode d’ordre 1, et ainsi de suite.
+
+		\subsubsection[Les \gls{edo} d’ordre $m$ et les systèmes d’ordre 1]{Les \glsentrylongpl{edo} d’ordre $m$ et les systèmes d'\glsentrylongpl{edo} d’ordre 1}
+			Les méthodes vues jusqu'à présent concernent les \gls{edo} d’ordre 1.
+
+			\paragraph[Résolution d’un système d’\gls{edo} d’ordre 1]{Résolution d’un système d’\glsentrylongpl{edo} d’ordre 1}
+				Plaçons nous dans le cas général, consistant à trouver $y_1,\ y_2,\dots, y_m$ tels que
+				\begin{equation}
+					\left\lbrace\begin{aligned}
+						y'_1(t)	& = f_1(t, y_1(t), y_2(t),\dots, y_m(t))	&\quad y_1(t_0)	& = y_{1,0}		\\
+						y'_2(t)	& = f_2(t, y_1(t), y_2(t),\dots, y_m(t))	&\quad y_2(t_0)	& = y_{2,0}		\\
+						y'_3(t)	& = f_3(t, y_1(t), y_2(t),\dots, y_m(t))	&\quad y_3(t_0)	& = y_{3,0}		\\
+						\vdots	\\
+						y'_m(t)	& = f_m(t, y_1(t), y_2(t),\dots, y_m(t))	&\quad y_m(t_0)	& = y_{m,0}
+					\end{aligned}
+					\right.
+					\label{eqdiff:sys}
+				\end{equation}
+				que l’on ré-écrit sous forme compacte
+				\begin{equation}
+					\left\lbrace\begin{aligned}
+						Y'(t)	& = F(t, Y(t))		\\
+						Y(t_0)	& = Y_0
+					\end{aligned}
+					\right.
+				\end{equation}
+				où
+				\begin{equation*}
+					\begin{aligned}
+						Y(t)		& = \big[y_1(t), y_2(t),\dots, y_m(t)\big]^T		\\
+						F(t, Y(t))	& = \big[f_1(t, Y(t)), f_2(t, Y(t)), \dots, f_m(t, Y(t))\big]^T		\\
+						Y_0			& = \big[y_{1,0}, y_{2,0}, \dots, y_{m,0}\big]^T
+					\end{aligned}
+				\end{equation*}
+				Les méthodes vues dans ce chapitre se généralisent bien aux systèmes.
+
+				On note
+				\begin{equation*}
+					Y_i = \big[y_{1,i}, y_{2,i}, \dots, y_{m,i}\big]^T \approx Y(t_i) = \big[y_1(t_i), y_2(t_i),\dots, y_m(t_i)\big]^T
+				\end{equation*}
+
+				\subparagraph[Méthode Euler explicite pour les systèmes d’\gls{edo}]{Méthode Euler explicite pour les systèmes d’\glsentrylongpl{edo}}
+					\begin{equation}
+					Y_{n+1} = Y_n + hF(t_n, Y_n)
+					\end{equation}
+					Soit encore
+					\begin{equation}
+						\left\lbrace\begin{aligned}
+							y_{1,n+1}	& = y_{1,n} +  h f_1(t_n, y_{1,n}, y_{2,n},\dots, y_{m,n})		\\
+							y_{2,n+1}	& = y_{2,n} +  h f_2(t_n, y_{1,n}, y_{2,n},\dots, y_{m,n})		\\
+							\vdots		\\
+							y_{m,n+1}	& = y_{m,n} +  h f_m(t_n, y_{1,n}, y_{2,n},\dots, y_{m,n})
+						\end{aligned}
+						\right.
+					\end{equation}
+					À chaque pas de temps, on fait $m$ Euler explicite «standard» avant de passer au pas de temps suivant.
+
+					On en déduit l’algorithme d’Euler explicite pour un système donné par l'algorithme \ref{alg:Ee:sys}.
+
+\begin{lstlisting}[style=pos, caption={Méthode d’Euler explicite pour les systèmes d’\gls{edo}}, label=alg:Ee:sys]
+%\textbf{Données :}
+\begin{enumerate}[•]
+	\item Un pas de temps $h$, un nombre maximal de pas de temps N,
+		\item Une condition initiale 	$Y_0 = \big[y_{1,0}, y_{2,0}, \dots, y_{m,0}\big]^T$
+\end{enumerate}%
+%\textbf{Résultat :} Une variable (matrice) contenant la solution à chaque pas de temps, pour chaque $y_i$%
+%\textbf{Pour} $0 \le n \le N$ :%
+	%\textbf{Pour} $0 \le i \le m$ :%
+		$y_{i,n+1} = y_{i,n} +  h f_i(t_n, y_{1,n}, y_{2,n},\dots, y_{m,n})$;
+	%\textbf{fin}%
+%\textbf{fin}%
+\end{lstlisting}
+					On peut faire la même chose pour les méthodes \gls{rk2} (Euler modifié, ou la méthode du Point milieu). Voyons directement la généralisation de la méthode \gls{rk4}.
+
+				\subparagraph[Méthode \gls{rk4} pour les systèmes d’\gls{edo}]{Méthode de \glsentrylong{rk4} pour les systèmes d’\glsentrylongpl{edo}}
+					À chaque pas de temps, on va calculer 4m coefficients
+					$k_{i,1},\ k_{i,2},\ k_{i,3},\ k_{i,4}$ pour $i = 1,\dots, m$ en partant de $(t_0, Y_0)$
+
+
+					On obtient alors l'algorithme \ref{alg:rk4:sys}
+
+\begin{lstlisting}[style=pos, caption={Méthode \gls{rk4} pour les systèmes d’\gls{edo}}, label=alg:rk4:sys]
+%\textbf{Données :}
+\begin{enumerate}[•]
+	\item Un pas de temps $h$, un nombre maximal de pas de temps N,
+	\item Une condition initiale 	$Y_0 = \big[y_{1,0}, y_{2,0}, \dots, y_{m,0}\big]^T$
+\end{enumerate}%
+%\textbf{Résultat :} Une variable (matrice) contenant la solution à chaque pas de temps, pour chaque $y_i$%
+	%\textbf{Pour} $0 \le n \le N$ :%
+		%\textbf{Pour} $0 \le i \le m$ :%
+			$k_{i,1} = h f_i(t_n, y_{1,n}, y_{2,n},\dots, y_{m,n})$;
+		%\textbf{fin}%
+		%\textbf{Pour} $0 \le i \le m$ :%
+			$k_{i,2} = h f_i\left(t_n + \dfrac{h}{2}, y_{1,n} + \dfrac{k_{1,1}}{2}, y_{2,n} + \dfrac{k_{2,1}}{2},\dots, y_{m,n} + \dfrac{k_{m,1}}{2}\right)$
+		%\textbf{fin}%
+		%\textbf{Pour} $0 \le i \le m$ :%
+			$k_{i,3} = h f_i\left(t_n + \dfrac{h}{2}, y_{1,n} + \dfrac{k_{1,2}}{2}, y_{2,n} + \dfrac{k_{2,2}}{2},\dots, y_{m,n} + \dfrac{k_{m,2}}{2}\right)$;
+		%\textbf{fin}%
+		%\textbf{Pour} $0 \le i \le m$ :%
+			$k_{i,4} = h f_i(t_n + h, y_{1,n} + k_{1,3}, y_{2,n} + k_{2,3},\dots, y_{m,n} + k_{m,3})$;
+		%\textbf{fin}%
+		%\textbf{Pour} $0 \le i \le m$ :%
+			$y_{i,n+1} = y_{i,n} +  \dfrac{h}{6}\left(k_{i,1} + 2 k_{i,2} + 2 k_{i,3} + k_{i,4}\right)$;
+	%\textbf{fin}%
+%\textbf{fin}%
+\end{lstlisting}
+
+					Il faut calculer les $m$ constantes $k_{i,1}$ avant de passer au calcul des constantes $k_{i,2}$ et ainsi de suite.
+
+			\paragraph[Résolution d’\gls{edo} d’ordre $m$]{Résolution d’\glsentrylongpl{edo} d’ordre $m$}
+				Considérons à présent une équation d’ordre $m$, avec $m$ conditions initiales,
+				\begin{equation}
+					\left\lbrace\begin{aligned}
+						y^{(m)}_{t}		& = f(t, y(t), y'(t),\dots, y^{(m-1)}(t))	\\
+						y(t_0)			& = y_{0}		\\
+						y'(t_0)			& = y_{1}		\\
+						\vdots		\\
+						y^{(m-1)}(t_0)	& = y_{m-1}
+					\end{aligned}
+					\right.
+					\label{eqdiff:ordm}
+				\end{equation}
+				On va transformer cette \gls{edo} d’ordre $m$ en un système de $m$ \gls{edo} d’ordre 1, pour pouvoir utiliser les méthodes vues précédemment. Pour cela, posons
+				\begin{equation*}
+					\left\lbrace\begin{aligned}
+						u_0(t)	& = y(t)		\\
+						u_1(t)	& = y'(t)		\\
+						u_2(t)	& = y''(t)		\\
+						\vdots		\\
+						u_{m-1}(t)	& = y^{(m-1)}(t)	\\
+						u_{m}(t)	& = y^{(m)}(t)
+					\end{aligned}
+					\right.
+				\end{equation*}
+				Ainsi
+				\begin{equation*}
+					\left\lbrace\begin{aligned}
+						u_0'(t)	& = y'(t) = u_1(t)		\\
+						u_1'(t)	& = y''(t) = u_2(t)		\\
+						u_2'(t)	& = y^{(3)}(t) = u_3(t)		\\
+						\vdots		\\
+						u_{m-2}'(t)	& = y^{(m-1)}(t) = u_{m-1}(t)	\\
+						u_{m-1}'(t)	& = y^{(m)}(t) = u_{m}(t) = f(t, u_0(t), u_1(t),\dots, u_{(m-1)}(t))
+					\end{aligned}
+					\right.
+				\end{equation*}
+				On peut alors ré-écrire l'\gls{edo} d'ordre $m$ avec conditions initiales \eqref{eqdiff:ordm} comme un système d'\gls{edo} d'ordre 1 semblable  au système d'\gls{edo} \eqref{eqdiff:sys} :
+				\begin{equation}
+					\left\lbrace\begin{aligned}
+						u_0'(t)	& = u_1(t)	&\quad u_0(t_0)	& = y_0		\\
+						u_1'(t)	& = u_2(t)	&\quad u_1(t_0)	& = y_1		\\
+						u_2'(t)	& = u_3(t)	&\quad u_2(t_0)	& = y_2		\\
+						\vdots		\\
+						u_{m-2}'(t)	& = u_{m-1}(t)	&\quad u_{m-2}(t_0)	& = y_{m-2}	\\
+						u_{m-1}'(t)	& = f(t, u_0(t), u_1(t),\dots, u_{(m-1)}(t))	&\quad u_{m-1}(t_0)	& = y_{m-1}
+					\end{aligned}
+					\right.
+					\label{eqdiff:ordm:sys}
+				\end{equation}
+				La résolution d’une \gls{edo} d’ordre m est donc un cas particulier de la résolution d’un système d’\gls{edo} d’ordre 1.
+
+				En conclusion, la stratégie de résolution d’une \gls{edo} d’ordre $m$ est la suivante :
+				\begin{enumerate}[•]
+					\item Ré-écriture de l’\gls{edo} d’ordre $m$ \eqref{eqdiff:ordm} en un système d’\gls{edo} d’ordre 1 de la forme du système \eqref{eqdiff:ordm:sys},
+					\item Résolution du système à l’aide de l’une des méthodes vue dans cette section.
+				\end{enumerate}
+
+			Il existe encore d'autres méthodes de résolution numérique d'\gls{edo} dont nous ne parlerons pas..

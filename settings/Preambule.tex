@@ -15,7 +15,7 @@
 	%nohyperref, % Uncomment to not load the hyperref package
 	headsepline, % Uncomment to get a line under the header
 	%chapterinoneline, % Uncomment to place the chapter title next to the number on one line
-	%consistentlayout, % Uncomment to change the layout of the declaration, abstract and acknowledgements pages to match the default layout
+	consistentlayout, % Uncomment to change the layout of the declaration, abstract and acknowledgements pages to match the default layout
 ]{settings/MastersDoctoralThesis} % The class file specifying the document structure
 
 \input{settings/polices}
@@ -86,17 +86,27 @@
 
 
 %================ADDED===============
+\usepackage{tabularx}
+\usepackage{fourier-orns}
+\usepackage{tikz}
+\usetikzlibrary{arrows,calc,positioning,shapes.misc}
+\usepackage{xspace}
 %\usepackage{setspace}
 % Pour les paragraphes
 \parindent = 0pt
 \parskip = 7pt
 %\setstretch{1.1}
 %\onehalfspacing
-%\setcounter{tocdepth}{0}
+\setcounter{secnumdepth}{3}
+\mtcsetdepth{minitoc}{1}
+%\mtcsetdepth{minitoc}{0}
+%\setcounter{minitocdepth}{1}
 
 %Add this command where you want to print the Toc, Lof and Lot
 \newcommand{\minitoclt}{
 	\begingroup
+	%\mtcsetdepth{minitoc}{1}
+		\setcounter{tocdepth}{1}
 		\newcommand{\mytocrule}{\hrule}
 		\etocsettocstyle{{\bf\large Sommaire}
 			\medskip%
@@ -106,11 +116,113 @@
 			\mytocrule%
 		}
 		\localtableofcontents % \minitoc
-		\minilof
-		\minilot
+		%\minilof
+		%\minilot
 	\endgroup
+	\vskip 2\baselineskip
 }
 
 \def\dx{\mathrm{d}}
+\newcommand{\dxdt}[2][t]{\frac{\dx#2}{\dx#1}}
+\newcommand{\ddxdt}[2][t]{\displaystyle\dxdt[#1]{#2}}
+\newcommand{\xp}[1]{\stackrel{.}{#1}}
+
+\def\R{\mathbb{R}}
+\def\N{\mathbb{N}}
+\def\Z{\mathbb{Z}}
+
+\usepackage{theorem}
+%\theoremheaderfont{\bfseries}
+%\theorembodyfont{\itshape}
+\theoremstyle{break}
+\newtheorem{Theo}{Théorème }[section]
+\newtheorem{Prop}{Propriété }[section]
+\newtheorem{Def}{Définition }[section]
+\theorembodyfont{\rmfamily}
+\newtheorem{Rem}{Remarque}[section]
+\newtheorem{Ex}{Exemple}[section]
 %=======================================
 
+
+%%%%%%%%%%%%%%%%  inclure la source %%%%%%%%%%%%%%%%%%%%
+\usepackage{listings}
+\usepackage{inconsolata} % Swedish encoding in lstlisting
+
+\newcommand*\styleC{\fontsize{9}{10pt}\usefont{T1}{pcr}{m}{n}\selectfont } % Change aussi la police avec {ptm}
+\newcommand*\styleD{\fontsize{9}{10pt}\usefont{OT1}{pcr}{m}{n}\selectfont }% Change la police avec {pcr} et machine à écrire
+
+%\makeatletter
+%% on fixe le langage utilisÃ©
+%\lstset{language=matlab}
+%\edef\Motscle{emph={\lst@keywords}}
+%\expandafter\lstset\expandafter{%
+%	\Motscle}
+%\makeatother
+
+
+\definecolor{Ggris}{rgb}{0.45,0.48,0.45}
+
+\renewcommand{\lstlistingname}{Algorithme}
+\lstset{frameround=fttt}
+%\lstset{backgroundcolor=\color{gray!20}}
+%% Pour les codes
+%\lstset{emphstyle=\bfseries\ttfamily\color{blue!70!black}, % les mots réservés de matlab en bleu
+	%	basicstyle=\fontsize{10}{12pt}\styleD,
+	%	keywordstyle=\ttfamily,
+	%	commentstyle=\color{blue}\styleC, % commentaire en vert
+	%	numberstyle=\tiny\color{red}, % Couleur de la numérotation des lignes de codes
+	%	numbers=none,
+	%	numbersep=10pt,
+	%	lineskip=0.7pt,
+	%	frame = trBL,
+	%	title= {Code R},
+	%	showstringspaces=false}
+%%  % inclure le fichier source
+%\newcommand{\R}[1]{%
+	%	\lstinputlisting[texcl=true]{#1}
+	%}
+
+\lstdefinestyle{pos}{float=!ht}
+
+\lstset{
+%	backgroundcolor=\color{gray!10},
+%	emphstyle=\bfseries\ttfamily\color{blue!70!black}, % les mots réservés de matlab en bleu et gras
+%	basicstyle=\fontsize{10}{12pt}\styleD,
+%	keywordstyle=\ttfamily,
+%	commentstyle=\color{green!40!black}\styleC, % commentaire en vert
+%	numberstyle=\tiny\color{red}, % Couleur de la numérotation des lignes de codes
+%	numbers=left,
+	%numberfirstline,
+%	numbersep=10pt,
+%	lineskip=0.7pt,
+	breaklines,
+	frame = tb,
+	%float=ht, %inutile
+%	title= {Code Matlab},
+%	showstringspaces=false,
+	escapechar=\%,
+	mathescape,
+	tabsize=4,
+	inputencoding = utf8,  % Input encoding
+	extendedchars = true,  % Extended ASCII
+	literate      =        % Support additional characters
+	{á}{{\'a}}1  {é}{{\'e}}1  {í}{{\'i}}1 {ó}{{\'o}}1  {ú}{{\'u}}1
+	{Á}{{\'A}}1  {É}{{\'E}}1  {Í}{{\'I}}1 {Ó}{{\'O}}1  {Ú}{{\'U}}1
+	{à}{{\`a}}1  {è}{{\`e}}1  {ì}{{\`i}}1 {ò}{{\`o}}1  {ù}{{\`u}}1
+	{À}{{\`A}}1  {È}{{\'E}}1  {Ì}{{\`I}}1 {Ò}{{\`O}}1  {Ù}{{\`U}}1
+	{ä}{{\"a}}1  {ë}{{\"e}}1  {ï}{{\"i}}1 {ö}{{\"o}}1  {ü}{{\"u}}1
+	{Ä}{{\"A}}1  {Ë}{{\"E}}1  {Ï}{{\"I}}1 {Ö}{{\"O}}1  {Ü}{{\"U}}1
+	{â}{{\^a}}1  {ê}{{\^e}}1  {î}{{\^i}}1 {ô}{{\^o}}1  {û}{{\^u}}1
+	{Â}{{\^A}}1  {Ê}{{\^E}}1  {Î}{{\^I}}1 {Ô}{{\^O}}1  {Û}{{\^U}}1
+	{œ}{{\oe}}1  {Œ}{{\OE}}1  {æ}{{\ae}}1 {Æ}{{\AE}}1  {ß}{{\ss}}1
+	{ç}{{\c c}}1 {Ç}{{\c C}}1 {ø}{{\o}}1  {å}{{\r a}}1 {Å}{{\r A}}1
+	{ñ}{{\~n}}1  {Ñ}{{\~N}}1  {¿}{{?`}}1  {¡}{{!`}}1   {'}{{'}}1
+	{°}{{\textdegree}}1 {º}{{\textordmasculine}}1 {ª}{{\textordfeminine}}1
+	% ¿ and ¡ are not correctly displayed if inconsolata font is used
+	% together with the lstlisting environment. Consider typing code in
+	% external files and using \lstinputlisting to display them instead.
+}
+% inclure le fichier source
+%\newcommand{\Matlab}[1]{%
+%	\lstinputlisting[texcl=true]{#1}
+%} % A Revoir

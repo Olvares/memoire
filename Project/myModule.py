@@ -4,7 +4,10 @@ We create this module to have all classes and functions we created during solvin
 """
 
 # RK4 function definition
+from copy import deepcopy
+
 import numpy as np
+from matplotlib import pyplot as plt
 
 
 def RK4(f, I, y0, n, sol_only: bool = False):
@@ -34,9 +37,19 @@ def RK4(f, I, y0, n, sol_only: bool = False):
     return t, y
 
 
-def pop_dyn_daudi(t, pop, rates=None):
-    if rates is None:
-        rates = []
+def Euler(f, I, y0, n,):
+    h = (I[1] - I[0]) / n
+    t = np.linspace(I[0], I[1], n + 1)
+    m = y0.size
+    y = np.zeros((n + 1, m))
+    y[0, :] = y0
+
+
+def pop_dyn_daudi(t, pop, rates):
+    rates = deepcopy(rates)
+    pop = deepcopy(pop)
+    t = deepcopy(t)
+
     x = pop[0]  # Maize population
     y = pop[1]  # larvae population
     z = pop[2]  # noctudae population
@@ -52,9 +65,10 @@ def pop_dyn_daudi(t, pop, rates=None):
     mw = rates[7]  # $\mu_w$
     e = rates[8]  # $e$
 
-    f = lambda x: l * x * (1 - x / 400)
+    f = lambda x: -l * x #* (x / 500 - 1)
     g = lambda x: an * x
-    dx = f(x) - g(x) * y  # -(an*y + l) * x
+
+    dx = f(x) - g(x) * y
     dy = e * g(x) * y + ga * w - (d + my) * y
     dz = d * y - mz * z
     dw = rh * z - (ga + mw) * w
@@ -62,33 +76,67 @@ def pop_dyn_daudi(t, pop, rates=None):
     return np.array([dx, dy, dz, dw])
 
 
-def pop_dyn_myMod(t, pop, rates=None):
-    if rates is None:
-        rates = []
+def pop_dyn_myMod(t, pop, rates):
+    rates = deepcopy(rates)
+    pop = deepcopy(pop)
+    t = deepcopy(t)
+
     x = pop[0]  # Maize population
     y = pop[1]  # larvae population
     z = pop[2]  # adult population
     w = pop[3]  # eggs population
 
-    an = rates[0]       # destruction of plant per larvae over time
-    l = rates[1]        # maize mortality rate due to climatic condition
-    ga = rates[2]       # egg -> larvae
-    d = rates[3]        # larvae -> adult
-    rh = rates[4]       # fertility rate
-    my = rates[5]       # larvae mortality rate
-    mz = rates[6]       # adult mortality rate
-    mw = rates[7]       # egg mortality rate
-    e = rates[8]        # larvae growth or survival rate per plant consumption
-    tau = rates[9]      # resistance rate of the plant over time
-    sig = rates[10]     # migration rate of adult
-    s = rates[11]       # threshold of maize decreasing
+    an = rates[0]  # destruction of plant per larvae over time
+    l = rates[1]  # maize mortality rate due to climatic condition
+    ga = rates[2]  # egg -> larvae
+    d = rates[3]  # larvae -> adult
+    rh = rates[4]  # fertility rate
+    my = rates[5]  # larvae mortality rate
+    mz = rates[6]  # adult mortality rate
+    mw = rates[7]  # egg mortality rate
+    e = rates[8]  # larvae growth or survival rate per plant consumption
+    tau = rates[9]  # resistance rate of the plant over time
+    sig = rates[10]  # migration rate of adult
+    s = rates[11]  # threshold of maize decreasing
 
-    f = lambda x: -l * x * (x / s - 1)    # growth function
-    g = lambda x: an * x #/ (tau*t + 1)    # functional response
+    myf = lambda x: -l * x * (x / s - 1)  # growth function
+    myg = lambda x: an * x  # / (tau*t + 1)    # functional response
 
-    dx = f(x) - g(x) * y #/ (tau*t + 1)                       # maize population dynamic over time
-    dy = -(e * g(x) + d) * y + ga * w #- my * y   # larvae population dynamic
-    dz = (e * g(x) + d) * y - mz * z                         # adult population dynamic
-    dw = rh * z - (ga + mw) * w                 # egg population dynamic
+    dx = (myf(x) - myg(x) * y)  # * np.exp(-tau * t) #/ (tau * t + 1)  # maize population dynamic over time
+    dy = -(e * myg(x) + d) * y + ga * w - my * y  # larvae population dynamic
+    dz = (e * myg(x) + d) * y - mz * z  # adult population dynamic
+    dw = rh * z - (ga + mw) * w  # egg population dynamic
 
     return np.array([dx, dy, dz, dw])
+
+
+class solver:
+    def __init__(self, rate, s0, I, sub=None):
+        self.rate = deepcopy(rate)
+        self.s0 = deepcopy(s0)
+        self.I = deepcopy(I)
+        self.sub = deepcopy(I[-1]) * 100 if sub is None else deepcopy(sub)
+        self.t = None
+        self.sol = None
+        self.title = ["Maize", "Caterpillar", "Adult moth", "Egg"]
+
+    def myModSol(self):
+        myf = lambda t, x: pop_dyn_myMod(t, x, self.rate)
+        self.modSol(myf)
+
+    def daudiModSol(self):
+        daudf = lambda t, x: pop_dyn_daudi(t, x, self.rate)
+        self.modSol(daudf)
+
+    def modSol(self, f):
+        self.t, self.sol = RK4(f, self.I, self.s0, self.sub)
+
+    def set_input(self, rate, s0, I, sub=None):
+        self.__init__(rate, s0, I, sub)
+
+    def printSol(self, fig):
+        for i, ax in enumerate(fig.axes):
+            ax.plot(self.t, self.sol[:, i], label="z0 = {}".format(self.s0[2]))
+            ax.set_title(self.title[i])
+        fig.tight_layout()
+        return fig

@@ -2,79 +2,137 @@
 \@ifundefined {etoctocstyle}{\let \etoc@startlocaltoc \@gobble \let \etoc@settocdepth \@gobble \let \etoc@depthtag \@gobble \let \etoc@setlocaltop \@gobble }{}
 \babel@toc {french}{}\relax 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Declaration of Authorship}{iii}{section*.1}%
+\contentsline {chapter}{R\'esum\'e}{v}{chapter*.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{R\'esum\'e}{ix}{section*.3}%
+\contentsline {chapter}{Remerciements}{vii}{chapter*.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Remerciements}{xi}{section*.4}%
+\contentsline {chapter}{Table des figures}{xi}{chapter*.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Table des figures}{xv}{chapter*.6}%
+\contentsline {chapter}{Liste des tableaux}{xiii}{chapter*.6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Liste des tableaux}{xvii}{chapter*.7}%
+\contentsline {chapter}{Liste des abbréviations}{xv}{section*.7}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Liste des abbréviations}{xix}{section*.8}%
+\contentsline {chapter}{Symboles}{xvii}{section*.9}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Symboles}{xxi}{section*.10}%
-\defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.12}%
+\contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.11}%
 \defcounter {refsection}{0}\relax 
 \etoc@startlocaltoc {1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.1}Contexte et justification}{1}{section.14}%
+\contentsline {section}{\numberline {1.1}Introduction}{1}{section.13}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.2}Objectifs de l'étude}{3}{section.15}%
+\contentsline {subsection}{\numberline {1.1.1}Contexte et justification}{1}{subsection.14}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.2.1}Objectif général}{3}{subsection.16}%
+\contentsline {subsection}{\numberline {1.1.2}Problématique}{3}{subsection.16}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.2.2}Objectifs spécifiques}{3}{subsection.17}%
+\contentsline {subsection}{\numberline {1.1.3}Objectifs de l'étude}{4}{subsection.17}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.3}Hypothèses de travail}{3}{section.21}%
+\contentsline {subsubsection}{\numberline {1.1.3.1}Objectif général}{4}{subsubsection.18}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {2}Revue de Littérature sur la chénille légionnaire d'automne}{5}{chapter.24}%
+\contentsline {subsubsection}{\numberline {1.1.3.2}Objectifs spécifiques}{5}{subsubsection.19}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {2}Revue de Littérature}{7}{chapter.24}%
 \defcounter {refsection}{0}\relax 
 \etoc@startlocaltoc {2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.1}Introduction}{5}{section.26}%
+\contentsline {section}{\numberline {2.1}Biologie des plantes, insectes et de leurs interactions}{7}{section.26}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.2}Origine et historique du Spodoptera frugiperda (chénille légionnaire d'automne)}{6}{section.28}%
+\contentsline {subsection}{\numberline {2.1.1}L’objet Plante}{8}{subsection.28}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.3}Biologie du Spodoptera frugiperda}{7}{section.29}%
+\contentsline {subsection}{\numberline {2.1.2}L’objet Insecte}{8}{subsection.29}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.4}Plantes hôtes du Spodoptera frugiperda}{9}{section.33}%
+\contentsline {subsection}{\numberline {2.1.3}Interactions entre les plantes et les insectes}{9}{subsection.30}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.5}Distribution géographique du Spodoptera frugiperda en Afrique}{9}{section.34}%
+\contentsline {subsubsection}{\numberline {2.1.3.1}Antagonisme plantes-insectes}{9}{subsubsection.31}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.6}Prévention et contrôle du Spodoptera frugiperda}{11}{section.38}%
+\contentsline {subsubsection}{\numberline {2.1.3.2}Mutualisme plantes-insectes}{10}{subsubsection.32}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {3}Généralités sur la modélisation des insectes}{13}{chapter.39}%
+\contentsline {section}{\numberline {2.2}La chénille légionnaire d'automne}{10}{section.33}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.2.1}Origine et historique du Spodoptera frugiperda (chénille légionnaire d'automne)}{11}{subsection.34}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.2.2}Biologie du Spodoptera frugiperda}{12}{subsection.35}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.2.3}Plantes hôtes du Spodoptera frugiperda}{13}{subsection.39}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.2.4}Distribution géographique du Spodoptera frugiperda en Afrique}{14}{subsection.40}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.2.5}Prévention et contrôle du Spodoptera frugiperda}{15}{subsection.44}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.3}Modélisation sur les des insectes, plantes et leurs interactions}{16}{section.45}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.3.1}La notion de modèle}{16}{subsection.46}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.3.2}Les modèles individus centrés}{17}{subsection.47}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.3.3}Les modèles de type proie-prédateur et leurs dérivés}{18}{subsection.48}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.3.4}Les modèles compartimentaux}{23}{subsection.64}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.3.5}Les modèles de méta-population}{23}{subsection.65}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.4}Méthodes de résolution numérique des équations différentielles}{24}{section.68}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.4.1}Définition}{24}{subsection.69}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.4.2}Les équations différentielles ordinaires}{25}{subsection.75}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {2.4.2.1}Méthodes d'Euler}{27}{subsubsection.83}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Méthode d'Euler explicite}{27}{paragraph*.84}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subparagraph}{Convergence de la méthode d'Euler explicite}{29}{subparagraph*.101}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {2.4.2.2}Méthode de Taylor}{31}{subsubsection.113}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {2.4.2.3}Méthodes de Runge-Kutta}{32}{subsubsection.127}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Méthode de \gls {rk2}}{32}{paragraph*.128}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subparagraph}{Méthode d’Euler modifiée}{33}{subparagraph*.133}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subparagraph}{Méthode du point milieu}{34}{subparagraph*.149}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Méthode de \gls {rk4}}{35}{paragraph*.165}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {2.4.2.4}Les \gls {edo} d’ordre $m$ et les systèmes d’ordre 1}{37}{subsubsection.191}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Résolution d’un système d’\gls {edo} d’ordre 1}{37}{paragraph*.192}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subparagraph}{Méthode Euler explicite pour les systèmes d’\gls {edo}}{38}{subparagraph*.195}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subparagraph}{Méthode \gls {rk4} pour les systèmes d’\gls {edo}}{38}{subparagraph*.209}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Résolution d’\gls {edo} d’ordre $m$}{39}{paragraph*.233}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {3}Méthodologie}{43}{chapter.238}%
 \defcounter {refsection}{0}\relax 
 \etoc@startlocaltoc {3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.1}La notion de modèle}{13}{section.41}%
+\contentsline {section}{\numberline {3.1}Matériel}{43}{section.240}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.2}Les modèles d’automate cellulaire}{14}{section.42}%
+\contentsline {subsection}{\numberline {3.1.1}Logiciel utilisé}{43}{subsection.241}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.3}Les modèles individus centrés}{15}{section.43}%
+\contentsline {section}{\numberline {3.2}Méthodes}{43}{section.242}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.4}Les modèles de type proie-prédateur et leurs dérivés}{16}{section.44}%
+\contentsline {subsection}{\numberline {3.2.1}Modèle de base}{43}{subsection.243}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.5}Les modèles de simulation}{19}{section.50}%
+\contentsline {subsection}{\numberline {3.2.2}Quelques insuffisances du modèle}{45}{subsection.249}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.6}Les modèles couplés spatialisés}{20}{section.51}%
+\contentsline {subsection}{\numberline {3.2.3}Formulation de notre modèle}{47}{subsection.254}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.7}Les modèles complexes}{22}{section.52}%
+\contentsline {subsubsection}{\numberline {3.2.3.1}Structure par étape des deux populations}{47}{subsubsection.255}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.8}Les modèles multi-agents}{22}{section.53}%
+\contentsline {subsubsection}{\numberline {3.2.3.2}Le modèle compartimental \gls {sis}}{49}{subsubsection.262}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.9}Les modèles compartimentaux}{22}{section.54}%
+\contentsline {subsubsection}{\numberline {3.2.3.3}Les variables et paramètres de notre modèle}{50}{subsubsection.269}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.10}Les modèles de méta-population}{23}{section.55}%
+\contentsline {subsubsection}{\numberline {3.2.3.4}Les hypothèses du modèle}{50}{subsubsection.270}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {4}Matériel et méthodes}{25}{chapter.58}%
+\contentsline {subsubsection}{\numberline {3.2.3.5}Le modèle}{51}{subsubsection.276}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {5}Résultats et discussions}{27}{chapter.59}%
+\contentsline {subsubsection}{\numberline {3.2.3.6}Propriétés de base du modèle}{51}{subsubsection.279}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {A}Frequently Asked Questions}{29}{appendix.60}%
+\contentsline {chapter}{\numberline {4}Résultats et discussions}{53}{chapter.285}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.1}How do I change the colors of links?}{29}{section.61}%
+\contentsline {chapter}{\numberline {5}Conclusion}{55}{chapter.286}%
 \contentsfinish 

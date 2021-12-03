@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.10) (preloaded format=pdflatex 2021.11.11)  13 NOV 2021 21:23
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.10) (preloaded format=pdflatex 2021.11.11)  17 NOV 2021 18:57
 entering extended mode
 **./mini_presentation.tex
 (mini_presentation.tex
@@ -750,35 +750,6 @@ medefault.sty
 )
 (C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerouterthe
 medefault.sty)))
-(C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgfpage
-s.sty
-Package: pgfpages 2011/01/05 ver 0.02
- (C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/latex/tools\calc.sty
-Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count326
-\calc@Bcount=\count327
-\calc@Adimen=\dimen284
-\calc@Bdimen=\dimen285
-\calc@Askip=\skip64
-\calc@Bskip=\skip65
-LaTeX Info: Redefining \setlength on input line 80.
-LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count328
-\calc@Cskip=\skip66
-)
-\pgf@logicalpages=\count329
-\pgf@firstshipout=\count330
-\pgf@lastshipout=\count331
-\pgf@currentshipout=\count332
-\pgf@cpn=\count333
-\pgf@shipoutnextto=\count334
-\pgfphysicalheight=\dimen286
-\pgfphysicalwidth=\dimen287
-\pgfpages@shipoutbox=\box75
-)
-\pgfpages@box@1=\box76
-\pgfpages@box@2=\box77
-
 (C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerthemeBoa
 dilla.sty
 (C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamercolorthe
@@ -838,14 +809,14 @@ LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 )
 (C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.sty
 Package: babel 2021/10/19 3.65 The Babel package
-\babel@savecnt=\count335
-\U@D=\dimen288
+\babel@savecnt=\count326
+\U@D=\dimen284
 \l@unhyphenated=\language84
 
 (C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/generic/babel\txtbabel.def)
 \bbl@readstream=\read3
 LaTeX Info: Redefining \textlatin on input line 3942.
-\bbl@dirlevel=\count336
+\bbl@dirlevel=\count327
 *************************************
 * Local config file bblopts.cfg used
 *
@@ -860,26 +831,26 @@ Package babel Info: Hyphen rules for 'acadian' set to \l@french
 (babel)             (\language24). Reported on input line 91.
 Package babel Info: Hyphen rules for 'canadien' set to \l@french
 (babel)             (\language24). Reported on input line 92.
-\FB@nonchar=\count337
+\FB@nonchar=\count328
 Package babel Info: Making : an active character on input line 430.
 Package babel Info: Making ; an active character on input line 431.
 Package babel Info: Making ! an active character on input line 432.
 Package babel Info: Making ? an active character on input line 433.
-\FBguill@level=\count338
+\FBguill@level=\count329
 \FBold@everypar=\toks47
-\FB@Mht=\dimen289
-\mc@charclass=\count339
-\mc@charfam=\count340
-\mc@charslot=\count341
-\std@mcc=\count342
-\dec@mcc=\count343
-\listindentFB=\dimen290
-\descindentFB=\dimen291
-\labelindentFB=\dimen292
-\labelwidthFB=\dimen293
-\leftmarginFB=\dimen294
-\parindentFFN=\dimen295
-\FBfnindent=\dimen296
+\FB@Mht=\dimen285
+\mc@charclass=\count330
+\mc@charfam=\count331
+\mc@charslot=\count332
+\std@mcc=\count333
+\dec@mcc=\count334
+\listindentFB=\dimen286
+\descindentFB=\dimen287
+\labelindentFB=\dimen288
+\labelwidthFB=\dimen289
+\leftmarginFB=\dimen290
+\parindentFFN=\dimen291
+\FBfnindent=\dimen292
 ))
 (C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/latex/carlisle\scalefnt.sty
 )
@@ -893,7 +864,7 @@ Package: pgf 2021/05/15 v3.1.9a (3.1.9a)
 (C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodu
 leshapes.code.tex
 File: pgfmoduleshapes.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgfnodeparttextbox=\box78
+\pgfnodeparttextbox=\box75
 )
 (C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodu
 leplot.code.tex
@@ -902,8 +873,8 @@ File: pgfmoduleplot.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 (C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/latex/pgf/compatibility\pgf
 comp-version-0-65.sty
 Package: pgfcomp-version-0-65 2021/05/15 v3.1.9a (3.1.9a)
-\pgf@nodesepstart=\dimen297
-\pgf@nodesepend=\dimen298
+\pgf@nodesepstart=\dimen293
+\pgf@nodesepend=\dimen294
 )
 (C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/latex/pgf/compatibility\pgf
 comp-version-1-18.sty
@@ -926,8 +897,8 @@ Package: pgffor 2021/05/15 v3.1.9a (3.1.9a)
 
 (C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath.co
 de.tex)
-\pgffor@iter=\dimen299
-\pgffor@skip=\dimen300
+\pgffor@iter=\dimen295
+\pgffor@skip=\dimen296
 \pgffor@stack=\toks48
 \pgffor@toks=\toks49
 ))
@@ -938,34 +909,34 @@ Package: tikz 2021/05/15 v3.1.9a (3.1.9a)
 (C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgfli
 braryplothandlers.code.tex
 File: pgflibraryplothandlers.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgf@plot@mark@count=\count344
-\pgfplotmarksize=\dimen301
+\pgf@plot@mark@count=\count335
+\pgfplotmarksize=\dimen297
 )
-\tikz@lastx=\dimen302
-\tikz@lasty=\dimen303
-\tikz@lastxsaved=\dimen304
-\tikz@lastysaved=\dimen305
-\tikz@lastmovetox=\dimen306
-\tikz@lastmovetoy=\dimen307
-\tikzleveldistance=\dimen308
-\tikzsiblingdistance=\dimen309
-\tikz@figbox=\box79
-\tikz@figbox@bg=\box80
-\tikz@tempbox=\box81
-\tikz@tempbox@bg=\box82
-\tikztreelevel=\count345
-\tikznumberofchildren=\count346
-\tikznumberofcurrentchild=\count347
-\tikz@fig@count=\count348
+\tikz@lastx=\dimen298
+\tikz@lasty=\dimen299
+\tikz@lastxsaved=\dimen300
+\tikz@lastysaved=\dimen301
+\tikz@lastmovetox=\dimen302
+\tikz@lastmovetoy=\dimen303
+\tikzleveldistance=\dimen304
+\tikzsiblingdistance=\dimen305
+\tikz@figbox=\box76
+\tikz@figbox@bg=\box77
+\tikz@tempbox=\box78
+\tikz@tempbox@bg=\box79
+\tikztreelevel=\count336
+\tikznumberofchildren=\count337
+\tikznumberofcurrentchild=\count338
+\tikz@fig@count=\count339
 
 (C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodu
 lematrix.code.tex
 File: pgfmodulematrix.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgfmatrixcurrentrow=\count349
-\pgfmatrixcurrentcolumn=\count350
-\pgf@matrix@numberofcolumns=\count351
+\pgfmatrixcurrentrow=\count340
+\pgfmatrixcurrentcolumn=\count341
+\pgf@matrix@numberofcolumns=\count342
 )
-\tikz@expandcount=\count352
+\tikz@expandcount=\count343
 
 (C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/t
 ikz/libraries\tikzlibrarytopaths.code.tex
@@ -973,7 +944,7 @@ File: tikzlibrarytopaths.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 )))
 (C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/latex/eurosym\eurosym.sty
 Package: eurosym 1998/08/06 v1.1 European currency symbol ``Euro''
-\@eurobox=\box83
+\@eurobox=\box80
 )
 (C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/latex/setspace\setspace.sty
 Package: setspace 2011/12/19 v6.7a set line spacing
@@ -994,24 +965,24 @@ Package: simplekv 2020/04/27 v0.2 Simple keyval package (CT)
 (C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgfli
 braryarrows.meta.code.tex
 File: pgflibraryarrows.meta.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgfarrowinset=\dimen310
-\pgfarrowlength=\dimen311
-\pgfarrowwidth=\dimen312
-\pgfarrowlinewidth=\dimen313
+\pgfarrowinset=\dimen306
+\pgfarrowlength=\dimen307
+\pgfarrowwidth=\dimen308
+\pgfarrowlinewidth=\dimen309
 )
-\CF_cntatomgroup=\count353
-\CF_cntgroup=\count354
-\CF_cntatom=\count355
-\CF_cntcycle=\count356
-\CF_cntcyclebonds=\count357
-\CF_cntcompound=\count358
-\CF_dim=\dimen314
-\CF_arrowsize=\dimen315
-\CF_zero=\dimen316
-\CF_box=\box84
-\CF_boxstuff=\box85
-\CF_testbox=\box86
-\CF_chargebox=\box87
+\CF_cntatomgroup=\count344
+\CF_cntgroup=\count345
+\CF_cntatom=\count346
+\CF_cntcycle=\count347
+\CF_cntcyclebonds=\count348
+\CF_cntcompound=\count349
+\CF_dim=\dimen310
+\CF_arrowsize=\dimen311
+\CF_zero=\dimen312
+\CF_box=\box81
+\CF_boxstuff=\box82
+\CF_testbox=\box83
+\CF_chargebox=\box84
 \CF_substtoks=\toks50
 )
 Package: chemfig 2021/08/01 v1.6b Draw molecule with an easy syntax (CT)
@@ -1029,9 +1000,9 @@ re.code.tex
 \t@pgfplots@toka=\toks51
 \t@pgfplots@tokb=\toks52
 \t@pgfplots@tokc=\toks53
-\pgfplots@tmpa=\dimen317
-\c@pgfplots@coordindex=\count359
-\c@pgfplots@scanlineindex=\count360
+\pgfplots@tmpa=\dimen313
+\c@pgfplots@coordindex=\count350
+\c@pgfplots@scanlineindex=\count351
 
 (C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/sys\pgfplo
 tssysgeneric.code.tex))
@@ -1049,13 +1020,13 @@ ure\pgfplotsliststructure.code.tex)
 ure\pgfplotsliststructureext.code.tex)
 (C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/liststruct
 ure\pgfplotsarray.code.tex
-\c@pgfplotsarray@tmp=\count361
+\c@pgfplotsarray@tmp=\count352
 )
 (C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/liststruct
 ure\pgfplotsmatrix.code.tex)
 (C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/numtable\p
 gfplotstableshared.code.tex
-\c@pgfplotstable@counta=\count362
+\c@pgfplotstable@counta=\count353
 \t@pgfplotstable@a=\toks54
 )
 (C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/liststruct
@@ -1068,7 +1039,7 @@ otsbinary.data.code.tex))
 otsutil.verb.code.tex)
 (C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/libs\pgfli
 brarypgfplots.surfshading.code.tex
-\c@pgfplotslibrarysurf@no=\count363
+\c@pgfplotslibrarysurf@no=\count354
 
 (C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/sys\pgflib
 rarypgfplots.surfshading.pgfsys-pdftex.def)))
@@ -1100,16 +1071,16 @@ aths.code.tex)
 ikz/libraries\tikzlibrarydecorations.code.tex
 (C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodu
 ledecorations.code.tex
-\pgfdecoratedcompleteddistance=\dimen318
-\pgfdecoratedremainingdistance=\dimen319
-\pgfdecoratedinputsegmentcompleteddistance=\dimen320
-\pgfdecoratedinputsegmentremainingdistance=\dimen321
-\pgf@decorate@distancetomove=\dimen322
-\pgf@decorate@repeatstate=\count364
-\pgfdecorationsegmentamplitude=\dimen323
-\pgfdecorationsegmentlength=\dimen324
+\pgfdecoratedcompleteddistance=\dimen314
+\pgfdecoratedremainingdistance=\dimen315
+\pgfdecoratedinputsegmentcompleteddistance=\dimen316
+\pgfdecoratedinputsegmentremainingdistance=\dimen317
+\pgf@decorate@distancetomove=\dimen318
+\pgf@decorate@repeatstate=\count355
+\pgfdecorationsegmentamplitude=\dimen319
+\pgfdecorationsegmentlength=\dimen320
 )
-\tikz@lib@dec@box=\box88
+\tikz@lib@dec@box=\box85
 )
 (C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/t
 ikz/libraries\tikzlibrarydecorations.pathmorphing.code.tex
@@ -1121,13 +1092,13 @@ ikz/libraries\tikzlibrarydecorations.pathreplacing.code.tex
 ations\pgflibrarydecorations.pathreplacing.code.tex))
 (C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/libs\tikzl
 ibrarypgfplots.contourlua.code.tex)
-\pgfplots@numplots=\count365
-\pgfplots@xmin@reg=\dimen325
-\pgfplots@xmax@reg=\dimen326
-\pgfplots@ymin@reg=\dimen327
-\pgfplots@ymax@reg=\dimen328
-\pgfplots@zmin@reg=\dimen329
-\pgfplots@zmax@reg=\dimen330
+\pgfplots@numplots=\count356
+\pgfplots@xmin@reg=\dimen321
+\pgfplots@xmax@reg=\dimen322
+\pgfplots@ymin@reg=\dimen323
+\pgfplots@ymax@reg=\dimen324
+\pgfplots@zmin@reg=\dimen325
+\pgfplots@zmax@reg=\dimen326
 )
 (C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/t
 ikz/libraries\tikzlibraryplotmarks.code.tex
@@ -1139,33 +1110,33 @@ File: pgflibraryplotmarks.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 )))
 (C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/latex/siunitx\siunitx.sty
 Package: siunitx 2021-11-03 v3.0.35 A comprehensive (SI) units package
-\l__siunitx_angle_tmp_dim=\dimen331
-\l__siunitx_angle_marker_box=\box89
-\l__siunitx_angle_unit_box=\box90
-\l__siunitx_compound_count_int=\count366
+\l__siunitx_angle_tmp_dim=\dimen327
+\l__siunitx_angle_marker_box=\box86
+\l__siunitx_angle_unit_box=\box87
+\l__siunitx_compound_count_int=\count357
 
 (C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/latex/translations\translat
 ions.sty
 Package: translations 2021/01/17 v1.10a internationalization of LaTeX2e package
 s (CN)
 )
-\l__siunitx_number_exponent_fixed_int=\count367
-\l__siunitx_number_min_decimal_int=\count368
-\l__siunitx_number_min_integer_int=\count369
-\l__siunitx_number_round_precision_int=\count370
-\l__siunitx_number_group_minimum_int=\count371
-\l__siunitx_table_tmp_box=\box91
-\l__siunitx_table_tmp_dim=\dimen332
-\l__siunitx_table_column_width_dim=\dimen333
-\l__siunitx_table_integer_box=\box92
-\l__siunitx_table_decimal_box=\box93
-\l__siunitx_table_before_box=\box94
-\l__siunitx_table_after_box=\box95
-\l__siunitx_table_before_dim=\dimen334
-\l__siunitx_table_carry_dim=\dimen335
-\l__siunitx_unit_tmp_int=\count372
-\l__siunitx_unit_position_int=\count373
-\l__siunitx_unit_total_int=\count374
+\l__siunitx_number_exponent_fixed_int=\count358
+\l__siunitx_number_min_decimal_int=\count359
+\l__siunitx_number_min_integer_int=\count360
+\l__siunitx_number_round_precision_int=\count361
+\l__siunitx_number_group_minimum_int=\count362
+\l__siunitx_table_tmp_box=\box88
+\l__siunitx_table_tmp_dim=\dimen328
+\l__siunitx_table_column_width_dim=\dimen329
+\l__siunitx_table_integer_box=\box89
+\l__siunitx_table_decimal_box=\box90
+\l__siunitx_table_before_box=\box91
+\l__siunitx_table_after_box=\box92
+\l__siunitx_table_before_dim=\dimen330
+\l__siunitx_table_carry_dim=\dimen331
+\l__siunitx_unit_tmp_int=\count363
+\l__siunitx_unit_position_int=\count364
+\l__siunitx_unit_total_int=\count365
 
 (C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/l3keys2e\l
 3keys2e.sty
@@ -1175,75 +1146,88 @@ Package: expl3 2021-10-18 L3 programming layer (loader)
 (C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-p
 dftex.def
 File: l3backend-pdftex.def 2021-10-18 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count375
-\l__pdf_internal_box=\box96
+\l__color_backend_stack_int=\count366
+\l__pdf_internal_box=\box93
 ))
 Package: l3keys2e 2021-08-27 LaTeX2e option processing using LaTeX3 keys
 )
 (C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/latex/tools\array.sty
 Package: array 2021/04/20 v2.5e Tabular extension package (FMi)
-\col@sep=\dimen336
-\ar@mcellbox=\box97
-\extrarowheight=\dimen337
+\col@sep=\dimen332
+\ar@mcellbox=\box94
+\extrarowheight=\dimen333
 \NC@list=\toks55
-\extratabsurround=\skip67
-\backup@length=\skip68
-\ar@cellbox=\box98
+\extratabsurround=\skip64
+\backup@length=\skip65
+\ar@cellbox=\box95
 ))
 (C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/latex/booktabs\booktabs.sty
 Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
-\heavyrulewidth=\dimen338
-\lightrulewidth=\dimen339
-\cmidrulewidth=\dimen340
-\belowrulesep=\dimen341
-\belowbottomsep=\dimen342
-\aboverulesep=\dimen343
-\abovetopsep=\dimen344
-\cmidrulesep=\dimen345
-\cmidrulekern=\dimen346
-\defaultaddspace=\dimen347
-\@cmidla=\count376
-\@cmidlb=\count377
-\@aboverulesep=\dimen348
-\@belowrulesep=\dimen349
-\@thisruleclass=\count378
-\@lastruleclass=\count379
-\@thisrulewidth=\dimen350
+\heavyrulewidth=\dimen334
+\lightrulewidth=\dimen335
+\cmidrulewidth=\dimen336
+\belowrulesep=\dimen337
+\belowbottomsep=\dimen338
+\aboverulesep=\dimen339
+\abovetopsep=\dimen340
+\cmidrulesep=\dimen341
+\cmidrulekern=\dimen342
+\defaultaddspace=\dimen343
+\@cmidla=\count367
+\@cmidlb=\count368
+\@aboverulesep=\dimen344
+\@belowrulesep=\dimen345
+\@thisruleclass=\count369
+\@lastruleclass=\count370
+\@thisrulewidth=\dimen346
 ) (C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/latex/tools\tabularx.sty
 Package: tabularx 2020/01/15 v2.11c `tabularx' package (DPC)
-\TX@col@width=\dimen351
-\TX@old@table=\dimen352
-\TX@old@col=\dimen353
-\TX@target=\dimen354
-\TX@delta=\dimen355
-\TX@cols=\count380
+\TX@col@width=\dimen347
+\TX@old@table=\dimen348
+\TX@old@col=\dimen349
+\TX@target=\dimen350
+\TX@delta=\dimen351
+\TX@cols=\count371
 \TX@ftn=\toks56
 )
 (C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/latex/ragged2e\ragged2e.sty
 Package: ragged2e 2021/02/05 v3.0 ragged2e Package
-\CenteringLeftskip=\skip69
-\RaggedLeftLeftskip=\skip70
-\RaggedRightLeftskip=\skip71
-\CenteringRightskip=\skip72
-\RaggedLeftRightskip=\skip73
-\RaggedRightRightskip=\skip74
-\CenteringParfillskip=\skip75
-\RaggedLeftParfillskip=\skip76
-\RaggedRightParfillskip=\skip77
-\JustifyingParfillskip=\skip78
-\CenteringParindent=\skip79
-\RaggedLeftParindent=\skip80
-\RaggedRightParindent=\skip81
-\JustifyingParindent=\skip82
+\CenteringLeftskip=\skip66
+\RaggedLeftLeftskip=\skip67
+\RaggedRightLeftskip=\skip68
+\CenteringRightskip=\skip69
+\RaggedLeftRightskip=\skip70
+\RaggedRightRightskip=\skip71
+\CenteringParfillskip=\skip72
+\RaggedLeftParfillskip=\skip73
+\RaggedRightParfillskip=\skip74
+\JustifyingParfillskip=\skip75
+\CenteringParindent=\skip76
+\RaggedLeftParindent=\skip77
+\RaggedRightParindent=\skip78
+\JustifyingParindent=\skip79
 )
 (C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/latex/makecell\makecell.sty
 Package: makecell 2009/08/03 V0.1e Managing of Tab Column Heads and Cells
-\rotheadsize=\dimen356
-\c@nlinenum=\count381
+\rotheadsize=\dimen352
+\c@nlinenum=\count372
 \TeXr@lab=\toks57
 ) (C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/latex/mhchem\mhchem.sty
 Package: mhchem 2018/06/22 v4.08 for typesetting chemical formulae
 
+(C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/latex/tools\calc.sty
+Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count373
+\calc@Bcount=\count374
+\calc@Adimen=\dimen353
+\calc@Bdimen=\dimen354
+\calc@Askip=\skip80
+\calc@Bskip=\skip81
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count375
+\calc@Cskip=\skip82
+)
 (C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/latex/chemgreek\chemgreek.s
 ty
 (C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/xparse\xpa
@@ -1252,10 +1236,10 @@ Package: xparse 2021-08-27 L3 Experimental document command parser
 )
 Package: chemgreek 2020/01/16 v1.1a interface for upright Greek letters for use
  in chemistry (CN)
-\l__chemgreek_tmpa_int=\count382
-\g__chemgreek_tmpa_int=\count383
+\l__chemgreek_tmpa_int=\count376
+\g__chemgreek_tmpa_int=\count377
 )
-\l__mhchem_ce_distanceFromLastComma_int=\count384
+\l__mhchem_ce_distanceFromLastComma_int=\count378
 \__mhchem_arrow_extPgfLength_skip=\skip83
 \mhchem@minispace@tmp=\skip84
 \mhchem@minibackspace@tmp=\skip85
@@ -1266,11 +1250,11 @@ Package: chemgreek 2020/01/16 v1.1a interface for upright Greek letters for use
 \mhchem@smallbondwidth=\skip90
 \mhchem@bondtmp@minussidebearingleft=\skip91
 \mhchem@bondtmp@minussidebearingright=\skip92
-\l__mhchem_option_version_int=\count385
-\mhchem@option@minusmathsidebearingleft=\dimen357
-\mhchem@option@minusmathsidebearingright=\dimen358
-\mhchem@option@minustextsidebearingleft=\dimen359
-\mhchem@option@minustextsidebearingright=\dimen360
+\l__mhchem_option_version_int=\count379
+\mhchem@option@minusmathsidebearingleft=\dimen355
+\mhchem@option@minusmathsidebearingright=\dimen356
+\mhchem@option@minustextsidebearingleft=\dimen357
+\mhchem@option@minustextsidebearingright=\dimen358
 
 
 Package mhchem Warning: You did not specify a 'version' option for the mhchem
@@ -1297,71 +1281,71 @@ rs
 (C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/latex/nicematrix\nicematrix
 .sty
 Package: nicematrix 2021/10/18 v6.3 Enhanced arrays with the help of PGF/TikZ
-\g__nicematrix_env_int=\count386
-\g__nicematrix_NiceMatrixBlock_int=\count387
-\l__nicematrix_columns_width_dim=\dimen361
-\l__nicematrix_col_width_dim=\dimen362
-\g__nicematrix_row_total_int=\count388
-\g__nicematrix_col_total_int=\count389
-\l__nicematrix_key_nb_rows_int=\count390
-\g__nicematrix_blocks_wd_dim=\dimen363
-\g__nicematrix_blocks_ht_dim=\dimen364
-\g__nicematrix_blocks_dp_dim=\dimen365
-\l__nicematrix_width_dim=\dimen366
-\l__nicematrix_tabular_width_dim=\dimen367
-\l__nicematrix_old_iRow_int=\count391
-\l__nicematrix_old_jCol_int=\count392
-\g__nicematrix_total_X_weight_int=\count393
-\l__nicematrix_X_columns_dim=\dimen368
-\l__nicematrix_x_initial_dim=\dimen369
-\l__nicematrix_y_initial_dim=\dimen370
-\l__nicematrix_x_final_dim=\dimen371
-\l__nicematrix_y_final_dim=\dimen372
-\l_tmpc_dim=\dimen373
-\l_tmpd_dim=\dimen374
-\g__nicematrix_width_last_col_dim=\dimen375
-\g__nicematrix_width_first_col_dim=\dimen376
-\l__nicematrix_row_min_int=\count394
-\l__nicematrix_row_max_int=\count395
-\l__nicematrix_col_min_int=\count396
-\l__nicematrix_col_max_int=\count397
-\g__nicematrix_static_num_of_col_int=\count398
-\l__nicematrix_rounded_corners_dim=\dimen377
-\l__nicematrix_line_width_dim=\dimen378
-\g__nicematrix_block_box_int=\count399
-\l__nicematrix_submatrix_extra_height_dim=\dimen379
-\l__nicematrix_submatrix_left_xshift_dim=\dimen380
-\l__nicematrix_submatrix_right_xshift_dim=\dimen381
-\l__nicematrix_first_row_int=\count400
-\l__nicematrix_first_col_int=\count401
-\l__nicematrix_last_row_int=\count402
-\l__nicematrix_last_col_int=\count403
-\c@tabularnote=\count404
-\l__nicematrix_number_of_notes_int=\count405
-\l__nicematrix_cell_space_top_limit_dim=\dimen382
-\l__nicematrix_cell_space_bottom_limit_dim=\dimen383
-\l__nicematrix_inter_dots_dim=\dimen384
-\l__nicematrix_xdots_shorten_dim=\dimen385
-\l__nicematrix_radius_dim=\dimen386
-\l__nicematrix_notes_above_space_dim=\dimen387
-\l__nicematrix_left_margin_dim=\dimen388
-\l__nicematrix_right_margin_dim=\dimen389
-\l__nicematrix_extra_left_margin_dim=\dimen390
-\l__nicematrix_extra_right_margin_dim=\dimen391
-\c__nicematrix_max_l_dim=\dimen392
+\g__nicematrix_env_int=\count380
+\g__nicematrix_NiceMatrixBlock_int=\count381
+\l__nicematrix_columns_width_dim=\dimen359
+\l__nicematrix_col_width_dim=\dimen360
+\g__nicematrix_row_total_int=\count382
+\g__nicematrix_col_total_int=\count383
+\l__nicematrix_key_nb_rows_int=\count384
+\g__nicematrix_blocks_wd_dim=\dimen361
+\g__nicematrix_blocks_ht_dim=\dimen362
+\g__nicematrix_blocks_dp_dim=\dimen363
+\l__nicematrix_width_dim=\dimen364
+\l__nicematrix_tabular_width_dim=\dimen365
+\l__nicematrix_old_iRow_int=\count385
+\l__nicematrix_old_jCol_int=\count386
+\g__nicematrix_total_X_weight_int=\count387
+\l__nicematrix_X_columns_dim=\dimen366
+\l__nicematrix_x_initial_dim=\dimen367
+\l__nicematrix_y_initial_dim=\dimen368
+\l__nicematrix_x_final_dim=\dimen369
+\l__nicematrix_y_final_dim=\dimen370
+\l_tmpc_dim=\dimen371
+\l_tmpd_dim=\dimen372
+\g__nicematrix_width_last_col_dim=\dimen373
+\g__nicematrix_width_first_col_dim=\dimen374
+\l__nicematrix_row_min_int=\count388
+\l__nicematrix_row_max_int=\count389
+\l__nicematrix_col_min_int=\count390
+\l__nicematrix_col_max_int=\count391
+\g__nicematrix_static_num_of_col_int=\count392
+\l__nicematrix_rounded_corners_dim=\dimen375
+\l__nicematrix_line_width_dim=\dimen376
+\g__nicematrix_block_box_int=\count393
+\l__nicematrix_submatrix_extra_height_dim=\dimen377
+\l__nicematrix_submatrix_left_xshift_dim=\dimen378
+\l__nicematrix_submatrix_right_xshift_dim=\dimen379
+\l__nicematrix_first_row_int=\count394
+\l__nicematrix_first_col_int=\count395
+\l__nicematrix_last_row_int=\count396
+\l__nicematrix_last_col_int=\count397
+\c@tabularnote=\count398
+\l__nicematrix_number_of_notes_int=\count399
+\l__nicematrix_cell_space_top_limit_dim=\dimen380
+\l__nicematrix_cell_space_bottom_limit_dim=\dimen381
+\l__nicematrix_inter_dots_dim=\dimen382
+\l__nicematrix_xdots_shorten_dim=\dimen383
+\l__nicematrix_radius_dim=\dimen384
+\l__nicematrix_notes_above_space_dim=\dimen385
+\l__nicematrix_left_margin_dim=\dimen386
+\l__nicematrix_right_margin_dim=\dimen387
+\l__nicematrix_extra_left_margin_dim=\dimen388
+\l__nicematrix_extra_right_margin_dim=\dimen389
+\c__nicematrix_max_l_dim=\dimen390
 )
 (C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption.sty
 Package: caption 2020/10/26 v3.5g Customizing captions (AR)
 
 (C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption3.sty
 Package: caption3 2020/10/21 v2.2e caption3 kernel (AR)
-\captionmargin=\dimen393
-\captionmargin@=\dimen394
-\captionwidth=\dimen395
-\caption@tempdima=\dimen396
-\caption@indent=\dimen397
-\caption@parindent=\dimen398
-\caption@hangindent=\dimen399
+\captionmargin=\dimen391
+\captionmargin@=\dimen392
+\captionwidth=\dimen393
+\caption@tempdima=\dimen394
+\caption@indent=\dimen395
+\caption@parindent=\dimen396
+\caption@hangindent=\dimen397
 Package caption Info: beamer document class detected.
 Package caption Info: french babel package is loaded.
 
@@ -1370,8 +1354,8 @@ r.sto
 File: caption-beamer.sto 2020/08/22 v2.0 Adaption of the caption package to the
  beamer document classes (AR)
 ))
-\c@caption@flags=\count406
-\c@continuedfloat=\count407
+\c@caption@flags=\count400
+\c@continuedfloat=\count401
 Package caption Info: hyperref package is loaded.
 Package caption Info: Hyperref support is turned off
 (caption)             because hyperref has stopped early.
@@ -1379,19 +1363,19 @@ Package caption Info: Hyperref support is turned off
 (C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/latex/multirow\multirow.sty
 Package: multirow 2021/03/15 v2.8 Span multiple rows of a table
 \multirow@colwidth=\skip102
-\multirow@cntb=\count408
+\multirow@cntb=\count402
 \multirow@dima=\skip103
-\bigstrutjot=\dimen400
+\bigstrutjot=\dimen398
 )
 (C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/latex/graphics\rotating.sty
 Package: rotating 2016/08/11 v2.16d rotated objects in LaTeX
 (C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/latex/base\ifthen.sty
 Package: ifthen 2020/11/24 v1.1c Standard LaTeX ifthen package (DPC)
 )
-\c@r@tfl@t=\count409
+\c@r@tfl@t=\count403
 \rotFPtop=\skip104
 \rotFPbot=\skip105
-\rot@float@box=\box99
+\rot@float@box=\box96
 \rot@mess@toks=\toks58
 )
 (bibSettings/polices.tex
@@ -1513,53 +1497,53 @@ LaTeX Font Info:    Redeclaring math accent \hat on input line 254.
 Package: biblatex 2020/12/31 v3.16 programmable bibliographies (PK/MW)
 (C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/latex/logreq\logreq.sty
 Package: logreq 2010/08/04 v1.0 xml request logger
-\lrq@indent=\count410
+\lrq@indent=\count404
 
 (C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/latex/logreq\logreq.def
 File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
 ))
-\c@tabx@nest=\count411
-\c@listtotal=\count412
-\c@listcount=\count413
-\c@liststart=\count414
-\c@liststop=\count415
-\c@citecount=\count416
-\c@citetotal=\count417
-\c@multicitecount=\count418
-\c@multicitetotal=\count419
-\c@instcount=\count420
-\c@maxnames=\count421
-\c@minnames=\count422
-\c@maxitems=\count423
-\c@minitems=\count424
-\c@citecounter=\count425
-\c@maxcitecounter=\count426
-\c@savedcitecounter=\count427
-\c@uniquelist=\count428
-\c@uniquename=\count429
-\c@refsection=\count430
-\c@refsegment=\count431
-\c@maxextratitle=\count432
-\c@maxextratitleyear=\count433
-\c@maxextraname=\count434
-\c@maxextradate=\count435
-\c@maxextraalpha=\count436
-\c@abbrvpenalty=\count437
-\c@highnamepenalty=\count438
-\c@lownamepenalty=\count439
-\c@maxparens=\count440
-\c@parenlevel=\count441
-\blx@tempcnta=\count442
-\blx@tempcntb=\count443
-\blx@tempcntc=\count444
-\blx@maxsection=\count445
-\blx@maxsegment@0=\count446
-\blx@notetype=\count447
-\blx@parenlevel@text=\count448
-\blx@parenlevel@foot=\count449
-\blx@sectionciteorder@0=\count450
-\blx@entrysetcounter=\count451
-\blx@biblioinstance=\count452
+\c@tabx@nest=\count405
+\c@listtotal=\count406
+\c@listcount=\count407
+\c@liststart=\count408
+\c@liststop=\count409
+\c@citecount=\count410
+\c@citetotal=\count411
+\c@multicitecount=\count412
+\c@multicitetotal=\count413
+\c@instcount=\count414
+\c@maxnames=\count415
+\c@minnames=\count416
+\c@maxitems=\count417
+\c@minitems=\count418
+\c@citecounter=\count419
+\c@maxcitecounter=\count420
+\c@savedcitecounter=\count421
+\c@uniquelist=\count422
+\c@uniquename=\count423
+\c@refsection=\count424
+\c@refsegment=\count425
+\c@maxextratitle=\count426
+\c@maxextratitleyear=\count427
+\c@maxextraname=\count428
+\c@maxextradate=\count429
+\c@maxextraalpha=\count430
+\c@abbrvpenalty=\count431
+\c@highnamepenalty=\count432
+\c@lownamepenalty=\count433
+\c@maxparens=\count434
+\c@parenlevel=\count435
+\blx@tempcnta=\count436
+\blx@tempcntb=\count437
+\blx@tempcntc=\count438
+\blx@maxsection=\count439
+\blx@maxsegment@0=\count440
+\blx@notetype=\count441
+\blx@parenlevel@text=\count442
+\blx@parenlevel@foot=\count443
+\blx@sectionciteorder@0=\count444
+\blx@entrysetcounter=\count445
+\blx@biblioinstance=\count446
 \labelnumberwidth=\skip106
 \labelalphawidth=\skip107
 \biblabelsep=\skip108
@@ -1571,9 +1555,9 @@ File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
 \blx@bcfin=\read4
 \blx@bcfout=\write5
 \blx@langwohyphens=\language85
-\c@mincomprange=\count453
-\c@maxcomprange=\count454
-\c@mincompwidth=\count455
+\c@mincomprange=\count447
+\c@maxcomprange=\count448
+\c@mincompwidth=\count449
 Package biblatex Info: Trying to load biblatex default data model...
 Package biblatex Info: ... file 'blx-dm.def' found.
 
@@ -1586,74 +1570,74 @@ Package biblatex Info: Trying to load biblatex bibstyle data model...
 Package biblatex Info: ... file 'authoryear.dbx' not found.
 Package biblatex Info: Trying to load biblatex custom data model...
 Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
-\c@afterword=\count456
-\c@savedafterword=\count457
-\c@annotator=\count458
-\c@savedannotator=\count459
-\c@author=\count460
-\c@savedauthor=\count461
-\c@bookauthor=\count462
-\c@savedbookauthor=\count463
-\c@commentator=\count464
-\c@savedcommentator=\count465
-\c@editor=\count466
-\c@savededitor=\count467
-\c@editora=\count468
-\c@savededitora=\count469
-\c@editorb=\count470
-\c@savededitorb=\count471
-\c@editorc=\count472
-\c@savededitorc=\count473
-\c@foreword=\count474
-\c@savedforeword=\count475
-\c@holder=\count476
-\c@savedholder=\count477
-\c@introduction=\count478
-\c@savedintroduction=\count479
-\c@namea=\count480
-\c@savednamea=\count481
-\c@nameb=\count482
-\c@savednameb=\count483
-\c@namec=\count484
-\c@savednamec=\count485
-\c@translator=\count486
-\c@savedtranslator=\count487
-\c@shortauthor=\count488
-\c@savedshortauthor=\count489
-\c@shorteditor=\count490
-\c@savedshorteditor=\count491
-\c@labelname=\count492
-\c@savedlabelname=\count493
-\c@institution=\count494
-\c@savedinstitution=\count495
-\c@lista=\count496
-\c@savedlista=\count497
-\c@listb=\count498
-\c@savedlistb=\count499
-\c@listc=\count500
-\c@savedlistc=\count501
-\c@listd=\count502
-\c@savedlistd=\count503
-\c@liste=\count504
-\c@savedliste=\count505
-\c@listf=\count506
-\c@savedlistf=\count507
-\c@location=\count508
-\c@savedlocation=\count509
-\c@organization=\count510
-\c@savedorganization=\count511
-\c@origlocation=\count512
-\c@savedoriglocation=\count513
-\c@origpublisher=\count514
-\c@savedorigpublisher=\count515
-\c@publisher=\count516
-\c@savedpublisher=\count517
-\c@language=\count518
-\c@savedlanguage=\count519
-\c@origlanguage=\count520
-\c@savedoriglanguage=\count521
-\c@pageref=\count522
-\c@savedpageref=\count523
+\c@afterword=\count450
+\c@savedafterword=\count451
+\c@annotator=\count452
+\c@savedannotator=\count453
+\c@author=\count454
+\c@savedauthor=\count455
+\c@bookauthor=\count456
+\c@savedbookauthor=\count457
+\c@commentator=\count458
+\c@savedcommentator=\count459
+\c@editor=\count460
+\c@savededitor=\count461
+\c@editora=\count462
+\c@savededitora=\count463
+\c@editorb=\count464
+\c@savededitorb=\count465
+\c@editorc=\count466
+\c@savededitorc=\count467
+\c@foreword=\count468
+\c@savedforeword=\count469
+\c@holder=\count470
+\c@savedholder=\count471
+\c@introduction=\count472
+\c@savedintroduction=\count473
+\c@namea=\count474
+\c@savednamea=\count475
+\c@nameb=\count476
+\c@savednameb=\count477
+\c@namec=\count478
+\c@savednamec=\count479
+\c@translator=\count480
+\c@savedtranslator=\count481
+\c@shortauthor=\count482
+\c@savedshortauthor=\count483
+\c@shorteditor=\count484
+\c@savedshorteditor=\count485
+\c@labelname=\count486
+\c@savedlabelname=\count487
+\c@institution=\count488
+\c@savedinstitution=\count489
+\c@lista=\count490
+\c@savedlista=\count491
+\c@listb=\count492
+\c@savedlistb=\count493
+\c@listc=\count494
+\c@savedlistc=\count495
+\c@listd=\count496
+\c@savedlistd=\count497
+\c@liste=\count498
+\c@savedliste=\count499
+\c@listf=\count500
+\c@savedlistf=\count501
+\c@location=\count502
+\c@savedlocation=\count503
+\c@organization=\count504
+\c@savedorganization=\count505
+\c@origlocation=\count506
+\c@savedoriglocation=\count507
+\c@origpublisher=\count508
+\c@savedorigpublisher=\count509
+\c@publisher=\count510
+\c@savedpublisher=\count511
+\c@language=\count512
+\c@savedlanguage=\count513
+\c@origlanguage=\count514
+\c@savedoriglanguage=\count515
+\c@pageref=\count516
+\c@savedpageref=\count517
 \shorthandwidth=\skip114
 \shortjournalwidth=\skip115
 \shortserieswidth=\skip116
@@ -1680,19 +1664,19 @@ Package biblatex Info: ... file 'biblatex.def' found.
 
 (C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.def
 File: biblatex.def 2020/12/31 v3.16 biblatex compatibility (PK/MW)
-\c@textcitecount=\count524
-\c@textcitetotal=\count525
-\c@textcitemaxnames=\count526
-\c@biburlbigbreakpenalty=\count527
-\c@biburlbreakpenalty=\count528
-\c@biburlnumpenalty=\count529
-\c@biburlucpenalty=\count530
-\c@biburllcpenalty=\count531
+\c@textcitecount=\count518
+\c@textcitetotal=\count519
+\c@textcitemaxnames=\count520
+\c@biburlbigbreakpenalty=\count521
+\c@biburlbreakpenalty=\count522
+\c@biburlnumpenalty=\count523
+\c@biburlucpenalty=\count524
+\c@biburllcpenalty=\count525
 \biburlbigskip=\muskip18
 \biburlnumskip=\muskip19
 \biburlucskip=\muskip20
 \biburllcskip=\muskip21
-\c@smartand=\count532
+\c@smartand=\count526
 )
 Package biblatex Info: Trying to load bibliography style 'authoryear'...
 Package biblatex Info: ... file 'authoryear.bbx' found.
@@ -1706,8 +1690,8 @@ Package biblatex Info: ... file 'standard.bbx' found.
 (C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/bbx\standard
 .bbx
 File: standard.bbx 2020/12/31 v3.16 biblatex bibliography style (PK/MW)
-\c@bbx:relatedcount=\count533
-\c@bbx:relatedtotal=\count534
+\c@bbx:relatedcount=\count527
+\c@bbx:relatedtotal=\count528
 ))
 Package biblatex Info: Trying to load citation style 'authoryear-icomp'...
 Package biblatex Info: ... file 'authoryear-icomp.cbx' found.
@@ -1742,9 +1726,9 @@ Package biblatex Warning: 'firstinits' option is deprecated.
 (C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/latex/calculator\calculator
 .sty
 Package: calculator 2014/02/20 v.2.0
-\cctr@lengtha=\dimen401
-\cctr@lengthb=\dimen402
-\cctr@epsilon=\dimen403
+\cctr@lengtha=\dimen399
+\cctr@lengthb=\dimen400
+\cctr@epsilon=\dimen401
 ) (bibSettings/commandes.tex) (Glossary_entries.tex
 (C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/latex/glossaries-extra\glos
 saries-extra.sty
@@ -1760,7 +1744,7 @@ x
 \XKV@toks=\toks59
 \XKV@tempa@toks=\toks60
 )
-\XKV@depth=\count535
+\XKV@depth=\count529
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 ))
 (C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/latex/glossaries/base\gloss
@@ -1783,7 +1767,7 @@ Package: datatool-base 2019/09/27 v2.32 (NLCT)
 
 (C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/latex/substr\substr.sty
 Package: substr 2009/10/20 v1.2 Handle substrings
-\c@su@anzahl=\count536
+\c@su@anzahl=\count530
 )
 (C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/latex/datatool\datatool-fp.
 sty
@@ -1794,19 +1778,19 @@ Package: fp 1995/04/02
 `Fixed Point Package', Version 0.8, April 2, 1995 (C) Michael Mehlich
 (C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/latex/fp\defpattern.sty
 Package: defpattern 1994/10/12
-\actioncount=\count537
+\actioncount=\count531
 )
 (C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/latex/fp\fp-basic.sty
 Package: fp-basic 1996/05/13
-\FP@xs=\count538
-\FP@xia=\count539
-\FP@xib=\count540
-\FP@xfa=\count541
-\FP@xfb=\count542
-\FP@rega=\count543
-\FP@regb=\count544
-\FP@regs=\count545
-\FP@times=\count546
+\FP@xs=\count532
+\FP@xia=\count533
+\FP@xib=\count534
+\FP@xfa=\count535
+\FP@xfb=\count536
+\FP@rega=\count537
+\FP@regb=\count538
+\FP@regs=\count539
+\FP@times=\count540
 )
 (C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/latex/fp\fp-addons.sty
 Package: fp-addons 1995/03/15
@@ -1825,7 +1809,7 @@ Package: fp-pas 1994/08/29
 )
 (C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/latex/fp\fp-random.sty
 Package: fp-random 1995/02/23
-\FPseed=\count547
+\FPseed=\count541
 )
 (C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/latex/fp\fp-eqn.sty
 Package: fp-eqn 1995/04/03
@@ -1837,14 +1821,14 @@ Package: fp-upn 1996/10/21
 Package: fp-eval 1995/04/03
 )))
 \@dtl@toks=\toks63
-\@dtl@tmpcount=\count548
+\@dtl@tmpcount=\count542
 \dtl@tmplength=\skip128
-\dtl@sortresult=\count549
-\@dtl@numgrpsepcount=\count550
-\@dtl@datatype=\count551
-\dtl@codeA=\count552
-\dtl@codeB=\count553
-\@dtl@foreach@level=\count554
+\dtl@sortresult=\count543
+\@dtl@numgrpsepcount=\count544
+\@dtl@datatype=\count545
+\dtl@codeA=\count546
+\dtl@codeB=\count547
+\@dtl@foreach@level=\count548
 )
 (C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/latex/glossaries/base\gloss
 aries-compatible-307.sty
@@ -1860,7 +1844,7 @@ Package: tracklang 2020/06/30 v1.5 (NLCT) Track Languages
 ssaries-french.ldf
 File: glossaries-french.ldf 2016/12/12 v1.1
 )
-\gls@level=\count555
+\gls@level=\count549
 \@gls@tmpb=\toks64
 \gls@tmplen=\skip129
 \glskeylisttok=\toks65
@@ -1887,17 +1871,17 @@ Package: longtable 2021-05-07 v4.16 Multi-page Table package (DPC)
 \LTright=\skip132
 \LTpre=\skip133
 \LTpost=\skip134
-\LTchunksize=\count556
-\LTcapwidth=\dimen404
-\LT@head=\box100
-\LT@firsthead=\box101
-\LT@foot=\box102
-\LT@lastfoot=\box103
-\LT@gbox=\box104
-\LT@cols=\count557
-\LT@rows=\count558
-\c@LT@tables=\count559
-\c@LT@chunks=\count560
+\LTchunksize=\count550
+\LTcapwidth=\dimen402
+\LT@head=\box97
+\LT@firsthead=\box98
+\LT@foot=\box99
+\LT@lastfoot=\box100
+\LT@gbox=\box101
+\LT@cols=\count551
+\LT@rows=\count552
+\c@LT@tables=\count553
+\c@LT@chunks=\count554
 \LT@p@ftn=\toks69
 )
 \glsdescwidth=\skip135
@@ -1910,21 +1894,21 @@ Package: glossary-super 2021/11/01 v4.49 (NLCT)
 (C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/latex/supertabular\supertab
 ular.sty
 Package: supertabular 2020/02/02 v4.1g the supertabular environment
-\c@tracingst=\count561
-\ST@wd=\dimen405
+\c@tracingst=\count555
+\ST@wd=\dimen403
 \ST@rightskip=\skip137
 \ST@leftskip=\skip138
 \ST@parfillskip=\skip139
-\ST@pageleft=\dimen406
-\ST@headht=\dimen407
-\ST@tailht=\dimen408
-\ST@pagesofar=\dimen409
-\ST@pboxht=\dimen410
-\ST@lineht=\dimen411
-\ST@prevht=\dimen412
-\ST@toadd=\dimen413
-\ST@dimen=\dimen414
-\ST@pbox=\box105
+\ST@pageleft=\dimen404
+\ST@headht=\dimen405
+\ST@tailht=\dimen406
+\ST@pagesofar=\dimen407
+\ST@pboxht=\dimen408
+\ST@lineht=\dimen409
+\ST@prevht=\dimen410
+\ST@toadd=\dimen411
+\ST@dimen=\dimen412
+\ST@pbox=\box102
 ))
 (C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/latex/glossaries/styles\glo
 ssary-tree.sty
@@ -1935,9 +1919,9 @@ Package: glossary-tree 2021/11/01 v4.49 (NLCT)
 saries-extra-bib2gls.sty
 Package: glossaries-extra-bib2gls 2021/11/04 v1.47 (NLCT)
 )
-\@glsxtr@leveloffset=\count562
-\glsxtrresourcecount=\count563
-\@glsxtrnewgls@inner=\count564
+\@glsxtr@leveloffset=\count556
+\glsxtrresourcecount=\count557
+\@glsxtrnewgls@inner=\count558
 \glsshortpltok=\toks70
 \glslongpltok=\toks71
 
@@ -1947,6 +1931,19 @@ Package: glossaries-extra-stylemods 2021/11/04 v1.47 (NLCT)
 \glsxtrAltTreeIndent=\skip141
 \glsxtrtreetopindent=\skip142
 )) (mini_presentation.glstex))
+(C:\Users\olivier\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgfpage
+s.sty
+Package: pgfpages 2011/01/05 ver 0.02
+\pgf@logicalpages=\count559
+\pgf@firstshipout=\count560
+\pgf@lastshipout=\count561
+\pgf@currentshipout=\count562
+\pgf@cpn=\count563
+\pgf@shipoutnextto=\count564
+\pgfphysicalheight=\dimen413
+\pgfphysicalwidth=\dimen414
+\pgfpages@shipoutbox=\box103
+)
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\gls' on input line 40.
@@ -2029,7 +2026,7 @@ mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count567
 \scratchdimen=\dimen415
-\scratchbox=\box106
+\scratchbox=\box104
 \nofMPsegments=\count568
 \nofMParguments=\count569
 \everyMPshowfont=\toks72
@@ -2268,562 +2265,141 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 LaTeX Font Warning: Font shape `T1/ccr/m/n' in size <4> not available
 (Font)              size <5> substituted on input line 43.
 
+[1
+
+{C:/Users/olivier/AppData/Local/MiKTeX/pdftex/config/pdftex.map}]
 (mini_presentation.toc) [2
-
-{C:/Users/olivier/AppData/Local/MiKTeX/pdftex/config/pdftex.map}pdfTeX warning 
-(ext4): destination with the same identifier (name{Navigation1}) has been alrea
-dy used, duplicate ignored
-
-\pgfpages@shipoutshipoutbox ...physicalpagesizes }
-                                                  \endgroup 
-l.47 	\end{frame}
-                 pdfTeX warning (ext4): destination with the same identifier (n
-ame{page.1}) has been already used, duplicate ignored
-
-\pgfpages@shipoutshipoutbox ...physicalpagesizes }
-                                                  \endgroup 
-l.47 	\end{frame}
-                 
 
 ] (mini_presentation.toc) [3
 
-pdfTeX warning (ext4): destination with the same identifier (name{Navigation2})
- has been already used, duplicate ignored
-
-\pgfpages@shipoutshipoutbox ...physicalpagesizes }
-                                                  \endgroup 
-l.49 	\section{Introduction}
-                            pdfTeX warning (ext4): destination with the same id
-entifier (name{page.2}) has been already used, duplicate ignored
-
-\pgfpages@shipoutshipoutbox ...physicalpagesizes }
-                                                  \endgroup 
-l.49 	\section{Introduction}
-                            
-
-] [4
-
-pdfTeX warning (ext4): destination with the same identifier (name{Navigation3})
- has been already used, duplicate ignored
-
-\pgfpages@shipoutshipoutbox ...physicalpagesizes }
-                                                  \endgroup 
-l.54 	\end{frame}
-                 pdfTeX warning (ext4): destination with the same identifier (n
-ame{page.3}) has been already used, duplicate ignored
-
-\pgfpages@shipoutshipoutbox ...physicalpagesizes }
-                                                  \endgroup 
-l.54 	\end{frame}
-                 
-
-] (mini_presentation.toc) [5
-
-pdfTeX warning (ext4): destination with the same identifier (name{Navigation4})
- has been already used, duplicate ignored
-
-\pgfpages@shipoutshipoutbox ...physicalpagesizes }
-                                                  \endgroup 
-l.56 	\section{Ce qui a été fait}
-                                   pdfTeX warning (ext4): destination with the 
-same identifier (name{page.4}) has been already used, duplicate ignored
-
-\pgfpages@shipoutshipoutbox ...physicalpagesizes }
-                                                  \endgroup 
-l.56 	\section{Ce qui a été fait}
-                                   
-
-] [6
-
-pdfTeX warning (ext4): destination with the same identifier (name{Navigation5})
- has been already used, duplicate ignored
-
-\pgfpages@shipoutshipoutbox ...physicalpagesizes }
-                                                  \endgroup 
-l.88 	\end{frame}
-                 pdfTeX warning (ext4): destination with the same identifier (n
-ame{page.5}) has been already used, duplicate ignored
-
-\pgfpages@shipoutshipoutbox ...physicalpagesizes }
-                                                  \endgroup 
-l.88 	\end{frame}
-                 
-
-]
-
-LaTeX Font Warning: Font shape `T1/ccr/b/n' undefined
-(Font)              using `T1/ccr/bx/n' instead on input line 107.
-
-
-LaTeX Font Warning: Font shape `T1/ccr/b/n' undefined
-(Font)              using `T1/ccr/bx/n' instead on input line 107.
-
-[7
-
-pdfTeX warning (ext4): destination with the same identifier (name{Navigation6})
- has been already used, duplicate ignored
-
-\pgfpages@shipoutshipoutbox ...physicalpagesizes }
-                                                  \endgroup 
-l.107 	\end{frame}
-                  pdfTeX warning (ext4): destination with the same identifier (
-name{page.6}) has been already used, duplicate ignored
-
-\pgfpages@shipoutshipoutbox ...physicalpagesizes }
-                                                  \endgroup 
-l.107 	\end{frame}
-                  
-
-]
-
-LaTeX Font Warning: Font shape `T1/ccr/b/n' undefined
-(Font)              using `T1/ccr/bx/n' instead on input line 131.
-
-
-LaTeX Font Warning: Font shape `T1/ccr/b/n' undefined
-(Font)              using `T1/ccr/bx/n' instead on input line 131.
-
-
-Overfull \vbox (8.84908pt too high) detected at line 131
- []
-
-[8
-
-pdfTeX warning (ext4): destination with the same identifier (name{Navigation7})
- has been already used, duplicate ignored
-
-\pgfpages@shipoutshipoutbox ...physicalpagesizes }
-                                                  \endgroup 
-l.131 	\end{frame}
-                  pdfTeX warning (ext4): destination with the same identifier (
-name{page.7}) has been already used, duplicate ignored
-
-\pgfpages@shipoutshipoutbox ...physicalpagesizes }
-                                                  \endgroup 
-l.131 	\end{frame}
-                  
-
-] [9
-
-pdfTeX warning (ext4): destination with the same identifier (name{Navigation8})
- has been already used, duplicate ignored
-
-\pgfpages@shipoutshipoutbox ...physicalpagesizes }
-                                                  \endgroup 
-l.142 	\end{frame}
-                  pdfTeX warning (ext4): destination with the same identifier (
-name{page.8}) has been already used, duplicate ignored
-
-\pgfpages@shipoutshipoutbox ...physicalpagesizes }
-                                                  \endgroup 
-l.142 	\end{frame}
-                  
+] (mini_presentation.toc) [4
 
 ]
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 166.
- [10
+(Font)              <10> on input line 103.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <7> on input line 103.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <9> on input line 103.
+ [5
 
-pdfTeX warning (ext4): destination with the same identifier (name{Navigation9})
- has been already used, duplicate ignored
+]
 
-\pgfpages@shipoutshipoutbox ...physicalpagesizes }
-                                                  \endgroup 
-l.166 	\end{frame}
-                  pdfTeX warning (ext4): destination with the same identifier (
-name{page.9}) has been already used, duplicate ignored
+LaTeX Font Warning: Font shape `T1/ccr/b/n' undefined
+(Font)              using `T1/ccr/bx/n' instead on input line 122.
 
-\pgfpages@shipoutshipoutbox ...physicalpagesizes }
-                                                  \endgroup 
-l.166 	\end{frame}
-                  
+
+LaTeX Font Warning: Font shape `T1/ccr/b/n' undefined
+(Font)              using `T1/ccr/bx/n' instead on input line 122.
+
+[6
+
+]
+
+LaTeX Font Warning: Font shape `T1/ccr/b/n' undefined
+(Font)              using `T1/ccr/bx/n' instead on input line 146.
+
+
+LaTeX Font Warning: Font shape `T1/ccr/b/n' undefined
+(Font)              using `T1/ccr/bx/n' instead on input line 146.
+
+
+Overfull \vbox (8.84908pt too high) detected at line 146
+ []
+
+[7
+
+] [8
+
+]
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <12> on input line 183.
+
+Overfull \vbox (26.54863pt too high) detected at line 183
+ []
+
+[9
+
+] [10
 
 ] [11
 
-pdfTeX warning (ext4): destination with the same identifier (name{Navigation10}
-) has been already used, duplicate ignored
-
-\pgfpages@shipoutshipoutbox ...physicalpagesizes }
-                                                  \endgroup 
-l.181 	\end{frame}
-                  pdfTeX warning (ext4): destination with the same identifier (
-name{page.10}) has been already used, duplicate ignored
-
-\pgfpages@shipoutshipoutbox ...physicalpagesizes }
-                                                  \endgroup 
-l.181 	\end{frame}
-                  
-
 ] [12
-
-pdfTeX warning (ext4): destination with the same identifier (name{Navigation11}
-) has been already used, duplicate ignored
-
-\pgfpages@shipoutshipoutbox ...physicalpagesizes }
-                                                  \endgroup 
-l.201 	\end{frame}
-                  pdfTeX warning (ext4): destination with the same identifier (
-name{page.11}) has been already used, duplicate ignored
-
-\pgfpages@shipoutshipoutbox ...physicalpagesizes }
-                                                  \endgroup 
-l.201 	\end{frame}
-                  
 
 ] [13
 
-pdfTeX warning (ext4): destination with the same identifier (name{Navigation12}
-) has been already used, duplicate ignored
-
-\pgfpages@shipoutshipoutbox ...physicalpagesizes }
-                                                  \endgroup 
-l.221 	\end{frame}
-                  pdfTeX warning (ext4): destination with the same identifier (
-name{page.12}) has been already used, duplicate ignored
-
-\pgfpages@shipoutshipoutbox ...physicalpagesizes }
-                                                  \endgroup 
-l.221 	\end{frame}
-                  
-
 ] [14
 
-pdfTeX warning (ext4): destination with the same identifier (name{Navigation13}
-) has been already used, duplicate ignored
+] (mini_presentation.toc) [15
 
-\pgfpages@shipoutshipoutbox ...physicalpagesizes }
-                                                  \endgroup 
-l.245 	\end{frame}
-                  pdfTeX warning (ext4): destination with the same identifier (
-name{page.13}) has been already used, duplicate ignored
-
-\pgfpages@shipoutshipoutbox ...physicalpagesizes }
-                                                  \endgroup 
-l.245 	\end{frame}
-                  
-
-] [15
-
-pdfTeX warning (ext4): destination with the same identifier (name{Navigation14}
-) has been already used, duplicate ignored
-
-\pgfpages@shipoutshipoutbox ...physicalpagesizes }
-                                                  \endgroup 
-l.245 	\end{frame}
-                  pdfTeX warning (ext4): destination with the same identifier (
-name{page.14}) has been already used, duplicate ignored
-
-\pgfpages@shipoutshipoutbox ...physicalpagesizes }
-                                                  \endgroup 
-l.245 	\end{frame}
-                  
-
-] (mini_presentation.toc) [16
-
-pdfTeX warning (ext4): destination with the same identifier (name{Navigation15}
-) has been already used, duplicate ignored
-
-\pgfpages@shipoutshipoutbox ...physicalpagesizes }
-                                                  \endgroup 
-l.249 	\section{Ce que je compte faire}
-                                       pdfTeX warning (ext4): destination with 
-the same identifier (name{page.15}) has been already used, duplicate ignored
-
-\pgfpages@shipoutshipoutbox ...physicalpagesizes }
-                                                  \endgroup 
-l.249 	\section{Ce que je compte faire}
-                                       
+] [16
 
 ] [17
 
-pdfTeX warning (ext4): destination with the same identifier (name{Navigation16}
-) has been already used, duplicate ignored
-
-\pgfpages@shipoutshipoutbox ...physicalpagesizes }
-                                                  \endgroup 
-l.261 	\end{frame}
-                  pdfTeX warning (ext4): destination with the same identifier (
-name{page.16}) has been already used, duplicate ignored
-
-\pgfpages@shipoutshipoutbox ...physicalpagesizes }
-                                                  \endgroup 
-l.261 	\end{frame}
-                  
-
 ] [18
 
-pdfTeX warning (ext4): destination with the same identifier (name{Navigation17}
-) has been already used, duplicate ignored
-
-\pgfpages@shipoutshipoutbox ...physicalpagesizes }
-                                                  \endgroup 
-l.296 	\end{frame}
-                  pdfTeX warning (ext4): destination with the same identifier (
-name{page.17}) has been already used, duplicate ignored
-
-\pgfpages@shipoutshipoutbox ...physicalpagesizes }
-                                                  \endgroup 
-l.296 	\end{frame}
-                  
-
-] [19
-
-pdfTeX warning (ext4): destination with the same identifier (name{Navigation18}
-) has been already used, duplicate ignored
-
-\pgfpages@shipoutshipoutbox ...physicalpagesizes }
-                                                  \endgroup 
-l.296 	\end{frame}
-                  pdfTeX warning (ext4): destination with the same identifier (
-name{page.18}) has been already used, duplicate ignored
-
-\pgfpages@shipoutshipoutbox ...physicalpagesizes }
-                                                  \endgroup 
-l.296 	\end{frame}
-                  
+]
+[19
 
 ] [20
 
-pdfTeX warning (ext4): destination with the same identifier (name{Navigation19}
-) has been already used, duplicate ignored
-
-\pgfpages@shipoutshipoutbox ...physicalpagesizes }
-                                                  \endgroup 
-l.296 	\end{frame}
-                  pdfTeX warning (ext4): destination with the same identifier (
-name{page.19}) has been already used, duplicate ignored
-
-\pgfpages@shipoutshipoutbox ...physicalpagesizes }
-                                                  \endgroup 
-l.296 	\end{frame}
-                  
-
 ] [21
 
-pdfTeX warning (ext4): destination with the same identifier (name{Navigation20}
-) has been already used, duplicate ignored
-
-\pgfpages@shipoutshipoutbox ...physicalpagesizes }
-                                                  \endgroup 
-l.411 	\end{frame}
-                  pdfTeX warning (ext4): destination with the same identifier (
-name{page.20}) has been already used, duplicate ignored
-
-\pgfpages@shipoutshipoutbox ...physicalpagesizes }
-                                                  \endgroup 
-l.411 	\end{frame}
-                  
-
-] [22
-
-pdfTeX warning (ext4): destination with the same identifier (name{Navigation21}
-) has been already used, duplicate ignored
-
-\pgfpages@shipoutshipoutbox ...physicalpagesizes }
-                                                  \endgroup 
-l.411 	\end{frame}
-                  pdfTeX warning (ext4): destination with the same identifier (
-name{page.21}) has been already used, duplicate ignored
-
-\pgfpages@shipoutshipoutbox ...physicalpagesizes }
-                                                  \endgroup 
-l.411 	\end{frame}
-                  
-
 ]
 
 LaTeX Font Warning: Font shape `T1/ccr/b/n' undefined
-(Font)              using `T1/ccr/bx/n' instead on input line 411.
+(Font)              using `T1/ccr/bx/n' instead on input line 444.
 
 
 LaTeX Font Warning: Font shape `T1/ccr/b/n' undefined
-(Font)              using `T1/ccr/bx/n' instead on input line 411.
+(Font)              using `T1/ccr/bx/n' instead on input line 444.
 
-[23
+[22
 
-pdfTeX warning (ext4): destination with the same identifier (name{Navigation22}
-) has been already used, duplicate ignored
-
-\pgfpages@shipoutshipoutbox ...physicalpagesizes }
-                                                  \endgroup 
-l.411 	\end{frame}
-                  pdfTeX warning (ext4): destination with the same identifier (
-name{page.22}) has been already used, duplicate ignored
-
-\pgfpages@shipoutshipoutbox ...physicalpagesizes }
-                                                  \endgroup 
-l.411 	\end{frame}
-                  
-
-] [24
-
-pdfTeX warning (ext4): destination with the same identifier (name{Navigation23}
-) has been already used, duplicate ignored
-
-\pgfpages@shipoutshipoutbox ...physicalpagesizes }
-                                                  \endgroup 
-l.423 	\end{frame}
-                  pdfTeX warning (ext4): destination with the same identifier (
-name{page.23}) has been already used, duplicate ignored
-
-\pgfpages@shipoutshipoutbox ...physicalpagesizes }
-                                                  \endgroup 
-l.423 	\end{frame}
-                  
+] [23
 
 ]
-Overfull \vbox (35.97346pt too high) detected at line 525
+Overfull \vbox (35.97346pt too high) detected at line 558
+ []
+
+[24
+
+]
+Overfull \vbox (35.97346pt too high) detected at line 558
  []
 
 [25
 
-pdfTeX warning (ext4): destination with the same identifier (name{Navigation24}
-) has been already used, duplicate ignored
-
-\pgfpages@shipoutshipoutbox ...physicalpagesizes }
-                                                  \endgroup 
-l.525 	\end{frame}
-                  pdfTeX warning (ext4): destination with the same identifier (
-name{page.24}) has been already used, duplicate ignored
-
-\pgfpages@shipoutshipoutbox ...physicalpagesizes }
-                                                  \endgroup 
-l.525 	\end{frame}
-                  
-
 ]
-Overfull \vbox (35.97346pt too high) detected at line 525
+Overfull \vbox (35.97346pt too high) detected at line 558
  []
 
 [26
 
-pdfTeX warning (ext4): destination with the same identifier (name{Navigation25}
-) has been already used, duplicate ignored
-
-\pgfpages@shipoutshipoutbox ...physicalpagesizes }
-                                                  \endgroup 
-l.525 	\end{frame}
-                  pdfTeX warning (ext4): destination with the same identifier (
-name{page.25}) has been already used, duplicate ignored
-
-\pgfpages@shipoutshipoutbox ...physicalpagesizes }
-                                                  \endgroup 
-l.525 	\end{frame}
-                  
-
 ]
-Overfull \vbox (35.97346pt too high) detected at line 525
+Overfull \vbox (35.97346pt too high) detected at line 558
  []
 
 [27
 
-pdfTeX warning (ext4): destination with the same identifier (name{Navigation26}
-) has been already used, duplicate ignored
-
-\pgfpages@shipoutshipoutbox ...physicalpagesizes }
-                                                  \endgroup 
-l.525 	\end{frame}
-                  pdfTeX warning (ext4): destination with the same identifier (
-name{page.26}) has been already used, duplicate ignored
-
-\pgfpages@shipoutshipoutbox ...physicalpagesizes }
-                                                  \endgroup 
-l.525 	\end{frame}
-                  
-
 ]
-Overfull \vbox (35.97346pt too high) detected at line 525
+Overfull \vbox (35.97346pt too high) detected at line 558
  []
 
 [28
 
-pdfTeX warning (ext4): destination with the same identifier (name{Navigation27}
-) has been already used, duplicate ignored
-
-\pgfpages@shipoutshipoutbox ...physicalpagesizes }
-                                                  \endgroup 
-l.525 	\end{frame}
-                  pdfTeX warning (ext4): destination with the same identifier (
-name{page.27}) has been already used, duplicate ignored
-
-\pgfpages@shipoutshipoutbox ...physicalpagesizes }
-                                                  \endgroup 
-l.525 	\end{frame}
-                  
-
 ]
-Overfull \vbox (35.97346pt too high) detected at line 525
+Overfull \vbox (35.97346pt too high) detected at line 641
  []
 
 [29
 
-pdfTeX warning (ext4): destination with the same identifier (name{Navigation28}
-) has been already used, duplicate ignored
+] (mini_presentation.toc) [30
 
-\pgfpages@shipoutshipoutbox ...physicalpagesizes }
-                                                  \endgroup 
-l.525 	\end{frame}
-                  pdfTeX warning (ext4): destination with the same identifier (
-name{page.28}) has been already used, duplicate ignored
+] (../BibGls/Bibliographie.tex) [31
 
-\pgfpages@shipoutshipoutbox ...physicalpagesizes }
-                                                  \endgroup 
-l.525 	\end{frame}
-                  
-
-]
-Overfull \vbox (35.97346pt too high) detected at line 609
- []
-
-[30
-
-pdfTeX warning (ext4): destination with the same identifier (name{Navigation29}
-) has been already used, duplicate ignored
-
-\pgfpages@shipoutshipoutbox ...physicalpagesizes }
-                                                  \endgroup 
-l.609 	\end{frame}
-                  pdfTeX warning (ext4): destination with the same identifier (
-name{page.29}) has been already used, duplicate ignored
-
-\pgfpages@shipoutshipoutbox ...physicalpagesizes }
-                                                  \endgroup 
-l.609 	\end{frame}
-                  
-
-] (mini_presentation.toc) [31
-
-pdfTeX warning (ext4): destination with the same identifier (name{Navigation30}
-) has been already used, duplicate ignored
-
-\pgfpages@shipoutshipoutbox ...physicalpagesizes }
-                                                  \endgroup 
-l.611 	\section{Bibliographie}
-                              pdfTeX warning (ext4): destination with the same 
-identifier (name{page.30}) has been already used, duplicate ignored
-
-\pgfpages@shipoutshipoutbox ...physicalpagesizes }
-                                                  \endgroup 
-l.611 	\section{Bibliographie}
-                              
-
-] (../BibGls/Bibliographie.tex) [32
-
-pdfTeX warning (ext4): destination with the same identifier (name{Navigation31}
-) has been already used, duplicate ignored
-
-\pgfpages@shipoutshipoutbox ...physicalpagesizes }
-                                                  \endgroup 
-l.614 	\end{frame}
-                  pdfTeX warning (ext4): destination with the same identifier (
-name{page.31}) has been already used, duplicate ignored
-
-\pgfpages@shipoutshipoutbox ...physicalpagesizes }
-                                                  \endgroup 
-l.614 	\end{frame}
-                  
-
-]
+ <C:/Users/olivier/AppData/Local/Programs/MiKTeX/tex/latex/beamer/beamericonart
+icle.pdf>]
 \tf@nav=\write7
 \openout7 = `mini_presentation.nav'.
 
@@ -2833,24 +2409,8 @@ l.614 	\end{frame}
 \tf@snm=\write9
 \openout9 = `mini_presentation.snm'.
 
- [33
 
-pdfTeX warning (ext4): destination with the same identifier (name{Navigation32}
-) has been already used, duplicate ignored
-
-\pgfpages@shipoutshipoutbox ...physicalpagesizes }
-                                                  \endgroup 
-l.615 \end{document}
-                    pdfTeX warning (ext4): destination with the same identifier
- (name{page.32}) has been already used, duplicate ignored
-
-\pgfpages@shipoutshipoutbox ...physicalpagesizes }
-                                                  \endgroup 
-l.615 \end{document}
-                    
-
- <C:/Users/olivier/AppData/Local/Programs/MiKTeX/tex/latex/beamer/beamericonart
-icle.pdf>] (mini_presentation.aux)
+(mini_presentation.aux)
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 1.0pt have occurred.
@@ -2859,17 +2419,17 @@ LaTeX Font Warning: Size substitutions with differences
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 Package rerunfilecheck Info: File `mini_presentation.out' has not changed.
-(rerunfilecheck)             Checksum: 2C2826D11B27E92C647F68C4577F7950;630.
+(rerunfilecheck)             Checksum: 638336CAA38FEBEF59511A5C9CC5BA2F;598.
 Package logreq Info: Writing requests to 'mini_presentation.run.xml'.
 \openout1 = `mini_presentation.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 60804 strings out of 478869
- 1405175 string characters out of 2849210
- 2297444 words of memory out of 3000000
- 77547 multiletter control sequences out of 15000+600000
- 430106 words of font info for 106 fonts, out of 8000000 for 9000
+ 60792 strings out of 478869
+ 1405068 string characters out of 2849210
+ 2282134 words of memory out of 3000000
+ 77536 multiletter control sequences out of 15000+600000
+ 431557 words of font info for 114 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  133i,20n,127p,1894b,2433s stack positions out of 5000i,500n,10000p,200000b,80000s
 pdfTeX warning (dest): name{glo:cla} has been referenced but does not exist, 
@@ -2886,20 +2446,19 @@ c/amsfonts/euler/euex10.pfb><C:/Users/olivier/AppData/Local/Programs/MiKTeX/fon
 ts/type1/public/amsfonts/euler/eufm10.pfb><C:/Users/olivier/AppData/Local/Progr
 ams/MiKTeX/fonts/type1/public/amsfonts/euler/eurm10.pfb><C:/Users/olivier/AppDa
 ta/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/euler/eurm7.pfb><C:/Users/
-olivier/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/euler/eusm10.
-pfb><C:/Users/olivier/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmex1
-0.pfb><C:/Users/olivier/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lms
-y10.pfb><C:/Users/olivier/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-s
-uper/sfbx1000.pfb><C:/Users/olivier/AppData/Local/Programs/MiKTeX/fonts/type1/p
-ublic/cm-super/sfocc10.pfb><C:/Users/olivier/AppData/Local/Programs/MiKTeX/font
-s/type1/public/cm-super/sform10.pfb><C:/Users/olivier/AppData/Local/Programs/Mi
-KTeX/fonts/type1/public/cm-super/sform6.pfb><C:/Users/olivier/AppData/Local/Pro
-grams/MiKTeX/fonts/type1/public/cm-super/sform8.pfb><C:/Users/olivier/AppData/L
-ocal/Programs/MiKTeX/fonts/type1/public/cm-super/sform9.pfb><C:/Users/olivier/A
-ppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfoti10.pfb>
-Output written on mini_presentation.pdf (32 pages, 480567 bytes).
+olivier/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmex10.pfb><C:/User
+s/olivier/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><C:/Us
+ers/olivier/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfbx1000.
+pfb><C:/Users/olivier/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super
+/sfocc10.pfb><C:/Users/olivier/AppData/Local/Programs/MiKTeX/fonts/type1/public
+/cm-super/sform10.pfb><C:/Users/olivier/AppData/Local/Programs/MiKTeX/fonts/typ
+e1/public/cm-super/sform6.pfb><C:/Users/olivier/AppData/Local/Programs/MiKTeX/f
+onts/type1/public/cm-super/sform8.pfb><C:/Users/olivier/AppData/Local/Programs/
+MiKTeX/fonts/type1/public/cm-super/sform9.pfb><C:/Users/olivier/AppData/Local/P
+rograms/MiKTeX/fonts/type1/public/cm-super/sfoti10.pfb>
+Output written on mini_presentation.pdf (31 pages, 420535 bytes).
 PDF statistics:
- 1336 PDF objects out of 1440 (max. 8388607)
- 88 named destinations out of 1000 (max. 500000)
+ 1160 PDF objects out of 1200 (max. 8388607)
+ 84 named destinations out of 1000 (max. 500000)
  556 words of extra memory for PDF output out of 10000 (max. 10000000)
 
