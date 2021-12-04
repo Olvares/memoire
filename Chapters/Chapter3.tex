@@ -178,6 +178,8 @@ Dans cette section, nous parlerons du modèle que nous avons développé ainsi q
 			\item Nous supposons que les papillons adultes préfèrent pondre des \oe ufs sur la source de nourriture des chenilles qui est le maïs. En d'autres termes, lorsqu'il n'y a pas de maïs, aucun \oe uf ne sera pondu; donc pas de naissance de chenilles et ainsi, la population de papillons va disparaitre; %La seule source de nourriture des chenilles est le maïs de sorte qu'en absence de ce dernier, les chenille ne peuvent pas se transformer en papillons; ce qui aura pour conséquences de provoquer une décroissance en cascade dans la population de la \gls{cla} ;\label{h:4}
 
 			\item Le taux de mortalité dû à l'attaque des chenilles $\lambda$ n'est pas constant ; ce taux décroit avec le temps et nous le notons $\lambda(t) = ae^{-bt}$. Une autre forme pourrait être choisi selon les observation effectués sur le terrain. Le paramètre $a$ est liée au taux de croissance de la plante ; plus ce taux est grand, plus ce paramètre est petit. Autrement dit, on aura moins de mort dû à la \gls{cla} si le taux de croissance est élevé.
+
+			%\item L'imigration des adultes de la \gls{cla} est donnée par un taux constant noté $\sigma$.
 		\end{enumerate}
 
 		\subsubsection{Le modèle}
@@ -213,16 +215,21 @@ Dans cette section, nous parlerons du modèle que nous avons développé ainsi q
 		\end{figure}
 		Les flèches en pointillées indique l'interaction entre la population de maïs et de celle de la \gls{cla}.
 
-		Au vu de tout ce qui précède, nous avons la forme générale de notre modèle qui est la suivante :
+		En faisant le bilan de masse à partir du diagramme précédent, nous obtenons le système d'équations différentielles suivant :
 		\begin{equation}
 			\left\lbrace\begin{array}{l}
-				\xp{x}_s = \beta x_i - \alpha x_s y - \mu_{x} x_{s}		\\
-				\xp{x}_i = \alpha x_s y  - \beta x_i - \lambda(t) x_i - \mu_{x} x_{i}		\\
-				\xp{y} = \gamma w - \delta y - \mu_{y} x_{y}		\\
-				\xp{z} = \delta y - \mu_{z} x_{z}		\\
-				\xp{w} = \rho x_s z - \gamma w - \mu_{w} x_{w}
+				\xp{x}_s = \beta x_i - \alpha x_s y \\%- \mu_{x} x_{s}		\\
+				\xp{x}_i = \alpha x_s y  - \beta x_i - \lambda(t) x_i \\%- \mu_{x} x_{i}		\\
+				\xp{y} = \gamma w - \delta y - \mu_{y} y	\\
+				\xp{z} = \delta y - \mu_{z} z		\\%+ \sigma
+				\xp{w} = \rho x_s z - \gamma w - \mu_{w} w
 			\end{array}\right.
+			\label{eq:mymod}
 		\end{equation}
+		avec des conditions initiales vérifiant :
+		%\begin{equation*}
+		%	x \ge 0\ ;\quad y \ge 0\ ;\quad z \ge \ ;\quad  w \ge 0
+		%\end{equation*}
 		%\begin{equation}
 		%	\left\{\begin{array}{l}
 		%		\xp{x}_s = -\alpha x_s y + \beta x_i - \mu_{x} x_{s}		\\
@@ -233,54 +240,102 @@ Dans cette section, nous parlerons du modèle que nous avons développé ainsi q
 		%	\end{array}\right.
 		%\end{equation}
 
-		Il faut noter que toutes les variables (pas les paramètres sont en fonction du temps comme le montre notre diagramme. De plus, $\xp{x}_s$ représente $\ddxdt{x_s}$.
+		Il faut noter que toutes les variables sont en fonction du temps comme le montre notre diagramme. De plus, $\xp{x}_s$ représente $\ddxdt{x_s}$.
 
 		\subsubsection{Propriétés de base du modèle}
-		Pour que le modèle soit épidémiologiquement et mathématiquement bien posé, il faut que tous les paramètres et toutes les variables soient positifs.
+		%Les propriétés énoncées ici sont essentiellement tirées de \textcite{mbang:tel-01752615}.
 
-		Vérifions si notre système respecte cette propriété de positivité. Pour cela, écrivons notre système sous forme matricielle.
+			\paragraph{Positivité de la solution}
+			Pour que le modèle soit épidémiologiquement et mathématiquement bien posé, il faut que tous les paramètres et toutes les variables soient positifs. Pour cela, nous imposons une solution initiale vérifiant
+			\begin{equation*}
+				x(0) \ge(0) 0\ ;\quad y(0) \ge 0\ ;\quad z(0) \ge \ ;\quad  w(0) \ge 0
+			\end{equation*}
+			Vérifions si notre système respecte cette propriété de positivité. Pour cela, écrivons notre système sous forme matricielle.
 
-		Sous forme compacte, on a :
-		\begin{equation}
-			\dxdt{X} = A(X)X
-			\label{eq:syst:m}
-		\end{equation}
-		avec
+			Sous forme compacte, on a :
+			\begin{equation}
+				\dxdt{X} = A(X)X + F
+				\label{eq:syst:m}
+			\end{equation}
+			avec
+			\begin{equation*}
+				\begin{array}{c}
+					X = \begin{pmatrix}
+							x_s	\\ x_i	\\ y	\\ z	\\ w
+					\end{pmatrix}
+				\qquad
+					F = \begin{pmatrix}
+						0	\\ 0	\\ 0	\\ \sigma	\\ 0
+					\end{pmatrix}
+					\\
+					A(X) = \begin{pmatrix}
+						-(\alpha y + \mu_{x})	& \beta		& 0		& 0		& 0		\\
+						\alpha y	& -(\beta + \lambda(t) + \mu_{x})& 0	& 0	& 0	\\
+						0			& 0		& -(\delta + \mu_{y})	& 0	& \gamma	\\
+						0			& 0		& \delta			& -\mu_{z}	& 0		\\
+						0			& 0		& 0		& \rho x_s	& -(\gamma + \mu_{w})
+					\end{pmatrix}
+				\end{array}
+			\end{equation*}
+
+			\newcommand{\mz}{\textsc{Metzler}\xspace}
+			Cette matrice est une matrice de \mz.
+			\begin{Def}
+				On appelle matrice de \mz, toute matrice $A = (a_{ij}) \in  M_n(\R)$, dont les coefficients vérifient la propriété suivante :
+				\begin{equation}
+					a_{ij} \ge 0\ \forall\; i \neq j
+				\end{equation}
+				(i.e. dont tous les coefficients extra-diagonaux sont positifs)
+			\end{Def}
+
+			$\forall\; X \in \R^5_+$, la matrice $A(X)$ est \mz car les paramètres sont positifs supposer positifs (condition nécessaire). Avec des conditions initiales prises dans l'orthant positif, les solutions du système d'équations \ref{eq:syst:m} sont positives selon le théorème suivant :
+			\begin{Theo}
+				Soit le système défini sur $\R^n$ par
+				\begin{equation}
+					\xp{x} = A(x) x
+					\label{eq:syst:th:m}
+				\end{equation}
+				Si pour tout $x \in \R^n,\ A(x)$ est une matrice de \mz, alors le système \ref{eq:syst:th:m} laisse positivement invariant l’orthant positif $R^n_+$.
+			\end{Theo}
+
+		\subsubsection{Existence d'un \glsentrytext{dfe}}
+		\begin{Def}
+			Un \glsentrytext{dfe} couramment appelé \gls{dfe}
+			est un point d’équilibre où il n’y a pas de maladie dans la population.
+		\end{Def}
+		Dans notre cas, nous parlerons plutôt d'abscence d'attaque. En effet, il y a absence d'attaque dans notre système si on a $x_i = 0$ et $y = 0$. Notons $X_{dfe}$ le \gls{dfe} de notre modèle \eqref{eq:mymod}. En remplaçant $x_i=0$ et $y=0$ dans \eqref{eq:mymod}, on a :
 		\begin{equation*}
-			\begin{array}{c}
-				X = \begin{pmatrix}
-						x_s	& x_i	& y	& z	& w	\\
-				\end{pmatrix}^t
-				\\
-				A(X) = \begin{pmatrix}
-					-(\alpha y + \mu_{x})	& \beta		& 0		& 0		& 0		\\
-					\alpha y	& -(\beta + \lambda(t) + \mu_{x})& 0	& 0	& 0	\\
-					0			& 0		& -(\delta + \mu_{y})	& 0	& \gamma	\\
-					0			& 0		& \delta			& -\mu_{z}	& 0		\\
-					0			& 0		& 0		& \rho x_s	& -(\gamma - \mu_{w})
-				\end{pmatrix}
-			\end{array}
+			X_{dfe} = (x_s^*,\ 0,\ 0,\ 0,\ 0)
 		\end{equation*}
 
-		\newcommand{\mz}{\textsc{Metzler}\xspace}
-		Cette matrice est une matrice de \mz.
-		\begin{Def}
-			On appelle matrice de \mz, toute matrice $A = (a_{ij}) \in  M_n(\R)$, dont les coefficients vérifient la propriété suivante :
-			\begin{equation}
-				a_{ij} > 0\ \forall\; i \neq j
-			\end{equation}
-			(i.e. dont tous les coefficients extra-diagonaux sont positifs)
-		\end{Def}
+		\subsubsection{Taux de reproduction de base}
+		Le nombre de reproduction de base couramment appelé $R_0$ est une quantité sans dimension qui, sous certaines conditions permet d’établir la stabilité des points d’équilibres d’un système dynamique. Il est défini comme « le nombre moyen de cas secondaires, produit par un individu infectieux typique au cours de sa période d’infectivité, dans une population totalement constituée de susceptibles.» $R_0$ est par conséquent, une mesure du potentiel de transmission, c’est à dire la capacité d’un agent infectieux à propager l’infection à travers une population donnée immédiatement après son introduction. Le moyen de transmission peut être direct ou indirect.
 
-		Ainsi, les solutions du système d'équations \ref{eq:syst:m} sont positives selon le théorème suivant :
-		\begin{Theo}
-			Soit le système défini sur $\R_n$ par
-			\begin{equation}
-				\xp{x} = A(x) x
-				\label{eq:syst:th:m}
-			\end{equation}
-			Si pour tout $x \in \R^n,\ A(x)$ est une matrice de \mz, alors le système \ref{eq:syst:th:m} laisse positivement invariant l’orthant positif $R^n_+$.
-		\end{Theo}
+		%Le nombre $R_0$ a été défini mathématiquement par O. Diekmann et al dans ([17],[16]) en utilisant la décomposition régulière de la matrice de \mz associée aux individus « infectieux ».
+		Pour déterminer $R_0$, nous utiliserons la méthode la prochaine génération.
+		\paragraph{Méthode de la prochaine génération}
+		Dans cette technique de calcul, $R_0$ est définie comme le rayon spectral de «l’opérateur de la prochaine génération». La détermination de l’opérateur implique la répartition en deux compartiments ; le compartiment des infectés (latents, infectieux...) et le compartiment des individus non infectés.
+
+		La description complète de la méthode se trouve dans la thèse de \textcite{mbang:tel-01752615} ainsi que dans celle de \textcite{zongo:tel-00419519}.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 		%\begin{equation*}
 		%	\dxdt{x_s} = -\alpha x_s y + \beta x_i - \mu_{x} x_{s}

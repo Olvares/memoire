@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.10) (preloaded format=pdflatex 2021.12.2)  3 DEC 2021 13:01
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.10) (preloaded format=pdflatex 2021.12.2)  4 DEC 2021 18:13
 entering extended mode
 **./main.tex
 (main.tex
@@ -2543,18 +2543,18 @@ Chapitre 3.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [45] [46] [47] [48] [49]
-Overfull \hbox (29.40767pt too wide) in paragraph at lines 211--212
+Overfull \hbox (29.40767pt too wide) in paragraph at lines 213--214
  [][] 
  []
 
-[50] [51]) [52]
+[50] [51] [52] [53]) [54]
 \openout2 = `Chapters/Chapter4.aux'.
 
  (Chapters/Chapter4.tex
 Chapitre 4.
 )
 1: section
-[53
+[55
 
 
 
@@ -2562,7 +2562,7 @@ Chapitre 4.
 ]
 \openout2 = `Chapters/Conclusion.aux'.
 
- (Chapters/Conclusion.tex [54
+ (Chapters/Conclusion.tex [56
 
 
 
@@ -2571,7 +2571,7 @@ Chapitre 4.
 Chapitre 5.
 )
 1: section
-[55] (BibGls/Bibliographie.tex [56
+[57] (BibGls/Bibliographie.tex [58
 
 
 
@@ -2580,7 +2580,7 @@ LaTeX Font Info:    Font shape `T1/zi4/m/n' will be
 (Font)              scaled to size 12.0pt on input line 2.
 
 1: section
-[57] [58] [59]
+[59] [60] [61]
 Underfull \hbox (badness 2495) in paragraph at lines 2--2
 [][][]\T1/lmr/m/sc/12 (+20) Fortin[]\T1/lmr/m/n/12 (+20) , A. (2008). \T1/lmr/m
 /it/12 (+20) Ana-lyse nu-mé-rique pour in-gé-nieurs\T1/lmr/m/n/12 (+20) . Sous 
@@ -2594,7 +2594,7 @@ Underfull \hbox (badness 1383) in paragraph at lines 2--2
 hing-ton :
  []
 
-[60]
+[62]
 Underfull \hbox (badness 6526) in paragraph at lines 2--2
 [][][]\T1/lmr/m/sc/12 (+20) Gutierrez[]\T1/lmr/m/n/12 (+20) , A. P., D. W. []\T
 1/lmr/m/sc/12 (+20) Williams []\T1/lmr/m/n/12 (+20) et H. []\T1/lmr/m/sc/12 (+2
@@ -2619,20 +2619,20 @@ Underfull \hbox (badness 1796) in paragraph at lines 2--2
 5 .
  []
 
-[61]
+[63]
 Underfull \hbox (badness 1377) in paragraph at lines 2--2
 [][][]\T1/lmr/m/sc/12 (+20) Kang[]\T1/lmr/m/n/12 (+20) , Y., D. []\T1/lmr/m/sc/
 12 (+20) Armbruster []\T1/lmr/m/n/12 (+20) et Y. []\T1/lmr/m/sc/12 (+20) Kuang 
 []\T1/lmr/m/n/12 (+20) (2008).    Dy-na-mics of a
  []
 
-[62] [63]
+[64] [65]
 Underfull \hbox (badness 1400) in paragraph at lines 2--2
 [][][]\T1/lmr/m/sc/12 (+20) Oerke[]\T1/lmr/m/n/12 (+20) , E.[]C. (2006).    Cr
 op losses to pests . In : \T1/lmr/m/it/12 (+20) The Jour-nal of
  []
 
-[64] [65]
+[66] [67] [68]
 Underfull \hbox (badness 1838) in paragraph at lines 2--2
 [][][]\T1/lmr/m/sc/12 (+20) Zangerl[]\T1/lmr/m/n/12 (+20) , A. R., J. G. []\T1/
 lmr/m/sc/12 (+20) Hamilton[]\T1/lmr/m/n/12 (+20) , T. J. []\T1/lmr/m/sc/12 (+20
@@ -2640,11 +2640,11 @@ lmr/m/sc/12 (+20) Hamilton[]\T1/lmr/m/n/12 (+20) , T. J. []\T1/lmr/m/sc/12 (+20
 m/n/12 (+20) ,
  []
 
-[66]) (Frontmatter/FullToc.tex [67] [68
+) (Frontmatter/FullToc.tex [69] [70
 
 ]
 1: section
-[69] [70])
+[71] [72])
 Package minitoc Info: I0009
 (minitoc)             Listing minitoc auxiliary files. 
 (minitoc)             Creating the main.maf file.
@@ -2671,23 +2671,23 @@ Package minitoc(hints) Warning: W0024
 (minitoc(hints))                Some hints have been written 
 (minitoc(hints))                in the main.log file.
 
-[71] (main.aux (Chapters/Introduction.aux) (Chapters/Chapter1.aux)
+[73] (main.aux (Chapters/Introduction.aux) (Chapters/Chapter1.aux)
 (Chapters/Chapter3.aux) (Chapters/Chapter4.aux) (Chapters/Conclusion.aux))
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 561864C8156ABB4D46E747ECFEDA3509;3053.
+(rerunfilecheck)             Checksum: C72442ED598031BE253EDB736AF25F66;3053.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 59828 strings out of 478643
- 1253562 string characters out of 2843854
- 2053643 words of memory out of 3000000
- 75949 multiletter control sequences out of 15000+600000
- 538646 words of font info for 293 fonts, out of 8000000 for 9000
+ 59886 strings out of 478643
+ 1254939 string characters out of 2843854
+ 2054729 words of memory out of 3000000
+ 75996 multiletter control sequences out of 15000+600000
+ 538768 words of font info for 294 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  115i,20n,109p,2211b,2712s stack positions out of 5000i,500n,10000p,200000b,80000s
 pdfTeX warning (dest): name{Hfootnote.43} has been referenced but does not ex
@@ -2728,9 +2728,9 @@ fonts/type1/public/lm/lmro12.pfb><C:/Users/olivier/AppData/Local/Programs/MiKTe
 X/fonts/type1/public/lm/lmsy10.pfb><C:/Users/olivier/AppData/Local/Programs/MiK
 TeX/fonts/type1/public/lm/lmsy8.pfb><C:/Users/olivier/AppData/Local/Programs/Mi
 KTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on main.pdf (89 pages, 1755922 bytes).
+Output written on main.pdf (91 pages, 1765127 bytes).
 PDF statistics:
- 1509 PDF objects out of 1728 (max. 8388607)
- 456 named destinations out of 1000 (max. 500000)
+ 1538 PDF objects out of 1728 (max. 8388607)
+ 465 named destinations out of 1000 (max. 500000)
  70853 words of extra memory for PDF output out of 74296 (max. 10000000)
 

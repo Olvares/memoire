@@ -1,22 +1,22 @@
 [0] Config.pm:311> INFO - This is Biber 2.16
-[0] Config.pm:314> INFO - Logfile is 'main.blg'
-[270] biber-MSWIN64:340> INFO - === 
-[392] Biber.pm:415> INFO - Reading 'main.bcf'
-[636] Biber.pm:952> INFO - Found 79 citekeys in bib section 0
-[706] Biber.pm:4340> INFO - Processing section 0
-[768] Biber.pm:4531> INFO - Looking for bibtex format file 'BibGls/Biblio.bib' for section 0
-[1058] bibtex.pm:1689> INFO - LaTeX decoding ...
-[1411] bibtex.pm:1494> INFO - Found BibTeX data source 'BibGls/Biblio.bib'
-[1423] Utils.pm:395> WARN - Duplicate entry key: 'Heller1998' in file 'BibGls/Biblio.bib', skipping ...
-[1424] Utils.pm:395> WARN - Duplicate entry key: 'Heller2000' in file 'BibGls/Biblio.bib', skipping ...
-[1424] Utils.pm:395> WARN - Duplicate entry key: 'Sauvion2013' in file 'BibGls/Biblio.bib', skipping ...
-[1688] Utils.pm:395> WARN - legacy month field 'Dec' in entry 'lebon:tel-01747618' is not an integer - this will probably not sort properly.
-[1974] Utils.pm:395> WARN - legacy month field 'jan' in entry 'Holland2008' is not an integer - this will probably not sort properly.
-[2622] Utils.pm:395> WARN - BibTeX subsystem: warning: comma(s) at end of name (removing)
-[2864] UCollate.pm:68> INFO - Overriding locale 'fr-FR' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[2864] UCollate.pm:68> INFO - Overriding locale 'fr-FR' defaults 'variable = shifted' with 'variable = non-ignorable'
-[2864] Biber.pm:4168> INFO - Sorting list 'nyt/global//global/global' of type 'entry' with template 'nyt' and locale 'fr-FR'
-[2864] Biber.pm:4174> INFO - No sort tailoring available for locale 'fr-FR'
-[3266] bbl.pm:654> INFO - Writing 'main.bbl' with encoding 'UTF-8'
-[3375] bbl.pm:757> INFO - Output to main.bbl
-[3375] Biber.pm:128> INFO - WARNINGS: 6
+[1] Config.pm:314> INFO - Logfile is 'main.blg'
+[398] biber-MSWIN64:340> INFO - === 
+[595] Biber.pm:415> INFO - Reading 'main.bcf'
+[1104] Biber.pm:952> INFO - Found 81 citekeys in bib section 0
+[1155] Biber.pm:4340> INFO - Processing section 0
+[1188] Biber.pm:4531> INFO - Looking for bibtex format file 'BibGls/Biblio.bib' for section 0
+[1391] bibtex.pm:1689> INFO - LaTeX decoding ...
+[1785] bibtex.pm:1494> INFO - Found BibTeX data source 'BibGls/Biblio.bib'
+[1797] Utils.pm:395> WARN - Duplicate entry key: 'Heller1998' in file 'BibGls/Biblio.bib', skipping ...
+[1797] Utils.pm:395> WARN - Duplicate entry key: 'Heller2000' in file 'BibGls/Biblio.bib', skipping ...
+[1797] Utils.pm:395> WARN - Duplicate entry key: 'Sauvion2013' in file 'BibGls/Biblio.bib', skipping ...
+[1866] Utils.pm:395> WARN - legacy month field 'Dec' in entry 'lebon:tel-01747618' is not an integer - this will probably not sort properly.
+[2229] Utils.pm:395> WARN - legacy month field 'jan' in entry 'Holland2008' is not an integer - this will probably not sort properly.
+[2780] Utils.pm:395> WARN - BibTeX subsystem: warning: comma(s) at end of name (removing)
+[3111] UCollate.pm:68> INFO - Overriding locale 'fr-FR' defaults 'variable = shifted' with 'variable = non-ignorable'
+[3111] UCollate.pm:68> INFO - Overriding locale 'fr-FR' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[3111] Biber.pm:4168> INFO - Sorting list 'nyt/global//global/global' of type 'entry' with template 'nyt' and locale 'fr-FR'
+[3111] Biber.pm:4174> INFO - No sort tailoring available for locale 'fr-FR'
+[3390] bbl.pm:654> INFO - Writing 'main.bbl' with encoding 'UTF-8'
+[3528] bbl.pm:757> INFO - Output to main.bbl
+[3529] Biber.pm:128> INFO - WARNINGS: 6

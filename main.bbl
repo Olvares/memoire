@@ -2615,6 +2615,46 @@
       \field{title}{The fall army worm}
       \field{year}{1928}
     \endentry
+    \entry{mbang:tel-01752615}{thesis}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=90b097f7d4262986a07e3aef258d4c86}{%
+           family={Mbang},
+           familyi={M\bibinitperiod},
+           given={Joseph},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{1}{%
+        {Université Paul Verlaine - Metz}%
+      }
+      \strng{namehash}{90b097f7d4262986a07e3aef258d4c86}
+      \strng{fullhash}{90b097f7d4262986a07e3aef258d4c86}
+      \strng{bibnamehash}{90b097f7d4262986a07e3aef258d4c86}
+      \strng{authorbibnamehash}{90b097f7d4262986a07e3aef258d4c86}
+      \strng{authornamehash}{90b097f7d4262986a07e3aef258d4c86}
+      \strng{authorfullhash}{90b097f7d4262986a07e3aef258d4c86}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{3}
+      \field{number}{2009METZ002S}
+      \field{title}{{Analyse de la stabilité des modèles intra-hôtes avec retard : application à des modèles intra-hôtes de paludisme et de V.I.H-1}}
+      \field{type}{Theses}
+      \field{year}{2009}
+      \verb{file}
+      \verb https://hal.univ-lorraine.fr/tel-01752615/file/Mbang.Joseph.SMZ0902.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://hal.univ-lorraine.fr/tel-01752615
+      \endverb
+      \verb{url}
+      \verb https://hal.univ-lorraine.fr/tel-01752615
+      \endverb
+      \keyw{Modèles intra-hôtes ; Épidémiologie mathématique ; Modélisation du paludisme ; Modélisation du H.I.V-1 ; Analyse compartimentale (biologie) ; Équations différentielles à retard ; Approximation ; Théorie de l' ; Stabilité}
+    \endentry
     \entry{mcgrath2018monitoring}{article}{}
       \true{moreauthor}
       \true{morelabelname}
@@ -3971,6 +4011,45 @@
       \verb{url}
       \verb https://www.pnas.org/content/99/2/1088
       \endverb
+    \endentry
+    \entry{zongo:tel-00419519}{thesis}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=ce0412e391f287a92e96081c4b4d08b8}{%
+           family={Zongo},
+           familyi={Z\bibinitperiod},
+           given={Pascal},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{1}{%
+        {université de Ouagadougou}%
+      }
+      \strng{namehash}{ce0412e391f287a92e96081c4b4d08b8}
+      \strng{fullhash}{ce0412e391f287a92e96081c4b4d08b8}
+      \strng{bibnamehash}{ce0412e391f287a92e96081c4b4d08b8}
+      \strng{authorbibnamehash}{ce0412e391f287a92e96081c4b4d08b8}
+      \strng{authornamehash}{ce0412e391f287a92e96081c4b4d08b8}
+      \strng{authorfullhash}{ce0412e391f287a92e96081c4b4d08b8}
+      \field{sortinit}{Z}
+      \field{sortinithash}{96892c0b0a36bb8557c40c49813d48b3}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{5}
+      \field{title}{{Modélisation mathématique de la dynamique de la transmission du paludisme}}
+      \field{type}{Theses}
+      \field{year}{2009}
+      \verb{file}
+      \verb https://tel.archives-ouvertes.fr/tel-00419519/file/These_zongo.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://tel.archives-ouvertes.fr/tel-00419519
+      \endverb
+      \verb{url}
+      \verb https://tel.archives-ouvertes.fr/tel-00419519
+      \endverb
+      \keyw{Malaria ; Reproductive number ; Type-reproduction number ; Bifurcation analysis ; Paludisme ; Nombre de reproduction ; Nombre de reproduction type ; Analyse de la bifurcation ; métapopulation}
     \endentry
   \enddatalist
 \endrefsection

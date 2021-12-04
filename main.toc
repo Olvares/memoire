@@ -130,9 +130,17 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {3.2.3.5}Le modèle}{51}{subsubsection.276}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {3.2.3.6}Propriétés de base du modèle}{51}{subsubsection.279}%
+\contentsline {subsubsection}{\numberline {3.2.3.6}Propriétés de base du modèle}{52}{subsubsection.279}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {4}Résultats et discussions}{53}{chapter.285}%
+\contentsline {paragraph}{Positivité de la solution}{52}{paragraph*.280}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {5}Conclusion}{55}{chapter.286}%
+\contentsline {subsubsection}{\numberline {3.2.3.7}Existence d'un point d'équilibre sans maladie}{53}{subsubsection.286}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {3.2.3.8}Taux de reproduction de base}{53}{subsubsection.288}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Méthode de la prochaine génération}{54}{paragraph*.289}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {4}Résultats et discussions}{55}{chapter.290}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {5}Conclusion}{57}{chapter.291}%
 \contentsfinish 
