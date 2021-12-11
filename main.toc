@@ -22,125 +22,171 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {1.1.1}Contexte et justification}{1}{subsection.14}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.1.2}Problématique}{3}{subsection.16}%
+\contentsline {subsection}{\numberline {1.1.2}Problématique}{3}{subsection.15}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.1.3}Objectifs de l'étude}{4}{subsection.17}%
+\contentsline {subsection}{\numberline {1.1.3}Objectifs de l'étude}{3}{subsection.16}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {1.1.3.1}Objectif général}{4}{subsubsection.18}%
+\contentsline {subsubsection}{\numberline {1.1.3.1}Objectif général}{3}{subsubsection.17}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {1.1.3.2}Objectifs spécifiques}{5}{subsubsection.19}%
+\contentsline {subsubsection}{\numberline {1.1.3.2}Objectifs spécifiques}{4}{subsubsection.18}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {2}Revue de Littérature}{7}{chapter.24}%
+\contentsline {chapter}{\numberline {2}Revue de Littérature}{5}{chapter.23}%
 \defcounter {refsection}{0}\relax 
 \etoc@startlocaltoc {2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.1}Biologie des plantes, insectes et de leurs interactions}{7}{section.26}%
+\contentsline {section}{\numberline {2.1}Généralité su la chénille légionnaire d'automne}{5}{section.25}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.1.1}L’objet Plante}{8}{subsection.28}%
+\contentsline {subsection}{\numberline {2.1.1}Origine et historique du Spodoptera frugiperda (chénille légionnaire d'automne)}{5}{subsection.26}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.1.2}L’objet Insecte}{8}{subsection.29}%
+\contentsline {subsection}{\numberline {2.1.2}Biologie du Spodoptera frugiperda}{6}{subsection.27}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.1.3}Interactions entre les plantes et les insectes}{9}{subsection.30}%
+\contentsline {subsection}{\numberline {2.1.3}Plantes hôtes du Spodoptera frugiperda}{7}{subsection.31}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.1.3.1}Antagonisme plantes-insectes}{9}{subsubsection.31}%
+\contentsline {subsection}{\numberline {2.1.4}Distribution géographique du Spodoptera frugiperda en Afrique}{8}{subsection.32}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.1.3.2}Mutualisme plantes-insectes}{10}{subsubsection.32}%
+\contentsline {subsection}{\numberline {2.1.5}Prévention et contrôle du Spodoptera frugiperda}{8}{subsection.36}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.2}La chénille légionnaire d'automne}{10}{section.33}%
+\contentsline {section}{\numberline {2.2}Modélisation sur les des insectes, plantes et leurs interactions}{10}{section.37}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2.1}Origine et historique du Spodoptera frugiperda (chénille légionnaire d'automne)}{11}{subsection.34}%
+\contentsline {subsection}{\numberline {2.2.1}La notion de modèle}{10}{subsection.38}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2.2}Biologie du Spodoptera frugiperda}{12}{subsection.35}%
+\contentsline {subsection}{\numberline {2.2.2}Les modèles individus centrés}{11}{subsection.39}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2.3}Plantes hôtes du Spodoptera frugiperda}{13}{subsection.39}%
+\contentsline {subsection}{\numberline {2.2.3}Les modèles de type proie-prédateur et leurs dérivés}{12}{subsection.40}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2.4}Distribution géographique du Spodoptera frugiperda en Afrique}{14}{subsection.40}%
+\contentsline {subsection}{\numberline {2.2.4}Les modèles compartimentaux}{16}{subsection.56}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2.5}Prévention et contrôle du Spodoptera frugiperda}{15}{subsection.44}%
+\contentsline {subsection}{\numberline {2.2.5}Les modèles de méta-population}{16}{subsection.57}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.3}Modélisation sur les des insectes, plantes et leurs interactions}{16}{section.45}%
+\contentsline {section}{\numberline {2.3}Méthodes de résolution numérique des équations différentielles}{17}{section.60}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.3.1}La notion de modèle}{16}{subsection.46}%
+\contentsline {subsection}{\numberline {2.3.1}Définition}{17}{subsection.61}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.3.2}Les modèles individus centrés}{17}{subsection.47}%
+\contentsline {subsection}{\numberline {2.3.2}Les équations différentielles ordinaires}{18}{subsection.67}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.3.3}Les modèles de type proie-prédateur et leurs dérivés}{18}{subsection.48}%
+\contentsline {subsubsection}{\numberline {2.3.2.1}Méthodes d'Euler}{20}{subsubsection.75}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.3.4}Les modèles compartimentaux}{23}{subsection.64}%
+\contentsline {paragraph}{Méthode d'Euler explicite}{20}{paragraph*.76}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.3.5}Les modèles de méta-population}{23}{subsection.65}%
+\contentsline {subparagraph}{Convergence de la méthode d'Euler explicite}{22}{subparagraph*.93}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.4}Méthodes de résolution numérique des équations différentielles}{24}{section.68}%
+\contentsline {subsubsection}{\numberline {2.3.2.2}Méthode de Taylor}{24}{subsubsection.105}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.4.1}Définition}{24}{subsection.69}%
+\contentsline {subsubsection}{\numberline {2.3.2.3}Méthodes de Runge-Kutta}{25}{subsubsection.119}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.4.2}Les équations différentielles ordinaires}{25}{subsection.75}%
+\contentsline {paragraph}{Méthode de \gls {rk2}}{25}{paragraph*.120}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.4.2.1}Méthodes d'Euler}{27}{subsubsection.83}%
+\contentsline {subparagraph}{Méthode d’Euler modifiée}{26}{subparagraph*.125}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Méthode d'Euler explicite}{27}{paragraph*.84}%
+\contentsline {subparagraph}{Méthode du point milieu}{27}{subparagraph*.141}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subparagraph}{Convergence de la méthode d'Euler explicite}{29}{subparagraph*.101}%
+\contentsline {paragraph}{Méthode de \gls {rk4}}{28}{paragraph*.157}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.4.2.2}Méthode de Taylor}{31}{subsubsection.113}%
+\contentsline {subsubsection}{\numberline {2.3.2.4}Les \gls {edo} d’ordre $m$ et les systèmes d’ordre 1}{30}{subsubsection.183}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.4.2.3}Méthodes de Runge-Kutta}{32}{subsubsection.127}%
+\contentsline {paragraph}{Résolution d’un système d’\gls {edo} d’ordre 1}{30}{paragraph*.184}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Méthode de \gls {rk2}}{32}{paragraph*.128}%
+\contentsline {subparagraph}{Méthode Euler explicite pour les systèmes d’\gls {edo}}{30}{subparagraph*.187}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subparagraph}{Méthode d’Euler modifiée}{33}{subparagraph*.133}%
+\contentsline {subparagraph}{Méthode \gls {rk4} pour les systèmes d’\gls {edo}}{31}{subparagraph*.201}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subparagraph}{Méthode du point milieu}{34}{subparagraph*.149}%
+\contentsline {paragraph}{Résolution d’\gls {edo} d’ordre $m$}{32}{paragraph*.226}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Méthode de \gls {rk4}}{35}{paragraph*.165}%
-\defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.4.2.4}Les \gls {edo} d’ordre $m$ et les systèmes d’ordre 1}{37}{subsubsection.191}%
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Résolution d’un système d’\gls {edo} d’ordre 1}{37}{paragraph*.192}%
-\defcounter {refsection}{0}\relax 
-\contentsline {subparagraph}{Méthode Euler explicite pour les systèmes d’\gls {edo}}{38}{subparagraph*.195}%
-\defcounter {refsection}{0}\relax 
-\contentsline {subparagraph}{Méthode \gls {rk4} pour les systèmes d’\gls {edo}}{38}{subparagraph*.209}%
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Résolution d’\gls {edo} d’ordre $m$}{39}{paragraph*.233}%
-\defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {3}Méthodologie}{43}{chapter.238}%
+\contentsline {chapter}{\numberline {3}Méthodologie}{35}{chapter.231}%
 \defcounter {refsection}{0}\relax 
 \etoc@startlocaltoc {3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.1}Matériel}{43}{section.240}%
+\contentsline {section}{\numberline {3.1}Matériel}{35}{section.233}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.1.1}Logiciel utilisé}{43}{subsection.241}%
+\contentsline {subsection}{\numberline {3.1.1}Logiciel utilisé}{35}{subsection.234}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.2}Méthodes}{43}{section.242}%
+\contentsline {section}{\numberline {3.2}Méthodes}{35}{section.235}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2.1}Modèle de base}{43}{subsection.243}%
+\contentsline {subsection}{\numberline {3.2.1}Modèle de base}{35}{subsection.236}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2.2}Quelques insuffisances du modèle}{45}{subsection.249}%
+\contentsline {subsection}{\numberline {3.2.2}Quelques insuffisances du modèle}{37}{subsection.242}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2.3}Formulation de notre modèle}{47}{subsection.254}%
+\contentsline {subsection}{\numberline {3.2.3}Formulation de notre modèle}{39}{subsection.247}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {3.2.3.1}Structure par étape des deux populations}{47}{subsubsection.255}%
+\contentsline {subsubsection}{\numberline {3.2.3.1}Structure par étape des deux populations}{39}{subsubsection.248}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {3.2.3.2}Le modèle compartimental \gls {sis}}{49}{subsubsection.262}%
+\contentsline {subsubsection}{\numberline {3.2.3.2}Dynamique des deux populations}{40}{subsubsection.255}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {3.2.3.3}Les variables et paramètres de notre modèle}{50}{subsubsection.269}%
+\contentsline {paragraph}{Population de maïs}{40}{paragraph*.256}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {3.2.3.4}Les hypothèses du modèle}{50}{subsubsection.270}%
+\contentsline {paragraph}{Population de la \gls {cla}}{41}{paragraph*.263}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {3.2.3.5}Le modèle}{51}{subsubsection.276}%
+\contentsline {subsubsection}{\numberline {3.2.3.3}Les variables et paramètres de notre modèle}{42}{subsubsection.264}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {3.2.3.6}Propriétés de base du modèle}{52}{subsubsection.279}%
+\contentsline {subsubsection}{\numberline {3.2.3.4}Les hypothèses du modèle}{42}{subsubsection.267}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Positivité de la solution}{52}{paragraph*.280}%
+\contentsline {subsubsection}{\numberline {3.2.3.5}Le modèle}{43}{subsubsection.273}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {3.2.3.7}Existence d'un point d'équilibre sans maladie}{53}{subsubsection.286}%
+\contentsline {subsubsection}{\numberline {3.2.3.6}Propriétés de base du modèle}{44}{subsubsection.276}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {3.2.3.8}Taux de reproduction de base}{53}{subsubsection.288}%
+\contentsline {paragraph}{Positivité de la solution}{44}{paragraph*.277}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Méthode de la prochaine génération}{54}{paragraph*.289}%
+\contentsline {subsubsection}{\numberline {3.2.3.7}Existence d'un d'équilibre sans parasite}{45}{subsubsection.283}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {4}Résultats et discussions}{55}{chapter.290}%
+\contentsline {subsubsection}{\numberline {3.2.3.8}Taux de reproduction de base}{46}{subsubsection.286}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {5}Conclusion}{57}{chapter.291}%
+\contentsline {paragraph}{Méthode de la prochaine génération}{46}{paragraph*.287}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {3.2.3.9}Analyse de sensibilité du taux de reproduction de base $R_0$}{49}{subsubsection.295}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.2.4}Estimation des paramètres du modèle}{51}{subsection.299}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.2.5}Résolution du système d'équation du modèle}{51}{subsection.300}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {4}Résultats et discussions}{53}{chapter.302}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.1}Modèle de \textcite {Daudi2021}}{53}{section.303}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.1.1}Valeurs des des paramètres et celles initiales des variables}{53}{subsection.304}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.1.2}Sortie MATLAB avec la méthode de Runge-Kutta d’ordre 4}{54}{subsection.307}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.2}Modèle de \textcite {Daudi2021} modifié}{60}{section.314}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.2.1}Sortie MATLAB avec la méthode de Runge-Kutta d’ordre 4}{60}{subsection.316}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.3}Modèle de \textcite {Daudi2021} modifié avec retard}{64}{section.320}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.3.1}Sortie MATLAB avec la méthode de Runge-Kutta d’ordre 4}{64}{subsection.321}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.4}Dynamique des deux population en fonction de $R_0$}{68}{section.325}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.5}Modification envisagée}{73}{section.331}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {5}Conclusion}{77}{chapter.337}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {A}Appendices}{79}{appendix.338}%
+\defcounter {refsection}{0}\relax 
+\etoc@startlocaltoc {4}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {A.1}Codes MATLAB}{79}{section.340}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {A.1.1}Script des méthodes de résolution}{79}{subsection.341}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {A.1.1.1}Méthode de \gls {rk4}}{79}{subsubsection.342}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {A.1.1.2}Méthode de d'Euler modifié}{81}{subsubsection.437}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {A.1.2}Modèle de \textcite {Daudi2021}}{82}{subsection.485}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {A.1.2.1}Script de résolution}{82}{subsubsection.486}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {A.1.2.2}Fonction du système d'\gls {ode} du modèle}{84}{subsubsection.589}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {A.1.3}Modèle de \textcite {Daudi2021} modifié}{85}{subsection.651}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {A.1.3.1}Script de résolution}{85}{subsubsection.652}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {A.1.3.2}Fonction du système d'\gls {ode} du modèle}{87}{subsubsection.753}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {A.1.4}Modèle de \textcite {Daudi2021} modifié avec retard}{89}{subsection.845}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {A.1.4.1}Script de résolution}{89}{subsubsection.846}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {A.1.4.2}Fonction du système d'\gls {ode} du modèle}{91}{subsubsection.952}%
 \contentsfinish 

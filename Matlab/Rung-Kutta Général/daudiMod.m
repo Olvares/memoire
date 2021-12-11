@@ -1,43 +1,71 @@
-function [t,s] = daudiMod(s0, coef, drate, I, ode)
-% This function is built to solve daudi's model with a numerical ODE solver
-% denoted odeSolver
+function [dX] = daudiMod(X, coef, drate)
+% This function is built to solve daudi's model with a numerical
+% ODE solver RK4 or Modified Euler method
+%
+%% Model
+%   \begin{equation}
+%		\left\lbrace\begin{array}{l}
+%			\ddxdt{x_1}	= - \alpha x_1 y - \lambda x_1	\\
+%			\ddxdt{y}	= e_1\alpha x_1 y + \gamma w -\delta y - \mu_y y	\\
+%			\ddxdt{z}	= \delta y - \mu_z z	\\
+%			\ddxdt{w}	= \rho z - \gamma w - \mu_w w	\\
+%		\end{array}\right.
+%		\label{eqd1}
+%	\end{equation}
+%
+%% Inputs :
+%   X => a vector containing the solution at time t_i in the following other
+%   $X = [x_i, y_i, z_i, w_i]$ where
+%       x_i => $x$ => maize population at time t_i
+%       y_i => $y$ => caterpillar population at time t_i
+%       z_i => $z$ => adult population at time t_i
+%       w_i => $w$ => egg population at time t_i
+%   coef => a vector containing the following parameters of Daudi's model
+%   in the proposed other : coef = [an, l, d, g, rh, e, k]
+%       an => $\alpha$ or $\eta$ => caterpillar attack rate at vegetative
+              % stage ($\alpha$) or at reproductive stage ($\eta$)
+%       l => $\lambda$ => maize death due to caterpillar attaque
+%       d => $\delta$ => caterpillar to adult rate
+%       ga => $\gamma$ => egg to caterpillar
+%       rh => $\rho$ => fecondity rate
+%       k => $k$ => Maximum number of maize plant in the garden at $t=t_0$
+%       e = $e$ => maize's biomass conversion to caterpillar biomass
+%   drate => a vector containing the mrtality rate parameters of Daudi's
+%   model in the proposed other : drate = [uy, uz, uw]
+%       uy => $\mu_y$ => mortality rate of caterpillars
+%       uz => $\mu_z$ => mortality rate of adult moth
+%       uw => $\mu_w$ => mortality rate of eggs
+%
+% Output :
+%   dX => a column vector containing values of the ODE evaluated at time
+%   $t_{i+1}$
 %
 
-%% Parameters
-an = coef(1);   % $\alpha$n caterpillar attaque rate
-l = coef(2);    % $\lambda$ maize death due to caterpillar attaque
-d = coef(3);    % $\delta$ caterpillar to adult rate
-ga = coef(4);    % $\gamma$ egg to caterpillar
-rh = coef(5);   % $\rho$ fecondity rate
-e = coef(6);    % $e$ caterpillar grow due to maize consumption
-k = coef(7);    % $k$ maize population limite
-uy = drate(1);  % $\mu_y$ mortality rate of caterpillar
-uz = drate(2);  % $\mu_z$ motality rate of adult
-uw = drate(3);  % $\mu_w$ motality rate of egg
+%% ================== PARAMETERS' VALUES ========================
+% Coefficients
+    an = coef(1);
+    l = coef(2);
+    d = coef(3);
+    ga = coef(4);
+    rh = coef(5);
+    e = coef(6);
+% Mortality rates
+    uy = drate(1);
+    uz = drate(2);
+    uw = drate(3);
 
-%% Variable
-x0 = s0(1);      % initial population of maize
-y0 = s0(2);      % initial population of caterpillard
-z0 = s0(3);      % initial population of adult
-w0 = s0(4);      % initial population of egg
+%% ========================= VARIABLES ======================
+x = X(1);      % initial population of maize
+y = X(2);      % initial population of caterpillard
+z = X(3);      % initial population of adult
+w = X(4);      % initial population of egg
 
-%% Résolution
-f = @(x) -l*x;%*(x/k-1);%(x/(k - k*l) - 1);
-% an = @(t) wblpdf(t, 21, 1);%/90;
-% g = @(t,x) an(t)*x;
-g = @(x) an*x;
+%% ====================== THE MODEL ========================
+f = @(x) l*x; g = @(x) an*x;
+dx = - f(x) - g(x)*y;
+dy = e*g(x)*y + ga*w - d*y -uy*y;
+dz = d*y - uz*z;
+dw = rh*z - ga*w - uw*w;
 
-daudif = @(t,y) [f(y(1)) - g(y(1))*y(2);%*y(2);
-    e*g(y(1))*y(2) + ga*y(4) - d*y(2) - uy*y(2);
-    d*y(2) - uz*y(3);
-    rh*y(3) - ga*y(4) - uw*y(4)];
-N = 50;
-
-if nargin < 5 || ode == "RK4"
-    [t,s] = Rung_Kutta4(daudif, s0, I, I(end)*N);
-elseif ode == "EM"
-    [t,s] = Euler_mod(daudif, s0, I, I(end)*N);
-else
-    fprintf("Error\n")
+dX = [dx, dy, dz, dw];
 end
-

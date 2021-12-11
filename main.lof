@@ -7,25 +7,67 @@
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {xchapter}{Revue de Littérature}{7}{chapter.24}%
+\contentsline {xchapter}{Revue de Littérature}{5}{chapter.23}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.1}{\ignorespaces Stades du cycle de vie du Spodoptera frugiperda}}{12}{figure.caption.36}%
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Stades du cycle de vie du Spodoptera frugiperda}}{6}{figure.caption.28}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.2}{\ignorespaces Distribution géographique de la CLA de 2016 à 2021}}{15}{figure.caption.41}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Distribution géographique de la CLA de 2016 à 2021}}{9}{figure.caption.33}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.3}{\ignorespaces Méthode d'Euler explicite\relax }}{28}{figure.caption.85}%
-\defcounter {refsection}{0}\relax 
-\addvspace {10\p@ }
-\defcounter {refsection}{0}\relax 
-\contentsline {xchapter}{Méthodologie}{43}{chapter.238}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Diagramme montrant les interactions en la population du maïs et de celle de la \gls {cla}\relax }}{51}{figure.caption.277}%
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Méthode d'Euler explicite\relax }}{21}{figure.caption.77}%
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {xchapter}{Résultats et discussions}{55}{chapter.290}%
+\contentsline {xchapter}{Méthodologie}{35}{chapter.231}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Diagramme montrant les interactions en la population du maïs et de celle de la \gls {cla}\relax }}{43}{figure.caption.274}%
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {xchapter}{Conclusion}{57}{chapter.291}%
+\contentsline {xchapter}{Résultats et discussions}{53}{chapter.302}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.1}{\ignorespaces \it à suivre sur la page ...\relax }}{55}{figure.caption.308}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Dynamique des deux populations au stade végétatif\relax }}{56}{figure.caption.309}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.2}{\ignorespaces \it à suivre sur la page ...\relax }}{57}{figure.caption.310}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Dynamique des deux populations au stade reproductif\relax }}{58}{figure.caption.311}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.3}{\ignorespaces \it à suivre sur la page ...\relax }}{58}{figure.caption.312}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Dynamique des deux populations durant tout le cycle\relax }}{59}{figure.caption.313}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Dynamique des deux populations au stade végétatif après modification\relax }}{61}{figure.caption.317}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Dynamique des deux populations au stade reproductif après modification\relax }}{62}{figure.caption.318}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Dynamique des deux populations sur tout le cycle après modification\relax }}{63}{figure.caption.319}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Dynamique des deux populations au stade végétatif après modification\relax }}{65}{figure.caption.322}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Dynamique des deux populations au stade reproductif après modification\relax }}{66}{figure.caption.323}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Dynamique des deux populations sur tout le cycle après modification\relax }}{67}{figure.caption.324}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.10}{\ignorespaces Dynamique des deux populations pour $R_0 = - 0.5545$\relax }}{69}{figure.caption.327}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.11}{\ignorespaces Dynamique des deux populations pour $R_0 = 0$ à cause de $\delta =0$\relax }}{70}{figure.caption.328}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.12}{\ignorespaces Dynamique des deux populations pour $R_0 = 0$à cause de $\rho =0$\relax }}{71}{figure.caption.329}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.13}{\ignorespaces Dynamique des deux populations pour $R_0 = 0.5098 < 1$ lorsque $\delta $ été multiplié par 3\relax }}{72}{figure.caption.330}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.14}{\ignorespaces Dynamique des deux populations sur tout le cycle avec compensation\relax }}{74}{figure.caption.334}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.15}{\ignorespaces Dynamique des deux populations sur tout le cycle avec une mortalité exponentielle\relax }}{75}{figure.caption.335}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.16}{\ignorespaces Dynamique des deux populations sur tout le cycle avec une mortalité exponentiellement distribuée\relax }}{76}{figure.caption.336}%
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\contentsline {xchapter}{Conclusion}{77}{chapter.337}%
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\contentsline {xchapter}{Appendices}{79}{appendix.338}%
 \contentsfinish 

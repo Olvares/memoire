@@ -1,1 +1,708 @@
 \chapter{Résultats et discussions}
+\section{Modèle de \textcite{Daudi2021}}
+Le système d'équations qui régit ce modèle au stade végétatif sans immigration est le système d'équations \eqref{eqd1} à la page \pageref{eqd1}.
+
+	\subsection{Valeurs des des paramètres et celles initiales des variables}
+	\begin{table}
+		\centering
+		\caption{Valeurs initiales des variables d'état du modèle}
+		\label{tab:daudi:varval}
+		\begin{tabularx}{\textwidth}{>{$}c<{$}X|c}
+			\toprule
+			\multicolumn{1}{l}{\bf Variables}\	& \bf\centering Description	& \bf Val. init.		\tabularnewline
+			\midrule
+			x_1(t)	& Densité de la population des plantes de maïs grandissant dans la phase végétative à tout instant $t$	& 500 plants	\\
+			x_2(t)	& Densité de la population des plantes de maïs grandissant dans la phase de reproduction à tout instant $t$	& 0	\\
+			w(t)	& Densité de la population des \oe uf pondus à tout instant $t$	& 0	\\
+			y(t)	& Densité de la population des chenilles à tout instant $t$	& 0	\\
+			z(t)	& Densité de la population des papillons adultes à tout instant $t$	& $[15,\ 30,\ 45,\ 60]$\\
+			\bottomrule
+		\end{tabularx}
+	\end{table}
+
+	\begin{table}
+		\centering
+		\caption{Valeurs des paramètres du le modèle}
+		\label{tab:daudi:param:val}
+		\begin{tabularx}{\textwidth}{>{$}c<{$}X|c}
+			\toprule
+			\multicolumn{1}{l}{\bf Paramètres}\	& \bf\centering Description		&\bf Valeurs	\tabularnewline
+			\midrule
+			\alpha	& Le taux auquel les chenilles attaquent $x_1(t)$	& 0.000154 plants/jour	\\
+			\eta	& Le taux auquel les chenilles attaquent $x_2(2)$	&	0.000154 plants/jour	\\
+			\rho	& Le taux auquel les papillons adultes pondent des \oe uf	& 0.0417 \oe uf/jour	\\
+			k		& Le nombre maximum de plantes de maïs dans le champ à $t = 0$	& 500 plants	\\
+			\delta	& Le taux auquel les chenilles se développent en papillon adulte	&	0.071jour\up{-1}	\\
+			\gamma	& Le taux auquel les œufs éclosent en chenilles	& 0.071jour\up{-1}	\\
+			\mu_w	& Le taux de mortalité des œufs	& 0.04 jour\up{-1}\\
+			\mu_y	& Le taux de mortalité des chenilles	& 0.0071	jour\up{-1}	\\
+			\mu_z	& Le taux de mortalité des adultes	& 0.115 jour\up{-1}	\\
+			\lambda	& Le taux auquel le maïs meurt dû à une attaque de chenille	& 0.015 jour\up{-1}\\
+			e_1		& Le taux de conversion de la biomasse de maïs biomasse de chenille	& 1.6 feuilles	\\
+			\bottomrule
+		\end{tabularx}
+	\end{table}
+
+	\subsection{Sortie MATLAB avec la méthode de \glsentrylong{rk4}}
+	Ici, nous présentons les sorties par pair. En effet, nous avons mis à gauche ce que nous avons obtenu et à droite celle de l'article.
+
+	La figure \ref{fig:daud:veg} donne les sorties pour le stade, végétatif tandis que la figure \ref{fig:daud:repr} donne celles au stade reproductif.
+
+	Nous représentons également les courbes complètes sur toute la période à la figure \ref{fig:daud:all}
+
+	\begin{figure}%[H]
+		\centering
+		\begin{subfigure}{0.45\textwidth}
+			\includegraphics[width=\textwidth]{mod_daud_art_veg_mai}
+			%\subcaption{de l'article}
+		\end{subfigure}
+		~
+		\begin{subfigure}{0.5\textwidth}
+			\includegraphics[width=\textwidth]{mod_daud_veg_mai}
+			%\subcaption{ma sortie}
+		\end{subfigure}
+
+		\begin{subfigure}{0.45\textwidth}
+			\includegraphics[width=\textwidth]{mod_daud_art_veg_cat}
+			%\subcaption{de l'article}
+		\end{subfigure}
+		~
+		\begin{subfigure}{0.5\textwidth}
+			\includegraphics[width=\textwidth]{mod_daud_veg_cat}
+			%\subcaption{ma sortie}
+		\end{subfigure}
+
+		\begin{subfigure}{0.45\textwidth}	\includegraphics[width=\textwidth]{mod_daud_art_veg_adu}
+			%\subcaption{de l'article}
+		\end{subfigure}
+		~
+		\begin{subfigure}{0.5\textwidth}
+			\includegraphics[width=\textwidth]{mod_daud_veg_adu}
+			%\subcaption{ma sortie}
+		\end{subfigure}
+		\caption{\it à suivre sur la page ...}
+	\end{figure}
+
+	\begin{figure}%[H]
+		\centering
+		\ContinuedFloat
+		\begin{subfigure}{0.45\textwidth}
+			\includegraphics[width=\textwidth]{mod_daud_art_veg_egg}
+			%\subcaption{de l'article}
+		\end{subfigure}
+		~
+		\begin{subfigure}{0.5\textwidth}
+			\includegraphics[width=\textwidth]{mod_daud_veg_egg}
+			%\subcaption{ma sortie}
+		\end{subfigure}
+		\caption{Dynamique des deux populations au stade végétatif}
+		\label{fig:daud:veg}
+	\end{figure}
+
+	\begin{figure}%[H]
+		\centering
+		\begin{subfigure}{0.45\textwidth}
+			\includegraphics[width=\textwidth]{mod_daud_art_repr_mai}
+			%\subcaption{de l'article}
+		\end{subfigure}
+		~
+		\begin{subfigure}{0.5\textwidth}
+			\includegraphics[width=\textwidth]{mod_daud_repr_mai}
+			%\subcaption{ma sortie}
+		\end{subfigure}
+
+		\begin{subfigure}{0.45\textwidth}
+			\includegraphics[width=\textwidth]{mod_daud_art_repr_cat}
+			%\subcaption{de l'article}
+		\end{subfigure}
+		~
+		\begin{subfigure}{0.5\textwidth}
+			\includegraphics[width=\textwidth]{mod_daud_repr_cat}
+			%\subcaption{ma sortie}
+		\end{subfigure}
+		\caption{\it à suivre sur la page ...}
+	\end{figure}
+
+	\begin{figure}%[H]
+		\centering
+		\ContinuedFloat
+		\begin{subfigure}{0.45\textwidth}	\includegraphics[width=\textwidth]{mod_daud_art_repr_adu}
+			%\subcaption{de l'article}
+		\end{subfigure}
+		~
+		\begin{subfigure}{0.5\textwidth}
+			\includegraphics[width=\textwidth]{mod_daud_repr_adu}
+			%\subcaption{ma sortie}
+		\end{subfigure}
+
+		\begin{subfigure}{0.45\textwidth}
+			\includegraphics[width=\textwidth]{mod_daud_art_repr_egg}
+			%\subcaption{de l'article}
+		\end{subfigure}
+		~
+		\begin{subfigure}{0.5\textwidth}
+			\includegraphics[width=\textwidth]{mod_daud_repr_egg}
+			%\subcaption{ma sortie}
+		\end{subfigure}
+		\caption{Dynamique des deux populations au stade reproductif}
+		\label{fig:daud:a:repr}
+	\end{figure}
+
+	\begin{figure}%[H]
+		\centering
+		\begin{subfigure}{0.48\textwidth}
+			\includegraphics[width=\textwidth]{mod_daud_all_mai}
+			%\subcaption{ma sortie}
+		\end{subfigure}
+		~
+		\begin{subfigure}{0.48\textwidth}
+			\includegraphics[width=\textwidth]{mod_daud_all_cat}
+			%\subcaption{ma sortie}
+		\end{subfigure}
+		\caption{\it à suivre sur la page ...}
+	\end{figure}
+
+	\begin{figure}%[H]
+		\centering
+		\ContinuedFloat
+		\begin{subfigure}{0.48\textwidth}
+			\includegraphics[width=\textwidth]{mod_daud_all_adu}
+			%\subcaption{ma sortie}
+		\end{subfigure}
+		~
+		\begin{subfigure}{0.48\textwidth}
+			\includegraphics[width=\textwidth]{mod_daud_all_egg}
+			%\subcaption{ma sortie}
+		\end{subfigure}
+		\caption{Dynamique des deux populations durant tout le cycle}
+		\label{fig:daud:all}
+	\end{figure}
+
+
+\section{Modèle de \textcite{Daudi2021} modifié} \label{sec:daudi:modif}
+Ici, nous avons pris en compte le fait que l'infestation de la \gls{cla} ne diminue pas automatiquement la population de maïs. Un maïs attaqué à un instant $t$ donné ne meurt pas à l'instant; il restera infecté pendant un certain temps avant éventuellement de mourir si l'attaque persiste ou se rétablir sinon. Nous avons donc réparti la population de maïs en deux compartiments; sinon trois si on prend en compte ceux mort sous l'attaque de la \gls{cla}. Il y a le compartiment des susceptibles noté S et le compartiment des infectés noté I. Un maïs S ne peut pas mourir sous l'attaque de la \gls{cla}; il doit nécessairement être infecter d'abord avant de pouvoir mourir. Ainsi, seul les maïs infestés sont susceptibles de mourir par l'attaque des chenilles. La variation de la population est donc due à la mort des maïs infectés à cause de la \gls{cla} et non à cause la population totale pour la même cause. Le système d'équation devient alors
+\begin{equation}
+	\left\lbrace\begin{array}{l}
+		\ddxdt{x_s}	= - \alpha x_s y	\\
+		\ddxdt{x_i}	= \alpha x_s y - \lambda x_1	\\
+		\ddxdt{x}	= - \lambda x_i	\\
+		\ddxdt{y}	= e_1\alpha x_s y + \gamma w -\delta y - \mu_y y	\\
+		\ddxdt{z}	= \delta y - \mu_z z	\\
+		\ddxdt{w}	= \rho z - \gamma w - \mu_w w	\\
+	\end{array}\right.
+	\label{eq:daudi:modif}
+\end{equation}
+avec les mêmes conditions initiales sauf que $x_{s0} = x_0$ et $x_{i0} = 0$.
+
+	\subsection{Sortie MATLAB avec la méthode de \glsentrylong{rk4}}
+	La figure \ref{fig:daud:modif:veg} donne les sorties pour le stade, végétatif tandis que la figure \ref{fig:daud:modif:repr} donne celles au stade reproductif.
+
+	Nous représentons également les courbes complètes sur toute la période à la figure \ref{fig:daud:modif:all}
+
+	\begin{figure}%[H]
+		\centering
+		\begin{subfigure}{0.48\textwidth}
+			\includegraphics[width=\textwidth]{mod_daud_modif_veg_susmai}
+			%\subcaption{de l'article}
+		\end{subfigure}
+		~
+		\begin{subfigure}{0.48\textwidth}
+			\includegraphics[width=\textwidth]{mod_daud_modif_veg_infmai}
+			%\subcaption{ma sortie}
+		\end{subfigure}
+
+		\begin{subfigure}{0.48\textwidth}
+			\includegraphics[width=\textwidth]{mod_daud_modif_veg_mai}
+			%\subcaption{de l'article}
+		\end{subfigure}
+		~
+		\begin{subfigure}{0.48\textwidth}
+			\includegraphics[width=\textwidth]{mod_daud_modif_veg_cat}
+			%\subcaption{ma sortie}
+		\end{subfigure}
+		%\caption{\it à suivre sur la page ...}
+
+		\begin{subfigure}{0.48\textwidth}
+			\includegraphics[width=\textwidth]{mod_daud_modif_veg_adu}
+			%\subcaption{de l'article}
+		\end{subfigure}
+		~
+		\begin{subfigure}{0.48\textwidth}
+			\includegraphics[width=\textwidth]{mod_daud_modif_veg_egg}
+			%\subcaption{ma sortie}
+		\end{subfigure}
+		%\caption{\it à suivre sur la page ...}
+		\caption{Dynamique des deux populations au stade végétatif après modification}
+		\label{fig:daud:modif:veg}
+	\end{figure}
+
+	\begin{figure}%[H]
+		\centering
+		\begin{subfigure}{0.48\textwidth}
+			\includegraphics[width=\textwidth]{mod_daud_modif_repr_susmai}
+			%\subcaption{de l'article}
+		\end{subfigure}
+		~
+		\begin{subfigure}{0.48\textwidth}
+			\includegraphics[width=\textwidth]{mod_daud_modif_repr_infmai}
+			%\subcaption{ma sortie}
+		\end{subfigure}
+
+		\begin{subfigure}{0.48\textwidth}
+			\includegraphics[width=\textwidth]{mod_daud_modif_repr_mai}
+			%\subcaption{de l'article}
+		\end{subfigure}
+		~
+		\begin{subfigure}{0.48\textwidth}
+			\includegraphics[width=\textwidth]{mod_daud_modif_repr_cat}
+			%\subcaption{ma sortie}
+		\end{subfigure}
+		%\caption{\it à suivre sur la page ...}
+
+		\begin{subfigure}{0.48\textwidth}
+			\includegraphics[width=\textwidth]{mod_daud_modif_repr_adu}
+			%\subcaption{de l'article}
+		\end{subfigure}
+		~
+		\begin{subfigure}{0.48\textwidth}
+			\includegraphics[width=\textwidth]{mod_daud_modif_repr_egg}
+			%\subcaption{ma sortie}
+		\end{subfigure}
+		\caption{Dynamique des deux populations au stade reproductif après modification}
+		\label{fig:daud:modif:repr}
+	\end{figure}
+
+	\begin{figure}%[H]
+		\centering
+		\begin{subfigure}{0.48\textwidth}
+			\includegraphics[width=\textwidth]{mod_daud_modif_all_susmai}
+			%\subcaption{de l'article}
+		\end{subfigure}
+		~
+		\begin{subfigure}{0.48\textwidth}
+			\includegraphics[width=\textwidth]{mod_daud_modif_all_infmai}
+			%\subcaption{ma sortie}
+		\end{subfigure}
+
+		\begin{subfigure}{0.48\textwidth}
+			\includegraphics[width=\textwidth]{mod_daud_modif_all_mai}
+			%\subcaption{de l'article}
+		\end{subfigure}
+		~
+		\begin{subfigure}{0.48\textwidth}
+			\includegraphics[width=\textwidth]{mod_daud_modif_all_cat}
+			%\subcaption{ma sortie}
+		\end{subfigure}
+		%\caption{\it à suivre sur la page ...}
+
+		\begin{subfigure}{0.48\textwidth}
+			\includegraphics[width=\textwidth]{mod_daud_modif_all_adu}
+			%\subcaption{de l'article}
+		\end{subfigure}
+		~
+		\begin{subfigure}{0.48\textwidth}
+			\includegraphics[width=\textwidth]{mod_daud_modif_all_egg}
+			%\subcaption{ma sortie}
+		\end{subfigure}
+		\caption{Dynamique des deux populations sur tout le cycle après modification}
+		\label{fig:daud:modif:all}
+	\end{figure}
+
+
+
+\section{Modèle de \textcite{Daudi2021} modifié avec retard}\label{sec:daudi:ret}
+Ici, nous avons pris en compte le fait que l'attaque de la \gls{cla} ne commence pas à l'instant $t=0$. Nous avons alors considéré un retard de $\tau_x = 10$. Donc il n'y aura de variation de la population qu'à partir de ce délais. Nous avons également pris en compte le temps d'éclosion des \oe ufs par un retard $\tau_w = 3$ et le temps de transformations des chenilles en papillons par $\tau_y = 8$.
+
+Nous rappelons qu'aucun paramètre n'a été modifié jusque là.
+
+%Nous avons un système comme suit.
+%\begin{equation}
+%	\left\lbrace\begin{array}{l}
+%		\ddxdt{x_s}	= - \alpha x_s y	\\
+%		\ddxdt{x_i}	= \alpha x_s y - \lambda x_1	\\
+%		\ddxdt{x}	= - \lambda x_i	\\
+%		\ddxdt{y}	= e_1\alpha x_s y + \gamma w -\delta y - \mu_y y	\\
+%		\ddxdt{z}	= \delta y - \mu_z z	\\
+%		\ddxdt{w}	= \rho z - \gamma w - \mu_w w	\\
+%	\end{array}\right.
+%	\label{eq:daudi:modif:ret}
+%\end{equation}
+%avec les mêmes conditions initiales sauf que $x_{s0} = x_0$ et $x_{i0} = 0$.
+
+\subsection{Sortie MATLAB avec la méthode de \glsentrylong{rk4}}
+La figure \ref{fig:daud:modif:ret:veg} donne les sorties pour le stade, végétatif tandis que la figure \ref{fig:daud:modif:ret:repr} donne celles au stade reproductif. Pour tout le cycle, voir figure \ref{fig:daud:modif:ret:all}
+
+	\begin{figure}%[H]
+		\centering
+		\begin{subfigure}{0.48\textwidth}
+			\includegraphics[width=\textwidth]{mod_daud_modif_ret_veg_susmai}
+			%\subcaption{de l'article}
+		\end{subfigure}
+		~
+		\begin{subfigure}{0.48\textwidth}
+			\includegraphics[width=\textwidth]{mod_daud_modif_ret_veg_infmai}
+			%\subcaption{ma sortie}
+		\end{subfigure}
+
+		\begin{subfigure}{0.48\textwidth}
+			\includegraphics[width=\textwidth]{mod_daud_modif_ret_veg_mai}
+			%\subcaption{de l'article}
+		\end{subfigure}
+		~
+		\begin{subfigure}{0.48\textwidth}
+			\includegraphics[width=\textwidth]{mod_daud_modif_ret_veg_cat}
+			%\subcaption{ma sortie}
+		\end{subfigure}
+		%\caption{\it à suivre sur la page ...}
+
+		\begin{subfigure}{0.48\textwidth}
+			\includegraphics[width=\textwidth]{mod_daud_modif_ret_veg_adu}
+			%\subcaption{de l'article}
+		\end{subfigure}
+		~
+		\begin{subfigure}{0.48\textwidth}
+			\includegraphics[width=\textwidth]{mod_daud_modif_ret_veg_egg}
+			%\subcaption{ma sortie}
+		\end{subfigure}
+		%\caption{\it à suivre sur la page ...}
+		\caption{Dynamique des deux populations au stade végétatif après modification}
+		\label{fig:daud:modif:ret:veg}
+	\end{figure}
+
+	\begin{figure}%[H]
+		\centering
+		\begin{subfigure}{0.48\textwidth}
+			\includegraphics[width=\textwidth]{mod_daud_modif_ret_repr_susmai}
+			%\subcaption{de l'article}
+		\end{subfigure}
+		~
+		\begin{subfigure}{0.48\textwidth}
+			\includegraphics[width=\textwidth]{mod_daud_modif_ret_repr_infmai}
+			%\subcaption{ma sortie}
+		\end{subfigure}
+
+		\begin{subfigure}{0.48\textwidth}
+			\includegraphics[width=\textwidth]{mod_daud_modif_ret_repr_mai}
+			%\subcaption{de l'article}
+		\end{subfigure}
+		~
+		\begin{subfigure}{0.48\textwidth}
+			\includegraphics[width=\textwidth]{mod_daud_modif_ret_repr_cat}
+			%\subcaption{ma sortie}
+		\end{subfigure}
+		%\caption{\it à suivre sur la page ...}
+
+		\begin{subfigure}{0.48\textwidth}
+			\includegraphics[width=\textwidth]{mod_daud_modif_ret_repr_adu}
+			%\subcaption{de l'article}
+		\end{subfigure}
+		~
+		\begin{subfigure}{0.48\textwidth}
+			\includegraphics[width=\textwidth]{mod_daud_modif_ret_repr_egg}
+			%\subcaption{ma sortie}
+		\end{subfigure}
+		\caption{Dynamique des deux populations au stade reproductif après modification}
+		\label{fig:daud:modif:ret:repr}
+	\end{figure}
+
+	\begin{figure}%[H]
+		\centering
+		\begin{subfigure}{0.48\textwidth}
+			\includegraphics[width=\textwidth]{mod_daud_modif_ret_all_susmai}
+			%\subcaption{de l'article}
+		\end{subfigure}
+		~
+		\begin{subfigure}{0.48\textwidth}
+			\includegraphics[width=\textwidth]{mod_daud_modif_ret_all_infmai}
+			%\subcaption{ma sortie}
+		\end{subfigure}
+
+		\begin{subfigure}{0.48\textwidth}
+			\includegraphics[width=\textwidth]{mod_daud_modif_ret_all_mai}
+			%\subcaption{de l'article}
+		\end{subfigure}
+		~
+		\begin{subfigure}{0.48\textwidth}
+			\includegraphics[width=\textwidth]{mod_daud_modif_ret_all_cat}
+			%\subcaption{ma sortie}
+		\end{subfigure}
+		%\caption{\it à suivre sur la page ...}
+
+		\begin{subfigure}{0.48\textwidth}
+			\includegraphics[width=\textwidth]{mod_daud_modif_ret_all_adu}
+			%\subcaption{de l'article}
+		\end{subfigure}
+		~
+		\begin{subfigure}{0.48\textwidth}
+			\includegraphics[width=\textwidth]{mod_daud_modif_ret_all_egg}
+			%\subcaption{ma sortie}
+		\end{subfigure}
+		\caption{Dynamique des deux populations sur tout le cycle après modification}
+		\label{fig:daud:modif:ret:all}
+	\end{figure}
+
+	Les courbes semblent être les mêmes que celles de la section précédente, mais il y à de différences quand on regarde bien. Nous notifions que les retards introduits ne sont pas distribués. Il s'agit de décalages temporels; raison pour laquelle les courbes semblent avoir les mêmes allures que celles de la section précédente.
+
+	%Une remarque importante est qu'on a une diminution de la population de maïs beaucoup plus faible que précédemment. En effet, on se retrouve à  environ 420 maïs ici alors qu'on en était à moins de 250 pour $z_0=60$.
+
+\section{Dynamique des deux population en fonction de $R_0$}
+	Les codes concernant ces parties ne sont pas présentés. Il s'agit juste de modification de certains paramètres du modèle modifié pour voir ce qui se passe pour différentes valeurs de notre $R_0$
+	.
+	L'expression du taux de reproduction de base est la suivante
+	\begin{equation}
+		R_0 = \frac{\rho\gamma\delta}{\mu_z(\gamma+\mu_y)(\delta+\mu_y-e\alpha x_s^*)}
+	\end{equation}
+
+	Avec les paramètres actuels du modèle, on a $R_0 = -0.3651$ qui est une valeur négative. Ainsi, l'oscillation observée au niveau des populations de la \gls{cla} serait due à ça. Pour en avoir le c\oe ur net, modifions la valeur de $e$ en 1.4 ; on obtient $R_0 = -0.5545$. On a alors les résultats de la figure \ref{fig:R0:neg1}.
+
+	\begin{figure}%[H]
+		\centering
+		\begin{subfigure}{0.48\textwidth}
+			\includegraphics[width=\textwidth]{R0_neg1_mai}
+			%\subcaption{de l'article}
+		\end{subfigure}
+		~
+		\begin{subfigure}{0.48\textwidth}
+			\includegraphics[width=\textwidth]{R0_neg1_cat}
+			%\subcaption{ma sortie}
+		\end{subfigure}
+
+		\begin{subfigure}{0.48\textwidth}
+			\includegraphics[width=\textwidth]{R0_neg1_adu}
+			%\subcaption{de l'article}
+		\end{subfigure}
+		~
+		\begin{subfigure}{0.48\textwidth}
+			\includegraphics[width=\textwidth]{R0_neg1_egg}
+			%\subcaption{ma sortie}
+		\end{subfigure}
+		%\caption{\it à suivre sur la page ...}
+
+		\caption{Dynamique des deux populations pour $R_0 = - 0.5545$}
+		\label{fig:R0:neg1}
+	\end{figure}
+
+	On observe un phénomène similaire qu'aux figures des sections \ref{sec:daudi:modif} et \ref{sec:daudi:ret}.
+
+	Observons ce qui se passerait si $R_0 \in [0,1]$.
+	\begin{figure}%[H]
+		\centering
+		\begin{subfigure}{0.48\textwidth}
+			\includegraphics[width=\textwidth]{R0_zero1_mai}
+			%\subcaption{de l'article}
+		\end{subfigure}
+		~
+		\begin{subfigure}{0.48\textwidth}
+			\includegraphics[width=\textwidth]{R0_zero1_cat}
+			%\subcaption{ma sortie}
+		\end{subfigure}
+
+		\begin{subfigure}{0.48\textwidth}
+			\includegraphics[width=\textwidth]{R0_zero1_adu}
+			%\subcaption{de l'article}
+		\end{subfigure}
+		~
+		\begin{subfigure}{0.48\textwidth}
+			\includegraphics[width=\textwidth]{R0_zero1_egg}
+			%\subcaption{ma sortie}
+		\end{subfigure}
+		%\caption{\it à suivre sur la page ...}
+
+		\caption{Dynamique des deux populations pour $R_0 = 0$ à cause de $\delta=0$}
+		\label{fig:R0:dzero}
+	\end{figure}
+
+	On remarque que la population de chenille a cru exponentiellement entre 20 et 100 avant de se stabilise ; ce qui est tout à faire normal puis puisqu'elles ne se transforment pas en papillons ($\delta = 0$) et que son taux de mortalité $\mu_y = 0.0071$ est inférieur au taux de transformation des \oe ufs en chenille $\gamma = 0.071$. La population de maïs a décru aussi conséquemment à cause de cette croissance exponentielle des chenilles.
+
+	\begin{figure}%[H]
+		\centering
+		\begin{subfigure}{0.48\textwidth}
+			\includegraphics[width=\textwidth]{R0_zero2_mai}
+			%\subcaption{de l'article}
+		\end{subfigure}
+		~
+		\begin{subfigure}{0.48\textwidth}
+			\includegraphics[width=\textwidth]{R0_zero2_cat}
+			%\subcaption{ma sortie}
+		\end{subfigure}
+
+		\begin{subfigure}{0.48\textwidth}
+			\includegraphics[width=\textwidth]{R0_zero2_adu}
+			%\subcaption{de l'article}
+		\end{subfigure}
+		~
+		\begin{subfigure}{0.48\textwidth}
+			\includegraphics[width=\textwidth]{R0_zero2_egg}
+			%\subcaption{ma sortie}
+		\end{subfigure}
+		%\caption{\it à suivre sur la page ...}
+
+		\caption{Dynamique des deux populations pour $R_0 = 0$à cause de $\rho=0$}
+		\label{fig:R0:lzero}
+	\end{figure}
+
+	On peut remarquer que si $\rho = 0$ ; et donc $R_0 = 0$, alors la variation de toutes les population est nulle et les papillons présent meurent exponentiellement. On entrevoit ainsi une voie de lutte contre ce ravageur. Un moyen de réduire $R_0$ serait certainement très efficace.
+
+
+	Pour le cas $\gamma = 0$, il n'y a aucune variation au niveau des populations de chenilles et de maïs. Pour les deux autres, il y a une décroissance exponentielle.
+
+	Toutes ces observations se déduisent du système d'équations différentielles \eqref{eq:daudi:modif}.
+
+	\begin{figure}%[H]
+		\centering
+		\begin{subfigure}{0.48\textwidth}
+			\includegraphics[width=\textwidth]{R0_zero_1_mai}
+			%\subcaption{de l'article}
+		\end{subfigure}
+		~
+		\begin{subfigure}{0.48\textwidth}
+			\includegraphics[width=\textwidth]{R0_zero_1_cat}
+			%\subcaption{ma sortie}
+		\end{subfigure}
+
+		\begin{subfigure}{0.48\textwidth}
+			\includegraphics[width=\textwidth]{R0_zero_1_adu}
+			%\subcaption{de l'article}
+		\end{subfigure}
+		~
+		\begin{subfigure}{0.48\textwidth}
+			\includegraphics[width=\textwidth]{R0_zero_1_egg}
+			%\subcaption{ma sortie}
+		\end{subfigure}
+		%\caption{\it à suivre sur la page ...}
+
+		\caption{Dynamique des deux populations pour $R_0 = 0.5098 < 1$ lorsque $\delta$ été multiplié par 3}.
+		\label{fig:R0:zero_1}
+	\end{figure}
+
+	On remarque sur la figure \ref{fig:R0:zero_1} que la population de la \gls{cla} a augmenté pendant un lape de temps et a commencé par décroître sans jamais croître à nouveau. Au même moment, la population de maïs décroit légèrement.
+
+	En fait, le $R_0$ est le nombre espéré de nouvelles infections dans le compartiment des maïs susceptibles produit par un chenille. Ainsi, si $R_0 > 1$, alors une chenille infecte plus d'un maïs sain et las population va croitre à l'infini; sinon, si $R_0 < 1$, elle va s'éteinddre.Mais au cas où $R_0<0$ alors cette population oscillerait. C'est une quantité très importante en épidémiologie pour savoir sur quel paramètre agir pour réduire l'infestation voir l'éradiquer.
+
+\section{Modification envisagée}
+	Après avoir construit un nouveau modèle à partir du modèle de \textcite{Daudi2021}, nous comptons apporter quelques autres modifications à ce dernier. D'après les observations faites sur le terrain et les information tirées de \textcite{fao201812}, on a peut dire que le taux de mortalité des maïs dû à l'attaque de la \gls{cla} n'est pas constant ; il décroit selon l'age du maïs. Nous avons alors pensé à deux solutions :
+	\begin{enumerate}
+		\item utiliser une fonction exponentielle $e^{-\lambda t}$ (voir figure \ref{fig:daud:modif:ret:exp});
+		\item utiliser la fonction de densité de probabilité de la loi exponentielle (voir figure \ref{fig:daud:modif:ret:lexp}).
+	\end{enumerate}
+	Nous ajoutons également le taux de compensation ($\beta = 1/20$) de la biomasse détruite (voir figure \ref{fig:daud:modif:ret:reta}).
+	\begin{figure}%[H]
+		\centering
+		\begin{subfigure}{0.48\textwidth}
+			\includegraphics[width=\textwidth]{mod_daud_modif_ret_reta_susmai}
+			%\subcaption{de l'article}
+		\end{subfigure}
+		~
+		\begin{subfigure}{0.48\textwidth}
+			\includegraphics[width=\textwidth]{mod_daud_modif_ret_reta_infmai}
+			%\subcaption{ma sortie}
+		\end{subfigure}
+
+		\begin{subfigure}{0.48\textwidth}
+			\includegraphics[width=\textwidth]{mod_daud_modif_ret_reta_mai}
+			%\subcaption{de l'article}
+		\end{subfigure}
+		~
+		\begin{subfigure}{0.48\textwidth}
+			\includegraphics[width=\textwidth]{mod_daud_modif_ret_reta_cat}
+			%\subcaption{ma sortie}
+		\end{subfigure}
+		%\caption{\it à suivre sur la page ...}
+
+		\begin{subfigure}{0.48\textwidth}
+			\includegraphics[width=\textwidth]{mod_daud_modif_ret_reta_adu}
+			%\subcaption{de l'article}
+		\end{subfigure}
+		~
+		\begin{subfigure}{0.48\textwidth}
+			\includegraphics[width=\textwidth]{mod_daud_modif_ret_reta_egg}
+			%\subcaption{ma sortie}
+		\end{subfigure}
+		\caption{Dynamique des deux populations sur tout le cycle avec compensation}
+		\label{fig:daud:modif:ret:reta}
+	\end{figure}
+
+	\begin{figure}%[H]
+		\centering
+		\begin{subfigure}{0.48\textwidth}
+			\includegraphics[width=\textwidth]{mod_daud_modif_ret_exp_susmai}
+			%\subcaption{de l'article}
+		\end{subfigure}
+		~
+		\begin{subfigure}{0.48\textwidth}
+			\includegraphics[width=\textwidth]{mod_daud_modif_ret_exp_infmai}
+			%\subcaption{ma sortie}
+		\end{subfigure}
+
+		\begin{subfigure}{0.48\textwidth}
+			\includegraphics[width=\textwidth]{mod_daud_modif_ret_exp_mai}
+			%\subcaption{de l'article}
+		\end{subfigure}
+		~
+		\begin{subfigure}{0.48\textwidth}
+			\includegraphics[width=\textwidth]{mod_daud_modif_ret_exp_cat}
+			%\subcaption{ma sortie}
+		\end{subfigure}
+		%\caption{\it à suivre sur la page ...}
+
+		\begin{subfigure}{0.48\textwidth}
+			\includegraphics[width=\textwidth]{mod_daud_modif_ret_exp_adu}
+			%\subcaption{de l'article}
+		\end{subfigure}
+		~
+		\begin{subfigure}{0.48\textwidth}
+			\includegraphics[width=\textwidth]{mod_daud_modif_ret_exp_egg}
+			%\subcaption{ma sortie}
+		\end{subfigure}
+		\caption{Dynamique des deux populations sur tout le cycle avec une mortalité exponentielle}
+		\label{fig:daud:modif:ret:exp}
+	\end{figure}
+
+	\begin{figure}%[H]
+		\centering
+		\begin{subfigure}{0.48\textwidth}
+			\includegraphics[width=\textwidth]{mod_daud_modif_ret_lexp_susmai}
+			%\subcaption{de l'article}
+		\end{subfigure}
+		~
+		\begin{subfigure}{0.48\textwidth}
+			\includegraphics[width=\textwidth]{mod_daud_modif_ret_lexp_infmai}
+			%\subcaption{ma sortie}
+		\end{subfigure}
+
+		\begin{subfigure}{0.48\textwidth}
+			\includegraphics[width=\textwidth]{mod_daud_modif_ret_lexp_mai}
+			%\subcaption{de l'article}
+		\end{subfigure}
+		~
+		\begin{subfigure}{0.48\textwidth}
+			\includegraphics[width=\textwidth]{mod_daud_modif_ret_lexp_cat}
+			%\subcaption{ma sortie}
+		\end{subfigure}
+		%\caption{\it à suivre sur la page ...}
+
+		\begin{subfigure}{0.48\textwidth}
+			\includegraphics[width=\textwidth]{mod_daud_modif_ret_lexp_adu}
+			%\subcaption{de l'article}
+		\end{subfigure}
+		~
+		\begin{subfigure}{0.48\textwidth}
+			\includegraphics[width=\textwidth]{mod_daud_modif_ret_lexp_egg}
+			%\subcaption{ma sortie}
+		\end{subfigure}
+		\caption{Dynamique des deux populations sur tout le cycle avec une mortalité exponentiellement distribuée}
+		\label{fig:daud:modif:ret:lexp}
+	\end{figure}
+
+	Nous testons toutes possibilités pour voir qu'elle expression expliquerait au mieux la mortalité due à la \gls{cla}.
+
+
+
+
+
+
+
+
+
+
+

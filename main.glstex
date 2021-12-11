@@ -46,141 +46,153 @@
 }
 
 \bibglsnewabbreviation{cimmyt}%
-{location={\glsnoidxdisplayloc{}{page}{glsnumberformat}{16}},
+{location={\glsnoidxdisplayloc{}{page}{glsnumberformat}{10}},
 text={Centro Internacional de Mejoramiento de Maíz y Trigo},
 sort={CIMMYT|}}%
 {CIMMYT}%
 {Centre International d'Amélioration du Maïs et du Blé}
-\glsxtrfieldlistadd{cimmyt}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{16}}
+\glsxtrfieldlistadd{cimmyt}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{10}}
 
 
 \bibglsnewabbreviation{cla}%
 {longplural={chénilles légionnaires d'automne},
-location={\glsnoidxdisplayloc{}{page}{glsnumberformat}{xi}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{2}\delimR \glsnoidxdisplayloc{}{page}{glsnumberformat}{5}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{11}\delimR \glsnoidxdisplayloc{}{page}{glsnumberformat}{16}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{43}\delimR \glsnoidxdisplayloc{}{page}{glsnumberformat}{51}},
+location={\glsnoidxdisplayloc{}{page}{glsnumberformat}{xi}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{1}\delimR \glsnoidxdisplayloc{}{page}{glsnumberformat}{10}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{35}\delimR \glsnoidxdisplayloc{}{page}{glsnumberformat}{43}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{46}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{47}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{49}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{51}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{60}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{64}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{68}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{73}\bibglslastDelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{107}},
 sort={CLA|},
 shortplural={CLA}}%
 {CLA}%
 {chénille légionnaire d'automne}
 \glsxtrfieldlistadd{cla}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{xi}}
+\glsxtrfieldlistadd{cla}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{1}}
 \glsxtrfieldlistadd{cla}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{2}}
 \glsxtrfieldlistadd{cla}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{3}}
 \glsxtrfieldlistadd{cla}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{4}}
 \glsxtrfieldlistadd{cla}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{5}}
-\glsxtrfieldlistadd{cla}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{11}}
-\glsxtrfieldlistadd{cla}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{12}}
-\glsxtrfieldlistadd{cla}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{13}}
-\glsxtrfieldlistadd{cla}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{14}}
-\glsxtrfieldlistadd{cla}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{15}}
-\glsxtrfieldlistadd{cla}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{16}}
+\glsxtrfieldlistadd{cla}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{6}}
+\glsxtrfieldlistadd{cla}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{7}}
+\glsxtrfieldlistadd{cla}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{8}}
+\glsxtrfieldlistadd{cla}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{9}}
+\glsxtrfieldlistadd{cla}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{10}}
+\glsxtrfieldlistadd{cla}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{35}}
+\glsxtrfieldlistadd{cla}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{36}}
+\glsxtrfieldlistadd{cla}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{37}}
+\glsxtrfieldlistadd{cla}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{38}}
+\glsxtrfieldlistadd{cla}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{39}}
+\glsxtrfieldlistadd{cla}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{40}}
+\glsxtrfieldlistadd{cla}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{41}}
+\glsxtrfieldlistadd{cla}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{42}}
 \glsxtrfieldlistadd{cla}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{43}}
-\glsxtrfieldlistadd{cla}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{44}}
-\glsxtrfieldlistadd{cla}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{45}}
 \glsxtrfieldlistadd{cla}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{46}}
 \glsxtrfieldlistadd{cla}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{47}}
-\glsxtrfieldlistadd{cla}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{48}}
 \glsxtrfieldlistadd{cla}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{49}}
-\glsxtrfieldlistadd{cla}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{50}}
 \glsxtrfieldlistadd{cla}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{51}}
-
-
-\bibglsnewabbreviation{dfe}%
-{longplural={points d'équilibre sans maladie},
-location={\glsnoidxdisplayloc{}{page}{glsnumberformat}{53}},
-text={point d'équilibre sans maladie},
-sort={DFE|},
-shortplural={DFE}}%
-{DFE}%
-{Disease Free Equilibrium}
-\glsxtrfieldlistadd{dfe}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{53}}
+\glsxtrfieldlistadd{cla}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{60}}
+\glsxtrfieldlistadd{cla}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{64}}
+\glsxtrfieldlistadd{cla}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{68}}
+\glsxtrfieldlistadd{cla}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{73}}
+\glsxtrfieldlistadd{cla}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{107}}
 
 
 \bibglsnewabbreviation{edo}%
 {longplural={équations différentielles ordinaires},
-location={\glsnoidxdisplayloc{}{page}{glsnumberformat}{24}\delimR \glsnoidxdisplayloc{}{page}{glsnumberformat}{27}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{30}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{31}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{37}\delimR \glsnoidxdisplayloc{}{page}{glsnumberformat}{41}\bibglslastDelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{72}},
+location={\glsnoidxdisplayloc{}{page}{glsnumberformat}{18}\delimR \glsnoidxdisplayloc{}{page}{glsnumberformat}{20}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{23}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{24}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{30}\delimR \glsnoidxdisplayloc{}{page}{glsnumberformat}{34}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{51}\bibglslastDelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{106}},
 sort={EDO|},
 shortplural={EDO}}%
 {EDO}%
 {équation différentielle ordinaire}
+\glsxtrfieldlistadd{edo}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{18}}
+\glsxtrfieldlistadd{edo}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{19}}
+\glsxtrfieldlistadd{edo}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{20}}
+\glsxtrfieldlistadd{edo}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{23}}
 \glsxtrfieldlistadd{edo}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{24}}
-\glsxtrfieldlistadd{edo}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{25}}
-\glsxtrfieldlistadd{edo}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{26}}
-\glsxtrfieldlistadd{edo}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{27}}
 \glsxtrfieldlistadd{edo}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{30}}
 \glsxtrfieldlistadd{edo}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{31}}
-\glsxtrfieldlistadd{edo}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{37}}
-\glsxtrfieldlistadd{edo}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{38}}
-\glsxtrfieldlistadd{edo}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{39}}
-\glsxtrfieldlistadd{edo}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{40}}
-\glsxtrfieldlistadd{edo}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{41}}
-\glsxtrfieldlistadd{edo}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{72}}
+\glsxtrfieldlistadd{edo}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{32}}
+\glsxtrfieldlistadd{edo}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{33}}
+\glsxtrfieldlistadd{edo}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{34}}
+\glsxtrfieldlistadd{edo}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{51}}
+\glsxtrfieldlistadd{edo}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{106}}
 
 
 \bibglsnewabbreviation{edp}%
 {longplural={équation aux dérivées partielles},
-location={\glsnoidxdisplayloc{}{page}{glsnumberformat}{24}},
+location={\glsnoidxdisplayloc{}{page}{glsnumberformat}{18}},
 sort={EDP|},
 shortplural={EDP}}%
 {EDP}%
 {équation aux dérivées partielles}
-\glsxtrfieldlistadd{edp}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{24}}
+\glsxtrfieldlistadd{edp}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{18}}
 
 
 \bibglsnewabbreviation{edr}%
 {longplural={équations différentielles à retard},
-location={\glsnoidxdisplayloc{}{page}{glsnumberformat}{25}},
+location={\glsnoidxdisplayloc{}{page}{glsnumberformat}{18}},
 sort={EDR|},
 shortplural={EDR}}%
 {EDR}%
 {équation différentielle à retard}
-\glsxtrfieldlistadd{edr}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{25}}
+\glsxtrfieldlistadd{edr}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{18}}
 
 
 \bibglsnewabbreviation{eds}%
 {longplural={équations différentielles stochastiques},
-location={\glsnoidxdisplayloc{}{page}{glsnumberformat}{25}},
+location={\glsnoidxdisplayloc{}{page}{glsnumberformat}{18}},
 sort={EDS|},
 shortplural={EDP}}%
 {EDS}%
 {équation différentielle stochastique}
-\glsxtrfieldlistadd{eds}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{25}}
+\glsxtrfieldlistadd{eds}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{18}}
 
 
 \bibglsnewabbreviation{iita}%
-{location={\glsnoidxdisplayloc{}{page}{glsnumberformat}{14}\bibglslastDelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{16}},
+{location={\glsnoidxdisplayloc{}{page}{glsnumberformat}{8}\bibglslastDelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{10}},
 text={International Institute of Tropical Agriculture},
 sort={IITA|}}%
 {IITA}%
 {Institut International de Agriculture Tropicale}
-\glsxtrfieldlistadd{iita}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{14}}
-\glsxtrfieldlistadd{iita}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{16}}
+\glsxtrfieldlistadd{iita}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{8}}
+\glsxtrfieldlistadd{iita}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{10}}
+
+
+\bibglsnewabbreviation{pfe}%
+{longplural={points d'équilibre sans parasite},
+location={\glsnoidxdisplayloc{}{page}{glsnumberformat}{45}\bibglslastDelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{46}},
+text={d'équilibre sans parasite},
+sort={PFE|},
+shortplural={PFE}}%
+{PFE}%
+{Pathogen Free Equilibrium}
+\glsxtrfieldlistadd{pfe}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{45}}
+\glsxtrfieldlistadd{pfe}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{46}}
 
 
 \bibglsnewabbreviation{rk2}%
-{location={\glsnoidxdisplayloc{}{page}{glsnumberformat}{32}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{35}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{36}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{38}\bibglslastDelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{72}},
+{location={\glsnoidxdisplayloc{}{page}{glsnumberformat}{25}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{28}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{29}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{31}\bibglslastDelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{106}},
 sort={RK2|}}%
 {RK2}%
 {Runge-Kutta d’ordre 2}
-\glsxtrfieldlistadd{rk2}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{32}}
-\glsxtrfieldlistadd{rk2}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{35}}
-\glsxtrfieldlistadd{rk2}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{36}}
-\glsxtrfieldlistadd{rk2}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{38}}
-\glsxtrfieldlistadd{rk2}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{72}}
+\glsxtrfieldlistadd{rk2}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{25}}
+\glsxtrfieldlistadd{rk2}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{28}}
+\glsxtrfieldlistadd{rk2}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{29}}
+\glsxtrfieldlistadd{rk2}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{31}}
+\glsxtrfieldlistadd{rk2}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{106}}
 
 
 \bibglsnewabbreviation{rk4}%
-{location={\glsnoidxdisplayloc{}{page}{glsnumberformat}{35}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{36}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{38}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{39}\bibglslastDelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{72}},
+{location={\glsnoidxdisplayloc{}{page}{glsnumberformat}{28}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{29}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{31}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{32}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{79}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{106}\bibglslastDelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{107}},
 sort={RK4|}}%
 {RK4}%
 {Runge-Kutta d’ordre 4}
-\glsxtrfieldlistadd{rk4}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{35}}
-\glsxtrfieldlistadd{rk4}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{36}}
-\glsxtrfieldlistadd{rk4}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{38}}
-\glsxtrfieldlistadd{rk4}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{39}}
-\glsxtrfieldlistadd{rk4}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{72}}
+\glsxtrfieldlistadd{rk4}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{28}}
+\glsxtrfieldlistadd{rk4}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{29}}
+\glsxtrfieldlistadd{rk4}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{31}}
+\glsxtrfieldlistadd{rk4}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{32}}
+\glsxtrfieldlistadd{rk4}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{79}}
+\glsxtrfieldlistadd{rk4}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{106}}
+\glsxtrfieldlistadd{rk4}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{107}}
 
 
 \bibglsnewabbreviation{spodo}%
-{location={\glsnoidxdisplayloc{}{page}{glsnumberformat}{i}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{v}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{2}\bibglslastDelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{4}},
+{location={\glsnoidxdisplayloc{}{page}{glsnumberformat}{i}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{v}\bibglslastDelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{3}},
 text={Spodoptera frugiperda},
 sort={S|frugiperda|},
 category={bacteria}}%
@@ -188,20 +200,19 @@ category={bacteria}}%
 {Spodoptera frugiperda {\rm(J. E. Smith, 1797)} (Lepidoptera: Noctuidae)}
 \glsxtrfieldlistadd{spodo}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{i}}
 \glsxtrfieldlistadd{spodo}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{v}}
-\glsxtrfieldlistadd{spodo}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{2}}
-\glsxtrfieldlistadd{spodo}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{4}}
+\glsxtrfieldlistadd{spodo}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{3}}
 
 
 \bibglsnewabbreviation{sis}%
 {longplural={Susceptibles, Infectés, Susceptibles},
-location={\glsnoidxdisplayloc{}{page}{glsnumberformat}{47}\bibglsdelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{49}\bibglslastDelimN \glsnoidxdisplayloc{}{page}{glsnumberformat}{73}},
+location={\glsnoidxdisplayloc{}{page}{glsnumberformat}{39}\delimR \glsnoidxdisplayloc{}{page}{glsnumberformat}{41}},
 sort={SIS|},
 category={sigle},
 shortplural={SIS}}%
 {SIS}%
 {Susceptible, Infecté, Susceptible}
-\glsxtrfieldlistadd{sis}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{47}}
-\glsxtrfieldlistadd{sis}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{49}}
-\glsxtrfieldlistadd{sis}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{73}}
+\glsxtrfieldlistadd{sis}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{39}}
+\glsxtrfieldlistadd{sis}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{40}}
+\glsxtrfieldlistadd{sis}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{41}}
 
 

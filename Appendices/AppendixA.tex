@@ -1,4 +1,37 @@
 % Appendix A
 
-\chapter{Appendice} % Main appendix title
+\chapter{Appendices} % Main appendix title
+\minitoclt
 
+\section{Codes MATLAB}
+Nous présentons ici les codes MATLAB que nous avons écrit pour résoudre le problème de notre mémoire
+
+\subsection{Script des méthodes de résolution}
+	\subsubsection{Méthode de \gls{rk4}}
+		\Matlab{Matlab/RungKutta4.m}
+	\subsubsection{Méthode de d'Euler modifié}
+		\Matlab{Matlab/EulerModif.m}
+
+\subsection{Modèle de \textcite{Daudi2021}}
+	\subsubsection{Script de résolution}
+		\Matlab{Matlab/DaudiSolver.m}
+
+	\subsubsection{Fonction du système d'\gls{ode} du modèle}
+		\Matlab{Matlab/daudi.m}
+
+\subsection{Modèle de \textcite{Daudi2021} modifié}
+	Ici, il s'ait du modèle où la population de maïs a été compartimentée en deux : S et I
+
+	\subsubsection{Script de résolution}
+		\Matlab{Matlab/DaudiModifSolver.m}
+
+	\subsubsection{Fonction du système d'\gls{ode} du modèle}
+		\Matlab{Matlab/daudiModif.m}
+
+\subsection{Modèle de \textcite{Daudi2021} modifié avec retard}
+
+	\subsubsection{Script de résolution}
+		\Matlab{Matlab/DaudiModifSolver2.m}
+
+	\subsubsection{Fonction du système d'\gls{ode} du modèle}
+		\Matlab{Matlab/daudiModif2.m}

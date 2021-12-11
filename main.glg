@@ -5,6 +5,7 @@ Reading Chapters\Chapter1.aux
 Reading Chapters\Chapter3.aux
 Reading Chapters\Chapter4.aux
 Reading Chapters\Conclusion.aux
+Reading Appendices\AppendixA.aux
 TeX character encoding: UTF-8
 Initialising resource main.glstex.
 Parsing bib files for resource main.glstex.
@@ -20,12 +21,12 @@ Writing D:\ENSGMM\3e année\Demarche de redaction de Memoire\Memoire_dir\Memoire\
 Encoding: UTF-8
 cimmyt
 cla
-dfe
 edo
 edp
 edr
 eds
 iita
+pfe
 rk2
 rk4
 spodo

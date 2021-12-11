@@ -53,7 +53,7 @@
 \geometry{
 	paper=a4paper, % Change to letterpaper for US letter
 	inner=2.5cm, % Inner margin
-	outer=3.8cm, % Outer margin
+	%outer=3.8cm, % Outer margin
 	bindingoffset=.5cm, % Binding offset
 	top=1.5cm, % Top margin
 	bottom=1.5cm, % Bottom margin
@@ -91,6 +91,8 @@
 \usepackage{tikz}
 \usetikzlibrary{arrows,calc,positioning,shapes.misc}
 \usepackage{xspace}
+\usepackage[section]{placeins}
+
 %\usepackage{setspace}
 % Pour les paragraphes
 \parindent = 0pt
@@ -126,6 +128,8 @@
 \newcommand{\dxdt}[2][t]{\frac{\dx#2}{\dx#1}}
 \newcommand{\ddxdt}[2][t]{\displaystyle\dxdt[#1]{#2}}
 \newcommand{\xp}[1]{\stackrel{.}{#1}}
+\newcommand{\enumpt}{•}
+\newcommand*{\mc}[1]{\mathcal{#1}}
 
 \def\R{\mathbb{R}}
 \def\N{\mathbb{N}}
@@ -147,6 +151,7 @@
 %%%%%%%%%%%%%%%%  inclure la source %%%%%%%%%%%%%%%%%%%%
 \usepackage{listings}
 \usepackage{inconsolata} % Swedish encoding in lstlisting
+\usepackage[framed]{matlab-prettifier}
 
 \newcommand*\styleC{\fontsize{9}{10pt}\usefont{T1}{pcr}{m}{n}\selectfont } % Change aussi la police avec {ptm}
 \newcommand*\styleD{\fontsize{9}{10pt}\usefont{OT1}{pcr}{m}{n}\selectfont }% Change la police avec {pcr} et machine à écrire
@@ -182,7 +187,15 @@
 	%	\lstinputlisting[texcl=true]{#1}
 	%}
 
-\lstdefinestyle{pos}{float=!ht}
+\lstdefinestyle{pos}{
+	escapechar=\%,
+	mathescape,
+	breaklines,
+	frame = tb,
+	float=!ht,
+	frame = tb,
+	breaklines
+}
 
 \lstset{
 %	backgroundcolor=\color{gray!10},
@@ -195,13 +208,13 @@
 	%numberfirstline,
 %	numbersep=10pt,
 %	lineskip=0.7pt,
-	breaklines,
-	frame = tb,
+	%breaklines,
+	%frame = tb,
 	%float=ht, %inutile
 %	title= {Code Matlab},
 %	showstringspaces=false,
-	escapechar=\%,
-	mathescape,
+	%escapechar=\%,
+	%mathescape,
 	tabsize=4,
 	inputencoding = utf8,  % Input encoding
 	extendedchars = true,  % Extended ASCII
@@ -226,3 +239,43 @@
 %\newcommand{\Matlab}[1]{%
 %	\lstinputlisting[texcl=true]{#1}
 %} % A Revoir
+
+
+%%%%%%%%%%%%%%%%  inclure la source %%%%%%%%%%%%%%%%%%%%
+%\usepackage{listings}
+%\newcommand*\styleC{\fontsize{9}{10pt}\usefont{T1}{pcr}{m}{n}\selectfont } % Change aussi la police avec {ptm}
+%\newcommand*\styleD{\fontsize{9}{10pt}\usefont{OT1}{pcr}{m}{n}\selectfont }% Change la police avec {pcr} et machine à écrire
+
+\makeatletter
+% on fixe le langage utilisÃ©
+%\lstset{language=matlab}
+%\edef\Motscle{emph={\lst@keywords}}
+%\expandafter\lstset\expandafter{%
+%	\Motscle}
+%\makeatother
+
+
+%\definecolor{Ggris}{rgb}{0.45,0.48,0.45}
+
+\lstdefinestyle{code}{
+	%emphstyle=\bfseries\styleD,%\color{blue!70!black}, % les mots réservés de matlab en bleu
+	%basicstyle=\mlttfamily,
+	basicstyle=\fontsize{12pt}{12pt}\styleD,
+	mlunquotedstringdelim={þ}{þ},
+	%backgroundcolor=\color{blue!05},
+	%keywordstyle=\styleD,%\ttfamily,
+	%commentstyle=\color{green!45!black}\styleC, % commentaire en vert
+	%numberstyle=\tiny\color{red}, % Couleur de la numérotation des lignes de codes
+	%numbers=none,%left,
+	%numbersep=10pt,
+	%lineskip=0.8pt,
+	title = {\bf Code Matlab},
+	%mlshowstringspaces=false
+}
+%  % inclure le fichier source
+\newcommand{\Matlab}[1]{%
+	\lstinputlisting[texcl=true,
+					style=Matlab-editor,
+					style=code
+					]{#1}
+} % A Revoir
