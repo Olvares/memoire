@@ -14,45 +14,28 @@ clc
 
 %% ================== PARAMETERS' VALUES ========================
 % Coefficients
-%     a = 0.000154;   % $\alpha$ caterpillar attack rate at vegetative stage
-%     n = 0.000154;   % $\eta$ caterpillar attack rate at reproductive stage
-%     l = 0.015;      % $\lambda$ maize death due to caterpillar attaque
-%     d = 0.071;      % $\delta$ caterpillar to adult rate
-%     g = 0.071;      % $\gamma$ egg to caterpillar
-%     rh = 0.0417;    % $\rho$ fecondity rate
-     k = 500;        % $k$ Maximum number of maize plant in the garden
-%     e = 1.6;        % $e$ biomass conversion to caterpillar
-
-    ta = [3 8.5];
-    a = 1/10;
-    n = a;
-    l = 1/21;
-    d = 1/7;
-    g = 1/5;
-    rh = 0.5;
-    e = 0.01;
-%   k = x0;
-    rr = 1/10;
-    z0 = 0;
-
+    a = 0.000154;   % $\alpha$ caterpillar attack rate at vegetative stage
+    n = 0.000154;   % $\eta$ caterpillar attack rate at reproductive stage
+    l = 0.015;      % $\lambda$ maize death due to caterpillar attaque
+    d = 0.071;      % $\delta$ caterpillar to adult rate
+    g = 0.071;      % $\gamma$ egg to caterpillar
+    rh = 0.0417;    % $\rho$ fecondity rate
+    k = 500;        % $k$ Maximum number of maize plant in the garden
+    e = 1.6;        % $e$ biomass conversion to caterpillar
 % Mortality rates
-%     uy = 0.0071;    % $\mu_y$ mortality rate of caterpillar
-%     uz = 0.115;     % $\mu_z$ motality rate of adult
-%     uw = 0.04;      % $\mu_w$ motality rate of egg
-
-    uy = 1/ta(2);    % $\mu_y$ mortality rate of caterpillar
-    uz = 0.3;%1/17.5;  %0.115;     % $\mu_z$ motality rate of adult
-    uw = 1/ta(1);      % $\mu_w$ motality rate of egg
+    uy = 0.0071;    % $\mu_y$ mortality rate of caterpillar
+    uz = 0.115;     % $\mu_z$ motality rate of adult
+    uw = 0.04;      % $\mu_w$ motality rate of egg
     drate = [uy, uz, uw];
+
 %% ======================== TIME ============================
 t0 = 0;         % $t_0 = 0$ initial time
-
 t1 = 63;        % $t_1 = 63$ the end of vegetaive stage
 T = 160;        % $T = 160$ the end of the reproductive stage
 h = (T-t0)/(T*20);
 
 %% ====================== RESOLUTION ========================
-% figure custmization
+% figure customization
     fig = 0;
     tit = ["susceptible maize", "infected maize", "maize", "caterpillar", "adult", "egg"];
     xlab = 't';
@@ -89,23 +72,23 @@ h = (T-t0)/(T*20);
                 s0 = [xs0, xi0, x0, y0, z0, w0]; % Matrice for the initial solution
             end
             % Intermeadiate function
-                interFun = @(t,y) daudiModif(t, y, coef, drate, ta, t0); % To maintain
+                interFun = @(t,y) daudiModif(t, y, coef, drate); % To maintain
                     % compatibility with our ODE solvers asked functions
         fig = fig + nbeq*(stage-1);
         for i = 1:numsim
-            [t,s] = RungKutta4(interFun, s0(i,:), I, 'h', h); % RK4
-            % [t,s] = EulerModif(interFun, s0(i,:), I, 'h', h); % Euler
+            % [t,s] = RungKutta4(interFun, s0(i,:), I, 'h', h); % RK4
+            [t,s] = EulerModif(interFun, s0(i,:), I, 'h', h); % Euler
             s10(i,:) = s(end,:); % Retain the  final solution of the
             % vegetative stage which is also the initial value for the
             % reproductive  stage for the different value of $z_0$
 
             % for the legend
-            name = [sprintf('xs%d = %.0f  ',stage-1,s0(i,1)),...
-                sprintf('xi%d = %.0f  ',stage-1,s0(i,2)),...
-                sprintf('x%d = %.0f  ',stage-1,s0(i,3)),...
-                sprintf('y%d = %.0f  ',stage-1,s0(i,4)),...
-                sprintf('z%d = %.0f  ',stage-1,s0(i,5)),...
-                sprintf('w%d = %.0f  ',stage-1,s0(i,6))];
+            name = [sprintf('xs%d = %.0f  ',(stage==2),s0(i,1)),...
+                sprintf('xi%d = %.0f  ',(stage==2),s0(i,2)),...
+                sprintf('x%d = %.0f  ',(stage==2),s0(i,3)),...
+                sprintf('y%d = %.0f  ',(stage==2),s0(i,4)),...
+                sprintf('z%d = %.0f  ',(stage==2),s0(i,5)),...
+                sprintf('w%d = %.0f  ',(stage==2),s0(i,6))];
 
             % Solution plot
             for j = 1:nbeq

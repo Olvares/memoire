@@ -32,10 +32,10 @@ clc
 t0 = 0;         % $t_0 = 0$ initial time
 t1 = 63;        % $t_1 = 63$ the end of vegetaive stage
 T = 160;        % $T = 160$ the end of the reproductive stage
-h = (T-t0)/(T*20);
+h = 0.1;
 
 %% ====================== RESOLUTION ========================
-% figure custmization
+% figure customization
     fig = 0;
     tit = ["susceptible maize", "infected maize", "maize", "caterpillar", "adult", "egg"];
     xlab = 't';
@@ -49,7 +49,7 @@ h = (T-t0)/(T*20);
     s10 = zeros(numsim, nbeq); % solution at $t = t_1$
     
 % Solution for different stage
-    for stage = 1:3 % 1 correspond to the vegetative stage, 2 for the
+    for stage = 1:2:3 % 1 correspond to the vegetative stage, 2 for the
                     % reproductive one and three for the whole period
         % Variables initial value
             if stage == 1 % Vegatative stage
@@ -57,7 +57,7 @@ h = (T-t0)/(T*20);
                 xi0 = zeros(numsim, 1);
                 x0 = xs0;
                 y0 = xi0;
-                z0 = [15; 30; 45; 60];
+                z0 = [1; 30; 45; 60];
                 w0 = y0;
                 I = [t0 t1]; % time interval
                 coef = [a, l, d, g, rh, e, k];

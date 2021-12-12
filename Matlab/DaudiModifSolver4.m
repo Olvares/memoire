@@ -14,28 +14,28 @@ clc
 
 %% ================== PARAMETERS' VALUES ========================
 % Coefficients
-    a = 1e-5;%0.000154*10;   % $\alpha$ caterpillar attack rate at vegetative stage
+    a = 0.000154;   % $\alpha$ caterpillar attack rate at vegetative stage
     n = a;%0.000154;   % $\eta$ caterpillar attack rate at reproductive stage
-    l = 1e-3;%.015;      % $\lambda$ maize death due to caterpillar attaque
-    d = 1/14;%0.071;      % $\delta$ caterpillar to adult rate
-    g = 1/3/3; %0.071;      % $\gamma$ egg to caterpillar
-    rh = 12.5/2;%0.0417*10;    % $\rho$ fecondity rate
-    k = 00;        % $k$ Maximum number of maize plant in the garden
-    e = 0.1;%1.6;        % $e$ biomass conversion to caterpillar
-    b = 0.1;%1/20;
+    l = 0.015;      % $\lambda$ maize death due to caterpillar attaque
+    d = 0.071;      % $\delta$ caterpillar to adult rate
+    g = 0.071;      % $\gamma$ egg to caterpillar
+    rh = 0.0417;    % $\rho$ fecondity rate
+    k = 300;        % $k$ Maximum number of maize plant in the garden
+    e = 1.6;        % $e$ biomass conversion to caterpillar
+    b = 1/20;
 % Mortality rates
-    uy = 0.01*50;%0.0071;    % $\mu_y$ mortality rate of caterpillar
-    uz = 1/14;%0.115/2;     % $\mu_z$ motality rate of adult
-    uw = uy;%0.04;      % $\mu_w$ motality rate of egg
+    uy = 0.0071;    % $\mu_y$ mortality rate of caterpillar
+    uz = 0.115;     % $\mu_z$ motality rate of adult
+    uw = 0.04;      % $\mu_w$ motality rate of egg
     drate = [uy, uz, uw];
 
 %% ============== BASE REPRODUCTION RATE R0 =================
     R0 = rh*d*g/(uz*(g+uw)*(d+uy-e*a*k));
     disp(R0)
 %% ======================== TIME ============================
-t0 = 10;     % $t_0 = 0$ initial time
-t1 = 63;    % $t_1 = 63$ the end of vegetaive stage
-T = 160;    % $T = 160$ the end of the reproductive stage
+t0 = 8;     % $t_0 = 0$ initial time
+t1 = 42;    % $t_1 = 63$ the end of vegetaive stage
+T = 104;    % $T = 160$ the end of the reproductive stage
 ta = [0 0]; % Times before transformation in cterpillar and adult respectively
 h = 1/10;
 

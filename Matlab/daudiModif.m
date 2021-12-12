@@ -82,7 +82,7 @@ g = @(x) an*x;
 dxs = - g(xs)*y;
 dxi = g(xs)*y - f(xi);
 dx = - f(xi); % This is the real maize population variation
-dy = e*g(xs)*y + ga*w - d*y -uy*y;
+dy = e*g(xs)*y + ga*w - d*y - uy*y;
 dz = d*y - uz*z;
 dw = rh*z - ga*w - uw*w;
 

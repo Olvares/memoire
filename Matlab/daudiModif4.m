@@ -1,4 +1,4 @@
-function [dX] = daudiModif3(t, X, coef, drate, varargin)
+function [dX] = daudiModif4(t, X, coef, drate, varargin)
 %% About this function
 % This function is Daudi's model modified by introducing susceptible and
 % infected compartiments. Its becomes an epidemiology model SIS in the
@@ -67,7 +67,7 @@ w = X(6);      % initial population of egg
 
 %% ====================== THE MODEL ========================
 %m = @(t,x) l*x;
-m = @(t,x) 5*l*exp(-l*t)*x;
+m = @(t,x) l*exp(-l*t)*x;
 %m = @(t,x) l*x*(1-x/k/4);
 g = @(x) an*x;
 % Possible amelioration

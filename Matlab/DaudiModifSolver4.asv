@@ -14,28 +14,28 @@ clc
 
 %% ================== PARAMETERS' VALUES ========================
 % Coefficients
-    a = 2e-2;%0.000154*10;   % $\alpha$ caterpillar attack rate at vegetative stage
+    a = 0.000154;   % $\alpha$ caterpillar attack rate at vegetative stage
     n = a;%0.000154;   % $\eta$ caterpillar attack rate at reproductive stage
-    l = 5e-1;%.015;      % $\lambda$ maize death due to caterpillar attaque
-    d = 1/14;%0.071;      % $\delta$ caterpillar to adult rate
-    g = 1/3; %0.071;      % $\gamma$ egg to caterpillar
-    rh = 0.125;%0.0417*10;    % $\rho$ fecondity rate
+    l = 0.015;      % $\lambda$ maize death due to caterpillar attaque
+    d = 0.071;      % $\delta$ caterpillar to adult rate
+    g = 0.071;      % $\gamma$ egg to caterpillar
+    rh = 0.0417;    % $\rho$ fecondity rate
     k = 300;        % $k$ Maximum number of maize plant in the garden
-    e = 0.2;%1.6;        % $e$ biomass conversion to caterpillar
-    b = 0.1;%1/20;
+    e = 1.6;        % $e$ biomass conversion to caterpillar
+    b = 1/20;
 % Mortality rates
-    uy = 0.01;%0.0071;    % $\mu_y$ mortality rate of caterpillar
-    uz = 1/14;%0.115/2;     % $\mu_z$ motality rate of adult
-    uw = uy;%0.04;      % $\mu_w$ motality rate of egg
+    uy = 0.0071;    % $\mu_y$ mortality rate of caterpillar
+    uz = 0.115;     % $\mu_z$ motality rate of adult
+    uw = 0.04;      % $\mu_w$ motality rate of egg
     drate = [uy, uz, uw];
 
 %% ============== BASE REPRODUCTION RATE R0 =================
     R0 = rh*d*g/(uz*(g+uw)*(d+uy-e*a*k));
     disp(R0)
 %% ======================== TIME ============================
-t0 = 10;     % $t_0 = 0$ initial time
-t1 = 63;    % $t_1 = 63$ the end of vegetaive stage
-T = 160;    % $T = 160$ the end of the reproductive stage
+t0 = 8;     % $t_0 = 0$ initial time
+t1 = 42;    % $t_1 = 63$ the end of vegetaive stage
+T = 104;    % $T = 160$ the end of the reproductive stage
 ta = [0 0]; % Times before transformation in cterpillar and adult respectively
 h = 1/10;
 
@@ -54,7 +54,7 @@ h = 1/10;
     s10 = zeros(numsim, nbeq); % solution at $t = t_1$
     
 % Solution for different stage
-    for stage = 3:2:3 % 1 correspond to the vegetative stage, 2 for the
+    for stage = 3:1:3 % 1 correspond to the vegetative stage, 2 for the
                     % reproductive one and three for the whole period
         % Variables initial value
             if stage ~= 2 % Vegatative stage
@@ -62,7 +62,7 @@ h = 1/10;
                 xi0 = zeros(numsim, 1);
                 x0 = xs0;
                 y0 = xi0;
-                z0 = [15; 30; 45; 60];
+                z0 = [1; 30; 45; 60];
                 w0 = y0;
                 I = [0 t1]; % time interval
                 coef = [a, l, d, g, rh, e, k];
@@ -80,7 +80,7 @@ h = 1/10;
             % Intermeadiate function
                 interFun = @(t,y) daudiModif4(t, y, coef, drate, ta, t0, b);
                     % To maintain compatibility with our ODE solvers asked functions
-        fig = fig + nbeq*(stage-1);
+        fig = nbeq*(stage-1);
         for i = 1:numsim
             [t,s] = RungKutta4(interFun, s0(i,:), I, 'h', h); % RK4
             % [t,s] = EulerModif(interFun, s0(i,:), I, 'h', h); % Euler
